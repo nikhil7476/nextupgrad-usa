@@ -1,0 +1,29 @@
+.digInt {
+    padding: 20px;
+    /* width: 1140px !important; */
+}
+
+.digInt ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.digInt li a {
+    padding: 5px 0px;
+
+}
+
+.revMar {
+    padding: 20px;
+}
+
+.revMar ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.revMar li a {
+    padding: 5px 0px;
+}
