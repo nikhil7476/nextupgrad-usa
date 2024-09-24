@@ -1,0 +1,4 @@
+.ftrMain{
+    background-color: var(--ftrBackground);
+    color: var(--textLight);
+}
