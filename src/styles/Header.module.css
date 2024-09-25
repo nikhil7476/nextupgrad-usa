@@ -1,29 +1,192 @@
-.digInt {
-    padding: 20px;
-    /* width: 1140px !important; */
+.hdrNav {
+    padding: 20px !important;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.digInt ul {
-    margin: 0px;
-    padding: 0px;
+.hdrMain a {
+    text-decoration: none;
+}
+
+.hdrMain h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.hdrMain h2 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.container {
+    margin: auto;
+    width: 940px;
+}
+
+.ulHdrReset {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.ulHdrReset li a {
+    text-decoration: none;
+    color: var(--textDark);
+}
+
+.btnCall {
+    text-align: center;
+    font-weight: 500;
+    background-color: var(--btnCol);
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: 1px solid var(--btnCol);
+}
+
+.btnCall:hover {
+    background-color: var(--background);
+}
+
+.btnCall a {
+    color: var(--textLight) !important;
+}
+
+.btnCall:hover a {
+    color: var(--btnCol) !important;
+}
+
+.ulReset {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     list-style: none;
 }
 
-.digInt li a {
-    padding: 5px 0px;
-
+.ulReset li a {
+    text-decoration: none;
+    color: var(--textDark);
 }
 
-.revMar {
+
+/* #Navigation Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hdrMain nav {
+    background: #424242;
+    font-size: 0;
+    position: relative;
+}
+
+.hdrMain nav>ul>li {
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 15px;
+    position: relative;
+}
+
+.hdrMain nav>ul>li:first-child {
+    padding-left: 0;
+}
+
+.hdrMain nav>ul>li:last-child {
+    padding-right: 0;
+}
+
+.hdrMain nav>ul>li>a {
+    color: #fff;
+    display: block;
+    position: relative;
+    padding: 20px 0;
+    border-bottom: 3px solid transparent;
+}
+
+.hdrMain nav>ul>li:hover>a {
+    color: #69aae0;
+    border-bottom: 3px solid #69aae0;
+}
+
+
+
+/* #Mega Menu Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.megaMenu {
+    background: #f0f0f0;
+    display: none;
+    left: 0;
+    position: absolute;
+    z-index: 9999;
+    text-align: left;
+    width: 100%;
     padding: 20px;
+    /* margin-top: 10px; */
 }
 
-.revMar ul {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
+.megaMenu h3 {
+    color: #444;
 }
 
-.revMar li a {
-    padding: 5px 0px;
+.megaMenu ul {
+    float: left;
+    margin-bottom: 20px;
+    /* margin-right: 40px; */
+    width: 25%;
+}
+
+.megaMenu ul:last-child {
+    margin-right: 0;
+}
+
+.megaMenu a {
+    border-bottom: 1px solid #ddd;
+    color: #4ea3d8;
+    display: block;
+    padding: 10px 0;
+}
+
+.megaMenu a:hover {
+    color: #2d6a91;
+}
+
+
+
+/* #Droppable Class Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.droppable {
+    position: static;
+}
+
+.droppable>a:after {
+    content: "\f107";
+    font-family: FontAwesome;
+    font-size: 12px;
+    padding-left: 6px;
+    position: relative;
+    top: -1px;
+}
+
+.droppable:hover .megaMenu {
+    display: block;
+}
+
+
+
+/* #Browser Clearfix
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
 }
