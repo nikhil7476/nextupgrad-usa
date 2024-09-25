@@ -14,7 +14,7 @@ function Footer() {
           <Row>
             <Col className="col-md-3">
               <Link href="/">
-                <Image src={brand} width={"100%"} height={100} />
+                <Image src={brand} width={"100%"} height={100} alt="nextupgrad_usa_logo"/>
               </Link>
               <div className={styles.inStartups}>
                 <Link href="https://www.linkedin.com/company/nextupgrad-usa" target="_blank">

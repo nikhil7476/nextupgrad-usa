@@ -13,7 +13,12 @@ const MegaMenuNavbar = () => {
           <ul className={`container ${styles["ulHdrReset"]}`}>
             <li>
               <Link href="/">
-                <Image src={brand} width={"100%"} height={100} />
+                <Image
+                  src={brand}
+                  width={"100%"}
+                  height={100}
+                  alt="nextupgrad_usa_logo"
+                />
               </Link>
             </li>
             <li className={styles.droppable}>
@@ -37,7 +42,11 @@ const MegaMenuNavbar = () => {
                     <li>
                       <Link href="#">SEO Audits</Link>
                     </li>
-                    <li><Link href="#">Generative Engine & Chat Optimization</Link></li>
+                    <li>
+                      <Link href="#">
+                        Generative Engine & Chat Optimization
+                      </Link>
+                    </li>
                   </ul>
                   <ul className={styles.ulReset}>
                     <h3>Digital Advertising</h3>
@@ -77,9 +86,6 @@ const MegaMenuNavbar = () => {
                   </ul>
                   <ul className={styles.ulReset}>
                     <h3>Learn</h3>
-                    {/* <li>
-                      <img src="http://placehold.it/205x172" />
-                    </li> */}
                     <li>
                       <Link href="#">Our SEO Results</Link>
                     </li>
@@ -142,7 +148,9 @@ const MegaMenuNavbar = () => {
                       <Link href="#">Salesforce Marketing Automation</Link>
                     </li>
                     <li>
-                      <Link href="#">Microsoft Dynamics Marketing Automation</Link>
+                      <Link href="#">
+                        Microsoft Dynamics Marketing Automation
+                      </Link>
                     </li>
                   </ul>
                   <ul className={styles.ulReset}>
@@ -303,7 +311,9 @@ const MegaMenuNavbar = () => {
                       <Link href="#">Salesforce Marketing Automation</Link>
                     </li>
                     <li>
-                      <Link href="#">Microsoft Dynamics Marketing Automation</Link>
+                      <Link href="#">
+                        Microsoft Dynamics Marketing Automation
+                      </Link>
                     </li>
                   </ul>
                   <ul className={styles.ulReset}>
@@ -453,7 +463,7 @@ const MegaMenuNavbar = () => {
             </li>
             <li className={styles.btnCall}>
               <Link href="https://calendly.com/ron-wilsonbdm/service">
-                Let's Discuss
+                {"Let's Discuss"}
               </Link>
             </li>
           </ul>
