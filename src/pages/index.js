@@ -124,7 +124,7 @@ function Home() {
               </div>
             </Col>
             <Col className="col-md-6">
-              <Image src={achieve} width={"100%"} height={"auto"} alt="achievements"/>
+              <Image src={achieve} alt="achievements" className={styles.bannerImg}/>
             </Col>
           </Row>
         </Container>
