@@ -1,7 +1,12 @@
+.bannerMain {
+    background-color: linear-gradient(180deg, #F8F8FC 0.42%, #EEF2FD 83.6%);
+    padding: 60px 0px;
+}
+
 .inStartups {
     cursor: pointer;
     border-radius: 8px;
-    background: linear-gradient(90deg, #0737FF 0%, #801FFF 100%);
+    background: linear-gradient(90deg, #e76f51 0%, #EE4C8D 100%);
     padding: 5px;
     margin: 10px 0px;
     position: relative;
@@ -26,6 +31,7 @@
 }
 
 .inStartups p {
+    font-size: 14px !important;
     padding: 0px;
     margin: 0px;
 }
@@ -54,7 +60,103 @@
     }
 }
 
-.bannerImg{
+.banLeft h1 span {
+    background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+    background-clip: text;
+    color: transparent;
+}
+
+.bannerBtn {
+    display: flex;
+    gap: 20px;
+}
+
+.btnHire {
+    display: inline-flex;
+    padding: 10px 20px;
+    gap: 10px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+    border: 2px solid var(--btnCol);
+    color: var(--textLight);
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnHire:hover {
+    color: var(--textLight);
+    transition: .3s ease-in;
+}
+
+.btnCont {
+    display: inline-flex;
+    padding: 10px 20px;
+    gap: 10px;
+    border-radius: 50px;
+    border: 2px solid var(--btnCol);
+    border-radius: 50px;
+    background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+    color: var(--textLight);
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+    text-decoration: none;
+}
+
+.btnCont:hover {
+    color: var(--textLight);
+    transition: .3s ease-in;
+}
+
+.review {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.rev {
+    width: 50%;
+}
+
+.ratings {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.branding {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.devs {
+    width: 50%;
+}
+
+.devs ul {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.devs ul img {
+    width: 30px;
+    height: 30px;
+}
+
+.inStart {
+    display: flex;
+    gap: 20px;
+}
+
+.banRight {
+    align-content: center;
+}
+
+.bannerImg {
     width: 100%;
     height: auto;
 }

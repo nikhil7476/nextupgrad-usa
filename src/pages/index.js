@@ -27,28 +27,28 @@ function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/assets/logo.webp" />
       </Head>
-      <div>
+      <div className={styles.bannerMain}>
         <Container>
           <Row>
-            <Col className="col-md-6">
+            <Col className={`col-md-6 ${styles["banLeft"]}`}>
               <h1>
-                Hire Software Developers Perfectly Matched by{" "}
-                <span>AI, 10X Faster!</span>
+                Hire Software Developers Perfectly Matched by
+                <span> AI, 10X Faster!</span>
               </h1>
               <p>
-                Skip CV screening, interview rounds, &{" "}
-                <strong>save 90% time</strong> by either hiring a software
+                Skip CV screening, interview rounds, &
+                <strong> save 90% time</strong> by either hiring a software
                 developer or your entire engineering team with us.
               </p>
               <div className={styles.bannerBtn}>
-                <Link href="#">
+                <Link href="#" className={styles.btnHire}>
                   Hire Developers <FaArrowRightLong />
                 </Link>
-                <Link href="#">Contact Us</Link>
+                <Link href="#" className={styles.btnCont}>Contact Us</Link>
               </div>
-              <div>
-                <div>
-                  <ul>
+              <div className={styles.review}>
+                <div className={styles.rev}>
+                  <ul className={styles.ratings}>
                     <li>
                       <FaStar />
                     </li>
@@ -65,10 +65,10 @@ function Home() {
                       <FaStarHalf />
                     </li>
                     <li>
-                      <p>20,000+ Reviews</p>
+                      20,000+ Reviews
                     </li>
                   </ul>
-                  <ul>
+                  <ul className={styles.branding}>
                     <li>
                       <Image src={google} alt="google-logo" />
                     </li>
@@ -80,7 +80,7 @@ function Home() {
                     </li>
                   </ul>
                 </div>
-                <div>
+                <div className={styles.devs}>
                   <ul>
                     <li>
                       <Image src={devOne} alt="developer-one"/>
@@ -123,7 +123,7 @@ function Home() {
                 </div>
               </div>
             </Col>
-            <Col className="col-md-6">
+            <Col className={`col-md-6 ${styles["banRight"]}`}>
               <Image src={achieve} alt="achievements" className={styles.bannerImg}/>
             </Col>
           </Row>
