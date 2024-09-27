@@ -1,1 +1,55 @@
+.inStartups {
+    cursor: pointer;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #0737FF 0%, #801FFF 100%);
+    padding: 5px;
+    margin: 10px 0px;
+    position: relative;
+    overflow: hidden;
+}
 
+.inStartups a {
+    text-decoration: none;
+    color: var(--textLight);
+}
+
+.inStartups a:hover {
+    color: var(--textLight);
+}
+
+.inStartups a svg {
+    color: var(--textLight);
+}
+
+.inStartups a svg:hover {
+    color: var(--textLight);
+}
+
+.inStartups p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.inStartups:after {
+    content: '';
+    top: 0;
+    transform: translateX(100%);
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    animation: 2.2s ease-in-out infinite slide;
+    background-image: url("../assets/slide.svg");
+    background-repeat: no-repeat;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
