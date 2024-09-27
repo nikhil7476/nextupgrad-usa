@@ -30,7 +30,7 @@ function Home() {
       <div className={styles.bannerMain}>
         <Container>
           <Row>
-            <Col className={`col-md-6 ${styles["banLeft"]}`}>
+            <Col className={`col-md-7 ${styles["banLeft"]}`}>
               <h1>
                 Hire Software Developers Perfectly Matched by
                 <span> AI, 10X Faster!</span>
@@ -123,7 +123,7 @@ function Home() {
                 </div>
               </div>
             </Col>
-            <Col className={`col-md-6 ${styles["banRight"]}`}>
+            <Col className={`col-md-5 ${styles["banRight"]}`}>
               <Image src={achieve} alt="achievements" className={styles.bannerImg}/>
             </Col>
           </Row>
