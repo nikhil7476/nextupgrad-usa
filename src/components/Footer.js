@@ -154,7 +154,9 @@ function Footer() {
               <h3>Toll Free</h3>
               <ul>
                 <li>
-                  <Link href="tel:18005700144"><FaPhoneAlt /> 18005700144</Link>
+                  <Link href="tel:18005700144">
+                    <FaPhoneAlt /> 18005700144
+                  </Link>
                 </li>
               </ul>
 
@@ -206,7 +208,7 @@ function Footer() {
               <Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                   <Form.Label className={styles.priTxt}>
-                    We'll never share your email with anyone else.
+                    {"We'll never share your email with anyone else."}
                   </Form.Label>
                   <Form.Control
                     type="email"

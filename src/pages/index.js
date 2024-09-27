@@ -70,26 +70,26 @@ function Home() {
                   </ul>
                   <ul>
                     <li>
-                      <Image src={google} />
+                      <Image src={google} alt="google-logo" />
                     </li>
                     <li>
-                      <Image src={clutch} />
+                      <Image src={clutch} alt="clutch-logo"/>
                     </li>
                     <li>
-                      <Image src={gtwo} />
+                      <Image src={gtwo} alt="g2-logo"/>
                     </li>
                   </ul>
                 </div>
                 <div>
                   <ul>
                     <li>
-                      <Image src={devOne} />
+                      <Image src={devOne} alt="developer-one"/>
                     </li>
                     <li>
-                      <Image src={devTwo} />
+                      <Image src={devTwo} alt="developer-two"/>
                     </li>
                     <li>
-                      <Image src={devThree} />
+                      <Image src={devThree} alt="developer-three"/>
                     </li>
                     <li>
                       <strong>2200+</strong> top Developers
@@ -124,7 +124,7 @@ function Home() {
               </div>
             </Col>
             <Col className="col-md-6">
-              <Image src={achieve} width={"100%"} height={"100%"} />
+              <Image src={achieve} width={"100%"} height={"100%"} alt="achievements"/>
             </Col>
           </Row>
         </Container>
