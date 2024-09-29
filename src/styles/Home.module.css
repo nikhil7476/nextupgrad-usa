@@ -241,7 +241,7 @@
 }
 
 .allBtn {
-    align-items: center;
+    align-content: end;
     text-align: end;
 }
 
