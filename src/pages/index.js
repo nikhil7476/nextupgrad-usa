@@ -37,15 +37,15 @@ function Home() {
                 {/* <span> AI, 10X Faster!</span> */}
                 <TypeAnimation
                   sequence={[
-                    "Designing Websites",
+                    "Designing Websites.",
                     2000,
-                    "Developing Apps",
+                    "Developing Apps.",
                     2000,
-                    "Engineering Software",
+                    "Engineering Software.",
                     2000,
-                    "Hiring Developers",
+                    "Hiring Developers.",
                     2000,
-                    "Digital Marketing Services",
+                    "Digital Marketing Services.",
                     2000,
                   ]}
                   wrapper="span"
