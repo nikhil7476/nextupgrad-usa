@@ -76,10 +76,10 @@ function Home() {
                 digital solutions crafted just for you!
               </p>
               <div className={styles.bannerBtn}>
-                <Link href="#" className={styles.btnHire}>
+                <Link href="#" className={styles.btnHire} title="Hire-Developers">
                   Hire Developers <FaArrowRightLong />
                 </Link>
-                <Link href="#" className={styles.btnCont}>
+                <Link href="#" className={styles.btnCont} title="Contact-Us">
                   Contact Us
                 </Link>
               </div>
@@ -105,26 +105,26 @@ function Home() {
                   </ul>
                   <ul className={styles.branding}>
                     <li>
-                      <Image src={google} alt="google-logo" />
+                      <Image src={google} alt="google-logo" title="Google-Logo"/>
                     </li>
                     <li>
-                      <Image src={clutch} alt="clutch-logo" />
+                      <Image src={clutch} alt="clutch-logo" title="Clutch-Logo"/>
                     </li>
                     <li>
-                      <Image src={gtwo} alt="g2-logo" />
+                      <Image src={gtwo} alt="g2-logo" title="G2-Logo"/>
                     </li>
                   </ul>
                 </div>
                 <div className={styles.devs}>
                   <ul>
                     <li>
-                      <Image src={devOne} alt="developer-one" />
+                      <Image src={devOne} alt="developer-one" title="Developer"/>
                     </li>
                     <li>
-                      <Image src={devTwo} alt="developer-two" />
+                      <Image src={devTwo} alt="developer-two" title="Developer"/>
                     </li>
                     <li>
-                      <Image src={devThree} alt="developer-three" />
+                      <Image src={devThree} alt="developer-three" title="Developer"/>
                     </li>
                     <li>
                       <strong>2200+</strong> top Developers
@@ -139,6 +139,7 @@ function Home() {
                   <Link
                     href="https://www.linkedin.com/company/nextupgrad-usa"
                     target="_blank"
+                    title="LinkedIn"
                   >
                     <p class="text-nowrap">
                       <FaLinkedin /> Top 20 Indian Startups of 2023
@@ -149,6 +150,7 @@ function Home() {
                   <Link
                     href="https://www.linkedin.com/company/nextupgrad-usa"
                     target="_blank"
+                    title="Google"
                   >
                     <p class="text-nowrap">
                       <FaGooglePlusSquare /> Top 20 AI Accelerator Startups of
@@ -163,6 +165,7 @@ function Home() {
                 src={achieve}
                 alt="achievements"
                 className={styles.bannerImg}
+                title="Achievements"
               />
             </Col>
           </Row>

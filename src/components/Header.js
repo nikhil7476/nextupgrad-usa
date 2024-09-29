@@ -11,12 +11,13 @@ const MegaMenuNavbar = () => {
         <nav className={styles.hdrNav}>
           <ul className={`container ${styles["ulHdrReset"]}`}>
             <li>
-              <Link href="/">
+              <Link href="/" title="Nextupgrad USA">
                 <Image
                   src={brand}
                   width={"100%"}
                   height={100}
                   alt="nextupgrad_usa_logo"
+                  title="Nextupgrad USA Logo"
                 />
               </Link>
             </li>

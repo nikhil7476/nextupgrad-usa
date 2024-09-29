@@ -23,12 +23,13 @@ function Footer() {
         <Container>
           <Row className={styles.abvFtr}>
             <Col className="col-md-3">
-              <Link href="/">
+              <Link href="/" title="Nextupgrad-USA">
                 <Image
                   src={brand}
                   width={"100%"}
                   height={100}
                   alt="nextupgrad_usa_logo"
+                  title="Nextupgrad USA Logo"
                 />
               </Link>
               <h2>USA Office</h2>
@@ -38,7 +39,7 @@ function Footer() {
                   10001
                 </li>
                 <li>
-                  <Link href="tel:+1(23) 456-7890">
+                  <Link href="tel:+1(23) 456-7890" title="+1(23) 456-7890">
                     <FaPhoneAlt /> +1(23) 456-7890
                   </Link>
                 </li>
@@ -50,7 +51,7 @@ function Footer() {
                   1- E3-02, Abu Dhabi
                 </li>
                 <li>
-                  <Link href="tel:+1(23) 456-7890">
+                  <Link href="tel:+1(23) 456-7890" title="+1(23) 456-7890">
                     <FaPhoneAlt /> +1(23) 456-7890
                   </Link>
                 </li>
@@ -63,7 +64,7 @@ function Footer() {
                   226010
                 </li>
                 <li>
-                  <Link href="tel:+1(23) 456-7890">
+                  <Link href="tel:+1(23) 456-7890" title="+1(23) 456-7890">
                     <FaPhoneAlt /> +1(23) 456-7890
                   </Link>
                 </li>
@@ -146,7 +147,7 @@ function Footer() {
               <h2>Drop us A Line</h2>
               <ul>
                 <li>
-                  <Link href="mailto:hello@nextupgrad.us">
+                  <Link href="mailto:hello@nextupgrad.us" title="hello@nextupgrad.us">
                     <FaMailBulk /> hello@nextupgrad.us
                   </Link>
                 </li>
@@ -154,7 +155,7 @@ function Footer() {
               <h2>Toll Free</h2>
               <ul>
                 <li>
-                  <Link href="tel:18005700144">
+                  <Link href="tel:18005700144" title="18005700144">
                     <FaPhoneAlt /> 18005700144
                   </Link>
                 </li>

@@ -16,10 +16,27 @@ import brand from "@/assets/ftrLogo.webp";
 function OffcanvasNavbar() {
   return (
     <>
-      <Navbar className={styles.mobHeader} bg="dark" variant="dark" expand={false} fixed="top">
+      <Navbar
+        className={styles.mobHeader}
+        bg="dark"
+        variant="dark"
+        expand={false}
+        fixed="top"
+      >
         <Container fluid>
-          <Navbar.Brand href="/"><Image src={brand} alt="Nextupgrad_USA_Logo" width={"100%"} height={100}/></Navbar.Brand>
-          <Navbar.Toggle aria-controls="offcanvasNavbar" className={styles.toggleNav}/>
+          <Navbar.Brand href="/">
+            <Image
+              src={brand}
+              alt="Nextupgrad_USA_Logo"
+              width={"100%"}
+              height={100}
+              title="Nextupgrad USA Logo"
+            />
+          </Navbar.Brand>
+          <Navbar.Toggle
+            aria-controls="offcanvasNavbar"
+            className={styles.toggleNav}
+          />
           <Navbar.Offcanvas
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"

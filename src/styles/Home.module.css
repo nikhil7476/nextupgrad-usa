@@ -224,6 +224,10 @@
     margin-top: 20px;
 }
 
+.inds div{
+    cursor: pointer;
+}
+
 .inds div:hover p {
     color: var(--btnCol);
 }

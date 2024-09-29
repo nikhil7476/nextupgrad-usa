@@ -7,7 +7,7 @@
   --textLight: #ffffff;
   --textDark: #000000;
   --btnCol: #E87354;
-  --ftrLink:rgba(255, 255, 255, 0.52);
+  --ftrLink: rgba(255, 255, 255, 0.52);
 }
 
 * {
@@ -31,10 +31,11 @@ h6 {
   line-height: 1.2em;
 }
 
-h1{
+h1 {
   font-size: 45px;
   font-weight: 600;
 }
+
 h2 {
   font-size: 16px;
   font-weight: 600;
