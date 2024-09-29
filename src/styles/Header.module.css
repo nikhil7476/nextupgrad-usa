@@ -8,24 +8,6 @@
     width: 100%;
 }
 
-/* .hdrMain a {
-    text-decoration: none;
-}
-
-.hdrMain h1 {
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-.hdrMain h2 {
-    font-size: 15px;
-    font-weight: 600;
-    margin-bottom: 30px;
-    margin-top: 10px;
-} */
-
 .container {
     margin: auto;
     width: 940px;
@@ -78,45 +60,6 @@
     text-decoration: none;
     color: var(--textDark);
 }
-
-
-/* #Navigation Styles
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* .hdrMain nav {
-    background: #424242;
-    font-size: 0;
-    position: relative;
-}
-
-.hdrMain nav>ul>li {
-    display: inline-block;
-    font-size: 14px;
-    padding: 0 15px;
-    position: relative;
-}
-
-.hdrMain nav>ul>li:first-child {
-    padding-left: 0;
-}
-
-.hdrMain nav>ul>li:last-child {
-    padding-right: 0;
-}
-
-.hdrMain nav>ul>li>a {
-    color: #fff;
-    display: block;
-    position: relative;
-    padding: 20px 0;
-    border-bottom: 3px solid transparent;
-}
-
-.hdrMain nav>ul>li:hover>a {
-    color: #69aae0;
-    border-bottom: 3px solid #69aae0;
-} */
-
-
 
 /* #Mega Menu Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
