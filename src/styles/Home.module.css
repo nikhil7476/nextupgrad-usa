@@ -197,6 +197,25 @@
     color: transparent;
 }
 
+.industry{
+    padding: 100px 0px;
+}
+.industry h2 span{
+    color: var(--btnCol);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.industry h2{
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.inds{
+    padding: 30px 0px;
+    text-align: center;
+}
+
 /*Media Queries*/
 
 @media screen and (max-width: 769px) {
