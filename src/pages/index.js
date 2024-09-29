@@ -8,6 +8,7 @@ import {
   FaStar,
   FaStarHalf,
 } from "react-icons/fa";
+import { TypeAnimation } from "react-type-animation";
 import styles from "@/styles/Home.module.css";
 import Image from "next/image";
 import google from "@/assets/google-logo.svg";
@@ -32,19 +33,39 @@ function Home() {
           <Row>
             <Col className={`col-md-7 ${styles["banLeft"]}`}>
               <h1>
-                Hire Software Developers Perfectly Matched by
-                <span> AI, 10X Faster!</span>
+                Digital Transformation Services & Solutions For {""}
+                {/* <span> AI, 10X Faster!</span> */}
+                <TypeAnimation
+                  sequence={[
+                    "Designing Websites",
+                    2000,
+                    "Developing Apps",
+                    2000,
+                    "Engineering Software",
+                    2000,
+                    "Hiring Developers",
+                    2000,
+                    "Digital Marketing Services",
+                    2000,
+                  ]}
+                  wrapper="span"
+                  cursor={true}
+                  repeat={Infinity}
+                  preRenderFirstString
+                />
               </h1>
               <p>
-                Skip CV screening, interview rounds, &
-                <strong> save 90% time</strong> by either hiring a software
-                developer or your entire engineering team with us.
+                Personalize your success journey today with our expert panel,
+                <strong> save 90% time </strong>by unlocking precision in
+                digital solutions crafted just for you!
               </p>
               <div className={styles.bannerBtn}>
                 <Link href="#" className={styles.btnHire}>
                   Hire Developers <FaArrowRightLong />
                 </Link>
-                <Link href="#" className={styles.btnCont}>Contact Us</Link>
+                <Link href="#" className={styles.btnCont}>
+                  Contact Us
+                </Link>
               </div>
               <div className={styles.review}>
                 <div className={styles.rev}>
@@ -64,32 +85,30 @@ function Home() {
                     <li>
                       <FaStarHalf />
                     </li>
-                    <li>
-                      20,000+ Reviews
-                    </li>
+                    <li>20,000+ Reviews</li>
                   </ul>
                   <ul className={styles.branding}>
                     <li>
                       <Image src={google} alt="google-logo" />
                     </li>
                     <li>
-                      <Image src={clutch} alt="clutch-logo"/>
+                      <Image src={clutch} alt="clutch-logo" />
                     </li>
                     <li>
-                      <Image src={gtwo} alt="g2-logo"/>
+                      <Image src={gtwo} alt="g2-logo" />
                     </li>
                   </ul>
                 </div>
                 <div className={styles.devs}>
                   <ul>
                     <li>
-                      <Image src={devOne} alt="developer-one"/>
+                      <Image src={devOne} alt="developer-one" />
                     </li>
                     <li>
-                      <Image src={devTwo} alt="developer-two"/>
+                      <Image src={devTwo} alt="developer-two" />
                     </li>
                     <li>
-                      <Image src={devThree} alt="developer-three"/>
+                      <Image src={devThree} alt="developer-three" />
                     </li>
                     <li>
                       <strong>2200+</strong> top Developers
@@ -124,7 +143,11 @@ function Home() {
               </div>
             </Col>
             <Col className={`col-md-5 ${styles["banRight"]}`}>
-              <Image src={achieve} alt="achievements" className={styles.bannerImg}/>
+              <Image
+                src={achieve}
+                alt="achievements"
+                className={styles.bannerImg}
+              />
             </Col>
           </Row>
         </Container>
