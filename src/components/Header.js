@@ -462,7 +462,7 @@ const MegaMenuNavbar = () => {
               </div>
             </li>
             <li className={styles.btnCall}>
-              <Link href="https://calendly.com/ron-wilsonbdm/service">
+              <Link href="https://calendly.com/ron-wilsonbdm/service" title="Let's Discuss">
                 {"Let's Discuss"}
               </Link>
             </li>
