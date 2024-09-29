@@ -245,7 +245,7 @@
     text-align: end;
 }
 
-.allBtn a{
+.allBtn a {
     color: var(--textDark);
     text-align: center;
     background-color: var(--btnCol);
@@ -282,14 +282,14 @@
     text-transform: uppercase;
 }
 
-.clients{
+.clients {
     font-size: 36px;
     background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
     background-clip: text;
     color: transparent;
 }
 
-.clientReview{
+.clientReview {
     padding-bottom: 60px;
 }
 
@@ -322,5 +322,53 @@
 @media screen and (max-width: 769px) {
     .bannerMain {
         padding: 120px 0px !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .banRight {
+        margin-top: 20px;
+    }
+
+    .inStart {
+        flex-direction: column;
+    }
+
+    .inStartups {
+        width: 100% !important;
+        margin: 0px !important;
+    }
+
+    .viewAll {
+        margin-bottom: 30px;
+    }
+
+    .allBtn {
+        align-content: center;
+    }
+
+    .quote {
+        width: 50% !important;
+    }
+
+    .trust {
+        font-size: 12px;
+    }
+
+    .trs {
+        width: 50% !important;
+    }
+
+    .trs h2 {
+        line-height: 1.2em;
+        font-size: 24px;
+    }
+
+    .clients {
+        font-size: 24px;
+    }
+
+    .videoTest {
+        flex-direction: column;
     }
 }

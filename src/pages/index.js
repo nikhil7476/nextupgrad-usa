@@ -414,7 +414,7 @@ function Home() {
               </Link>
             </Col>
           </Row>
-          <Row>
+          <Row className={styles.videoTest}>
             <Col className="col-md-6">
               <div className={styles.clientReview}>
                 <h2>Commendation received from Mr. Patrick</h2>
