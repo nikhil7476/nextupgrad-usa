@@ -1,6 +1,11 @@
 .mobHeader {
-    background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+    background-color: var(--textLight);
+    margin: 0;
+    padding: 0;
 }
+
+
+/*Media Queries*/
 
 @media (min-width: 790px) {
     .mobHeader {

@@ -190,6 +190,7 @@
     clear: both;
 }
 
+/*Media Queries*/
 
 @media screen and (max-width: 769px) {
     .hdrNav {

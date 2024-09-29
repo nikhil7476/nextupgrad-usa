@@ -10,13 +10,15 @@ import {
   Button,
 } from "react-bootstrap";
 import styles from "@/styles/MobHeader.module.css";
+import Image from "next/image";
+import brand from "@/assets/logo.webp";
 
 function OffcanvasNavbar() {
   return (
     <>
       <Navbar className={styles.mobHeader} bg="dark" variant="dark" expand={false} fixed="top">
         <Container fluid>
-          <Navbar.Brand href="#">MyApp</Navbar.Brand>
+          <Navbar.Brand href="/"><Image src={brand} alt="Nextupgrad_USA_Logo" width={"100%"} height={100}/></Navbar.Brand>
           <Navbar.Toggle aria-controls="offcanvasNavbar" />
           <Navbar.Offcanvas
             id="offcanvasNavbar"
