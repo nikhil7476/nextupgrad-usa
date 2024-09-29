@@ -8,7 +8,7 @@
     width: 100%;
 }
 
-.hdrMain a {
+/* .hdrMain a {
     text-decoration: none;
 }
 
@@ -24,7 +24,7 @@
     font-weight: 600;
     margin-bottom: 30px;
     margin-top: 10px;
-}
+} */
 
 .container {
     margin: auto;
@@ -82,7 +82,7 @@
 
 /* #Navigation Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.hdrMain nav {
+/* .hdrMain nav {
     background: #424242;
     font-size: 0;
     position: relative;
@@ -114,7 +114,7 @@
 .hdrMain nav>ul>li:hover>a {
     color: #69aae0;
     border-bottom: 3px solid #69aae0;
-}
+} */
 
 
 
@@ -129,7 +129,6 @@
     text-align: left;
     width: 100%;
     padding: 20px;
-    /* margin-top: 10px; */
 }
 
 .megaMenu h3 {
@@ -139,7 +138,6 @@
 .megaMenu ul {
     float: left;
     margin-bottom: 20px;
-    /* margin-right: 40px; */
     width: 25%;
 }
 

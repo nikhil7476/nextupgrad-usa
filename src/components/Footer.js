@@ -195,7 +195,7 @@ function Footer() {
                   target="_blank"
                   title="LinkedIn"
                 >
-                  <p class="text-nowrap">
+                  <p className="text-nowrap">
                     <FaLinkedin /> Top 20 Indian Startups of 2023
                   </p>
                 </Link>

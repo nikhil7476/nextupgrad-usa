@@ -7,7 +7,7 @@ import brand from "@/assets/logo.webp";
 const MegaMenuNavbar = () => {
   return (
     <>
-      <div classNameName={styles.hdrMain}>
+      <div className={styles.hdrMain}>
         <nav className={styles.hdrNav}>
           <ul className={`container ${styles["ulHdrReset"]}`}>
             <li>

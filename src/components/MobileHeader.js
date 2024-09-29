@@ -67,6 +67,7 @@ function OffcanvasNavbar() {
                   placeholder="Search"
                   className="me-2"
                   aria-label="Search"
+                  id="searchNext"
                 />
                 <Button variant="outline-success">Search</Button>
               </Form>

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import { FaArrowRightLong } from "react-icons/fa6";
 import {
   FaLinkedin,
@@ -166,7 +166,7 @@ function Home() {
                     target="_blank"
                     title="LinkedIn"
                   >
-                    <p class="text-nowrap">
+                    <p className="text-nowrap">
                       <FaLinkedin /> Top 20 Indian Startups of 2023
                     </p>
                   </Link>
@@ -177,7 +177,7 @@ function Home() {
                     target="_blank"
                     title="Google"
                   >
-                    <p class="text-nowrap">
+                    <p className="text-nowrap">
                       <FaGooglePlusSquare /> Top 20 AI Accelerator Startups of
                       2023
                     </p>
@@ -191,6 +191,7 @@ function Home() {
                 alt="achievements"
                 className={styles.bannerImg}
                 title="Achievements"
+                priority="true"
               />
             </Col>
           </Row>
@@ -389,15 +390,33 @@ function Home() {
       </div>
       <div className={styles.testimonial}>
         <Container>
-          <Row>
+          <Row className={styles.viewAll}>
             <Col className="col-md-6">
-              <Image src={quote} alt="Quote-Icon" title="Quote"/>
+              <Row className={styles.viewTest}>
+                <Col className={`col-md-2 ${styles["quote"]}`}>
+                  <Image src={quote} alt="Quote-Icon" title="Quote" />
+                </Col>
+                <Col className={`col-md-8 ${styles["trs"]}`}>
+                  <h2>
+                    <span className={styles.trust}>TRUSTED BY</span>
+                    <br />
+                    <span className={styles.clients}>
+                      <CountUp end={2400} duration={5} suffix="+" />
+                    </span>{" "}
+                    happy clients
+                  </h2>
+                </Col>
+              </Row>
             </Col>
-            <Col className="col-md-6"></Col>
+            <Col className={`col-md-6 ${styles["allBtn"]}`}>
+              <Link href="#" title="View Testimonials">
+                View All
+              </Link>
+            </Col>
           </Row>
           <Row>
             <Col className="col-md-6">
-              <div>
+              <div className={styles.clientReview}>
                 <h2>Commendation received from Mr. Patrick</h2>
                 <p>
                   {
@@ -405,7 +424,7 @@ function Home() {
                   }
                 </p>
               </div>
-              <div>
+              <div className={styles.clientSign}>
                 <h3>Mr. Patrick</h3>
                 <p>Client for Website Development & Digital Marketing</p>
               </div>
@@ -425,7 +444,7 @@ function Home() {
                   />
                 </Col>
               </Row>
-              <Row>
+              <Row className={styles.brandRating}>
                 <Col className="col-md-3">
                   <Image src={google} alt="google-logo" title="Google-Logo" />
                 </Col>
@@ -454,21 +473,23 @@ function Home() {
                 </Col>
                 <Col className="col-md-3">
                   <h2>4.8</h2>
-                  <li>
-                    <FaStar />
-                  </li>
-                  <li>
-                    <FaStar />
-                  </li>
-                  <li>
-                    <FaStar />
-                  </li>
-                  <li>
-                    <FaStar />
-                  </li>
-                  <li>
-                    <FaStar />
-                  </li>
+                  <ul>
+                    <li>
+                      <FaStar />
+                    </li>
+                    <li>
+                      <FaStar />
+                    </li>
+                    <li>
+                      <FaStar />
+                    </li>
+                    <li>
+                      <FaStar />
+                    </li>
+                    <li>
+                      <FaStar />
+                    </li>
+                  </ul>
                 </Col>
               </Row>
             </Col>
