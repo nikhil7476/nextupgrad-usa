@@ -168,7 +168,7 @@
 
 
 
-.projectBg{
+.projectBg {
     background-image: url(../assets/projects-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -176,19 +176,22 @@
     background-position-x: 45%;
     padding: 20px 0px;
 }
-.projRow{
+
+.projRow {
     justify-content: flex-end;
 }
 
-.projRow h2{
+.projRow h2 {
     font-size: 36px;
     text-transform: capitalize;
     color: var(--textLight);
 }
-.projRow p{
+
+.projRow p {
     color: var(--textLight);
 }
-.projRow span{
+
+.projRow span {
     font-size: 30px;
     background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
     background-clip: text;
@@ -196,23 +199,33 @@
     color: transparent;
 }
 
-.industry{
-    padding: 100px 0px;
+.industry {
+    padding: 60px 0px;
 }
-.industry h2 span{
+
+.industry h2 span {
     color: var(--btnCol);
     font-size: 16px;
     text-transform: uppercase;
 }
-.industry h2{
+
+.industry h2 {
     font-size: 36px;
     font-weight: 600;
     text-transform: capitalize;
 }
 
-.inds{
+.inds {
     padding: 30px 0px;
     text-align: center;
+}
+
+.inds p {
+    margin-top: 20px;
+}
+
+.inds div:hover p {
+    color: var(--btnCol);
 }
 
 /*Media Queries*/
