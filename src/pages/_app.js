@@ -10,15 +10,13 @@ export default function App({ Component, pageProps }) {
     <>
       <Header className="navHdr" />
       <MobileHead className="mobHdr" />
-      
-      {/* Add Cookie Consent Banner */}
       <CookieConsent
         location="bottom"
         buttonText="I accept"
         cookieName="userConsent"
         style={{ background: "#2B373B", color: "#fff" }}
         buttonStyle={{ color: "#E87354", fontSize: "16px" }}
-        expires={150} // Cookie expiration in days
+        expires={150}
       >
         This website uses cookies to enhance the user experience.{" "}
         <a href="/cookie-policy" style={{ color: "#fff", textDecoration: "underline" }}>
