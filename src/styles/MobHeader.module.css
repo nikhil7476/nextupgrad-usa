@@ -1,0 +1,9 @@
+.mobHeader {
+    background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+}
+
+@media (min-width: 790px) {
+    .mobHeader {
+        display: none;
+    }
+}

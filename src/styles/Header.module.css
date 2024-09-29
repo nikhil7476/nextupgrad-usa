@@ -189,3 +189,10 @@
 .cf:after {
     clear: both;
 }
+
+
+@media screen and (max-width: 769px) {
+    .hdrNav {
+        display: none !important;
+    }
+}

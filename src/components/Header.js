@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-// import { Navbar, Nav, NavDropdown, Container, Row, Col } from "react-bootstrap";
 import styles from "@/styles/Header.module.css";
 import brand from "@/assets/logo.webp";
 
