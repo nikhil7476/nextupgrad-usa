@@ -31,7 +31,7 @@ function Footer() {
                   alt="nextupgrad_usa_logo"
                 />
               </Link>
-              <h3>USA Office</h3>
+              <h2>USA Office</h2>
               <ul>
                 <li>
                   <FaMapMarkerAlt /> 244 Fifth Avenue, Suite D261 New York, N.Y.
@@ -43,7 +43,7 @@ function Footer() {
                   </Link>
                 </li>
               </ul>
-              <h3>UAE Office</h3>
+              <h2>UAE Office</h2>
               <ul>
                 <li>
                   <FaMapMarkerAlt /> 05-2nd Floor, Hamdan Bin Mohammed St- Zone
@@ -55,7 +55,7 @@ function Footer() {
                   </Link>
                 </li>
               </ul>
-              <h3>INDIA Office</h3>
+              <h2>INDIA Office</h2>
               <ul>
                 <li>
                   <FaMapMarkerAlt /> 6V 272 Sector 6 Gomti Nagar Vistar Behind
@@ -70,7 +70,7 @@ function Footer() {
               </ul>
             </Col>
             <Col className="col-md-3">
-              <h3>Company</h3>
+              <h2>Company</h2>
               <ul>
                 <li>
                   <Link href="#">Our Approach</Link>
@@ -94,7 +94,7 @@ function Footer() {
                   <Link href="#">Awards</Link>
                 </li>
               </ul>
-              <h3>For Customers</h3>
+              <h2>For Customers</h2>
               <ul>
                 <li>
                   <Link href="#">Submit Enquiry</Link>
@@ -105,7 +105,7 @@ function Footer() {
               </ul>
             </Col>
             <Col className="col-md-3">
-              <h3>Tech Talent For</h3>
+              <h2>Tech Talent For</h2>
               <ul>
                 <li>
                   <Link href="#">Website Design</Link>
@@ -129,7 +129,7 @@ function Footer() {
                   <Link href="#">Testing & Design</Link>
                 </li>
               </ul>
-              <h3>Important Links</h3>
+              <h2>Important Links</h2>
               <ul>
                 <li>
                   <Link href="#">Sitemap</Link>
@@ -143,7 +143,7 @@ function Footer() {
               </ul>
             </Col>
             <Col className="col-md-3">
-              <h3>Drop us A Line</h3>
+              <h2>Drop us A Line</h2>
               <ul>
                 <li>
                   <Link href="mailto:hello@nextupgrad.us">
@@ -151,7 +151,7 @@ function Footer() {
                   </Link>
                 </li>
               </ul>
-              <h3>Toll Free</h3>
+              <h2>Toll Free</h2>
               <ul>
                 <li>
                   <Link href="tel:18005700144">
@@ -160,7 +160,7 @@ function Footer() {
                 </li>
               </ul>
 
-              <h3>Follow Us</h3>
+              <h2>Follow Us</h2>
               <ul className={styles.social}>
                 <li>
                   <Link href="#" title="Instagram">
@@ -199,13 +199,13 @@ function Footer() {
                   </p>
                 </Link>
               </div>
-              <h3>Locations</h3>
+              <h2>Locations</h2>
               <ul>
                 <li>Newyork, USA</li>
                 <li>Abudhabi, UAE</li>
                 <li>Lucknow, India</li>
               </ul>
-              <h3>Our Newsletter</h3>
+              <h2>Our Newsletter</h2>
               <Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                   <Form.Label className={styles.priTxt}>
