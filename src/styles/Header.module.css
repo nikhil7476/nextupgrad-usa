@@ -1,6 +1,11 @@
 .hdrNav {
     display: flex;
     justify-content: space-evenly;
+    background-color: var(--background);
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    width: 100%;
 }
 
 .hdrMain a {
