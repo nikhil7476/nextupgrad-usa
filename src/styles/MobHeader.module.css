@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+.toggleNav:focus{
+    box-shadow: none !important;
+}
 
 /*Media Queries*/
 
