@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import React, { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { FaArrowRightLong } from "react-icons/fa6";
 import {
@@ -9,6 +10,7 @@ import {
   FaStarHalf,
 } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
+import CountUp from "react-countup";
 import styles from "@/styles/Home.module.css";
 import Image from "next/image";
 import google from "@/assets/google-logo.svg";
@@ -20,6 +22,7 @@ import devThree from "@/assets/developer-three.webp";
 import achieve from "@/assets/achievements.webp";
 
 function Home() {
+
   return (
     <>
       <Head>
@@ -152,6 +155,67 @@ function Home() {
                 alt="achievements"
                 className={styles.bannerImg}
               />
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className={styles.projectBg}>
+        <Container>
+          <Row className={styles.projRow}>
+            <Col className="col-md-8">
+              <h2>Projects Accomplished & Counting</h2>
+              <Row>
+                <Col>
+                  <p>
+                    Project Developed<br/>
+                    <span>
+                      <CountUp end={100} duration={5} suffix="+" />
+                    </span>
+                  </p>
+                </Col>
+                <Col>
+                  <p>
+                    Industries<br/>
+                    <span>
+                      <CountUp end={25} duration={5} suffix="+" />
+                    </span>
+                  </p>
+                </Col>
+                <Col>
+                  <p>
+                    Website Design<br/>
+                    <span>
+                      <CountUp end={500} duration={5} suffix="+" />
+                    </span>
+                  </p>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <p>
+                    Number of Countries Operations<br/>
+                    <span>
+                      <CountUp end={14} duration={5} suffix="+" />
+                    </span>
+                  </p>
+                </Col>
+                <Col>
+                  <p>
+                    Search Engine Optimisation Projects<br/>
+                    <span>
+                      <CountUp end={254} duration={5} suffix="+" />
+                    </span>
+                  </p>
+                </Col>
+                <Col>
+                  <p>
+                    Paid Campaign Advertisement & Projects<br/>
+                    <span>
+                      <CountUp end={139} duration={5} suffix="+" />
+                    </span>
+                  </p>
+                </Col>
+              </Row>
             </Col>
           </Row>
         </Container>
