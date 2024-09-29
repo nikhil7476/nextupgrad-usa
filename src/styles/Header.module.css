@@ -48,7 +48,6 @@
 
 .btnCall {
     text-align: center;
-    font-weight: 500;
     background-color: var(--btnCol);
     padding: 10px 15px;
     border-radius: 30px;
@@ -60,7 +59,8 @@
 }
 
 .btnCall a {
-    color: var(--textLight) !important;
+    color: var(--textDark) !important;
+    font-weight: 600;
 }
 
 .btnCall:hover a {

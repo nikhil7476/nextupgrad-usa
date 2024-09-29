@@ -163,27 +163,27 @@ function Footer() {
               <h3>Follow Us</h3>
               <ul className={styles.social}>
                 <li>
-                  <Link href="#">
+                  <Link href="#" title="Instagram">
                     <FaInstagramSquare />
                   </Link>
                 </li>
                 <li>
-                  <Link href="#">
+                  <Link href="#" title="Facebook">
                     <FaFacebookSquare />
                   </Link>
                 </li>
                 <li>
-                  <Link href="#">
+                  <Link href="#" title="Twitter">
                     <FaSquareXTwitter />
                   </Link>
                 </li>
                 <li>
-                  <Link href="#">
+                  <Link href="#" title="Youtube">
                     <FaYoutube />
                   </Link>
                 </li>
                 <li>
-                  <Link href="#">
+                  <Link href="#" title="Pinterest">
                     <FaPinterestSquare />
                   </Link>
                 </li>
@@ -192,6 +192,7 @@ function Footer() {
                 <Link
                   href="https://www.linkedin.com/company/nextupgrad-usa"
                   target="_blank"
+                  title="LinkedIn"
                 >
                   <p class="text-nowrap">
                     <FaLinkedin /> Top 20 Indian Startups of 2023
