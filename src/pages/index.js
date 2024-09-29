@@ -30,6 +30,7 @@ import media from "@/assets/media.svg";
 import estate from "@/assets/real-estate.svg";
 import travel from "@/assets/travel.svg";
 import retail from "@/assets/retail.svg";
+import quote from "@/assets/quote.svg";
 
 function Home() {
   return (
@@ -76,7 +77,11 @@ function Home() {
                 digital solutions crafted just for you!
               </p>
               <div className={styles.bannerBtn}>
-                <Link href="#" className={styles.btnHire} title="Hire-Developers">
+                <Link
+                  href="#"
+                  className={styles.btnHire}
+                  title="Hire-Developers"
+                >
                   Hire Developers <FaArrowRightLong />
                 </Link>
                 <Link href="#" className={styles.btnCont} title="Contact-Us">
@@ -105,26 +110,46 @@ function Home() {
                   </ul>
                   <ul className={styles.branding}>
                     <li>
-                      <Image src={google} alt="google-logo" title="Google-Logo"/>
+                      <Image
+                        src={google}
+                        alt="google-logo"
+                        title="Google-Logo"
+                      />
                     </li>
                     <li>
-                      <Image src={clutch} alt="clutch-logo" title="Clutch-Logo"/>
+                      <Image
+                        src={clutch}
+                        alt="clutch-logo"
+                        title="Clutch-Logo"
+                      />
                     </li>
                     <li>
-                      <Image src={gtwo} alt="g2-logo" title="G2-Logo"/>
+                      <Image src={gtwo} alt="g2-logo" title="G2-Logo" />
                     </li>
                   </ul>
                 </div>
                 <div className={styles.devs}>
                   <ul>
                     <li>
-                      <Image src={devOne} alt="developer-one" title="Developer"/>
+                      <Image
+                        src={devOne}
+                        alt="developer-one"
+                        title="Developer"
+                      />
                     </li>
                     <li>
-                      <Image src={devTwo} alt="developer-two" title="Developer"/>
+                      <Image
+                        src={devTwo}
+                        alt="developer-two"
+                        title="Developer"
+                      />
                     </li>
                     <li>
-                      <Image src={devThree} alt="developer-three" title="Developer"/>
+                      <Image
+                        src={devThree}
+                        alt="developer-three"
+                        title="Developer"
+                      />
                     </li>
                     <li>
                       <strong>2200+</strong> top Developers
@@ -356,6 +381,94 @@ function Home() {
                     title="Hotel & Travel"
                   />
                   <p>Hotel & Travel</p>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className={styles.testimonial}>
+        <Container>
+          <Row>
+            <Col className="col-md-6">
+              <Image src={quote} alt="Quote-Icon" title="Quote"/>
+            </Col>
+            <Col className="col-md-6"></Col>
+          </Row>
+          <Row>
+            <Col className="col-md-6">
+              <div>
+                <h2>Commendation received from Mr. Patrick</h2>
+                <p>
+                  {
+                    "I’m working with nextupgrad since April, 2023 and these guys are amazing team. They have been there from day 1 for me. They also worked on weekends just to make sure my website and products were up to the standard."
+                  }
+                </p>
+              </div>
+              <div>
+                <h3>Mr. Patrick</h3>
+                <p>Client for Website Development & Digital Marketing</p>
+              </div>
+            </Col>
+            <Col className="col-md-6">
+              <Row>
+                <Col>
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src="https://www.youtube.com/embed/IEhbAFH5JC4?si=GOpYLaUd5g2dNRBm"
+                    title="CLients's Video Testimonial"
+                    frameBorder="0"
+                    loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  />
+                </Col>
+              </Row>
+              <Row>
+                <Col className="col-md-3">
+                  <Image src={google} alt="google-logo" title="Google-Logo" />
+                </Col>
+                <Col className="col-md-3">
+                  <h2>4.9</h2>
+                  <ul>
+                    <li>
+                      <FaStar />
+                    </li>
+                    <li>
+                      <FaStar />
+                    </li>
+                    <li>
+                      <FaStar />
+                    </li>
+                    <li>
+                      <FaStar />
+                    </li>
+                    <li>
+                      <FaStar />
+                    </li>
+                  </ul>
+                </Col>
+                <Col className="col-md-3">
+                  <Image src={clutch} alt="clutch-logo" title="Clutch-Logo" />
+                </Col>
+                <Col className="col-md-3">
+                  <h2>4.8</h2>
+                  <li>
+                    <FaStar />
+                  </li>
+                  <li>
+                    <FaStar />
+                  </li>
+                  <li>
+                    <FaStar />
+                  </li>
+                  <li>
+                    <FaStar />
+                  </li>
+                  <li>
+                    <FaStar />
+                  </li>
                 </Col>
               </Row>
             </Col>
