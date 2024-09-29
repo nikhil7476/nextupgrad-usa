@@ -167,52 +167,46 @@ function Home() {
               <Row>
                 <Col>
                   <p>
-                    Project Developed<br/>
                     <span>
                       <CountUp end={100} duration={5} suffix="+" />
-                    </span>
+                    </span><br/>Project Developed
                   </p>
                 </Col>
                 <Col>
                   <p>
-                    Industries<br/>
                     <span>
                       <CountUp end={25} duration={5} suffix="+" />
-                    </span>
+                    </span><br/>Industries
                   </p>
                 </Col>
                 <Col>
                   <p>
-                    Website Design<br/>
                     <span>
                       <CountUp end={500} duration={5} suffix="+" />
-                    </span>
+                    </span><br/>Website Design
                   </p>
                 </Col>
               </Row>
               <Row>
                 <Col>
                   <p>
-                    Number of Countries Operations<br/>
                     <span>
                       <CountUp end={14} duration={5} suffix="+" />
-                    </span>
+                    </span><br/>Number of Countries Operations
                   </p>
                 </Col>
                 <Col>
                   <p>
-                    Search Engine Optimisation Projects<br/>
                     <span>
                       <CountUp end={254} duration={5} suffix="+" />
-                    </span>
+                    </span><br/>Search Engine Optimisation Projects
                   </p>
                 </Col>
                 <Col>
                   <p>
-                    Paid Campaign Advertisement & Projects<br/>
                     <span>
                       <CountUp end={139} duration={5} suffix="+" />
-                    </span>
+                    </span><br/>Paid Campaign Advertisement & Projects
                   </p>
                 </Col>
               </Row>
