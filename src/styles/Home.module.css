@@ -4,6 +4,7 @@
 }
 
 .inStartups {
+    width: 50%;
     cursor: pointer;
     border-radius: 8px;
     background: linear-gradient(90deg, #e76f51 0%, #EE4C8D 100%);
