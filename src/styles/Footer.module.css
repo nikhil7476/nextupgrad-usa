@@ -4,6 +4,10 @@
     padding: 20px 0px;
 }
 
+.ftrMain h2{
+    font-size: 16px;
+}
+
 .ftrMain svg {
     color: var(--textLight);
     font-size: 20px;
