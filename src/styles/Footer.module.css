@@ -1,7 +1,7 @@
 .ftrMain {
     background-color: var(--ftrBackground);
     color: var(--textLight);
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 .ftrMain svg {
