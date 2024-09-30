@@ -78,6 +78,10 @@ li {
   border: none;
 }
 
+.collapse {
+  justify-content: end;
+}
+
 /* Custom padding for navbar links in larger screens */
 @media (min-width: 768px) {
   .navbar {
