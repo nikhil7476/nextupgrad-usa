@@ -103,6 +103,8 @@ li {
   padding-bottom: 15px;
   display: none;
   margin-top: 0px;
+  height: 400px;
+  overflow: scroll;
 }
 
 /* Show megamenu when hovering on dropdown */

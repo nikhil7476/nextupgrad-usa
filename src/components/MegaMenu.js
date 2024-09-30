@@ -170,6 +170,9 @@ function MegaMenu() {
                               Advertising Management for Amazon
                             </li>
                             <li className="list-group-item">
+                              Shopify Optimization Services
+                            </li>
+                            <li className="list-group-item">
                               Facebook Marketplace for Business
                             </li>
                             <li className="list-group-item">
@@ -192,77 +195,91 @@ function MegaMenu() {
                     <div className="container">
                       <div className="row">
                         <div className="col-xs-12 col-sm">
+                          <h3>Design</h3>
                           <ul className="list-group">
-                            <li className="list-group-item">Cras justo odio</li>
+                            <li className="list-group-item">Website Design</li>
                             <li className="list-group-item">
-                              Dapibus ac facilisis in
-                            </li>
-                            <li className="list-group-item">Morbi leo risus</li>
-                            <li className="list-group-item">
-                              Porta ac consectetur ac
+                              Website Redesign
                             </li>
                             <li className="list-group-item">
-                              Vestibulum at eros
+                              Rapid Website Design
+                            </li>
+                            <li className="list-group-item">
+                              Social Media Design
+                            </li>
+                            <li className="list-group-item">
+                              E-commerce website Design
+                            </li>
+                            <li className="list-group-item">
+                              Email Marketing Testing & Design
                             </li>
                           </ul>
                         </div>
                         <div className="col-xs-12 col-sm">
+                          <h3>Content Marketing</h3>
                           <ul className="list-group">
-                            <li className="list-group-item">Cras justo odio</li>
+                            <li className="list-group-item">SEO Copywriting</li>
                             <li className="list-group-item">
-                              Dapibus ac facilisis in
-                            </li>
-                            <li className="list-group-item">Morbi leo risus</li>
-                            <li className="list-group-item">
-                              Porta ac consectetur ac
+                              Content Marketing Services
                             </li>
                             <li className="list-group-item">
-                              Vestibulum at eros
+                              Social Media Management
+                            </li>
+                            <li className="list-group-item">
+                              Inforgraphic & Motion Graphics
+                            </li>
+                            <li className="list-group-item">
+                              Youtube Advertising
                             </li>
                           </ul>
                         </div>
                         <div className="col-xs-12 col-sm">
+                          <h3>Website Development</h3>
                           <ul className="list-group">
-                            <li className="list-group-item">Cras justo odio</li>
                             <li className="list-group-item">
-                              Dapibus ac facilisis in
-                            </li>
-                            <li className="list-group-item">Morbi leo risus</li>
-                            <li className="list-group-item">
-                              Porta ac consectetur ac
+                              Digital Experience Development
                             </li>
                             <li className="list-group-item">
-                              Vestibulum at eros
+                              Shopify E-commerce Development
+                            </li>
+                            <li className="list-group-item">
+                              Magento E-commerce Development
+                            </li>
+                            <li className="list-group-item">
+                              WordPress Development
+                            </li>
+                            <li className="list-group-item">Wix</li>
+                            <li className="list-group-item">Duda</li>
+                            <li className="list-group-item">Square Space</li>
+                            <li className="list-group-item">Web Flow</li>
+                            <li className="list-group-item">
+                              Custom Website Development
+                            </li>
+                            <li className="list-group-item">
+                              Web Infrastructure & Maintenance
+                            </li>
+                            <li className="list-group-item">
+                              AI & GPT Integration
+                            </li>
+                            <li className="list-group-item">
+                              Content Management Systems
                             </li>
                           </ul>
                         </div>
                         <div className="col-xs-12 col-sm">
+                          <h3>Mobile App Development</h3>
                           <ul className="list-group">
-                            <li className="list-group-item">Cras justo odio</li>
                             <li className="list-group-item">
-                              Dapibus ac facilisis in
-                            </li>
-                            <li className="list-group-item">Morbi leo risus</li>
-                            <li className="list-group-item">
-                              Porta ac consectetur ac
+                              iOS App Development
                             </li>
                             <li className="list-group-item">
-                              Vestibulum at eros
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="col-xs-12 col-sm">
-                          <ul className="list-group">
-                            <li className="list-group-item">Cras justo odio</li>
-                            <li className="list-group-item">
-                              Dapibus ac facilisis in
-                            </li>
-                            <li className="list-group-item">Morbi leo risus</li>
-                            <li className="list-group-item">
-                              Porta ac consectetur ac
+                              Android App Development
                             </li>
                             <li className="list-group-item">
-                              Vestibulum at eros
+                              Cross-Platform App Development
+                            </li>
+                            <li className="list-group-item">
+                              Progressive Web App Development
                             </li>
                           </ul>
                         </div>
@@ -278,6 +295,7 @@ function MegaMenu() {
                     <div className="container">
                       <div className="row">
                         <div className="col-xs-12 col-sm">
+                          <h3>Revenue Acceleration Platform</h3>
                           <ul className="list-group">
                             <li className="list-group-item">Cras justo odio</li>
                             <li className="list-group-item">
@@ -286,6 +304,9 @@ function MegaMenu() {
                             <li className="list-group-item">Morbi leo risus</li>
                             <li className="list-group-item">
                               Porta ac consectetur ac
+                            </li>
+                            <li className="list-group-item">
+                              Vestibulum at eros
                             </li>
                             <li className="list-group-item">
                               Vestibulum at eros
@@ -293,6 +314,7 @@ function MegaMenu() {
                           </ul>
                         </div>
                         <div className="col-xs-12 col-sm">
+                          <h3>Measurement</h3>
                           <ul className="list-group">
                             <li className="list-group-item">Cras justo odio</li>
                             <li className="list-group-item">
@@ -301,6 +323,9 @@ function MegaMenu() {
                             <li className="list-group-item">Morbi leo risus</li>
                             <li className="list-group-item">
                               Porta ac consectetur ac
+                            </li>
+                            <li className="list-group-item">
+                              Vestibulum at eros
                             </li>
                             <li className="list-group-item">
                               Vestibulum at eros
@@ -308,47 +333,19 @@ function MegaMenu() {
                           </ul>
                         </div>
                         <div className="col-xs-12 col-sm">
+                          <h3>Resorces</h3>
                           <ul className="list-group">
-                            <li className="list-group-item">Cras justo odio</li>
+                            <li className="list-group-item">What Is a CRM?</li>
                             <li className="list-group-item">
-                              Dapibus ac facilisis in
+                              Data-Driven Marketing Guide
                             </li>
-                            <li className="list-group-item">Morbi leo risus</li>
+                            <li className="list-group-item">What Is a CDP?</li>
+                            <li className="list-group-item">What Is ERP?</li>
                             <li className="list-group-item">
-                              Porta ac consectetur ac
-                            </li>
-                            <li className="list-group-item">
-                              Vestibulum at eros
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="col-xs-12 col-sm">
-                          <ul className="list-group">
-                            <li className="list-group-item">Cras justo odio</li>
-                            <li className="list-group-item">
-                              Dapibus ac facilisis in
-                            </li>
-                            <li className="list-group-item">Morbi leo risus</li>
-                            <li className="list-group-item">
-                              Porta ac consectetur ac
+                              What Is AI Marketing?
                             </li>
                             <li className="list-group-item">
-                              Vestibulum at eros
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="col-xs-12 col-sm">
-                          <ul className="list-group">
-                            <li className="list-group-item">Cras justo odio</li>
-                            <li className="list-group-item">
-                              Dapibus ac facilisis in
-                            </li>
-                            <li className="list-group-item">Morbi leo risus</li>
-                            <li className="list-group-item">
-                              Porta ac consectetur ac
-                            </li>
-                            <li className="list-group-item">
-                              Vestibulum at eros
+                              What are CRM Integrations?
                             </li>
                           </ul>
                         </div>
@@ -364,6 +361,56 @@ function MegaMenu() {
                     <div className="container">
                       <div className="row">
                         <div className="col-xs-12 col-sm">
+                          <h3>Who We Are</h3>
+                          <ul className="list-group">
+                            <li className="list-group-item">Our Approach</li>
+                            <li className="list-group-item">About Us</li>
+                            <li className="list-group-item">
+                              Careers (We Are Hiring!)
+                            </li>
+                            <li className="list-group-item">Contact Info</li>
+                            <li className="list-group-item">WebFX Reviews</li>
+                            <li className="list-group-item">Awards</li>
+                          </ul>
+                        </div>
+                        <div className="col-xs-12 col-sm">
+                          <h3>Community Impact</h3>
+                          <ul className="list-group">
+                            <li className="list-group-item">Company Values</li>
+                            <li className="list-group-item">
+                              Community Impact
+                            </li>
+                            <li className="list-group-item">FXBuilds</li>
+                            <li className="list-group-item">
+                              Equality at WebFX
+                            </li>
+                            <li className="list-group-item">STEMFX Program</li>
+                            <li className="list-group-item">WebFX History</li>
+                          </ul>
+                        </div>
+                        <div className="col-xs-12 col-sm">
+                          <h3>Pricing Guides</h3>
+                          <ul className="list-group">
+                            <li className="list-group-item">
+                              How Much Should a Website Cost?
+                            </li>
+                            <li className="list-group-item">
+                              How Much Does PPC Cost?
+                            </li>
+                            <li className="list-group-item">
+                              Email Marketing Pricing
+                            </li>
+                            <li className="list-group-item">
+                              Social Media Pricing
+                            </li>
+                            <li className="list-group-item">SEO Pricing</li>
+                            <li className="list-group-item">
+                              Local SEO Pricing
+                            </li>
+                          </ul>
+                        </div>
+                        <div className="col-xs-12 col-sm">
+                          <h3>Content Library</h3>
                           <ul className="list-group">
                             <li className="list-group-item">Cras justo odio</li>
                             <li className="list-group-item">
@@ -379,62 +426,27 @@ function MegaMenu() {
                           </ul>
                         </div>
                         <div className="col-xs-12 col-sm">
+                          <h3>Resource</h3>
                           <ul className="list-group">
-                            <li className="list-group-item">Cras justo odio</li>
+                            <li className="list-group-item">Infographic</li>
+                            <li className="list-group-item">Blog</li>
+                            <li className="list-group-item">E-Books</li>
+                            <li className="list-group-item">Lead Magnet</li>
+                            <li className="list-group-item">Podcast</li>
                             <li className="list-group-item">
-                              Dapibus ac facilisis in
-                            </li>
-                            <li className="list-group-item">Morbi leo risus</li>
-                            <li className="list-group-item">
-                              Porta ac consectetur ac
-                            </li>
-                            <li className="list-group-item">
-                              Vestibulum at eros
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="col-xs-12 col-sm">
-                          <ul className="list-group">
-                            <li className="list-group-item">Cras justo odio</li>
-                            <li className="list-group-item">
-                              Dapibus ac facilisis in
-                            </li>
-                            <li className="list-group-item">Morbi leo risus</li>
-                            <li className="list-group-item">
-                              Porta ac consectetur ac
+                              What Is an SEO Company?
                             </li>
                             <li className="list-group-item">
-                              Vestibulum at eros
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="col-xs-12 col-sm">
-                          <ul className="list-group">
-                            <li className="list-group-item">Cras justo odio</li>
-                            <li className="list-group-item">
-                              Dapibus ac facilisis in
-                            </li>
-                            <li className="list-group-item">Morbi leo risus</li>
-                            <li className="list-group-item">
-                              Porta ac consectetur ac
+                              How to Find the Best SEO Company
                             </li>
                             <li className="list-group-item">
-                              Vestibulum at eros
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="col-xs-12 col-sm">
-                          <ul className="list-group">
-                            <li className="list-group-item">Cras justo odio</li>
-                            <li className="list-group-item">
-                              Dapibus ac facilisis in
-                            </li>
-                            <li className="list-group-item">Morbi leo risus</li>
-                            <li className="list-group-item">
-                              Porta ac consectetur ac
+                              SEO Guide for Marketing Managers
                             </li>
                             <li className="list-group-item">
-                              Vestibulum at eros
+                              What Is Digital Marketing?
+                            </li>
+                            <li className="list-group-item">
+                              Best Digital Marketing Tools
                             </li>
                           </ul>
                         </div>
@@ -442,7 +454,7 @@ function MegaMenu() {
                     </div>
                   </div>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <Link className="nav-link" href="#">
                     {"Let's Talk"}
                   </Link>
