@@ -43,7 +43,7 @@ h2 {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.2em;
@@ -69,3 +69,46 @@ ul {
 li {
   margin: 5px 0px;
 }
+
+
+/*MegaMenu Header Styles*/
+
+/* Navbar styles */
+.navToggler {
+  border: none;
+}
+
+/* Custom padding for navbar links in larger screens */
+@media (min-width: 768px) {
+  .navbar {
+    padding: 0 1rem;
+  }
+  .navbar .navLink {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+/* Megamenu styling */
+.megamenu {
+  background-color: #efefef;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: none;
+  margin-top: 0px;
+}
+
+/* Show megamenu when hovering on dropdown */
+.mega-dropdown:hover > .megamenu {
+  display: block;
+}
+
+/* Hidden input styling (used for toggling in original design) */
+.hidden {
+  display: none;
+}
+
+/*MegaMenu Header Style Ends*/

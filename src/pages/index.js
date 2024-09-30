@@ -50,7 +50,7 @@ function Home() {
           <Row>
             <Col className={`col-md-7 ${styles["banLeft"]}`}>
               <h1>
-                Digital Transformation Services & Solutions For {""}
+                Digital Transformation Services & Solutions<br/>For {""}
                 {/* <span> AI, 10X Faster!</span> */}
                 <TypeAnimation
                   sequence={[
