@@ -17,7 +17,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Calibri, sans-serif;
 }
 
 h1,
@@ -26,7 +26,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  font-family: Calibri, sans-serif;
   margin: 10px 0px;
   line-height: 1.2em;
 }
