@@ -31,6 +31,8 @@ import estate from "@/assets/real-estate.svg";
 import travel from "@/assets/travel.svg";
 import retail from "@/assets/retail.svg";
 import quote from "@/assets/quote.svg";
+import HomeTab from "@/components/HomeTabs";
+
 
 function Home() {
   return (
@@ -194,6 +196,13 @@ function Home() {
                 priority="true"
               />
             </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className={styles.homeTabs}>
+        <Container>
+          <Row>
+            <Col><HomeTab/></Col>
           </Row>
         </Container>
       </div>

@@ -1,9 +1,11 @@
 import React from "react";
 import Link from "next/link";
-import { Container } from "react-bootstrap";
 import styles from "@/styles/Megamenu.module.css";
+import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
+import { useState } from "react";
 
 function MegaMenu() {
+  const [activeKey, setActiveKey] = useState("first");
   return (
     <>
       <div className={styles.megaMenuHdr}>
@@ -363,7 +365,7 @@ function MegaMenu() {
                   </Link>
                   <div className="megamenu">
                     <div className="container">
-                      <div className="row">
+                      {/* <div className="row">
                         <div className="col-xs-12 col-sm">
                           <h3>Revenue Acceleration Platform</h3>
                           <ul className="list-group">
@@ -433,7 +435,247 @@ function MegaMenu() {
                             </li>
                           </ul>
                         </div>
-                      </div>
+                      </div> */}
+                      <Tab.Container
+                        id="left-tabs-example"
+                        activeKey={activeKey}
+                      >
+                        <Row>
+                          <Col sm={3}>
+                            <Nav variant="pills" className="flex-column">
+                              <Nav.Item>
+                                <Nav.Link
+                                  eventKey="first"
+                                  onMouseEnter={() => setActiveKey("first")}
+                                >
+                                  Design
+                                </Nav.Link>
+                              </Nav.Item>
+                              <Nav.Item>
+                                <Nav.Link
+                                  eventKey="second"
+                                  onMouseEnter={() => setActiveKey("second")}
+                                >
+                                  Content Marketing
+                                </Nav.Link>
+                              </Nav.Item>
+                              <Nav.Item>
+                                <Nav.Link
+                                  eventKey="third"
+                                  onMouseEnter={() => setActiveKey("third")}
+                                >
+                                  Website Development
+                                </Nav.Link>
+                              </Nav.Item>
+                              <Nav.Item>
+                                <Nav.Link
+                                  eventKey="fourth"
+                                  onMouseEnter={() => setActiveKey("fourth")}
+                                >
+                                  Mobile App Development
+                                </Nav.Link>
+                              </Nav.Item>
+                            </Nav>
+                          </Col>
+                          <Col sm={9}>
+                            <Tab.Content>
+                              <Tab.Pane eventKey="first">
+                                <Container>
+                                  <Row>
+                                    <div className="col-xs-12 col-sm">
+                                      <ul className="list-group">
+                                        <li className="list-group-item">
+                                          <Link href="#">Website<br/>Design</Link>
+                                        </li>
+                                        <li className="list-group-item">
+                                          <Link href="#">Website<br/>Redesign</Link>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                    <div className="col-xs-12 col-sm">
+                                      <ul className="list-group">
+                                        <li className="list-group-item">
+                                          <Link href="#">
+                                            Rapid Website<br/>Design
+                                          </Link>
+                                        </li>
+                                        <li className="list-group-item">
+                                          <Link href="#">
+                                            Social Media<br/>Design
+                                          </Link>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                    <div className="col-xs-12 col-sm">
+                                      <ul className="list-group">
+                                        <li className="list-group-item">
+                                          <Link href="#">
+                                            E-commerce website<br/>Design
+                                          </Link>
+                                        </li>
+                                        <li className="list-group-item">
+                                          <Link href="#">
+                                            Email Marketing<br/>Testing & Design
+                                          </Link>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </Row>
+                                </Container>
+                              </Tab.Pane>
+                              <Tab.Pane eventKey="second">
+                                <Container>
+                                  <Row>
+                                    <div className="col-xs-12 col-sm">
+                                      <ul className="list-group">
+                                        <li className="list-group-item">
+                                          <Link href="#">SEO<br/>Copywriting</Link>
+                                        </li>
+                                        <li className="list-group-item">
+                                          <Link href="#">
+                                            Content Marketing<br/>Services
+                                          </Link>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                    <div className="col-xs-12 col-sm">
+                                      <ul className="list-group">
+                                        <li className="list-group-item">
+                                          <Link href="#">
+                                            Social Media<br/>Management
+                                          </Link>
+                                        </li>
+                                        <li className="list-group-item">
+                                          <Link href="#">
+                                            Inforgraphic &<br/>Motion Graphics
+                                          </Link>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                    <div className="col-xs-12 col-sm">
+                                      <ul className="list-group">
+                                        <li className="list-group-item">
+                                          <Link href="#">
+                                            Youtube<br/>Advertising
+                                          </Link>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </Row>
+                                </Container>
+                              </Tab.Pane>
+                              <Tab.Pane eventKey="third">
+                                <Container>
+                                  <Row>
+                                    <div className="col-xs-12 col-sm">
+                                      <ul className="list-group">
+                                        <li className="list-group-item">
+                                          <Link href="#">
+                                            Digital Experience<br/>Development
+                                          </Link>
+                                        </li>
+                                        <li className="list-group-item">
+                                          <Link href="#">
+                                            Shopify E-commerce<br/>Development
+                                          </Link>
+                                        </li>
+                                        <li className="list-group-item">
+                                          <Link href="#">Square Space</Link>
+                                        </li>
+                                        <li className="list-group-item">
+                                          <Link href="#">
+                                            Web Infrastructure<br/>& Maintenance
+                                          </Link>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                    <div className="col-xs-12 col-sm">
+                                      <ul className="list-group">
+                                        <li className="list-group-item">
+                                          <Link href="#">
+                                            Magento E-commerce<br/>Development
+                                          </Link>
+                                        </li>
+                                        <li className="list-group-item">
+                                          <Link href="#">
+                                            WordPress<br/>Development
+                                          </Link>
+                                        </li>
+                                        <li className="list-group-item">
+                                          <Link href="#">Web Flow</Link>
+                                        </li>
+                                        <li className="list-group-item">
+                                          <Link href="#">
+                                            AI & GPT<br/>Integration
+                                          </Link>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                    <div className="col-xs-12 col-sm">
+                                      <ul className="list-group">
+                                        <li className="list-group-item">
+                                          <Link href="#">Wix</Link>
+                                        </li>
+                                        <li className="list-group-item">
+                                          <Link href="#">Duda</Link>
+                                        </li>
+                                        <li className="list-group-item">
+                                          <Link href="#">
+                                            Custom Website<br/>Development
+                                          </Link>
+                                        </li>
+                                        <li className="list-group-item">
+                                          <Link href="#">
+                                            Content Management<br/>Systems
+                                          </Link>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </Row>
+                                </Container>
+                              </Tab.Pane>
+                              <Tab.Pane eventKey="fourth">
+                                <Container>
+                                  <Row>
+                                    <div className="col-xs-12 col-sm">
+                                      <ul className="list-group">
+                                        <li className="list-group-item">
+                                          <Link href="#">
+                                            iOS App<br/>Development
+                                          </Link>
+                                        </li>
+                                        <li className="list-group-item">
+                                          <Link href="#">
+                                            Progressive Web<br/>App Development
+                                          </Link>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                    <div className="col-xs-12 col-sm">
+                                      <ul className="list-group">
+                                        <li className="list-group-item">
+                                          <Link href="#">
+                                            Android App<br/>Development
+                                          </Link>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                    <div className="col-xs-12 col-sm">
+                                      <ul className="list-group">
+                                        <li className="list-group-item">
+                                          <Link href="#">
+                                            Cross-Platform<br/>App Development
+                                          </Link>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </Row>
+                                </Container>
+                              </Tab.Pane>
+                            </Tab.Content>
+                          </Col>
+                        </Row>
+                      </Tab.Container>
                     </div>
                   </div>
                 </li>
