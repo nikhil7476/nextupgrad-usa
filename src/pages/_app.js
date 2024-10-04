@@ -5,13 +5,14 @@ import Footer from "@/components/Footer";
 import MegaMenu from "@/components/MegaMenu";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import CookieConsent from "react-cookie-consent"; // Add this line to import the cookie consent component
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import Link from "next/link";
 export default function App({ Component, pageProps }) {
   return (
     <>
       {/* <Header className="navHdr" /> */}
       <MobileHead className="mobHdr" />
-      <MegaMenu/>
+      <MegaMenu />
       <CookieConsent
         location="bottom"
         buttonText="I accept"
@@ -21,7 +22,10 @@ export default function App({ Component, pageProps }) {
         expires={150}
       >
         This website uses cookies to enhance the user experience.{" "}
-        <a href="/cookie-policy" style={{ color: "#fff", textDecoration: "underline" }}>
+        <a
+          href="/cookie-policy"
+          style={{ color: "#fff", textDecoration: "underline" }}
+        >
           Learn more
         </a>
       </CookieConsent>
@@ -29,6 +33,11 @@ export default function App({ Component, pageProps }) {
       <main>
         <Component {...pageProps} />
       </main>
+      <div className="ctaButton">
+        <Link href="#" title="Let's Discuss">
+          {"Let's Discuss"}
+        </Link>
+      </div>
       <Footer />
     </>
   );

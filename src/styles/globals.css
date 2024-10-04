@@ -102,8 +102,8 @@ li {
   padding-bottom: 15px;
   display: none;
   margin-top: 0px;
-  height: 400px;
-  overflow: scroll;
+  /* height: 400px;
+  overflow: scroll; */
 }
 
 /* Show megamenu when hovering on dropdown */
@@ -117,3 +117,21 @@ li {
 }
 
 /*MegaMenu Header Style Ends*/
+
+
+/*CTA Button*/
+.ctaButton{
+  background-color: #e76f51;
+  padding: 10px 50px;
+  position: fixed;
+  top: 50%;
+  z-index: 99999;
+  right: -65px;
+  transform: translatey(-50%) rotate(-90deg);
+  min-width: 180px;
+  font-size: 22px;
+}
+
+.ctaButton a{
+  color: var(--textLight);
+}
