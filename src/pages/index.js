@@ -291,7 +291,7 @@ function Home() {
                 scalable.
               </p>
               <Row className={styles.inds}>
-                <Col>
+                <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsOne}`}>
                     <Image
                       src={ecart}
@@ -303,7 +303,7 @@ function Home() {
                   </div>
                   <p>E-commerce</p>
                 </Col>
-                <Col>
+                <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsTwo}`}>
                     <Image
                       src={health}
@@ -315,7 +315,7 @@ function Home() {
                   </div>
                   <p>Healthcare</p>
                 </Col>
-                <Col>
+                <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsThree}`}>
                     <Image
                       src={edu}
@@ -327,7 +327,7 @@ function Home() {
                   </div>
                   <p>E-Learning</p>
                 </Col>
-                <Col>
+                <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsFour}`}>
                     <Image
                       src={media}
@@ -339,7 +339,7 @@ function Home() {
                   </div>
                   <p>News & Media</p>
                 </Col>
-                <Col>
+                <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsFive}`}>
                     <Image
                       src={estate}
@@ -353,7 +353,7 @@ function Home() {
                 </Col>
               </Row>
               <Row className={styles.inds}>
-                <Col>
+                <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsSix}`}>
                     <Image
                       src={logi}
@@ -365,7 +365,7 @@ function Home() {
                   </div>
                   <p>Logistics & Distributions</p>
                 </Col>
-                <Col>
+                <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsSeven}`}>
                     <Image
                       src={retail}
@@ -377,7 +377,7 @@ function Home() {
                   </div>
                   <p>Retail Shops</p>
                 </Col>
-                <Col>
+                <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsEight}`}>
                     <Image
                       src={food}
@@ -389,7 +389,7 @@ function Home() {
                   </div>
                   <p>Food & Beverages</p>
                 </Col>
-                <Col>
+                <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsNine}`}>
                     <Image
                       src={fmcg}
@@ -401,7 +401,7 @@ function Home() {
                   </div>
                   <p>FMCG</p>
                 </Col>
-                <Col>
+                <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsTen}`}>
                     <Image
                       src={travel}

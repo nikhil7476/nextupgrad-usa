@@ -279,16 +279,25 @@
     background-image: url(../assets/travel-bg.svg);
 }
 
-.inds div {
+.indsCol {
     cursor: pointer;
+    padding: 10px;
+    transition-duration: 0.5s;
 }
 
-.inds div:hover p {
+.indsCol:hover {
+    border-radius: 8px;
+    box-shadow: 0 0 10px 7px rgba(0, 0, 0, .03);
+    border-bottom: 8px solid var(--btnCol);
+    transform: scale(0.8);
+}
+
+.indsCol:hover p {
     color: var(--btnCol);
 }
 
 
-.inds div:hover .indsImg img {
+.indsCol:hover .indsImg img {
     opacity: 0;
 }
 
