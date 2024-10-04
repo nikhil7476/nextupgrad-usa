@@ -33,7 +33,6 @@ import retail from "@/assets/retail.svg";
 import quote from "@/assets/quote.svg";
 import HomeTab from "@/components/HomeTabs";
 
-
 function Home() {
   return (
     <>
@@ -202,7 +201,9 @@ function Home() {
       <div className={styles.homeTabs}>
         <Container>
           <Row>
-            <Col><HomeTab/></Col>
+            <Col>
+              <HomeTab />
+            </Col>
           </Row>
         </Container>
       </div>
@@ -499,6 +500,146 @@ function Home() {
                       <FaStar />
                     </li>
                   </ul>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className={styles.caseStudy}>
+        <Container>
+          <Row>
+            <Col className="col-md-9">
+              <h2>
+                <span>Case Studies</span>
+                <br />
+                Empowering Digital Transformation Through Software Solutions
+              </h2>
+              <p>
+                Check how our custom software solutions have helped businesses
+                achieve their strategic goals. Our technology consulting,
+                development, and software outsourcing services have enabled
+                companies to navigate the complexities of digitalisation.
+              </p>
+            </Col>
+            <Col className={`col-md-3 ${styles["allCase"]}`}>
+              <Link href="#" title="View Case Study">
+                View All
+              </Link>
+            </Col>
+          </Row>
+          <Row className={styles.caseStd}>
+            <Col className={`col-xs-12 col-sm ${styles["caseStdOne"]}`}>
+              <Row>
+                <Col className={styles.caseHead}>
+                  <p>
+                    Transforming security solutions with innovative technology
+                  </p>
+                </Col>
+              </Row>
+              <Row>
+                <Col className={`col-md-4 ${styles["caseCount"]}`}>
+                  <p>
+                    <span>
+                      <CountUp end={100} duration={5} suffix="+" />
+                    </span>
+                    <br />
+                    Global brands empowered
+                  </p>
+                </Col>
+                <Col className={`col-md-4 ${styles["caseCount"]}`}>
+                  <p>
+                    <span>
+                      <CountUp end={1000} duration={5} suffix="+" />
+                    </span>
+                    <br />
+                    Integrated Security Deployments
+                  </p>
+                </Col>
+                <Col className={`col-md-4 ${styles["caseCount"]}`}>
+                  <p>
+                    <span>
+                      <CountUp end={20} duration={5} suffix="%" />
+                    </span>
+                    <br />
+                    Quicker Incident Responses
+                  </p>
+                </Col>
+              </Row>
+            </Col>
+            <Col className={`col-xs-12 col-sm ${styles["caseStdTwo"]}`}>
+              <Row>
+                <Col className={styles.caseHead}>
+                  <p>
+                    Transforming security solutions with innovative technology
+                  </p>
+                </Col>
+              </Row>
+              <Row>
+                <Col className={`col-md-4 ${styles["caseCount"]}`}>
+                  <p>
+                    <span>
+                      <CountUp end={100} duration={5} suffix="+" />
+                    </span>
+                    <br />
+                    Global brands empowered
+                  </p>
+                </Col>
+                <Col className={`col-md-4 ${styles["caseCount"]}`}>
+                  <p>
+                    <span>
+                      <CountUp end={1000} duration={5} suffix="+" />
+                    </span>
+                    <br />
+                    Integrated Security Deployments
+                  </p>
+                </Col>
+                <Col className={`col-md-4 ${styles["caseCount"]}`}>
+                  <p>
+                    <span>
+                      <CountUp end={20} duration={5} suffix="%" />
+                    </span>
+                    <br />
+                    Quicker Incident Responses
+                  </p>
+                </Col>
+              </Row>
+            </Col>
+            <Col className={`col-xs-12 col-sm ${styles["caseStdThree"]}`}>
+              <Row>
+                <Col className={styles.caseHead}>
+                  <p>
+                    Transforming security solutions with innovative technology
+                  </p>
+                </Col>
+              </Row>
+              <Row>
+                <Col className={`col-md-4 ${styles["caseCount"]}`}>
+                  <p>
+                    <span>
+                      <CountUp end={100} duration={5} suffix="+" />
+                    </span>
+                    <br />
+                    Global brands empowered
+                  </p>
+                </Col>
+                <Col className={`col-md-4 ${styles["caseCount"]}`}>
+                  <p>
+                    <span>
+                      <CountUp end={1000} duration={5} suffix="+" />
+                    </span>
+                    <br />
+                    Integrated Security Deployments
+                  </p>
+                </Col>
+                <Col className={`col-md-4 ${styles["caseCount"]}`}>
+                  <p>
+                    <span>
+                      <CountUp end={20} duration={5} suffix="%" />
+                    </span>
+                    <br />
+                    Quicker Incident Responses
+                  </p>
                 </Col>
               </Row>
             </Col>

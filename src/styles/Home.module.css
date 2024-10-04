@@ -68,7 +68,7 @@
     font-size: 40px !important;
 }
 
-.banLeft h1{
+.banLeft h1 {
     font-size: 45px;
     font-weight: 700;
 }
@@ -327,8 +327,95 @@
 }
 
 
+/*Case Study*/
+.caseStudy {
+    padding: 60px 0px;
+}
 
+.caseStudy h2 {
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
 
+.caseStudy h2 span {
+    color: var(--btnCol);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.allCase {
+    align-content: center;
+    text-align: end;
+}
+
+.allCase a {
+    color: var(--textDark);
+    text-align: center;
+    background-color: var(--btnCol);
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: 1px solid var(--btnCol);
+    transition: all .3s ease-in-out;
+}
+
+.caseStd {
+    gap: 20px;
+}
+
+.caseStdOne,
+.caseStdTwo,
+.caseStdThree {
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--textLight);
+    padding: 20px;
+    border-radius: 5px;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+
+.caseStdOne:hover,
+.caseStdTwo:hover,
+.caseStdThree:hover {
+    transform: scale(0.9);
+}
+
+.caseStdOne {
+    background-image: url(../assets/case-study-0ne.webp);
+}
+
+.caseStdTwo {
+    background-image: url(../assets/case-study-Two.webp);
+}
+
+.caseStdThree {
+    background-image: url(../assets/case-study-three.png);
+}
+
+.caseHead p {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.caseCount p span {
+    font-size: 30px;
+    background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+    background-clip: text;
+    color: transparent;
+}
+
+.caseCount p {
+    font-size: 12px;
+    color: var(--textLight);
+    line-height: 18px;
+    margin-bottom: 0;
+}
 
 /*Media Queries*/
 
