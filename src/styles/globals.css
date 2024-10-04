@@ -86,6 +86,7 @@ li {
   .navbar {
     padding: 0 1rem;
   }
+
   .navbar .navLink {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -102,12 +103,10 @@ li {
   padding-bottom: 15px;
   display: none;
   margin-top: 0px;
-  /* height: 400px;
-  overflow: scroll; */
 }
 
 /* Show megamenu when hovering on dropdown */
-.mega-dropdown:hover > .megamenu {
+.mega-dropdown:hover>.megamenu {
   display: block;
 }
 
@@ -116,11 +115,45 @@ li {
   display: none;
 }
 
+.megamenu a {
+  color: var(--textDark);
+}
+
+.megamenu a:hover {
+  color: var(--btnCol);
+}
+
+.megamenu .nav-item a {
+  font-size: 16px;
+}
+
+.megamenu .nav-item a:hover {
+  background-color: var(--btnCol);
+}
+
+.megamenu .nav-link.active {
+  background-color: var(--btnCol) !important;
+}
+
+/* .megamenu .list-group-item {
+  background-color: transparent;
+  border: none;
+} */
+
+.megamenu .list-group-item a {
+  font-size: 14px;
+}
+
+/* .megamenu .list-group-item:hover {
+  background-color: var(--background);
+  border-radius: 0px;
+} */
+
 /*MegaMenu Header Style Ends*/
 
 
 /*CTA Button*/
-.ctaButton{
+.ctaButton {
   background-color: #e76f51;
   text-align: center;
   padding: 10px 50px;
@@ -133,6 +166,6 @@ li {
   font-size: 22px;
 }
 
-.ctaButton a{
+.ctaButton a {
   color: var(--textLight);
 }

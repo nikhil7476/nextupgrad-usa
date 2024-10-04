@@ -239,24 +239,16 @@ function MegaMenu() {
                                     <div className="col-xs-12 col-sm">
                                       <ul className="list-group">
                                         <li className="list-group-item">
+                                          <Link href="#">Our SEO Results</Link>
+                                        </li>
+                                        <li className="list-group-item">
                                           <Link href="#">
-                                            Our SEO
-                                            <br />
-                                            Results
+                                            Our SEO Case Studies
                                           </Link>
                                         </li>
                                         <li className="list-group-item">
                                           <Link href="#">
-                                            Our SEO
-                                            <br />
-                                            Case Studies
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Best Digital Marketing
-                                            <br />
-                                            Tools
+                                            Best Digital Marketing Tools
                                           </Link>
                                         </li>
                                       </ul>
@@ -265,16 +257,12 @@ function MegaMenu() {
                                       <ul className="list-group">
                                         <li className="list-group-item">
                                           <Link href="#">
-                                            What Is an
-                                            <br />
-                                            SEO Company?
+                                            What Is an SEO Company?
                                           </Link>
                                         </li>
                                         <li className="list-group-item">
                                           <Link href="#">
-                                            SEO Guide for
-                                            <br />
-                                            Marketing Managers
+                                            SEO Guide for Marketing Managers
                                           </Link>
                                         </li>
                                       </ul>
@@ -282,17 +270,11 @@ function MegaMenu() {
                                     <div className="col-xs-12 col-sm">
                                       <ul className="list-group">
                                         <li className="list-group-item">
-                                          <Link href="#">
-                                            How to Find the Best
-                                            <br />
-                                            SEO Company
-                                          </Link>
+                                        <Link href="#"> Marketing?</Link>
                                         </li>
                                         <li className="list-group-item">
                                           <Link href="#">
-                                            What Is Digital
-                                            <br />
-                                            Marketing?
+                                            How to Find the Best SEO Company
                                           </Link>
                                         </li>
                                       </ul>
