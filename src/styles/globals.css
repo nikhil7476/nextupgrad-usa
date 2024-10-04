@@ -122,6 +122,7 @@ li {
 /*CTA Button*/
 .ctaButton{
   background-color: #e76f51;
+  text-align: center;
   padding: 10px 50px;
   position: fixed;
   top: 50%;
