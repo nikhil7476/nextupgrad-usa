@@ -1,5 +1,4 @@
 import "@/styles/globals.css";
-// import Header from "@/components/Header";
 import MobileHead from "@/components/MobileHeader";
 import Footer from "@/components/Footer";
 import MegaMenu from "@/components/MegaMenu";
@@ -10,7 +9,6 @@ import Link from "next/link";
 export default function App({ Component, pageProps }) {
   return (
     <>
-      {/* <Header className="navHdr" /> */}
       <MobileHead className="mobHdr" />
       <MegaMenu />
       <CookieConsent
