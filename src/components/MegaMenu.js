@@ -13,7 +13,7 @@ function MegaMenu() {
       <div className={styles.megaMenuHdr}>
         <Container>
           <nav className="navbar navbar-expand-sm navbar-dark">
-            <Link className="navbar-brand" href="#">
+            <Link className="navbar-brand" href="/">
               <Image
                 src={logo}
                 alt="nextupgrad_usa_logo"
