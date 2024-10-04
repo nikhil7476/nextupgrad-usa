@@ -420,7 +420,7 @@ function Home() {
             </Col>
             <Col className={`col-md-6 ${styles["allBtn"]}`}>
               <Link href="#" title="View Testimonials">
-                View All
+                View All <FaArrowRightLong />
               </Link>
             </Col>
           </Row>
@@ -524,7 +524,7 @@ function Home() {
             </Col>
             <Col className={`col-md-3 ${styles["allCase"]}`}>
               <Link href="#" title="View Case Study">
-                View All
+                View All <FaArrowRightLong />
               </Link>
             </Col>
           </Row>
