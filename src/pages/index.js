@@ -292,105 +292,125 @@ function Home() {
               </p>
               <Row className={styles.inds}>
                 <Col>
-                  <Image
-                    src={ecart}
-                    alt="E-Cart"
-                    width={100}
-                    height={100}
-                    title="E-Commerce"
-                  />
+                  <div className={`${styles.indsImg} ${styles.indsOne}`}>
+                    <Image
+                      src={ecart}
+                      alt="E-Cart"
+                      width={100}
+                      height={100}
+                      title="E-Commerce"
+                    />
+                  </div>
                   <p>E-commerce</p>
                 </Col>
                 <Col>
-                  <Image
-                    src={health}
-                    alt="Heart"
-                    width={100}
-                    height={100}
-                    title="Healthcare"
-                  />
+                  <div className={`${styles.indsImg} ${styles.indsTwo}`}>
+                    <Image
+                      src={health}
+                      alt="Heart"
+                      width={100}
+                      height={100}
+                      title="Healthcare"
+                    />
+                  </div>
                   <p>Healthcare</p>
                 </Col>
                 <Col>
-                  <Image
-                    src={edu}
-                    alt="Degree-Cap"
-                    width={100}
-                    height={100}
-                    title="E-Learning"
-                  />
+                  <div className={`${styles.indsImg} ${styles.indsThree}`}>
+                    <Image
+                      src={edu}
+                      alt="Degree-Cap"
+                      width={100}
+                      height={100}
+                      title="E-Learning"
+                    />
+                  </div>
                   <p>E-Learning</p>
                 </Col>
                 <Col>
-                  <Image
-                    src={media}
-                    alt="Camera"
-                    width={100}
-                    height={100}
-                    title="News & Media"
-                  />
+                  <div className={`${styles.indsImg} ${styles.indsFour}`}>
+                    <Image
+                      src={media}
+                      alt="Camera"
+                      width={100}
+                      height={100}
+                      title="News & Media"
+                    />
+                  </div>
                   <p>News & Media</p>
                 </Col>
                 <Col>
-                  <Image
-                    src={estate}
-                    alt="Crane"
-                    width={100}
-                    height={100}
-                    title="Real Estate"
-                  />
+                  <div className={`${styles.indsImg} ${styles.indsFive}`}>
+                    <Image
+                      src={estate}
+                      alt="Crane"
+                      width={100}
+                      height={100}
+                      title="Real Estate"
+                    />
+                  </div>
                   <p>Real Estate</p>
                 </Col>
               </Row>
               <Row className={styles.inds}>
                 <Col>
-                  <Image
-                    src={logi}
-                    alt="Shipment-Truck"
-                    width={100}
-                    height={100}
-                    title="Logistics & Distributions"
-                  />
+                  <div className={`${styles.indsImg} ${styles.indsSix}`}>
+                    <Image
+                      src={logi}
+                      alt="Shipment-Truck"
+                      width={100}
+                      height={100}
+                      title="Logistics & Distributions"
+                    />
+                  </div>
                   <p>Logistics & Distributions</p>
                 </Col>
                 <Col>
-                  <Image
-                    src={retail}
-                    alt="Retail"
-                    width={100}
-                    height={100}
-                    title="Retail Shops"
-                  />
+                  <div className={`${styles.indsImg} ${styles.indsSeven}`}>
+                    <Image
+                      src={retail}
+                      alt="Retail"
+                      width={100}
+                      height={100}
+                      title="Retail Shops"
+                    />
+                  </div>
                   <p>Retail Shops</p>
                 </Col>
                 <Col>
-                  <Image
-                    src={food}
-                    alt="Fast-Food"
-                    width={100}
-                    height={100}
-                    title="Food & Beverages"
-                  />
+                  <div className={`${styles.indsImg} ${styles.indsEight}`}>
+                    <Image
+                      src={food}
+                      alt="Fast-Food"
+                      width={100}
+                      height={100}
+                      title="Food & Beverages"
+                    />
+                  </div>
                   <p>Food & Beverages</p>
                 </Col>
                 <Col>
-                  <Image
-                    src={fmcg}
-                    alt="FMCG"
-                    width={100}
-                    height={100}
-                    title="FMCG"
-                  />
+                  <div className={`${styles.indsImg} ${styles.indsNine}`}>
+                    <Image
+                      src={fmcg}
+                      alt="FMCG"
+                      width={100}
+                      height={100}
+                      title="FMCG"
+                    />
+                  </div>
                   <p>FMCG</p>
                 </Col>
                 <Col>
-                  <Image
-                    src={travel}
-                    alt="Aeroplane"
-                    width={100}
-                    height={100}
-                    title="Hotel & Travel"
-                  />
+                  <div className={`${styles.indsImg} ${styles.indsTen}`}>
+                    <Image
+                      src={travel}
+                      alt="Aeroplane"
+                      width={100}
+                      height={100}
+                      title="Hotel & Travel"
+                    />
+                  </div>
                   <p>Hotel & Travel</p>
                 </Col>
               </Row>

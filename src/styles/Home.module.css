@@ -233,12 +233,63 @@
     margin-top: 20px;
 }
 
+.indsImg {
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.indsOne {
+    background-image: url(../assets/e-commerce-bg.svg);
+}
+
+.indsTwo {
+    background-image: url(../assets/healthcare-bg.svg);
+}
+
+.indsThree {
+    background-image: url(../assets/education-bg.svg);
+}
+
+.indsFour {
+    background-image: url(../assets/media-bg.svg);
+}
+
+.indsFive {
+    background-image: url(../assets/real-estate-bg.svg);
+}
+
+.indsSix {
+    background-image: url(../assets/logistics-bg.svg);
+}
+
+.indsSeven {
+    background-image: url(../assets/retail-bg.svg);
+}
+
+.indsEight {
+    background-image: url(../assets/fast-food-bg.svg);
+}
+
+.indsNine {
+    background-image: url(../assets/fmcg-bg.svg);
+}
+
+.indsTen {
+    background-image: url(../assets/travel-bg.svg);
+}
+
 .inds div {
     cursor: pointer;
 }
 
 .inds div:hover p {
     color: var(--btnCol);
+}
+
+
+.inds div:hover .indsImg img {
+    opacity: 0;
 }
 
 .testimonial {
