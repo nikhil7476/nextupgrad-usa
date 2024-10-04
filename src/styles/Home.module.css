@@ -538,4 +538,16 @@
     .videoTest {
         flex-direction: column;
     }
+
+    .case {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .caseStd {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+
 }

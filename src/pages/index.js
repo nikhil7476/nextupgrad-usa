@@ -528,7 +528,7 @@ function Home() {
       </div>
       <div className={styles.caseStudy}>
         <Container>
-          <Row>
+          <Row className={styles.case}>
             <Col className="col-md-9">
               <h2>
                 <span>Case Studies</span>
