@@ -72,7 +72,7 @@
     overflow: hidden;
     z-index: 1;
     animation: 2.2s ease-in-out infinite slide;
-    background-image: url("../assets/slide.svg");
+    background-image: url("/assets/slide.svg");
     background-repeat: no-repeat;
 }
 

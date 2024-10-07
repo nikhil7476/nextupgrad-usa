@@ -1,7 +1,5 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
-import brand from "../assets/ftrLogo.webp";
 import styles from "@/styles/Footer.module.css";
 import {
   FaLinkedin,
@@ -24,8 +22,8 @@ function Footer() {
           <Row className={styles.abvFtr}>
             <Col className="col-md-3">
               <Link href="/" title="Nextupgrad-USA">
-                <Image
-                  src={brand}
+                <img
+                  src={"/assets/ftrLogo.webp"}
                   width={"100%"}
                   height={100}
                   alt="nextupgrad_usa_logo"

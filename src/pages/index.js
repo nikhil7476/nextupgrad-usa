@@ -12,25 +12,6 @@ import {
 import { TypeAnimation } from "react-type-animation";
 import CountUp from "react-countup";
 import styles from "@/styles/Home.module.css";
-import Image from "next/image";
-import google from "@/assets/google-logo.svg";
-import clutch from "@/assets/clutch-logo.svg";
-import gtwo from "@/assets/g2-logo.svg";
-import devOne from "@/assets/developer-one.webp";
-import devTwo from "@/assets/developer-two.webp";
-import devThree from "@/assets/developer-three.webp";
-import achieve from "@/assets/achievements.webp";
-import ecart from "@/assets/e-commerce.svg";
-import edu from "@/assets/education.svg";
-import food from "@/assets/fast-food.svg";
-import fmcg from "@/assets/fmcg.svg";
-import health from "@/assets/healthcare.svg";
-import logi from "@/assets/logistics.svg";
-import media from "@/assets/media.svg";
-import estate from "@/assets/real-estate.svg";
-import travel from "@/assets/travel.svg";
-import retail from "@/assets/retail.svg";
-import quote from "@/assets/quote.svg";
 import HomeTab from "@/components/HomeTabs";
 
 function Home() {
@@ -111,43 +92,47 @@ function Home() {
                   </ul>
                   <ul className={styles.branding}>
                     <li>
-                      <Image
-                        src={google}
+                      <img
+                        src={"/assets/google-logo.svg"}
                         alt="google-logo"
                         title="Google-Logo"
                       />
                     </li>
                     <li>
-                      <Image
-                        src={clutch}
+                      <img
+                        src={"/assets/clutch-logo.svg"}
                         alt="clutch-logo"
                         title="Clutch-Logo"
                       />
                     </li>
                     <li>
-                      <Image src={gtwo} alt="g2-logo" title="G2-Logo" />
+                      <img
+                        src={"/assets/g2-logo.svg"}
+                        alt="g2-logo"
+                        title="G2-Logo"
+                      />
                     </li>
                   </ul>
                 </div>
                 <div className={styles.devs}>
                   <ul>
                     <li>
-                      <Image
-                        src={devOne}
+                      <img
+                        src={"/assets/developer-one.webp"}
                         alt="developer-one"
                         title="Developer"
                       />
                     </li>
                     <li>
-                      <Image
-                        src={devTwo}
+                      <img
+                        src={"/assets/developer-two.webp"}
                         alt="developer-two"
                         title="Developer"
                       />
                     </li>
                     <li>
-                      <Image
-                        src={devThree}
+                      <img
+                        src={"/assets/developer-three.webp"}
                         alt="developer-three"
                         title="Developer"
                       />
@@ -187,8 +172,8 @@ function Home() {
               </div>
             </Col>
             <Col className={`col-md-5 ${styles["banRight"]}`}>
-              <Image
-                src={achieve}
+              <img
+                src={"/assets/achievements.webp"}
                 alt="achievements"
                 className={styles.bannerImg}
                 title="Achievements"
@@ -204,6 +189,76 @@ function Home() {
             <Col>
               <HomeTab />
             </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className={styles.vettProc}>
+        <Container>
+          <Row className={`text-center ${styles.procHead}`}>
+            <h2>
+              The <span>Nextupgrad</span> Vetting Process
+            </h2>
+          </Row>
+          <Row className={styles.proc}>
+            <Col className="col-md-4">
+              <Row>
+                <p>
+                  Our{" "}
+                  <strong>AI examines each profile from our talent pool</strong>
+                  , shortlisting only the top software developers based on their
+                  resumes and previous roles.
+                </p>
+              </Row>
+              <Row>
+                <p>
+                  Our <strong>rigorous technical assessments</strong> vet
+                  software engineers for their technical prowess, ensuring only
+                  top-tier candidates move ahead.
+                </p>
+              </Row>
+            </Col>
+            <Col className="col-md-4">
+              <video
+                width="100%"
+                height="auto"
+                title="Video"
+                autoPlay
+                muted
+                loop
+              >
+                <source src="/assets/process.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </Col>
+            <Col className="col-md-4">
+              <Row>
+                <p>
+                  Beyond technical know-how, we evaluate{" "}
+                  <strong>
+                    communication skills, problem-solving abilities, and
+                    personal strengths
+                  </strong>{" "}
+                  of the developers.
+                </p>
+              </Row>
+              <Row>
+                <p>
+                  Our expert TA team aims to understand the candidate's goals,
+                  competitiveness, and learning agility to{" "}
+                  <strong>ensure you hire top talent.</strong>
+                </p>
+              </Row>
+            </Col>
+          </Row>
+          <Row className={styles.procHire}>
+            <h3>
+              <span>Only 1.2%</span>
+              <br />
+              of Senior Developers Pass
+            </h3>
+            <Link href="#" target="_blank" title="Hire Now">
+              Hire Now <FaArrowRightLong />
+            </Link>
           </Row>
         </Container>
       </div>
@@ -293,8 +348,8 @@ function Home() {
               <Row className={styles.inds}>
                 <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsOne}`}>
-                    <Image
-                      src={ecart}
+                    <img
+                      src={"/assets/e-commerce.svg"}
                       alt="E-Cart"
                       width={100}
                       height={100}
@@ -305,8 +360,8 @@ function Home() {
                 </Col>
                 <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsTwo}`}>
-                    <Image
-                      src={health}
+                    <img
+                      src={"/assets/healthcare.svg"}
                       alt="Heart"
                       width={100}
                       height={100}
@@ -317,8 +372,8 @@ function Home() {
                 </Col>
                 <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsThree}`}>
-                    <Image
-                      src={edu}
+                    <img
+                      src={"/assets/education.svg"}
                       alt="Degree-Cap"
                       width={100}
                       height={100}
@@ -329,8 +384,8 @@ function Home() {
                 </Col>
                 <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsFour}`}>
-                    <Image
-                      src={media}
+                    <img
+                      src={"/assets/media.svg"}
                       alt="Camera"
                       width={100}
                       height={100}
@@ -341,8 +396,8 @@ function Home() {
                 </Col>
                 <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsFive}`}>
-                    <Image
-                      src={estate}
+                    <img
+                      src={"/assets/real-estate.svg"}
                       alt="Crane"
                       width={100}
                       height={100}
@@ -355,8 +410,8 @@ function Home() {
               <Row className={styles.inds}>
                 <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsSix}`}>
-                    <Image
-                      src={logi}
+                    <img
+                      src={"/assets/logistics.svg"}
                       alt="Shipment-Truck"
                       width={100}
                       height={100}
@@ -367,8 +422,8 @@ function Home() {
                 </Col>
                 <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsSeven}`}>
-                    <Image
-                      src={retail}
+                    <img
+                      src={"/assets/retail.svg"}
                       alt="Retail"
                       width={100}
                       height={100}
@@ -379,8 +434,8 @@ function Home() {
                 </Col>
                 <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsEight}`}>
-                    <Image
-                      src={food}
+                    <img
+                      src={"/assets/fast-food.svg"}
                       alt="Fast-Food"
                       width={100}
                       height={100}
@@ -391,8 +446,8 @@ function Home() {
                 </Col>
                 <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsNine}`}>
-                    <Image
-                      src={fmcg}
+                    <img
+                      src={"/assets/fmcg.svg"}
                       alt="FMCG"
                       width={100}
                       height={100}
@@ -403,8 +458,8 @@ function Home() {
                 </Col>
                 <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsTen}`}>
-                    <Image
-                      src={travel}
+                    <img
+                      src={"/assets/travel.svg"}
                       alt="Aeroplane"
                       width={100}
                       height={100}
@@ -424,7 +479,11 @@ function Home() {
             <Col className="col-md-6">
               <Row className={styles.viewTest}>
                 <Col className={`col-md-2 ${styles["quote"]}`}>
-                  <Image src={quote} alt="Quote-Icon" title="Quote" />
+                  <img
+                    src={"/assets/quote.svg"}
+                    alt="Quote-Icon"
+                    title="Quote"
+                  />
                 </Col>
                 <Col className={`col-md-8 ${styles["trs"]}`}>
                   <h2>
@@ -476,7 +535,11 @@ function Home() {
               </Row>
               <Row className={styles.brandRating}>
                 <Col className="col-md-3">
-                  <Image src={google} alt="google-logo" title="Google-Logo" />
+                  <img
+                    src={"/assets/google-logo.svg"}
+                    alt="google-logo"
+                    title="Google-Logo"
+                  />
                 </Col>
                 <Col className="col-md-3">
                   <h2>4.9</h2>
@@ -499,7 +562,11 @@ function Home() {
                   </ul>
                 </Col>
                 <Col className="col-md-3">
-                  <Image src={clutch} alt="clutch-logo" title="Clutch-Logo" />
+                  <img
+                    src={"/assets/clutch-logo.svg"}
+                    alt="clutch-logo"
+                    title="Clutch-Logo"
+                  />
                 </Col>
                 <Col className="col-md-3">
                   <h2>4.8</h2>

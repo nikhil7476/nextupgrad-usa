@@ -1,5 +1,5 @@
 .bannerMain {
-    background-color: linear-gradient(180deg, #F8F8FC 0.42%, #EEF2FD 83.6%);
+    background-color: #F7F9FC;
     padding: 120px 0px 60px 0px;
 }
 
@@ -47,7 +47,7 @@
     overflow: hidden;
     z-index: 1;
     animation: 2.2s ease-in-out infinite slide;
-    background-image: url("../assets/slide.svg");
+    background-image: url("/assets/slide.svg");
     background-repeat: no-repeat;
 }
 
@@ -174,11 +174,63 @@
     padding: 30px 0px 60px 0px;
 }
 
+.vettProc {
+    padding: 30px 0px 60px 0px;
+    background-color: #F7F9FC;
+}
 
+.procHead h2 {
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
 
+.procHead h2 span {
+    background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+    background-clip: text;
+    color: transparent;
+}
+
+.procHire {
+    text-align: center;
+    justify-content: center;
+}
+
+.procHire h3 {
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.procHire h3 span{
+    background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+    background-clip: text;
+    color: transparent;
+}
+
+.procHire a{
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 2px solid var(--btnCol);
+    border-radius: 50px;
+    background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+    color: var(--textLight);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.proc {
+    padding: 30px 0px;
+    justify-content: space-between;
+    background-image: url(/assets/process.mp4);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
 .projectBg {
-    background-image: url(../assets/projects-bg.png);
+    background-image: url(/assets/projects-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     /* background-position: center center; */
@@ -240,43 +292,43 @@
 }
 
 .indsOne {
-    background-image: url(../assets/e-commerce-bg.svg);
+    background-image: url(/assets/e-commerce-bg.svg);
 }
 
 .indsTwo {
-    background-image: url(../assets/healthcare-bg.svg);
+    background-image: url(/assets/healthcare-bg.svg);
 }
 
 .indsThree {
-    background-image: url(../assets/education-bg.svg);
+    background-image: url(/assets/education-bg.svg);
 }
 
 .indsFour {
-    background-image: url(../assets/media-bg.svg);
+    background-image: url(/assets/media-bg.svg);
 }
 
 .indsFive {
-    background-image: url(../assets/real-estate-bg.svg);
+    background-image: url(/assets/real-estate-bg.svg);
 }
 
 .indsSix {
-    background-image: url(../assets/logistics-bg.svg);
+    background-image: url(/assets/logistics-bg.svg);
 }
 
 .indsSeven {
-    background-image: url(../assets/retail-bg.svg);
+    background-image: url(/assets/retail-bg.svg);
 }
 
 .indsEight {
-    background-image: url(../assets/fast-food-bg.svg);
+    background-image: url(/assets/fast-food-bg.svg);
 }
 
 .indsNine {
-    background-image: url(../assets/fmcg-bg.svg);
+    background-image: url(/assets/fmcg-bg.svg);
 }
 
 .indsTen {
-    background-image: url(../assets/travel-bg.svg);
+    background-image: url(/assets/travel-bg.svg);
 }
 
 .indsCol {
@@ -304,6 +356,7 @@
 
 .testimonial {
     padding: 30px 0px;
+    background-color: #F7F9FC;
 }
 
 .viewAll {
@@ -464,15 +517,15 @@
 }
 
 .caseStdOne {
-    background-image: url(../assets/case-study-0ne.webp);
+    background-image: url(/assets/case-study-0ne.webp);
 }
 
 .caseStdTwo {
-    background-image: url(../assets/case-study-Two.webp);
+    background-image: url(/assets/case-study-Two.webp);
 }
 
 .caseStdThree {
-    background-image: url(../assets/case-study-three.png);
+    background-image: url(/assets/case-study-three.png);
 }
 
 .caseHead p {

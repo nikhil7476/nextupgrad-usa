@@ -1,10 +1,8 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 import styles from "@/styles/Megamenu.module.css";
 import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
 import { useState } from "react";
-import logo from "@/assets/ftrLogo.webp";
 
 function MegaMenu() {
   const [activeKey, setActiveKey] = useState("first");
@@ -14,8 +12,8 @@ function MegaMenu() {
         <Container>
           <nav className="navbar navbar-expand-sm navbar-dark">
             <Link className="navbar-brand" href="/">
-              <Image
-                src={logo}
+              <img
+                src={"/assets/ftrLogo.webp"}
                 alt="nextupgrad_usa_logo"
                 title="Nextupgrad USA"
                 width={"100%"}
