@@ -215,7 +215,7 @@ function Home() {
             </h2>
           </Row>
           <Row className={styles.proc}>
-            <Col className="col-md-4">
+            <Col className={`col-md-4 ${styles.procLeft}`}>
               <Row>
                 <p>
                   Our{" "}
@@ -245,7 +245,7 @@ function Home() {
                 Your browser does not support the video tag.
               </video>
             </Col>
-            <Col className="col-md-4">
+            <Col  className={`col-md-4 ${styles.procRight}`}>
               <Row>
                 <p>
                   Beyond technical know-how, we evaluate{" "}

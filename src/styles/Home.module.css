@@ -191,6 +191,14 @@
     color: transparent;
 }
 
+.procLeft {
+    align-content: center;
+}
+
+.procRight {
+    align-content: end;
+}
+
 .procHire {
     text-align: center;
     justify-content: center;
@@ -202,13 +210,13 @@
     text-transform: capitalize;
 }
 
-.procHire h3 span{
+.procHire h3 span {
     background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
     background-clip: text;
     color: transparent;
 }
 
-.procHire a{
+.procHire a {
     width: auto;
     padding: 10px 20px;
     border-radius: 50px;
