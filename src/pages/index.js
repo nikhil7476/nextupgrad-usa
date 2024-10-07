@@ -14,6 +14,7 @@ import { TypeAnimation } from "react-type-animation";
 import CountUp from "react-countup";
 import styles from "@/styles/Home.module.css";
 import HomeTab from "@/components/HomeTabs";
+import Services from "@/components/ServiceTab";
 
 function Home() {
   return (
@@ -33,7 +34,10 @@ function Home() {
           <Row>
             <Col className={`col-md-7 ${styles["banLeft"]}`}>
               <h1>
-                Digital Transformation<br/>Services & Solutions <br/>For {""}
+                Digital Transformation
+                <br />
+                Services & Solutions <br />
+                For {""}
                 <TypeAnimation
                   sequence={[
                     "Designing Websites.",
@@ -201,6 +205,16 @@ function Home() {
         <Container>
           <Row>
             <Col>
+              <h2>
+                <span>Solution</span>
+                <br />
+                Problems We Solve
+              </h2>
+              <p>
+                We help businesses enhance efficiency, drive digital
+                transformation, and improve customer engagement with tailored
+                solutions to overcome industry challenges.
+              </p>
               <HomeTab />
             </Col>
           </Row>
@@ -244,7 +258,7 @@ function Home() {
                 Your browser does not support the video tag.
               </video>
             </Col>
-            <Col  className={`col-md-4 ${styles.procRight}`}>
+            <Col className={`col-md-4 ${styles.procRight}`}>
               <Row>
                 <p>
                   Beyond technical know-how, we evaluate{" "}
@@ -274,6 +288,24 @@ function Home() {
             <Link href="#" target="_blank" title="Hire Now">
               Hire Now <FaArrowRightLong />
             </Link>
+          </Row>
+        </Container>
+      </div>
+      <div className={styles.nextServices}>
+        <Container>
+          <Row>
+            <Col>
+              <h2>
+                <span>Services</span>
+                <br />
+                Business-Oriented Mobile App & Web Development Services
+              </h2>
+              <p>
+                Discover growth-driven business opportunities with our
+                comprehensive services.
+              </p>
+              <Services />
+            </Col>
           </Row>
         </Container>
       </div>
@@ -366,8 +398,8 @@ function Home() {
                     <Image
                       src={"/assets/e-commerce.svg"}
                       alt="E-Cart"
-                      width={100}
-                      height={100}
+                      width={60}
+                      height={60}
                       title="E-Commerce"
                     />
                   </div>
@@ -378,8 +410,8 @@ function Home() {
                     <Image
                       src={"/assets/healthcare.svg"}
                       alt="Heart"
-                      width={100}
-                      height={100}
+                      width={60}
+                      height={60}
                       title="Healthcare"
                     />
                   </div>
@@ -390,8 +422,8 @@ function Home() {
                     <Image
                       src={"/assets/education.svg"}
                       alt="Degree-Cap"
-                      width={100}
-                      height={100}
+                      width={60}
+                      height={60}
                       title="E-Learning"
                     />
                   </div>
@@ -402,8 +434,8 @@ function Home() {
                     <Image
                       src={"/assets/media.svg"}
                       alt="Camera"
-                      width={100}
-                      height={100}
+                      width={60}
+                      height={60}
                       title="News & Media"
                     />
                   </div>
@@ -414,8 +446,8 @@ function Home() {
                     <Image
                       src={"/assets/real-estate.svg"}
                       alt="Crane"
-                      width={100}
-                      height={100}
+                      width={60}
+                      height={60}
                       title="Real Estate"
                     />
                   </div>
@@ -428,8 +460,8 @@ function Home() {
                     <Image
                       src={"/assets/logistics.svg"}
                       alt="Shipment-Truck"
-                      width={100}
-                      height={100}
+                      width={60}
+                      height={60}
                       title="Logistics & Distributions"
                     />
                   </div>
@@ -440,8 +472,8 @@ function Home() {
                     <Image
                       src={"/assets/retail.svg"}
                       alt="Retail"
-                      width={100}
-                      height={100}
+                      width={60}
+                      height={60}
                       title="Retail Shops"
                     />
                   </div>
@@ -452,8 +484,8 @@ function Home() {
                     <Image
                       src={"/assets/fast-food.svg"}
                       alt="Fast-Food"
-                      width={100}
-                      height={100}
+                      width={60}
+                      height={60}
                       title="Food & Beverages"
                     />
                   </div>
@@ -464,8 +496,8 @@ function Home() {
                     <Image
                       src={"/assets/fmcg.svg"}
                       alt="FMCG"
-                      width={100}
-                      height={100}
+                      width={60}
+                      height={60}
                       title="FMCG"
                     />
                   </div>
@@ -476,8 +508,8 @@ function Home() {
                     <Image
                       src={"/assets/travel.svg"}
                       alt="Aeroplane"
-                      width={100}
-                      height={100}
+                      width={60}
+                      height={60}
                       title="Hotel & Travel"
                     />
                   </div>

@@ -20,6 +20,7 @@ body {
   font-family: Calibri, sans-serif;
 }
 
+
 h1,
 h2,
 h3,
@@ -178,7 +179,7 @@ li {
   border-radius: 8px !important;
   color: var(--textDark);
   background: var(--background) !important;
-  margin-bottom: 10px;    
+  margin-bottom: 10px;
   font-weight: 600;
   padding: 24px;
   align-items: center;
@@ -186,4 +187,71 @@ li {
 
 .homeTb .nav-link.active {
   background-color: var(--btnCol) !important;
+}
+
+.tabCont .tebPane {
+  border-radius: 20px;
+  background: linear-gradient(180deg, #FFF 40%, #E87354 0%);
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.tebPane img {
+  margin-bottom: 30px;
+}
+
+.tebPane h3 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.tebPane p {
+  text-align: left;
+}
+
+
+/*Services Tab*/
+
+.serveTb .nav-item {
+  cursor: pointer;
+  position: sticky;
+  top: 113px;
+}
+
+.serveTb .nav-link {
+  background: var(--background);
+  border-radius: 20px;
+  padding: 35px 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+  box-shadow: 0 15px 30px rgb(0 0 0 / 16%);
+  color: var(--textDark);
+  font-size: 22px;
+  font-weight: 700;
+
+}
+
+.serveTb .nav-link.active {
+  background: #f99b1c;
+  background: linear-gradient(to right, #f99b1c 0, #ff6f00 100%);
+  box-shadow: 0 2px 0 3px #000;
+}
+
+.serveTb .nav-link span {
+  font-size: 40px;
+  font-weight: 700;
+  background: #ebebeb;
+  background: linear-gradient(to bottom, #ebebeb 0, #fff 100%);
+  background-clip: text;
+  color: transparent;
+}
+
+.serveTb .nav-link.active span {
+  background: linear-gradient(to top, rgba(255, 255, 255, .1) 0, #fff 100%);
+  background-clip: text;
+  color: transparent;
 }

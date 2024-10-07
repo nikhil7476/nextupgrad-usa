@@ -174,9 +174,20 @@
     padding: 30px 0px 30px 0px;
 }
 
+.homeTabs h2 {
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.homeTabs h2 span {
+    color: var(--btnCol);
+    font-size: 16px;
+    text-transform: uppercase;
+}
 
 .vettProc {
-    padding: 30px 0px 60px 0px;
+    padding: 30px 0px;
     background-color: #F7F9FC;
 }
 
@@ -233,6 +244,25 @@
     padding: 30px 0px;
 }
 
+.nextServices {
+    padding: 30px 0px 60px 0px;
+}
+
+.nextServices h2 {
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.nextServices h2 span {
+    color: var(--btnCol);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+
+
 .projectBg {
     background-image: url(/assets/projects-bg.png);
     background-size: cover;
@@ -287,6 +317,7 @@
 
 .inds p {
     margin-top: 20px;
+    font-size: 18px;
 }
 
 .indsImg {
