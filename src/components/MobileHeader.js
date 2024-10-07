@@ -9,6 +9,7 @@ import {
   FormControl,
   Button,
 } from "react-bootstrap";
+import Image from "next/image";
 import styles from "@/styles/MobHeader.module.css";
 
 function OffcanvasNavbar() {
@@ -23,10 +24,10 @@ function OffcanvasNavbar() {
       >
         <Container fluid>
           <Navbar.Brand href="/">
-            <img
+            <Image
               src={"/assets/ftrLogo.webp"}
               alt="Nextupgrad_USA_Logo"
-              width={"100%"}
+              width={150}
               height={100}
               title="Nextupgrad USA Logo"
             />

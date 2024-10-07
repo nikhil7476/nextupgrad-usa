@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -92,24 +93,30 @@ function Home() {
                   </ul>
                   <ul className={styles.branding}>
                     <li>
-                      <img
+                      <Image
                         src={"/assets/google-logo.svg"}
                         alt="google-logo"
                         title="Google-Logo"
+                        width={100}
+                        height={50}
                       />
                     </li>
                     <li>
-                      <img
+                      <Image
                         src={"/assets/clutch-logo.svg"}
                         alt="clutch-logo"
                         title="Clutch-Logo"
+                        width={100}
+                        height={50}
                       />
                     </li>
                     <li>
-                      <img
+                      <Image
                         src={"/assets/g2-logo.svg"}
                         alt="g2-logo"
                         title="G2-Logo"
+                        width={100}
+                        height={50}
                       />
                     </li>
                   </ul>
@@ -117,24 +124,30 @@ function Home() {
                 <div className={styles.devs}>
                   <ul>
                     <li>
-                      <img
+                      <Image
                         src={"/assets/developer-one.webp"}
                         alt="developer-one"
                         title="Developer"
+                        width={100}
+                        height={100}
                       />
                     </li>
                     <li>
-                      <img
+                      <Image
                         src={"/assets/developer-two.webp"}
                         alt="developer-two"
                         title="Developer"
+                        width={100}
+                        height={100}
                       />
                     </li>
                     <li>
-                      <img
+                      <Image
                         src={"/assets/developer-three.webp"}
                         alt="developer-three"
                         title="Developer"
+                        width={100}
+                        height={100}
                       />
                     </li>
                     <li>
@@ -172,12 +185,14 @@ function Home() {
               </div>
             </Col>
             <Col className={`col-md-5 ${styles["banRight"]}`}>
-              <img
+              <Image
                 src={"/assets/achievements.webp"}
                 alt="achievements"
                 className={styles.bannerImg}
                 title="Achievements"
                 priority="true"
+                width={100}
+                height={100}
               />
             </Col>
           </Row>
@@ -243,8 +258,9 @@ function Home() {
               </Row>
               <Row>
                 <p>
-                  Our expert TA team aims to understand the candidate's goals,
-                  competitiveness, and learning agility to{" "}
+                  {
+                    "Our expert TA team aims to understand the candidate's goals, competitiveness, and learning agility to"
+                  }{" "}
                   <strong>ensure you hire top talent.</strong>
                 </p>
               </Row>
@@ -348,7 +364,7 @@ function Home() {
               <Row className={styles.inds}>
                 <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsOne}`}>
-                    <img
+                    <Image
                       src={"/assets/e-commerce.svg"}
                       alt="E-Cart"
                       width={100}
@@ -360,7 +376,7 @@ function Home() {
                 </Col>
                 <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsTwo}`}>
-                    <img
+                    <Image
                       src={"/assets/healthcare.svg"}
                       alt="Heart"
                       width={100}
@@ -372,7 +388,7 @@ function Home() {
                 </Col>
                 <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsThree}`}>
-                    <img
+                    <Image
                       src={"/assets/education.svg"}
                       alt="Degree-Cap"
                       width={100}
@@ -384,7 +400,7 @@ function Home() {
                 </Col>
                 <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsFour}`}>
-                    <img
+                    <Image
                       src={"/assets/media.svg"}
                       alt="Camera"
                       width={100}
@@ -396,7 +412,7 @@ function Home() {
                 </Col>
                 <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsFive}`}>
-                    <img
+                    <Image
                       src={"/assets/real-estate.svg"}
                       alt="Crane"
                       width={100}
@@ -410,7 +426,7 @@ function Home() {
               <Row className={styles.inds}>
                 <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsSix}`}>
-                    <img
+                    <Image
                       src={"/assets/logistics.svg"}
                       alt="Shipment-Truck"
                       width={100}
@@ -422,7 +438,7 @@ function Home() {
                 </Col>
                 <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsSeven}`}>
-                    <img
+                    <Image
                       src={"/assets/retail.svg"}
                       alt="Retail"
                       width={100}
@@ -434,7 +450,7 @@ function Home() {
                 </Col>
                 <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsEight}`}>
-                    <img
+                    <Image
                       src={"/assets/fast-food.svg"}
                       alt="Fast-Food"
                       width={100}
@@ -446,7 +462,7 @@ function Home() {
                 </Col>
                 <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsNine}`}>
-                    <img
+                    <Image
                       src={"/assets/fmcg.svg"}
                       alt="FMCG"
                       width={100}
@@ -458,7 +474,7 @@ function Home() {
                 </Col>
                 <Col className={styles.indsCol}>
                   <div className={`${styles.indsImg} ${styles.indsTen}`}>
-                    <img
+                    <Image
                       src={"/assets/travel.svg"}
                       alt="Aeroplane"
                       width={100}
@@ -479,10 +495,12 @@ function Home() {
             <Col className="col-md-6">
               <Row className={styles.viewTest}>
                 <Col className={`col-md-2 ${styles["quote"]}`}>
-                  <img
+                  <Image
                     src={"/assets/quote.svg"}
                     alt="Quote-Icon"
                     title="Quote"
+                    width={100}
+                    height={100}
                   />
                 </Col>
                 <Col className={`col-md-8 ${styles["trs"]}`}>
@@ -535,10 +553,12 @@ function Home() {
               </Row>
               <Row className={styles.brandRating}>
                 <Col className="col-md-3">
-                  <img
+                  <Image
                     src={"/assets/google-logo.svg"}
                     alt="google-logo"
                     title="Google-Logo"
+                    width={100}
+                    height={100}
                   />
                 </Col>
                 <Col className="col-md-3">
@@ -562,10 +582,12 @@ function Home() {
                   </ul>
                 </Col>
                 <Col className="col-md-3">
-                  <img
+                  <Image
                     src={"/assets/clutch-logo.svg"}
                     alt="clutch-logo"
                     title="Clutch-Logo"
+                    width={100}
+                    height={100}
                   />
                 </Col>
                 <Col className="col-md-3">

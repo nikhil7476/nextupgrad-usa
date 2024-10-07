@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import styles from "@/styles/Megamenu.module.css";
 import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
 import { useState } from "react";
@@ -12,11 +13,11 @@ function MegaMenu() {
         <Container>
           <nav className="navbar navbar-expand-sm navbar-dark">
             <Link className="navbar-brand" href="/">
-              <img
+              <Image
                 src={"/assets/ftrLogo.webp"}
                 alt="nextupgrad_usa_logo"
                 title="Nextupgrad USA"
-                width={"100%"}
+                width={150}
                 height={50}
               />
             </Link>

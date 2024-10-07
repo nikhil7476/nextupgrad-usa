@@ -1,6 +1,5 @@
 import { Col, Nav, Row, Tab } from "react-bootstrap";
-// import dummy from "@/assets/placeholder.png";
-// import Image from "next/image";
+import Image from "next/image";
 
 function LeftTabsExample() {
   return (
@@ -43,7 +42,7 @@ function LeftTabsExample() {
         <Col sm={9}>
           <Tab.Content>
             <Tab.Pane eventKey="first">
-              <img src={"/assets/placeholder.png"} alt="placeholder" title="tab-image" width={"100%"} height={"100%"}/>
+              <Image src={"/assets/placeholder.png"} alt="placeholder" title="tab-image" width={300} height={300}/>
               <h2>Close the loop between marketing and revenue</h2>
               <p>
                 MarketingCloudFX simplifies your decision-making by clearly
