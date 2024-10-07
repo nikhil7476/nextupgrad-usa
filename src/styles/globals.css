@@ -169,3 +169,21 @@ li {
 .ctaButton a {
   color: var(--textLight);
 }
+
+
+/*Home Tab CSS*/
+
+.homeTb .nav-item a {
+  box-shadow: 0 2px 24px 0 rgba(110, 123, 129, .2) !important;
+  border-radius: 8px !important;
+  color: var(--textDark);
+  background: var(--background) !important;
+  margin-bottom: 10px;    
+  font-weight: 600;
+  padding: 24px;
+  align-items: center;
+}
+
+.homeTb .nav-link.active {
+  background-color: var(--btnCol) !important;
+}

@@ -5,7 +5,7 @@ function LeftTabsExample() {
   return (
     <Tab.Container id="left-tabs-example" defaultActiveKey="first">
       <Row>
-        <Col sm={3}>
+        <Col  className="homeTb" sm={3}>
           <Nav variant="pills" className="flex-column">
             <Nav.Item>
               <Nav.Link eventKey="first">
@@ -40,9 +40,9 @@ function LeftTabsExample() {
           </Nav>
         </Col>
         <Col sm={9}>
-          <Tab.Content>
+          <Tab.Content className="tabCont">
             <Tab.Pane eventKey="first">
-              <Image src={"/assets/placeholder.png"} alt="placeholder" title="tab-image" width={300} height={300}/>
+              <Image src={"/assets/hometabone.png"} alt="placeholder" title="tab-image" width={300} height={300}/>
               <h2>Close the loop between marketing and revenue</h2>
               <p>
                 MarketingCloudFX simplifies your decision-making by clearly
@@ -55,11 +55,76 @@ function LeftTabsExample() {
                 successful strategies and improve underperforming ones.
               </p>
             </Tab.Pane>
-            <Tab.Pane eventKey="second">Second tab content</Tab.Pane>
-            <Tab.Pane eventKey="third">Third tab content</Tab.Pane>
-            <Tab.Pane eventKey="fourth">Fourth tab content</Tab.Pane>
-            <Tab.Pane eventKey="fifth">Fifth tab content</Tab.Pane>
-            <Tab.Pane eventKey="sixth">Sixth tab content</Tab.Pane>
+            <Tab.Pane eventKey="second">
+              <Image src={"/assets/hometabone.png"} alt="placeholder" title="tab-image" width={300} height={300}/>
+              <h2>Close the loop between marketing and revenue</h2>
+              <p>
+                MarketingCloudFX simplifies your decision-making by clearly
+                showing which marketing efforts are driving revenue for your
+                business.
+              </p>
+              <p>
+                By connecting the dots between your various marketing activities
+                or channels and actual sales, you can confidently invest more in
+                successful strategies and improve underperforming ones.
+              </p>
+            </Tab.Pane>
+            <Tab.Pane eventKey="third">
+              <Image src={"/assets/hometabone.png"} alt="placeholder" title="tab-image" width={300} height={300}/>
+              <h2>Close the loop between marketing and revenue</h2>
+              <p>
+                MarketingCloudFX simplifies your decision-making by clearly
+                showing which marketing efforts are driving revenue for your
+                business.
+              </p>
+              <p>
+                By connecting the dots between your various marketing activities
+                or channels and actual sales, you can confidently invest more in
+                successful strategies and improve underperforming ones.
+              </p>
+            </Tab.Pane>
+            <Tab.Pane eventKey="fourth">
+              <Image src={"/assets/hometabone.png"} alt="placeholder" title="tab-image" width={300} height={300}/>
+              <h2>Close the loop between marketing and revenue</h2>
+              <p>
+                MarketingCloudFX simplifies your decision-making by clearly
+                showing which marketing efforts are driving revenue for your
+                business.
+              </p>
+              <p>
+                By connecting the dots between your various marketing activities
+                or channels and actual sales, you can confidently invest more in
+                successful strategies and improve underperforming ones.
+              </p>
+            </Tab.Pane>
+            <Tab.Pane eventKey="fifth">
+              <Image src={"/assets/hometabone.png"} alt="placeholder" title="tab-image" width={300} height={300}/>
+              <h2>Close the loop between marketing and revenue</h2>
+              <p>
+                MarketingCloudFX simplifies your decision-making by clearly
+                showing which marketing efforts are driving revenue for your
+                business.
+              </p>
+              <p>
+                By connecting the dots between your various marketing activities
+                or channels and actual sales, you can confidently invest more in
+                successful strategies and improve underperforming ones.
+              </p>
+            </Tab.Pane>
+            <Tab.Pane eventKey="sixth">
+              <Image src={"/assets/hometabone.png"} alt="placeholder" title="tab-image" width={300} height={300}/>
+              <h2>Close the loop between marketing and revenue</h2>
+              <p>
+                MarketingCloudFX simplifies your decision-making by clearly
+                showing which marketing efforts are driving revenue for your
+                business.
+              </p>
+              <p>
+                By connecting the dots between your various marketing activities
+                or channels and actual sales, you can confidently invest more in
+                successful strategies and improve underperforming ones.
+              </p>
+            </Tab.Pane>
           </Tab.Content>
         </Col>
       </Row>
