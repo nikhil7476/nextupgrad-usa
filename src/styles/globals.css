@@ -235,6 +235,10 @@ li {
 
 }
 
+.serveTb .nav-link:hover {
+  color: var(--btnCol);
+}
+
 .serveTb .nav-link.active {
   background: #f99b1c;
   background: linear-gradient(to right, #f99b1c 0, #ff6f00 100%);

@@ -1,5 +1,4 @@
 import { Col, Nav, Row, Tab } from "react-bootstrap";
-import Image from "next/image";
 
 function ServiceTab() {
   return (
@@ -27,13 +26,6 @@ function ServiceTab() {
         <Col sm={8}>
           <Tab.Content className="serveCont">
             <Tab.Pane className="servePane" eventKey="first">
-              <Image
-                src={"/assets/hometabone.png"}
-                alt="placeholder"
-                title="tab-image"
-                width={300}
-                height={300}
-              />
               <h3>Close the loop between marketing and revenue</h3>
               <p>
                 MarketingCloudFX simplifies your decision-making by clearly
@@ -47,13 +39,6 @@ function ServiceTab() {
               </p>
             </Tab.Pane>
             <Tab.Pane className="tebPane" eventKey="second">
-              <Image
-                src={"/assets/hometabone.png"}
-                alt="placeholder"
-                title="tab-image"
-                width={300}
-                height={300}
-              />
               <h3>Close the loop between marketing and revenue</h3>
               <p>
                 MarketingCloudFX simplifies your decision-making by clearly
@@ -67,13 +52,6 @@ function ServiceTab() {
               </p>
             </Tab.Pane>
             <Tab.Pane className="tebPane" eventKey="third">
-              <Image
-                src={"/assets/hometabone.png"}
-                alt="placeholder"
-                title="tab-image"
-                width={300}
-                height={300}
-              />
               <h3>Close the loop between marketing and revenue</h3>
               <p>
                 MarketingCloudFX simplifies your decision-making by clearly
@@ -87,13 +65,6 @@ function ServiceTab() {
               </p>
             </Tab.Pane>
             <Tab.Pane className="tebPane" eventKey="fourth">
-              <Image
-                src={"/assets/hometabone.png"}
-                alt="placeholder"
-                title="tab-image"
-                width={300}
-                height={300}
-              />
               <h3>Close the loop between marketing and revenue</h3>
               <p>
                 MarketingCloudFX simplifies your decision-making by clearly
@@ -107,13 +78,6 @@ function ServiceTab() {
               </p>
             </Tab.Pane>
             <Tab.Pane className="tebPane" eventKey="fifth">
-              <Image
-                src={"/assets/hometabone.png"}
-                alt="placeholder"
-                title="tab-image"
-                width={300}
-                height={300}
-              />
               <h3>Close the loop between marketing and revenue</h3>
               <p>
                 MarketingCloudFX simplifies your decision-making by clearly
