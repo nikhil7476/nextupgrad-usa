@@ -230,11 +230,6 @@
 
 .proc {
     padding: 30px 0px;
-    justify-content: space-between;
-    background-image: url(/assets/process.mp4);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
 }
 
 .projectBg {
