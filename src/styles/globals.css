@@ -259,3 +259,11 @@ li {
   background-clip: text;
   color: transparent;
 }
+
+.nextServe {
+  background: #36415e;
+  color: var(--background);
+  background: linear-gradient(to right, #36415e 0, #1b1f30 100%);
+  border-radius: 20px;
+  padding: 30px;
+}

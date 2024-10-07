@@ -3,7 +3,7 @@ import { Col, Nav, Row, Tab } from "react-bootstrap";
 function ServiceTab() {
   return (
     <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-      <Row>
+      <Row className="nextServe">
         <Col className="serveTb" sm={4}>
           <Nav variant="pills" className="flex-column">
             <Nav.Item>
