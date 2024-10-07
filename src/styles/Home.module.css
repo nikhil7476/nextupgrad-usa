@@ -69,7 +69,7 @@
 }
 
 .banLeft h1 {
-    font-size: 45px;
+    font-size: 55px;
     font-weight: 700;
 }
 
@@ -119,7 +119,7 @@
 
 .review {
     display: flex;
-    align-items: center;
+    align-items: end;
     gap: 20px;
     margin-top: 30px;
 }
