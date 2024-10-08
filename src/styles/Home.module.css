@@ -372,9 +372,9 @@
 
 .indsCol:hover {
     border-radius: 8px;
-    /* box-shadow: 0 0 10px 7px rgba(0, 0, 0, .03); */
-    box-shadow: 0 0 10px 5px var(--btnCol);
-    /* border-bottom: 8px solid var(--btnCol); */
+    box-shadow: 0 0 10px 7px rgba(0, 0, 0, .03);
+    /* box-shadow: 0 0 10px 5px var(--btnCol); */
+    border-bottom: 8px solid var(--btnCol);
     transform: scale(0.8);
 }
 
