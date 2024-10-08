@@ -18,6 +18,8 @@
 
 body {
   font-family: Calibri, sans-serif;
+  background-color: var(--ftrBackground) !important;
+  color: var(--textLight) !important;
 }
 
 
@@ -173,6 +175,9 @@ li {
 
 
 /*Home Tab CSS*/
+.homeTb {
+  align-content: center;
+}
 
 .homeTb .nav-item a {
   box-shadow: 0 2px 24px 0 rgba(110, 123, 129, .2) !important;
@@ -181,7 +186,7 @@ li {
   background: var(--background) !important;
   margin-bottom: 10px;
   font-weight: 600;
-  padding: 24px;
+  padding: 10px;
   align-items: center;
 }
 
@@ -191,14 +196,14 @@ li {
 
 .tabCont .tebPane {
   border-radius: 20px;
-  background: linear-gradient(180deg, #FFF 40%, #E87354 0%);
-  padding: 20px;
+  background: linear-gradient(180deg, #192733 40%, #E87354 0%);
+  padding: 10px;
   color: #fff;
   text-align: center;
 }
 
 .tebPane img {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .tebPane h3 {
@@ -313,6 +318,7 @@ li {
 
 .servIcon {
   margin-top: 40px !important;
+  text-align: center;
 }
 
 .servIcon svg {
