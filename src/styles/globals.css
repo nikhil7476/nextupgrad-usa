@@ -235,6 +235,10 @@ li {
 
 }
 
+.serveTb .nav-pills .nav-link.active {
+  background-color: transparent;
+}
+
 .serveTb .nav-link:hover {
   color: var(--btnCol);
 }
