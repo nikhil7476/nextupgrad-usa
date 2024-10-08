@@ -1,4 +1,10 @@
+import Link from "next/link";
 import { Col, Nav, Row, Tab } from "react-bootstrap";
+import { FaCircleArrowRight } from "react-icons/fa6";
+import { FaUserGear } from "react-icons/fa6";
+import { FaHandHoldingUsd } from "react-icons/fa";
+import { HiLightBulb } from "react-icons/hi";
+import { FaMobileAlt } from "react-icons/fa";
 
 function ServiceTab() {
   return (
@@ -7,88 +13,193 @@ function ServiceTab() {
         <Col className="serveTb" sm={4}>
           <Nav variant="pills" className="flex-column">
             <Nav.Item>
-              <Nav.Link eventKey="first">Mobile App Development <span>01</span></Nav.Link>
+              <Nav.Link eventKey="first">
+                Mobile App Development <span>01</span> <FaCircleArrowRight />
+              </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="second">Website Development <span>02</span></Nav.Link>
+              <Nav.Link eventKey="second">
+                Website Development <span>02</span> <FaCircleArrowRight />
+              </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="third">Software Development <span>03</span></Nav.Link>
+              <Nav.Link eventKey="third">
+                Software Development <span>03</span> <FaCircleArrowRight />
+              </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="fourth">Digital Marketing <span>04</span></Nav.Link>
+              <Nav.Link eventKey="fourth">
+                Digital Marketing <span>04</span> <FaCircleArrowRight />
+              </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="fifth">Hire Dedicated Developers <span>05</span></Nav.Link>
+              <Nav.Link eventKey="fifth">
+                Hire Dedicated Developers <span>05</span> <FaCircleArrowRight />
+              </Nav.Link>
             </Nav.Item>
           </Nav>
         </Col>
-        <Col sm={8}>
+        <Col sm={8} className="serCont">
           <Tab.Content className="serveCont">
             <Tab.Pane className="servePane" eventKey="first">
-              <h3>Close the loop between marketing and revenue</h3>
+              <h3>Mobile App Development</h3>
+              <h4>Elevating Business Experiences, One App At A Time</h4>
               <p>
-                MarketingCloudFX simplifies your decision-making by clearly
-                showing which marketing efforts are driving revenue for your
-                business.
+                Want to develop a business app that can take your business to
+                the next level? Seek mobile app development services from Dev
+                Technosys. With a team of dedicated developers for hire, we can
+                completely transform your business success. Get highly
+                interactive and fully-functional mobile apps!
               </p>
-              <p>
-                By connecting the dots between your various marketing activities
-                or channels and actual sales, you can confidently invest more in
-                successful strategies and improve underperforming ones.
-              </p>
+              <Link href="#" title="Mobile App Development">
+                Know More
+              </Link>
+              <Row className="servIcon">
+                <Col className="col-md-3">
+                  <HiLightBulb />
+                  <p>Industrial<br/>Knowledge</p>
+                </Col>
+                <Col className="col-md-3">
+                  <FaHandHoldingUsd />
+                  <p>Cost-effective<br/>Solutions</p>
+                </Col>
+                <Col className="col-md-3">
+                  <FaUserGear />
+                  <p>Technical<br/>Expertise</p>
+                </Col>
+                <Col className="col-md-3">
+                  <FaMobileAlt />
+                  <p>Updated Mobile<br/>Apps</p>
+                </Col>
+              </Row>
             </Tab.Pane>
-            <Tab.Pane className="tebPane" eventKey="second">
-              <h3>Close the loop between marketing and revenue</h3>
+            <Tab.Pane className="servePane" eventKey="second">
+              <h3>Mobile App Development</h3>
+              <h4>Elevating Business Experiences, One App At A Time</h4>
               <p>
-                MarketingCloudFX simplifies your decision-making by clearly
-                showing which marketing efforts are driving revenue for your
-                business.
+                Want to develop a business app that can take your business to
+                the next level? Seek mobile app development services from Dev
+                Technosys. With a team of dedicated developers for hire, we can
+                completely transform your business success. Get highly
+                interactive and fully-functional mobile apps!
               </p>
-              <p>
-                By connecting the dots between your various marketing activities
-                or channels and actual sales, you can confidently invest more in
-                successful strategies and improve underperforming ones.
-              </p>
+              <Link href="#" title="Mobile App Development">
+                Know More
+              </Link>
+              <Row className="servIcon">
+                <Col className="col-md-3">
+                  <HiLightBulb />
+                  <p>Industrial<br/>Knowledge</p>
+                </Col>
+                <Col className="col-md-3">
+                  <FaHandHoldingUsd />
+                  <p>Cost-effective<br/>Solutions</p>
+                </Col>
+                <Col className="col-md-3">
+                  <FaUserGear />
+                  <p>Technical<br/>Expertise</p>
+                </Col>
+                <Col className="col-md-3">
+                  <FaMobileAlt />
+                  <p>Updated Mobile<br/>Apps</p>
+                </Col>
+              </Row>
             </Tab.Pane>
-            <Tab.Pane className="tebPane" eventKey="third">
-              <h3>Close the loop between marketing and revenue</h3>
+            <Tab.Pane className="servePane" eventKey="third">
+              <h3>Mobile App Development</h3>
+              <h4>Elevating Business Experiences, One App At A Time</h4>
               <p>
-                MarketingCloudFX simplifies your decision-making by clearly
-                showing which marketing efforts are driving revenue for your
-                business.
+                Want to develop a business app that can take your business to
+                the next level? Seek mobile app development services from Dev
+                Technosys. With a team of dedicated developers for hire, we can
+                completely transform your business success. Get highly
+                interactive and fully-functional mobile apps!
               </p>
-              <p>
-                By connecting the dots between your various marketing activities
-                or channels and actual sales, you can confidently invest more in
-                successful strategies and improve underperforming ones.
-              </p>
+              <Link href="#" title="Mobile App Development">
+                Know More
+              </Link>
+              <Row className="servIcon">
+                <Col className="col-md-3">
+                  <HiLightBulb />
+                  <p>Industrial<br/>Knowledge</p>
+                </Col>
+                <Col className="col-md-3">
+                  <FaHandHoldingUsd />
+                  <p>Cost-effective<br/>Solutions</p>
+                </Col>
+                <Col className="col-md-3">
+                  <FaUserGear />
+                  <p>Technical<br/>Expertise</p>
+                </Col>
+                <Col className="col-md-3">
+                  <FaMobileAlt />
+                  <p>Updated Mobile<br/>Apps</p>
+                </Col>
+              </Row>
             </Tab.Pane>
-            <Tab.Pane className="tebPane" eventKey="fourth">
-              <h3>Close the loop between marketing and revenue</h3>
+            <Tab.Pane className="servePane" eventKey="fourth">
+              <h3>Mobile App Development</h3>
+              <h4>Elevating Business Experiences, One App At A Time</h4>
               <p>
-                MarketingCloudFX simplifies your decision-making by clearly
-                showing which marketing efforts are driving revenue for your
-                business.
+                Want to develop a business app that can take your business to
+                the next level? Seek mobile app development services from Dev
+                Technosys. With a team of dedicated developers for hire, we can
+                completely transform your business success. Get highly
+                interactive and fully-functional mobile apps!
               </p>
-              <p>
-                By connecting the dots between your various marketing activities
-                or channels and actual sales, you can confidently invest more in
-                successful strategies and improve underperforming ones.
-              </p>
+              <Link href="#" title="Mobile App Development">
+                Know More
+              </Link>
+              <Row className="servIcon">
+                <Col className="col-md-3">
+                  <HiLightBulb />
+                  <p>Industrial<br/>Knowledge</p>
+                </Col>
+                <Col className="col-md-3">
+                  <FaHandHoldingUsd />
+                  <p>Cost-effective<br/>Solutions</p>
+                </Col>
+                <Col className="col-md-3">
+                  <FaUserGear />
+                  <p>Technical<br/>Expertise</p>
+                </Col>
+                <Col className="col-md-3">
+                  <FaMobileAlt />
+                  <p>Updated Mobile<br/>Apps</p>
+                </Col>
+              </Row>
             </Tab.Pane>
-            <Tab.Pane className="tebPane" eventKey="fifth">
-              <h3>Close the loop between marketing and revenue</h3>
+            <Tab.Pane className="servePane" eventKey="fifth">
+              <h3>Mobile App Development</h3>
+              <h4>Elevating Business Experiences, One App At A Time</h4>
               <p>
-                MarketingCloudFX simplifies your decision-making by clearly
-                showing which marketing efforts are driving revenue for your
-                business.
+                Want to develop a business app that can take your business to
+                the next level? Seek mobile app development services from Dev
+                Technosys. With a team of dedicated developers for hire, we can
+                completely transform your business success. Get highly
+                interactive and fully-functional mobile apps!
               </p>
-              <p>
-                By connecting the dots between your various marketing activities
-                or channels and actual sales, you can confidently invest more in
-                successful strategies and improve underperforming ones.
-              </p>
+              <Link href="#" title="Mobile App Development">
+                Know More
+              </Link>
+              <Row className="servIcon">
+                <Col className="col-md-3">
+                  <HiLightBulb />
+                  <p>Industrial<br/>Knowledge</p>
+                </Col>
+                <Col className="col-md-3">
+                  <FaHandHoldingUsd />
+                  <p>Cost-effective<br/>Solutions</p>
+                </Col>
+                <Col className="col-md-3">
+                  <FaUserGear />
+                  <p>Technical<br/>Expertise</p>
+                </Col>
+                <Col className="col-md-3">
+                  <FaMobileAlt />
+                  <p>Updated Mobile<br/>Apps</p>
+                </Col>
+              </Row>
             </Tab.Pane>
           </Tab.Content>
         </Col>

@@ -227,7 +227,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 120px;
+  height: 90px;
   box-shadow: 0 15px 30px rgb(0 0 0 / 16%);
   color: var(--textDark);
   font-size: 22px;
@@ -266,4 +266,58 @@ li {
   background: linear-gradient(to right, #36415e 0, #1b1f30 100%);
   border-radius: 20px;
   padding: 30px;
+}
+
+.serCont {
+  align-content: center;
+}
+
+.serveCont h3 {
+  font-size: 40px;
+  color: var(--textLight);
+  font-weight: 700;
+  margin-bottom: 10px !important;
+}
+
+.serveCont h4 {
+  font-size: 22px;
+  color: var(--textLight);
+  font-weight: 500;
+  margin-bottom: 20px !important;
+}
+
+.serveCont p {
+  color: var(--textLight);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+.serveCont a {
+  background: var(--btnCol);
+  background: linear-gradient(to right, #f99b1c 0, #ff6f00 100%);
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--textLight);
+  font-weight: 600;
+  box-shadow: 0 2px 0 3px #000;
+  border: none;
+}
+
+.servIcon {
+  margin-top: 40px !important;
+}
+
+.servIcon svg {
+  width: 35px;
+  height: 35px;
+}
+
+.servIcon p {
+  color: var(--textLight);
+  font-size: 16px;
+  font-weight: 600;
 }
