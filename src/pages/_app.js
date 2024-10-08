@@ -5,6 +5,7 @@ import MegaMenu from "@/components/MegaMenu";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import CookieConsent from "react-cookie-consent"; // Add this line to import the cookie consent component
 import "bootstrap/dist/css/bootstrap.min.css";
+import { FaArrowRightLong } from "react-icons/fa6";
 import Link from "next/link";
 export default function App({ Component, pageProps }) {
   return (
@@ -33,7 +34,7 @@ export default function App({ Component, pageProps }) {
       </main>
       <div className="ctaButton">
         <Link href="#" title="Let's Discuss">
-          {"Let's Discuss"}
+          {"Let's Discuss"} <FaArrowRightLong />
         </Link>
       </div>
       <Footer />
