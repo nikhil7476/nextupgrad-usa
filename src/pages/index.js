@@ -107,7 +107,7 @@ function Home() {
                     </li>
                     <li>
                       <Image
-                        src={"/assets/clutch-logo.svg"}
+                        src={"/assets/clutchco.svg"}
                         alt="clutch-logo"
                         title="Clutch-Logo"
                         width={100}
@@ -615,7 +615,7 @@ function Home() {
                 </Col>
                 <Col className="col-md-3">
                   <Image
-                    src={"/assets/clutch-logo.svg"}
+                    src={"/assets/clutchco.svg"}
                     alt="clutch-logo"
                     title="Clutch-Logo"
                     width={100}
