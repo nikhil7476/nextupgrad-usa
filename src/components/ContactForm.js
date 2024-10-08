@@ -14,14 +14,24 @@ function ContactForm() {
         <Form.Label>Email Address</Form.Label>
         <Form.Control type="email" placeholder="Enter your email" required />
       </Form.Group>
-      <Form.Group className="mb-3" controlId="formBasicPhone">
+      {/* <Form.Group className="mb-3" controlId="formBasicPhone">
         <Form.Label>Phone Number</Form.Label>
         <PhoneInput
           defaultCountry="US"
           placeholder="Enter your phone number"
           required
         />
+      </Form.Group> */}
+      <Form.Group className="mb-3" >
+        <Form.Label htmlFor="phoneInput">Phone Number</Form.Label>
+        <PhoneInput
+          id="phoneInput"
+          defaultCountry="US"
+          placeholder="Enter your phone number"
+          required
+        />
       </Form.Group>
+
       <Form.Group className="mb-3" controlId="formBasicSubject">
         <Form.Label>Subject</Form.Label>
         <Form.Control type="text" placeholder="Enter the subject" required />

@@ -341,4 +341,12 @@ li {
   padding: 10px 15px;
   border: 1px solid var(--btnCol) !important;
 }
+
+
 /*Media Queries*/
+
+@media screen and (max-width: 450px) {
+  .ctaButton {
+    padding: 0px;
+  }
+}
