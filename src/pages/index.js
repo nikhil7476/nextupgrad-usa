@@ -789,7 +789,7 @@ function Home() {
       </div>
       <div className={styles.contactForm}>
         <Container>
-          <Row>
+          <Row className={styles.cont}>
             <Col className={`col-md-6 ${styles.contLeft}`}>
               <h2>
                 <span>COntact Us</span>

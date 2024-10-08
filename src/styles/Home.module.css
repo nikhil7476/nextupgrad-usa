@@ -677,4 +677,18 @@
         padding: 30px 10px;
     }
 
+    .contactForm {
+        padding: 30px 10px;
+    }
+
+    .cont {
+        flex-direction: column;
+    }
+
+    .contLeft {
+        position: relative;
+        top: 0;
+        height: auto;
+    }
+
 }
