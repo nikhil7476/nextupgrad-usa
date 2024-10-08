@@ -161,7 +161,7 @@ li {
   position: fixed;
   top: 50%;
   z-index: 99999;
-  right: -65px;
+  right: -75px;
   transform: translatey(-50%) rotate(-90deg);
   min-width: 180px;
   font-size: 22px;
