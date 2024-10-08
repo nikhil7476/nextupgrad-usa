@@ -402,7 +402,7 @@
 }
 
 .allBtn a {
-    color: var(--textDark);
+    color: var(--textLight);
     text-align: center;
     background-color: var(--btnCol);
     padding: 10px 25px;
@@ -497,7 +497,7 @@
 }
 
 .allCase a {
-    color: var(--textDark);
+    color: var(--textLight);
     text-align: center;
     background-color: var(--btnCol);
     padding: 10px 25px;
