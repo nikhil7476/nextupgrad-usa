@@ -162,7 +162,7 @@ li {
   padding: 10px 50px;
   position: fixed;
   top: 50%;
-  z-index: 99999;
+  z-index: 99;
   right: -75px;
   transform: translatey(-50%) rotate(-90deg);
   min-width: 180px;

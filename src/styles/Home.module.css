@@ -1,5 +1,7 @@
 .bannerMain {
     padding: 120px 0px 60px 0px;
+    position: relative;
+    z-index: 9999;
 }
 
 .inStartups {
