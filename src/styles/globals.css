@@ -321,3 +321,12 @@ li {
   font-size: 16px;
   font-weight: 600;
 }
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 450px) {
+  .nextServices{
+    padding: 30px 10px;
+  }
+}

@@ -645,5 +645,9 @@
         padding: 20px;
     }
 
+    .proc {
+        flex-direction: column;
+        padding: 10px;
+    }
 
 }
