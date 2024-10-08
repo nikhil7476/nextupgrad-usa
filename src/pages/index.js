@@ -15,6 +15,7 @@ import CountUp from "react-countup";
 import styles from "@/styles/Home.module.css";
 import HomeTab from "@/components/HomeTabs";
 import Services from "@/components/ServiceTab";
+import ContactForm from "@/components/ContactForm";
 
 function Home() {
   return (
@@ -782,6 +783,27 @@ function Home() {
                   </p>
                 </Col>
               </Row>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className={styles.contactForm}>
+        <Container>
+          <Row>
+            <Col className={`col-md-6 ${styles.contLeft}`}>
+              <h2>
+                <span>COntact Us</span>
+                <br />
+                {"Let’s Partner For Your Next Amazing Project"}
+              </h2>
+              <p>
+                Allow us to be your technical aid in another of your successful
+                business venture. Mail, Chat, Call or better meet us over a cup
+                of coffee and share with us your development plan.
+              </p>
+            </Col>
+            <Col className={`col-md-6 ${styles.contRight}`}>
+              <ContactForm />
             </Col>
           </Row>
         </Container>

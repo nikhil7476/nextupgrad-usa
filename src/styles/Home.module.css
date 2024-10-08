@@ -476,7 +476,7 @@
 
 /*Case Study*/
 .caseStudy {
-    padding: 30px 0px 60px 0px;
+    padding: 30px 0px;
 }
 
 .caseStudy h2 {
@@ -578,6 +578,29 @@
     color: var(--textLight);
     line-height: 18px;
     margin-bottom: 0;
+}
+
+.contactForm {
+    padding: 30px 0px 60px 0px;
+    background-color: #F7F9FC;
+}
+
+.contLeft {
+    position: sticky;
+    top: 60px;
+    height: 250px;
+}
+
+.contLeft h2 {
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.contLeft h2 span {
+    color: var(--btnCol);
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
 /*Media Queries*/
