@@ -5,6 +5,7 @@ import { FaUserGear } from "react-icons/fa6";
 import { FaHandHoldingUsd } from "react-icons/fa";
 import { HiLightBulb } from "react-icons/hi";
 import { FaMobileAlt } from "react-icons/fa";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 function ServiceTab() {
   return (
@@ -52,7 +53,7 @@ function ServiceTab() {
                 interactive and fully-functional mobile apps!
               </p>
               <Link href="#" title="Mobile App Development">
-                Know More
+                Know More <FaArrowRightLong/>
               </Link>
               <Row className="servIcon">
                 <Col className="col-md-3">
@@ -84,7 +85,7 @@ function ServiceTab() {
                 interactive and fully-functional mobile apps!
               </p>
               <Link href="#" title="Mobile App Development">
-                Know More
+                Know More <FaArrowRightLong/>
               </Link>
               <Row className="servIcon">
                 <Col className="col-md-3">
@@ -116,7 +117,7 @@ function ServiceTab() {
                 interactive and fully-functional mobile apps!
               </p>
               <Link href="#" title="Mobile App Development">
-                Know More
+                Know More <FaArrowRightLong/>
               </Link>
               <Row className="servIcon">
                 <Col className="col-md-3">
@@ -148,7 +149,7 @@ function ServiceTab() {
                 interactive and fully-functional mobile apps!
               </p>
               <Link href="#" title="Mobile App Development">
-                Know More
+                Know More <FaArrowRightLong/>
               </Link>
               <Row className="servIcon">
                 <Col className="col-md-3">
@@ -180,7 +181,7 @@ function ServiceTab() {
                 interactive and fully-functional mobile apps!
               </p>
               <Link href="#" title="Mobile App Development">
-                Know More
+                Know More <FaArrowRightLong/>
               </Link>
               <Row className="servIcon">
                 <Col className="col-md-3">
