@@ -801,6 +801,20 @@ function Home() {
                 business venture. Mail, Chat, Call or better meet us over a cup
                 of coffee and share with us your development plan.
               </p>
+              <p>What Happens next?</p>
+              <ol>
+                <li>
+                  An expert contacts you after having analyzed your
+                  requirements.
+                </li>
+                <li>
+                  If needed, we sign an NDA to ensure the highest privacy level.
+                </li>
+                <li>
+                  We submit a comprehensive project proposal with estimates,
+                  timelines, CVs, etc.
+                </li>
+              </ol>
             </Col>
             <Col className={`col-md-6 ${styles.contRight}`}>
               <ContactForm />
