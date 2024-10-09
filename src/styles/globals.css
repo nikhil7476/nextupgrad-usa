@@ -339,7 +339,7 @@ li {
 
 .subBtn {
   color: var(--textLight);
-  width: 50%;
+  width: 100%;
   text-align: center;
   font-weight: 600;
   text-transform: uppercase;
