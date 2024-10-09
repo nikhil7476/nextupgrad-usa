@@ -9,6 +9,7 @@ import {
   FaGooglePlusSquare,
   FaStar,
   FaStarHalf,
+  FaBolt,
 } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import CountUp from "react-countup";
@@ -16,6 +17,7 @@ import styles from "@/styles/Home.module.css";
 import HomeTab from "@/components/HomeTabs";
 import Services from "@/components/ServiceTab";
 import ContactForm from "@/components/ContactForm";
+import { LuMessagesSquare } from "react-icons/lu";
 
 function Home() {
   return (
@@ -521,6 +523,94 @@ function Home() {
           </Row>
         </Container>
       </div>
+      <div className={styles.featured}>
+        <Container>
+          <h2>
+            We Have <span>been Featured</span> On
+          </h2>
+          <Row className={styles.featureImg}>
+            <Col className="col-md-2">
+              <Image
+                src="/assets/forbes-logo.png"
+                title="Forbes_Logo"
+                width={100}
+                height={100}
+              />
+            </Col>
+            <Col className="col-md-2">
+              <Image
+                src="/assets/fortune-logo.png"
+                title="Fortune_Logo"
+                width={100}
+                height={100}
+              />
+            </Col>
+            <Col className="col-md-2">
+              <Image
+                src="/assets/yahoo-logo.png"
+                title="Yahoo_Logo"
+                width={100}
+                height={100}
+              />
+            </Col>
+            <Col className="col-md-2">
+              <Image
+                src="/assets/aol-logo.png"
+                title="AOL_Logo"
+                width={100}
+                height={100}
+              />
+            </Col>
+            <Col className="col-md-2">
+              <Image
+                src="/assets/ani-news-logo.png"
+                title="ANI_News_Logo"
+                width={100}
+                height={100}
+              />
+            </Col>
+            <Col className="col-md-2">
+              <Image
+                src="/assets/yourstory-logo.png"
+                title="Yourstory_Logo"
+                width={100}
+                height={100}
+              />
+            </Col>
+          </Row>
+          <Row className={styles.featRate}>
+            <Col className="col-md-3">
+              <FaBolt />
+              <h3>Faster</h3>
+              <p>
+                Get top vetted profiles
+                <br />
+                within 24-48 hours
+              </p>
+            </Col>
+            <Col className="col-md-3">
+              <LuMessagesSquare />
+              <h3>Reliable</h3>
+              <p>
+                Dedicated Account Manager Just one
+                <br />
+                email/whatsapp away
+              </p>
+            </Col>
+            <Col className="col-md-3">
+              <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStarHalf />
+              <h3>Trusted</h3>
+              <p>
+                4.6 Google
+                <br />
+                4.4 Clutch
+                <br />
+                4.8 G2
+              </p>
+            </Col>
+          </Row>
+        </Container>
+      </div>
       <div className={styles.testimonial}>
         <Container>
           <Row className={styles.viewAll}>
@@ -805,17 +895,27 @@ function Home() {
               <ul>
                 <li>
                   <span>01</span>
-                  <p>An expert contacts you after<br/>having analyzed your
-                  requirements.</p>
+                  <p>
+                    An expert contacts you after
+                    <br />
+                    having analyzed your requirements.
+                  </p>
                 </li>
                 <li>
-                <span>02</span>
-                  <p>If needed, we sign an NDA to ensure<br/>the highest privacy level.</p>
+                  <span>02</span>
+                  <p>
+                    If needed, we sign an NDA to ensure
+                    <br />
+                    the highest privacy level.
+                  </p>
                 </li>
                 <li>
-                <span>03</span>
-                  <p>We submit a comprehensive project proposal<br/>with estimates,
-                  timelines, CVs, etc.</p>
+                  <span>03</span>
+                  <p>
+                    We submit a comprehensive project proposal
+                    <br />
+                    with estimates, timelines, CVs, etc.
+                  </p>
                 </li>
               </ul>
             </Col>
