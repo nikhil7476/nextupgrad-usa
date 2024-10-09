@@ -177,16 +177,20 @@ li {
 /*Home Tab CSS*/
 .homeTb {
   align-content: center;
+  margin-bottom: 20px;
+}
+
+.homeTb .tabList {
+  display: flex;
+  justify-content: space-between;
 }
 
 .homeTb .nav-item a {
-  box-shadow: 0 2px 24px 0 rgba(110, 123, 129, .2) !important;
-  border-radius: 8px !important;
+  border-radius: 5px !important;
   color: var(--textDark);
   background: var(--background) !important;
-  margin-bottom: 10px;
   font-weight: 600;
-  padding: 10px;
+  padding: 15px;
   align-items: center;
 }
 
@@ -194,12 +198,15 @@ li {
   background-color: var(--btnCol) !important;
 }
 
+.tabCon {
+  align-content: center;
+}
+
 .tabCont .tebPane {
-  border-radius: 20px;
-  background: linear-gradient(180deg, #192733 40%, #E87354 0%);
-  padding: 10px;
+  border-radius: 10px;
+  padding: 20px;
   color: #fff;
-  text-align: center;
+  background-color: var(--foreground);
 }
 
 .tebPane img {
