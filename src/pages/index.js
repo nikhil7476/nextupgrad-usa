@@ -523,94 +523,6 @@ function Home() {
           </Row>
         </Container>
       </div>
-      <div className={styles.featured}>
-        <Container>
-          <h2>
-            We Have <span>been Featured</span> On
-          </h2>
-          <Row className={styles.featureImg}>
-            <Col className="col-md-2">
-              <Image
-                src="/assets/forbes-logo.png"
-                title="Forbes_Logo"
-                width={100}
-                height={100}
-              />
-            </Col>
-            <Col className="col-md-2">
-              <Image
-                src="/assets/fortune-logo.png"
-                title="Fortune_Logo"
-                width={100}
-                height={100}
-              />
-            </Col>
-            <Col className="col-md-2">
-              <Image
-                src="/assets/yahoo-logo.png"
-                title="Yahoo_Logo"
-                width={100}
-                height={100}
-              />
-            </Col>
-            <Col className="col-md-2">
-              <Image
-                src="/assets/aol-logo.png"
-                title="AOL_Logo"
-                width={100}
-                height={100}
-              />
-            </Col>
-            <Col className="col-md-2">
-              <Image
-                src="/assets/ani-news-logo.png"
-                title="ANI_News_Logo"
-                width={100}
-                height={100}
-              />
-            </Col>
-            <Col className="col-md-2">
-              <Image
-                src="/assets/yourstory-logo.png"
-                title="Yourstory_Logo"
-                width={100}
-                height={100}
-              />
-            </Col>
-          </Row>
-          <Row className={styles.featRate}>
-            <Col className="col-md-3">
-              <FaBolt />
-              <h3>Faster</h3>
-              <p>
-                Get top vetted profiles
-                <br />
-                within 24-48 hours
-              </p>
-            </Col>
-            <Col className="col-md-3">
-              <LuMessagesSquare />
-              <h3>Reliable</h3>
-              <p>
-                Dedicated Account Manager Just one
-                <br />
-                email/whatsapp away
-              </p>
-            </Col>
-            <Col className="col-md-3">
-              <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStarHalf />
-              <h3>Trusted</h3>
-              <p>
-                4.6 Google
-                <br />
-                4.4 Clutch
-                <br />
-                4.8 G2
-              </p>
-            </Col>
-          </Row>
-        </Container>
-      </div>
       <div className={styles.testimonial}>
         <Container>
           <Row className={styles.viewAll}>
@@ -733,6 +645,92 @@ function Home() {
                   </ul>
                 </Col>
               </Row>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className={styles.featured}>
+        <Container>
+          <h2>
+            We Have <span>been Featured</span> On
+          </h2>
+          <Row className={styles.featureImg}>
+            <Col className="col-md-2">
+              <Image
+                src="/assets/forbes-logo.png"
+                title="Forbes_Logo"
+                width={100}
+                height={100}
+              />
+            </Col>
+            <Col className="col-md-2">
+              <Image
+                src="/assets/fortune-logo.png"
+                title="Fortune_Logo"
+                width={100}
+                height={100}
+              />
+            </Col>
+            <Col className="col-md-2">
+              <Image
+                src="/assets/yahoo-logo.png"
+                title="Yahoo_Logo"
+                width={100}
+                height={100}
+              />
+            </Col>
+            <Col className="col-md-2">
+              <Image
+                src="/assets/aol-logo.png"
+                title="AOL_Logo"
+                width={100}
+                height={100}
+              />
+            </Col>
+            <Col className="col-md-2">
+              <Image
+                src="/assets/ani-news-logo.png"
+                title="ANI_News_Logo"
+                width={100}
+                height={100}
+              />
+            </Col>
+            <Col className="col-md-2">
+              <Image
+                src="/assets/yourstory-logo.png"
+                title="Yourstory_Logo"
+                width={100}
+                height={100}
+              />
+            </Col>
+          </Row>
+          <Row className={styles.featRate}>
+            <Col className="col-md-4">
+              <FaBolt />
+              <h3>Faster</h3>
+              <p>
+                Get top vetted profiles
+                <br />
+                within 24-48 hours
+              </p>
+            </Col>
+            <Col className="col-md-4">
+              <LuMessagesSquare />
+              <h3>Reliable</h3>
+              <p>
+                Dedicated Account Manager Just one
+                <br />
+                email/whatsapp away
+              </p>
+            </Col>
+            <Col className="col-md-4">
+              <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStarHalf />
+              <h3>Trusted</h3>
+              <p>
+                4.6 Google | 4.4 Clutch
+                <br />
+                4.8 G2
+              </p>
             </Col>
           </Row>
         </Container>
