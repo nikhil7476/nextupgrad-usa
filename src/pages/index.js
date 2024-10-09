@@ -659,6 +659,7 @@ function Home() {
               <Image
                 src="/assets/forbes-logo.png"
                 title="Forbes_Logo"
+                alt="Forbes_Logo"
                 width={100}
                 height={100}
               />
@@ -667,6 +668,7 @@ function Home() {
               <Image
                 src="/assets/fortune-logo.png"
                 title="Fortune_Logo"
+                alt="Fortune_Logo"
                 width={100}
                 height={100}
               />
@@ -675,6 +677,7 @@ function Home() {
               <Image
                 src="/assets/yahoo-logo.png"
                 title="Yahoo_Logo"
+                alt="Yahoo_Logo"
                 width={100}
                 height={100}
               />
@@ -683,6 +686,7 @@ function Home() {
               <Image
                 src="/assets/aol-logo.png"
                 title="AOL_Logo"
+                alt="AOL_Logo"
                 width={100}
                 height={100}
               />
@@ -691,6 +695,7 @@ function Home() {
               <Image
                 src="/assets/ani-news-logo.png"
                 title="ANI_News_Logo"
+                alt="ANI_News_Logo"
                 width={100}
                 height={100}
               />
@@ -699,6 +704,7 @@ function Home() {
               <Image
                 src="/assets/yourstory-logo.png"
                 title="Yourstory_Logo"
+                alt="Yourstory_Logo"
                 width={100}
                 height={100}
               />
