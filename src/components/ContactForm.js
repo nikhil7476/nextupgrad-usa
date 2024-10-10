@@ -99,9 +99,10 @@ function ContactForm() {
   return (
     <>
       <Form onSubmit={handleSubmit}>
-        <Form.Group className="mb-3" controlId="formBasicName">
-          <Form.Label>Full Name</Form.Label>
+        <Form.Group className="mb-3">
+          <Form.Label htmlFor="formBasicName">Full Name</Form.Label>
           <Form.Control
+            id="formBasicName"
             type="text"
             placeholder="Enter your name"
             name="name"
@@ -110,13 +111,14 @@ function ContactForm() {
             isInvalid={!!errors.name}
             required
           />
+          <Form.Control.Feedback type="invalid">
+            {errors.name}
+          </Form.Control.Feedback>
         </Form.Group>
-        <Form.Control.Feedback type="invalid">
-          {errors.name}
-        </Form.Control.Feedback>
-        <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Email Address</Form.Label>
+        <Form.Group className="mb-3">
+          <Form.Label htmlFor="formBasicEmail">Email Address</Form.Label>
           <Form.Control
+            id="formBasicEmail"
             type="email"
             placeholder="Enter your email"
             name="email"
@@ -151,9 +153,10 @@ function ContactForm() {
             {errors.phone}
           </Form.Control.Feedback>
         </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicSubject">
-          <Form.Label>Subject</Form.Label>
+        <Form.Group className="mb-3">
+          <Form.Label htmlFor="formBasicSubject">Subject</Form.Label>
           <Form.Control
+            id="formBasicSubject"
             type="text"
             placeholder="Enter the subject"
             name="subject"
@@ -166,9 +169,10 @@ function ContactForm() {
             {errors.subject}
           </Form.Control.Feedback>
         </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicMessage">
-          <Form.Label>Your Message</Form.Label>
+        <Form.Group className="mb-3">
+          <Form.Label htmlFor="formBasicMessage">Your Message</Form.Label>
           <Form.Control
+            id="formBasicMessage"
             as="textarea"
             rows={4}
             placeholder="Type your message..."

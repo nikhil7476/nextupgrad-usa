@@ -82,7 +82,7 @@ li {
 }
 
 .collapse {
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 /* Custom padding for navbar links in larger screens */
