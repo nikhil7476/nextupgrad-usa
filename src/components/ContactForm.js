@@ -3,7 +3,6 @@ import { PhoneInput } from "react-international-phone";
 import "react-international-phone/style.css";
 import React, { useState, useEffect } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
-import Head from "next/head";
 
 function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
