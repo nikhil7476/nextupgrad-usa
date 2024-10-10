@@ -1,5 +1,9 @@
 .ftrMain {
     background-color: var(--ftrBackground);
+    background-image: url(/assets/footer-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     color: var(--textLight);
     padding: 20px 0px;
 }

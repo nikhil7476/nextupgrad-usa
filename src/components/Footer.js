@@ -14,8 +14,68 @@ import {
 } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { Col, Container, Row, Button, Form } from "react-bootstrap";
+import { useState } from "react";
+import Swal from "sweetalert2";
 
-function Footer() {
+const Footer = () => {
+  const [email, setEmail] = useState("");
+  const [errors, setErrors] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleChange = (e) => {
+    setEmail(e.target.value);
+    setErrors("");
+  };
+
+  const validateEmail = (email) => {
+    const isValid = /\S+@\S+\.\S+/.test(email);
+    return isValid;
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    if (!validateEmail(email)) {
+      setErrors("Please enter a valid email address.");
+      return;
+    }
+
+    setIsSubmitting(true); // Disable the button
+
+    try {
+      const response = await fetch(
+        "https://53c50cd527.nxcli.io/nextupgrad_backend/api/postNewsletter",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ email }),
+        }
+      );
+
+      const data = await response.json();
+      if (data.status == 200 || data.status == 201) {
+        setEmail("");
+        Swal.fire({
+          title: "Subscribed!",
+          text: "Thank you for subscribing to nextupgrad!",
+          icon: "success",
+        });
+      } else if (data.status == 500) {
+        Swal.fire({
+          title: "Already Subscribed!",
+          text: "This email is already subscribed!",
+          icon: "error",
+        });
+      }
+    } catch (error) {
+      console.error("Error:", error);
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <>
       <div className={styles.ftrMain}>
@@ -146,7 +206,10 @@ function Footer() {
               <h2>Drop us A Line</h2>
               <ul>
                 <li>
-                  <Link href="mailto:hello@nextupgrad.us" title="hello@nextupgrad.us">
+                  <Link
+                    href="mailto:hello@nextupgrad.us"
+                    title="hello@nextupgrad.us"
+                  >
                     <FaMailBulk /> hello@nextupgrad.us
                   </Link>
                 </li>
@@ -206,7 +269,7 @@ function Footer() {
                 <li>Lucknow, India</li>
               </ul>
               <h2>Our Newsletter</h2>
-              <Form>
+              <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                   <Form.Label className={styles.priTxt}>
                     {"We'll never share your email with anyone else."}
@@ -214,13 +277,19 @@ function Footer() {
                   <Form.Control
                     type="email"
                     placeholder="Enter Your Email"
+                    value={email}
+                    onChange={handleChange}
+                    disabled={isSubmitting}
                     required
                   />
+                  {errors && <span className="text-danger">{errors}</span>}
                 </Form.Group>
                 <Button
                   className={styles.subBtn}
                   variant="primary"
                   type="submit"
+                  value="Submit"
+                  disabled={isSubmitting}
                 >
                   Subscribe
                 </Button>
@@ -239,6 +308,6 @@ function Footer() {
       </div>
     </>
   );
-}
+};
 
 export default Footer;
