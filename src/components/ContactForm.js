@@ -132,8 +132,10 @@ function ContactForm() {
         <Form.Group className="mb-3">
           <Form.Label htmlFor="phoneInput">Phone Number</Form.Label>
           <PhoneInput
-            id="phoneInput"
-            defaultCountry="US"
+            inputProps={{
+              id: "phoneInput",
+            }}
+            initialCountry="US"
             placeholder="Enter your phone number"
             value={formData.phone}
             onChange={(value) =>
