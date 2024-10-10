@@ -34,7 +34,7 @@ export default function App({ Component, pageProps }) {
         <Component {...pageProps} />
       </main>
       <div className="ctaButton">
-        <Link href="#" title="Let's Discuss">
+        <Link href="https://calendly.com/ron-wilsonbdm/service" target="_blank" title="Let's Discuss">
           {"Let's Discuss"} <FaArrowRightLong />
         </Link>
       </div>
