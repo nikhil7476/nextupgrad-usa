@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { FaArrowRightLong } from "react-icons/fa6";
 import {
@@ -71,7 +71,7 @@ function Home() {
         <Container>
           <Row>
             <Col
-              className={`col-md-7 ${styles["banLeft"]} animate__animated animate__slideInLeft animate__delay-1s`}
+              className={`col-md-7 ${styles["banLeft"]} animate__animated animate__slideInLeft`}
             >
               <h1>
                 Digital Transformation
@@ -246,7 +246,7 @@ function Home() {
       <div className={styles.homeTabs}>
         <Container>
           <Row>
-            <Col className="animate__animated animate__fadeInUp animate__delay-2s">
+            <Col className="animate__animated animate__fadeInUp  animate__delay-2s">
               <h2>
                 <span>Solution</span>
                 <br />
@@ -271,7 +271,7 @@ function Home() {
           </Row>
           <Row className={styles.proc}>
             <Col
-              className={`col-md-4 ${styles.procLeft} animate__animated animate__fadeInLeft animate__delay-2s`}
+              className={`col-md-4 ${styles.procLeft} animate__animated animate__fadeInLeft animate__delay-3s`}
             >
               <Row>
                 <p>
@@ -303,7 +303,7 @@ function Home() {
               </video>
             </Col>
             <Col
-              className={`col-md-4 ${styles.procRight} animate__animated animate__fadeInRight animate__delay-2s`}
+              className={`col-md-4 ${styles.procRight} animate__animated animate__fadeInRight animate__delay-3s`}
             >
               <Row>
                 <p>

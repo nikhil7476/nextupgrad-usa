@@ -99,14 +99,16 @@ li {
 
 /* Megamenu styling */
 .megamenu {
-  background-color: #efefef;
   position: absolute;
   left: 0;
   right: 0;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 0px;
   display: none;
   margin-top: 0px;
+  background-color: var(--background);
+  transition: all .5s ease;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
 }
 
 /* Show megamenu when hovering on dropdown */
@@ -136,13 +138,20 @@ li {
 }
 
 .megamenu .nav-link.active {
-  background-color: var(--btnCol) !important;
+  /* background-color: var(--btnCol) !important; */
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%) !important;
 }
 
-/* .megamenu .list-group-item {
-  background-color: transparent;
+.megamenu .list-group-item,
+.megamenu .list-group-item:last-child {
   border: none;
-} */
+  border-radius: 3px !important;
+}
+
+.megamenu .list-group-item:hover,
+.megamenu .list-group-item:last-child:hover {
+  border: 1px solid var(--btnCol);
+}
 
 .megamenu .list-group-item a {
   font-size: 14px;
@@ -371,9 +380,14 @@ li {
   text-align: center;
   font-weight: 600;
   text-transform: uppercase;
-  background-color: var(--btnCol) !important;
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
   padding: 10px 15px;
   border: 1px solid var(--btnCol) !important;
+  transition: 3s !important;
+}
+
+.subBtn:hover {
+  transform: scale(1.05);
 }
 
 

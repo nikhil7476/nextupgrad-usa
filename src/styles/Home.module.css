@@ -675,6 +675,7 @@
     position: relative;
     padding-left: 40px;
     margin: 0;
+    cursor: pointer;
 }
 
 .contLeft ul::before {
@@ -710,6 +711,12 @@
     height: 50px;
     width: 50px;
 }
+
+.contLeft ul li:hover span {
+    background-color: var(--btnCol);
+    color: var(--textLight);
+}
+
 
 .contRight {
     border: 1px solid var(--btnCol);
