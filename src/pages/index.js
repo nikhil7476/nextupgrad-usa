@@ -40,7 +40,7 @@ function Home() {
           property="og:description"
           content="Take your business forward with website development services and solutions. Drive efficiency, agility, and growth. Get a free consultation."
         />
-        <meta property="og:image" content="https://nextupgrad.us/logo.webp" />
+        <meta property="og:image" as="image" content="https://nextupgrad.us/logo.webp" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://nextupgrad.us/" />
@@ -53,6 +53,7 @@ function Home() {
 
         <meta
           property="twitter:image"
+          as="image"
           content="https://nextupgrad.us/logo.webp"
         />
         <meta
