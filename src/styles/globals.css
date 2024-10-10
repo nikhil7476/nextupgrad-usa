@@ -343,6 +343,14 @@ li {
   width: 100%;
 }
 
+.captcha {
+  display: flex;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  margin: 20px 0px;
+  border-radius: 5px;
+}
 
 .subBtn {
   color: var(--textLight);
