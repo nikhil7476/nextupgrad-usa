@@ -75,7 +75,7 @@ function ServiceTab() {
               </Row>
             </Tab.Pane>
             <Tab.Pane className="servePane" eventKey="second">
-              <h3>Mobile App Development</h3>
+              <h3>Website Development</h3>
               <h4>Elevating Business Experiences, One App At A Time</h4>
               <p>
                 Want to develop a business app that can take your business to
@@ -107,7 +107,7 @@ function ServiceTab() {
               </Row>
             </Tab.Pane>
             <Tab.Pane className="servePane" eventKey="third">
-              <h3>Mobile App Development</h3>
+              <h3>Software Development</h3>
               <h4>Elevating Business Experiences, One App At A Time</h4>
               <p>
                 Want to develop a business app that can take your business to
@@ -139,7 +139,7 @@ function ServiceTab() {
               </Row>
             </Tab.Pane>
             <Tab.Pane className="servePane" eventKey="fourth">
-              <h3>Mobile App Development</h3>
+              <h3>Digital Marketing</h3>
               <h4>Elevating Business Experiences, One App At A Time</h4>
               <p>
                 Want to develop a business app that can take your business to
@@ -171,7 +171,7 @@ function ServiceTab() {
               </Row>
             </Tab.Pane>
             <Tab.Pane className="servePane" eventKey="fifth">
-              <h3>Mobile App Development</h3>
+              <h3>Hire Dedicated Developers</h3>
               <h4>Elevating Business Experiences, One App At A Time</h4>
               <p>
                 Want to develop a business app that can take your business to
