@@ -70,8 +70,10 @@ function Home() {
       <div className={styles.bannerMain}>
         <Container>
           <Row>
-            <Col className={`col-md-7 ${styles["banLeft"]}`}>
-              <h1>
+            <Col
+              className={`col-md-7 ${styles["banLeft"]} animate__animated animate__slideInLeft`}
+            >
+              <h1 className="animate__animated animate__fadeInUp animate__delay-1s">
                 Digital Transformation
                 <br />
                 Services & Solutions <br />
@@ -225,7 +227,9 @@ function Home() {
                 </div>
               </div>
             </Col>
-            <Col className={`col-md-5 ${styles["banRight"]}`}>
+            <Col
+              className={`col-md-5 ${styles["banRight"]} animate__animated animate__slideInRight`}
+            >
               <Image
                 src={"/assets/achievements.webp"}
                 alt="achievements"
@@ -242,7 +246,7 @@ function Home() {
       <div className={styles.homeTabs}>
         <Container>
           <Row>
-            <Col>
+            <Col className="animate__animated animate__fadeInUp animate__delay-1s">
               <h2>
                 <span>Solution</span>
                 <br />
@@ -266,7 +270,9 @@ function Home() {
             </h2>
           </Row>
           <Row className={styles.proc}>
-            <Col className={`col-md-4 ${styles.procLeft}`}>
+            <Col
+              className={`col-md-4 ${styles.procLeft} animate__animated animate__fadeInLeft`}
+            >
               <Row>
                 <p>
                   Our{" "}
@@ -296,7 +302,9 @@ function Home() {
                 Your browser does not support the video tag.
               </video>
             </Col>
-            <Col className={`col-md-4 ${styles.procRight}`}>
+            <Col
+              className={`col-md-4 ${styles.procRight} animate__animated animate__fadeInRight`}
+            >
               <Row>
                 <p>
                   Beyond technical know-how, we evaluate{" "}
@@ -329,7 +337,9 @@ function Home() {
           </Row>
         </Container>
       </div>
-      <div className={styles.nextServices}>
+      <div
+        className={`${styles.nextServices} animate__animated animate__fadeInUp`}
+      >
         <Container>
           <Row>
             <Col>
@@ -347,7 +357,9 @@ function Home() {
           </Row>
         </Container>
       </div>
-      <div className={styles.projectBg}>
+      <div
+        className={`${styles.projectBg} animate__animated animate__fadeInUp`}
+      >
         <Container>
           <Row className={styles.projRow}>
             <Col className="col-md-8">
@@ -414,7 +426,7 @@ function Home() {
           </Row>
         </Container>
       </div>
-      <div className={styles.industry}>
+      <div className={`${styles.industry} animate__animated animate__fadeInUp`}>
         <Container>
           <Row>
             <Col>
@@ -591,7 +603,7 @@ function Home() {
             </Col>
           </Row>
           <Row className={styles.videoTest}>
-            <Col className="col-md-6">
+            <Col className="col-md-6 animate__animated animate__fadeInLeft">
               <div className={styles.clientReview}>
                 <h2>Commendation received from Mr. Patrick</h2>
                 <p>
@@ -605,7 +617,7 @@ function Home() {
                 <p>Client for Website Development & Digital Marketing</p>
               </div>
             </Col>
-            <Col className="col-md-6">
+            <Col className="col-md-6 animate__animated animate__fadeInRight">
               <Row>
                 <Col>
                   <iframe
@@ -684,7 +696,7 @@ function Home() {
           </Row>
         </Container>
       </div>
-      <div className={styles.featured}>
+      <div className={`${styles.featured} animate__animated animate__fadeInUp`}>
         <Container>
           <h2>
             We Have <span>been Featured</span> On
@@ -799,7 +811,9 @@ function Home() {
             </Col>
           </Row>
           <Row className={styles.caseStd}>
-            <Col className={`col-xs-12 col-sm ${styles["caseStdOne"]}`}>
+            <Col
+              className={`col-xs-12 col-sm ${styles["caseStdOne"]} animate__animated animate__fadeInLeft`}
+            >
               <Row>
                 <Col className={styles.caseHead}>
                   <p>
@@ -837,7 +851,9 @@ function Home() {
                 </Col>
               </Row>
             </Col>
-            <Col className={`col-xs-12 col-sm ${styles["caseStdTwo"]}`}>
+            <Col
+              className={`col-xs-12 col-sm ${styles["caseStdTwo"]} animate__animated animate__fadeInUp`}
+            >
               <Row>
                 <Col className={styles.caseHead}>
                   <p>
@@ -875,7 +891,9 @@ function Home() {
                 </Col>
               </Row>
             </Col>
-            <Col className={`col-xs-12 col-sm ${styles["caseStdThree"]}`}>
+            <Col
+              className={`col-xs-12 col-sm ${styles["caseStdThree"]} animate__animated animate__fadeInRight`}
+            >
               <Row>
                 <Col className={styles.caseHead}>
                   <p>
@@ -919,7 +937,9 @@ function Home() {
       <div className={styles.contactForm}>
         <Container>
           <Row className={styles.cont}>
-            <Col className={`col-md-6 ${styles.contLeft}`}>
+            <Col
+              className={`col-md-6 ${styles.contLeft} animate__animated animate__fadeInLeft`}
+            >
               <h2>
                 <span>COntact Us</span>
                 <br />
@@ -958,7 +978,9 @@ function Home() {
                 </li>
               </ul>
             </Col>
-            <Col className={`col-md-6 ${styles.contRight}`}>
+            <Col
+              className={`col-md-6 ${styles.contRight} animate__animated animate__fadeInRight`}
+            >
               <ContactForm />
             </Col>
           </Row>

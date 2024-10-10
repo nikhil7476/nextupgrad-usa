@@ -5,6 +5,7 @@ import MegaMenu from "@/components/MegaMenu";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import CookieConsent from "react-cookie-consent"; // Add this line to import the cookie consent component
 import "bootstrap/dist/css/bootstrap.min.css";
+import 'animate.css';
 import { FaArrowRightLong } from "react-icons/fa6";
 import Link from "next/link";
 export default function App({ Component, pageProps }) {
