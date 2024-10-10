@@ -184,7 +184,6 @@ li {
 }
 
 .ctaButton:hover {
-  transform: translatey(50%) rotate(90deg);
   background: linear-gradient(-90deg, #e76f51 65%, #ee4c8d 99.54%);
 }
 
