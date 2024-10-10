@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-import React, { useState, useEffect } from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import { FaArrowRightLong } from "react-icons/fa6";
 import {
   FaLinkedin,
@@ -23,13 +23,48 @@ function Home() {
   return (
     <>
       <Head>
-        <title>
-          Digital Transformation Services and Solutions with NextUpgrad USA
-        </title>
+        <title>Website Development Company in New York - Nextupgrad</title>
+        <meta
+          name="title"
+          content="Website Development Company in New York - Nextupgrad"
+        />
         <meta
           name="description"
+          content="Nextupgrad, a leading Website Development Company in New York, specializes in creating innovative web development solutions to enhance your online presence."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.nextupgrad.us/" />
+        <meta property="og:title" content="Nextupgrad" />
+        <meta
+          property="og:description"
           content="Take your business forward with website development services and solutions. Drive efficiency, agility, and growth. Get a free consultation."
         />
+        <meta property="og:image" content="https://nextupgrad.us/logo.webp" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://nextupgrad.us/" />
+        <meta property="twitter:title" content="Nextupgrad" />
+        <meta
+          property="twitter:description"
+          content="Propel your business forward with innovative digital transformation services & solutions. Drive efficiency, agility, & growth. Get a free consultation!
+          "
+        />
+
+        <meta
+          property="twitter:image"
+          content="https://nextupgrad.us/logo.webp"
+        />
+        <meta
+          name="google-site-verification"
+          content="6CF5PndgghHSqX2raeDV_1_arkxZ8exgG-D0nSD5MSA"
+        />
+        <meta
+          name="Website Development Services with NextUpgrad USA and take your business to new heights"
+          content="Take your business forward with website development services and solutions. Drive efficiency, agility, & growth. Get a free consultation"
+        />
+        <link rel="preload" as="image" href="/assets/logo.webp" />
+        <link rel="canonical" href="https://www.nextupgrad.us/" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div className={styles.bannerMain}>
