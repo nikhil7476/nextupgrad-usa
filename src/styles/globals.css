@@ -158,16 +158,25 @@ li {
 
 /*CTA Button*/
 .ctaButton {
-  background-color: #e76f51;
+  /* background-color: var(--btnCol); */
+  background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+  border: 1px solid var(--btnCol);
   text-align: center;
   padding: 10px 30px;
   position: fixed;
   top: 50%;
   z-index: 99;
   right: -60px;
+  transition: 0.5s;
   transform: translatey(-50%) rotate(-90deg);
   min-width: 180px;
   font-size: 22px;
+  cursor: pointer;
+}
+
+.ctaButton:hover {
+  transform: translatey(50%) rotate(90deg);
+  background: linear-gradient(-90deg, #e76f51 65%, #ee4c8d 99.54%);
 }
 
 .ctaButton a {
@@ -321,6 +330,10 @@ li {
   font-weight: 600;
   box-shadow: 0 2px 0 3px #000;
   border: none;
+}
+
+.serveCont a:hover {
+  background: linear-gradient(to right, #ff6f00 0, #f99b1c 100%);
 }
 
 .servIcon {

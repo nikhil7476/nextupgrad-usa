@@ -91,11 +91,12 @@
     font-weight: 600;
     align-items: center;
     justify-content: center;
+    transition: 2s;
 }
 
 .btnHire:hover {
     color: var(--textLight);
-    transition: .3s ease-in;
+    transform: scale(0.9);
 }
 
 .btnCont {
@@ -111,11 +112,12 @@
     font-weight: 600;
     align-items: center;
     text-decoration: none;
+    transition: 2s;
 }
 
 .btnCont:hover {
     color: var(--textLight);
-    transition: .3s ease-in;
+    transform: scale(0.9);
 }
 
 .review {
@@ -239,6 +241,11 @@
     color: var(--textLight);
     font-size: 20px;
     font-weight: 600;
+    transition: 2s;
+}
+
+.procHire a:hover {
+    transform: scale(1.1);
 }
 
 .proc {
@@ -464,6 +471,11 @@
     transition: all .3s ease-in-out;
 }
 
+.allBtn a:hover {
+    background-color: var(--textLight);
+    color: var(--btnCol);
+}
+
 .viewTest {
     align-items: center;
 }
@@ -557,6 +569,11 @@
     border-radius: 8px;
     border: 1px solid var(--btnCol);
     transition: all .3s ease-in-out;
+}
+
+.allCase a:hover {
+    background-color: var(--textLight);
+    color: var(--btnCol);
 }
 
 .caseStd {
