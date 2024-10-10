@@ -1,8 +1,9 @@
-import {Form, Button, Spinner} from "react-bootstrap";
+import { Form, Button, Spinner } from "react-bootstrap";
 import { PhoneInput } from "react-international-phone";
 import "react-international-phone/style.css";
 import React, { useState, useEffect } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
+import Head from "next/head";
 
 function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -96,121 +97,126 @@ function ContactForm() {
   };
 
   return (
-    <Form onSubmit={handleSubmit}>
-      <Form.Group className="mb-3" controlId="formBasicName">
-        <Form.Label>Full Name</Form.Label>
-        <Form.Control
-          type="text"
-          placeholder="Enter your name"
-          name="name"
-          value={formData.name}
-          onChange={handleChange}
-          isInvalid={!!errors.name}
-          required
-        />
-      </Form.Group>
-      <Form.Control.Feedback type="invalid">
-        {errors.name}
-      </Form.Control.Feedback>
-      <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Email Address</Form.Label>
-        <Form.Control
-          type="email"
-          placeholder="Enter your email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-          isInvalid={!!errors.email}
-          required
-        />
-        <Form.Control.Feedback type="invalid">
-          {errors.email}
-        </Form.Control.Feedback>
-      </Form.Group>
-      <Form.Group className="mb-3">
-        <Form.Label htmlFor="phoneInput">Phone Number</Form.Label>
-        <PhoneInput
-          id="phoneInput"
-          defaultCountry="US"
-          placeholder="Enter your phone number"
-          value={formData.phone}
-          onChange={(value) =>
-            setFormData((prevData) => ({
-              ...prevData,
-              phone: value,
-            }))
-          }
-          isInvalid={!!errors.phone}
-          required
-        />
-        <Form.Control.Feedback type="invalid">
-          {errors.phone}
-        </Form.Control.Feedback>
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="formBasicSubject">
-        <Form.Label>Subject</Form.Label>
-        <Form.Control
-          type="text"
-          placeholder="Enter the subject"
-          name="subject"
-          value={formData.subject}
-          onChange={handleChange}
-          isInvalid={!!errors.subject}
-          required
-        />
-        <Form.Control.Feedback type="invalid">
-          {errors.subject}
-        </Form.Control.Feedback>
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="formBasicMessage">
-        <Form.Label>Your Message</Form.Label>
-        <Form.Control
-          as="textarea"
-          rows={4}
-          placeholder="Type your message..."
-          name="message"
-          value={formData.message}
-          onChange={handleChange}
-          isInvalid={!!errors.message}
-          required
-        />
-        <Form.Control.Feedback type="invalid">
-          {errors.message}
-        </Form.Control.Feedback>
-      </Form.Group>
-      {showRecaptcha && (
-        <div className="captcha">
-          <ReCAPTCHA
-            sitekey="6LcsJt0pAAAAADojY-EwlCuhurrgweKE5lZS89lU"
-            onChange={(val) => {
-              console.log("recaptcha value", val);
-              setRecaptcha(val);
-            }}
+    <>
+      <Head>
+        <script src="https://www.google.com/recaptcha/enterprise.js?render=6LcKVl0qAAAAAJzbZzWj9s3WOl0ohvkgcdWsJ8AA"></script>
+      </Head>
+      <Form onSubmit={handleSubmit}>
+        <Form.Group className="mb-3" controlId="formBasicName">
+          <Form.Label>Full Name</Form.Label>
+          <Form.Control
+            type="text"
+            placeholder="Enter your name"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            isInvalid={!!errors.name}
+            required
           />
-        </div>
-      )}
-      <Button
-        variant="primary"
-        type="submit"
-        className="subBtn"
-        disabled={isSubmitting}
-      >
-        {isSubmitting ? (
-          <>
-            <Spinner
-              as="span"
-              animation="border"
-              size="sm"
-              role="status"
-              aria-hidden="true"
+        </Form.Group>
+        <Form.Control.Feedback type="invalid">
+          {errors.name}
+        </Form.Control.Feedback>
+        <Form.Group className="mb-3" controlId="formBasicEmail">
+          <Form.Label>Email Address</Form.Label>
+          <Form.Control
+            type="email"
+            placeholder="Enter your email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            isInvalid={!!errors.email}
+            required
+          />
+          <Form.Control.Feedback type="invalid">
+            {errors.email}
+          </Form.Control.Feedback>
+        </Form.Group>
+        <Form.Group className="mb-3">
+          <Form.Label htmlFor="phoneInput">Phone Number</Form.Label>
+          <PhoneInput
+            id="phoneInput"
+            defaultCountry="US"
+            placeholder="Enter your phone number"
+            value={formData.phone}
+            onChange={(value) =>
+              setFormData((prevData) => ({
+                ...prevData,
+                phone: value,
+              }))
+            }
+            isInvalid={!!errors.phone}
+            required
+          />
+          <Form.Control.Feedback type="invalid">
+            {errors.phone}
+          </Form.Control.Feedback>
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="formBasicSubject">
+          <Form.Label>Subject</Form.Label>
+          <Form.Control
+            type="text"
+            placeholder="Enter the subject"
+            name="subject"
+            value={formData.subject}
+            onChange={handleChange}
+            isInvalid={!!errors.subject}
+            required
+          />
+          <Form.Control.Feedback type="invalid">
+            {errors.subject}
+          </Form.Control.Feedback>
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="formBasicMessage">
+          <Form.Label>Your Message</Form.Label>
+          <Form.Control
+            as="textarea"
+            rows={4}
+            placeholder="Type your message..."
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+            isInvalid={!!errors.message}
+            required
+          />
+          <Form.Control.Feedback type="invalid">
+            {errors.message}
+          </Form.Control.Feedback>
+        </Form.Group>
+        {showRecaptcha && (
+          <div className="captcha">
+            <ReCAPTCHA
+              sitekey="6LcKVl0qAAAAAJzbZzWj9s3WOl0ohvkgcdWsJ8AA"
+              onChange={(val) => {
+                console.log("recaptcha value", val);
+                setRecaptcha(val);
+              }}
             />
-            <span className="ms-2">Submitting...</span>
-          </>
-        ) : (
-          "Submit"
+          </div>
         )}
-      </Button>
-    </Form>
+        <Button
+          variant="primary"
+          type="submit"
+          className="subBtn"
+          disabled={isSubmitting}
+        >
+          {isSubmitting ? (
+            <>
+              <Spinner
+                as="span"
+                animation="border"
+                size="sm"
+                role="status"
+                aria-hidden="true"
+              />
+              <span className="ms-2">Submitting...</span>
+            </>
+          ) : (
+            "Submit"
+          )}
+        </Button>
+      </Form>
+    </>
   );
 }
 
