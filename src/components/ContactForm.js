@@ -98,9 +98,6 @@ function ContactForm() {
 
   return (
     <>
-      <Head>
-        <script src="https://www.google.com/recaptcha/enterprise.js?render=6LcKVl0qAAAAAJzbZzWj9s3WOl0ohvkgcdWsJ8AA"></script>
-      </Head>
       <Form onSubmit={handleSubmit}>
         <Form.Group className="mb-3" controlId="formBasicName">
           <Form.Label>Full Name</Form.Label>
@@ -186,7 +183,7 @@ function ContactForm() {
         {showRecaptcha && (
           <div className="captcha">
             <ReCAPTCHA
-              sitekey="6LcKVl0qAAAAAJzbZzWj9s3WOl0ohvkgcdWsJ8AA"
+              sitekey="6LcsJt0pAAAAADojY-EwlCuhurrgweKE5lZS89lU"
               onChange={(val) => {
                 console.log("recaptcha value", val);
                 setRecaptcha(val);
