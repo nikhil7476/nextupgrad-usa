@@ -20,6 +20,7 @@ body {
   font-family: Calibri, sans-serif;
   background-color: var(--ftrBackground) !important;
   color: var(--textLight) !important;
+  overflow-x: hidden;
 }
 
 

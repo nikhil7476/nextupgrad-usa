@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { FaArrowRightLong } from "react-icons/fa6";
 import {
@@ -71,9 +71,9 @@ function Home() {
         <Container>
           <Row>
             <Col
-              className={`col-md-7 ${styles["banLeft"]} animate__animated animate__slideInLeft`}
+              className={`col-md-7 ${styles["banLeft"]} animate__animated animate__slideInLeft animate__delay-1s`}
             >
-              <h1 className="animate__animated animate__fadeInUp animate__delay-1s">
+              <h1>
                 Digital Transformation
                 <br />
                 Services & Solutions <br />
@@ -228,7 +228,7 @@ function Home() {
               </div>
             </Col>
             <Col
-              className={`col-md-5 ${styles["banRight"]} animate__animated animate__slideInRight`}
+              className={`col-md-5 ${styles["banRight"]} animate__animated animate__slideInRight animate__delay-1s`}
             >
               <Image
                 src={"/assets/achievements.webp"}
@@ -246,7 +246,7 @@ function Home() {
       <div className={styles.homeTabs}>
         <Container>
           <Row>
-            <Col className="animate__animated animate__fadeInUp animate__delay-1s">
+            <Col className="animate__animated animate__fadeInUp animate__delay-2s">
               <h2>
                 <span>Solution</span>
                 <br />
@@ -271,7 +271,7 @@ function Home() {
           </Row>
           <Row className={styles.proc}>
             <Col
-              className={`col-md-4 ${styles.procLeft} animate__animated animate__fadeInLeft`}
+              className={`col-md-4 ${styles.procLeft} animate__animated animate__fadeInLeft animate__delay-2s`}
             >
               <Row>
                 <p>
@@ -303,7 +303,7 @@ function Home() {
               </video>
             </Col>
             <Col
-              className={`col-md-4 ${styles.procRight} animate__animated animate__fadeInRight`}
+              className={`col-md-4 ${styles.procRight} animate__animated animate__fadeInRight animate__delay-2s`}
             >
               <Row>
                 <p>
@@ -338,7 +338,7 @@ function Home() {
         </Container>
       </div>
       <div
-        className={`${styles.nextServices} animate__animated animate__fadeInUp`}
+        className={`${styles.nextServices} animate__animated animate__fadeInUp animate__delay-2s`}
       >
         <Container>
           <Row>
@@ -358,7 +358,7 @@ function Home() {
         </Container>
       </div>
       <div
-        className={`${styles.projectBg} animate__animated animate__fadeInUp`}
+        className={`${styles.projectBg} animate__animated animate__fadeInUp animate__delay-2s`}
       >
         <Container>
           <Row className={styles.projRow}>
@@ -426,7 +426,9 @@ function Home() {
           </Row>
         </Container>
       </div>
-      <div className={`${styles.industry} animate__animated animate__fadeInUp`}>
+      <div
+        className={`${styles.industry} animate__animated animate__fadeInUp animate__delay-2s`}
+      >
         <Container>
           <Row>
             <Col>
@@ -696,7 +698,9 @@ function Home() {
           </Row>
         </Container>
       </div>
-      <div className={`${styles.featured} animate__animated animate__fadeInUp`}>
+      <div
+        className={`${styles.featured} animate__animated animate__fadeInUp animate__delay-2s`}
+      >
         <Container>
           <h2>
             We Have <span>been Featured</span> On
@@ -812,7 +816,7 @@ function Home() {
           </Row>
           <Row className={styles.caseStd}>
             <Col
-              className={`col-xs-12 col-sm ${styles["caseStdOne"]} animate__animated animate__fadeInLeft`}
+              className={`col-xs-12 col-sm ${styles["caseStdOne"]} animate__animated animate__fadeInLeft animate__delay-2s`}
             >
               <Row>
                 <Col className={styles.caseHead}>
@@ -852,7 +856,7 @@ function Home() {
               </Row>
             </Col>
             <Col
-              className={`col-xs-12 col-sm ${styles["caseStdTwo"]} animate__animated animate__fadeInUp`}
+              className={`col-xs-12 col-sm ${styles["caseStdTwo"]} animate__animated animate__fadeInUp animate__delay-2s`}
             >
               <Row>
                 <Col className={styles.caseHead}>
@@ -892,7 +896,7 @@ function Home() {
               </Row>
             </Col>
             <Col
-              className={`col-xs-12 col-sm ${styles["caseStdThree"]} animate__animated animate__fadeInRight`}
+              className={`col-xs-12 col-sm ${styles["caseStdThree"]} animate__animated animate__fadeInRight animate__delay-2s`}
             >
               <Row>
                 <Col className={styles.caseHead}>
@@ -938,7 +942,7 @@ function Home() {
         <Container>
           <Row className={styles.cont}>
             <Col
-              className={`col-md-6 ${styles.contLeft} animate__animated animate__fadeInLeft`}
+              className={`col-md-6 ${styles.contLeft} animate__animated animate__fadeInLeft animate__delay-2s`}
             >
               <h2>
                 <span>COntact Us</span>
@@ -979,7 +983,7 @@ function Home() {
               </ul>
             </Col>
             <Col
-              className={`col-md-6 ${styles.contRight} animate__animated animate__fadeInRight`}
+              className={`col-md-6 ${styles.contRight} animate__animated animate__fadeInRight animate__delay-2s`}
             >
               <ContactForm />
             </Col>
