@@ -98,8 +98,8 @@ const Footer = () => {
                   10001
                 </li>
                 <li>
-                  <Link href="tel:+1(23) 456-7890" title="+1(23) 456-7890">
-                    <FaPhoneAlt /> +1(23) 456-7890
+                  <Link href="tel:+1 (408) 786-5558" title="+1 (408) 786-5558">
+                    <FaPhoneAlt /> +1 (408) 786-5558
                   </Link>
                 </li>
               </ul>
@@ -110,8 +110,8 @@ const Footer = () => {
                   1- E3-02, Abu Dhabi
                 </li>
                 <li>
-                  <Link href="tel:+1(23) 456-7890" title="+1(23) 456-7890">
-                    <FaPhoneAlt /> +1(23) 456-7890
+                  <Link href="tel:+1 (408) 786-5558" title="+1 (408) 786-5558">
+                    <FaPhoneAlt /> +1 (408) 786-5558
                   </Link>
                 </li>
               </ul>
@@ -123,8 +123,8 @@ const Footer = () => {
                   226010
                 </li>
                 <li>
-                  <Link href="tel:+1(23) 456-7890" title="+1(23) 456-7890">
-                    <FaPhoneAlt /> +1(23) 456-7890
+                  <Link href="tel:+1 (408) 400-3232" title="+1 (408) 400-3232">
+                    <FaPhoneAlt /> +1 (408) 400-3232
                   </Link>
                 </li>
               </ul>
@@ -226,27 +226,27 @@ const Footer = () => {
               <h2>Follow Us</h2>
               <ul className={styles.social}>
                 <li>
-                  <Link href="#" title="Instagram">
+                  <Link href="https://www.instagram.com/nextupgradusa/" target="_blank" title="Instagram">
                     <FaInstagramSquare />
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" title="Facebook">
+                  <Link href="https://www.facebook.com/nextupgrad.usa/" target="_blank" title="Facebook">
                     <FaFacebookSquare />
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" title="Twitter">
+                  <Link href="https://twitter.com/nextupgrad_usa" target="_blank" title="Twitter">
                     <FaSquareXTwitter />
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" title="Youtube">
+                  <Link href="https://www.youtube.com/@nextupgrad-usa" target="_blank" title="Youtube">
                     <FaYoutube />
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" title="Pinterest">
+                  <Link href="https://www.pinterest.com/nextupgradusa/" target="_blank" title="Pinterest">
                     <FaPinterestSquare />
                   </Link>
                 </li>
