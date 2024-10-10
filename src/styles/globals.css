@@ -159,11 +159,11 @@ li {
 .ctaButton {
   background-color: #e76f51;
   text-align: center;
-  padding: 10px 50px;
+  padding: 10px 30px;
   position: fixed;
   top: 50%;
   z-index: 99;
-  right: -75px;
+  right: -60px;
   transform: translatey(-50%) rotate(-90deg);
   min-width: 180px;
   font-size: 22px;
