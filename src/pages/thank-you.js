@@ -11,7 +11,6 @@ const ThankYou = () => {
           name="title"
           content="NextUpgrad Website Development Services Thank You Page"
         />
-        <GoogleTagManager gtmId="GTM-TKZTSGKZ" />
         <meta name="googlebot" content="noindex" />
         <meta
           name="description"
@@ -48,8 +47,6 @@ const ThankYou = () => {
           content="Get into our blog for expert and valuable insights into Web and Software. It offers knowledge to fuel your curiosity and online business growth"
         />
       </Head>
-      <GoogleTagManager gtmId="G-EZNCL10K8J" />
-      <TagManagerLanding gtmId="GTM-TKZTSGKZ" />
       <div className="content">
         <div className="wrapper-1">
           <div className="wrapper-2">
