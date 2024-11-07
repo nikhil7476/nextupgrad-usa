@@ -88,7 +88,7 @@ const LocalSeo = () => {
                             </Col>
                             <Col className="col-md-6">
                                 <h3>Local Directories</h3>
-                                <p>List your business on other relevant local directories such as Yelp, TripAdvisor, and Yellow Pages. Ensuring consistency across these directories is crucial for local SEO, as search engines rely on this information to determine your business's legitimacy and visibility.</p>
+                                <p>{"List your business on other relevant local directories such as Yelp, TripAdvisor, and Yellow Pages. Ensuring consistency across these directories is crucial for local SEO, as search engines rely on this information to determine your business's legitimacy and visibility."}</p>
                             </Col>
                         </Row>
                     </Container>
@@ -108,13 +108,13 @@ const LocalSeo = () => {
                                     </Col>
                                     <Col className="col-md-6">
                                         <h3><span>2.</span> Technical SEO</h3>
-                                        <p>We optimize your website's technical aspects, such as site speed, mobile responsiveness, and structured data, to improve its crawlability and user experience.</p>
+                                        <p>{"We optimize your website's technical aspects, such as site speed, mobile responsiveness, and structured data, to improve its crawlability and user experience."}</p>
                                     </Col>
                                 </Row>
                                 <Row>
                                     <Col className="col-md-6">
                                         <h3><span>3.</span> Meta Data Optimization</h3>
-                                        <p>We craft compelling title tags and meta descriptions that accurately describe your website's content and attract clicks from search engine results pages.</p>
+                                        <p>{"We craft compelling title tags and meta descriptions that accurately describe your website's content and attract clicks from search engine results pages."}</p>
                                     </Col>
                                     <Col className="col-md-6">
                                         <h3><span>4.</span> Internal Linking</h3>
@@ -137,7 +137,7 @@ const LocalSeo = () => {
                             <Col className="col-md-4">
                                 <ImProfile />
                                 <h3>Online Business Profiles</h3>
-                                <p>We create and optimize online business profiles on platforms relevant to your industry, such as Angie's List, HomeAdvisor, and others. This expands your reach to a wider audience and helps build trust and credibilit</p>
+                                <p>{"We create and optimize online business profiles on platforms relevant to your industry, such as Angie's List, HomeAdvisor, and others. This expands your reach to a wider audience and helps build trust and credibilit"}</p>
                             </Col>
                             <Col className="col-md-4">
                                 <MdOutlineStoreMallDirectory />
@@ -175,7 +175,7 @@ const LocalSeo = () => {
                         <Row className={style.report}>
                             <Col className={`col-md-5 ${style.data}`}>
                                 <h3>Regular Reporting</h3>
-                                <p>We provide comprehensive reports that track your website's performance, including keyword rankings, website traffic, and conversion rates. This data allows you to understand the effectiveness of your local SEO strategy and identify areas for improvement.</p>
+                                <p>{"We provide comprehensive reports that track your website's performance, including keyword rankings, website traffic, and conversion rates. This data allows you to understand the effectiveness of your local SEO strategy and identify areas for improvement."}</p>
                             </Col>
                             <Col className={`col-md-5 ${style.data}`}>
                                 <h3>Data Analysis</h3>
@@ -185,7 +185,7 @@ const LocalSeo = () => {
                         <Row className={style.reported}>
                             <Col className={`col-md-5 ${style.data}`}>
                                 <h3>Performance Tracking</h3>
-                                <p>We track the progress of your local SEO campaign over time, providing regular updates and insights into your website's growth and performance. This allows us to refine our strategies and make adjustments as needed to ensure continuous improvement in your search engine rankings and visibility.</p>
+                                <p>{"We track the progress of your local SEO campaign over time, providing regular updates and insights into your website's growth and performance. This allows us to refine our strategies and make adjustments as needed to ensure continuous improvement in your search engine rankings and visibility."}</p>
                             </Col>
                         </Row>
                     </Container>
@@ -200,7 +200,7 @@ const LocalSeo = () => {
                                         <li>
                                             <div className={style.content}>
                                                 <h3>Comprehensive SEO Audit</h3>
-                                                <p>A thorough analysis of your website's current SEO performance, identifying strengths, weaknesses, and opportunities for improvement.</p>
+                                                <p>{"A thorough analysis of your website's current SEO performance, identifying strengths, weaknesses, and opportunities for improvement."}</p>
                                             </div>
                                         </li>
 
@@ -214,14 +214,14 @@ const LocalSeo = () => {
                                         <li>
                                             <div className={style.content}>
                                                 <h3>On-Page Optimization</h3>
-                                                <p>Optimization of your website's content, structure, and technical elements to improve its ranking in local search results.</p>
+                                                <p>{"Optimization of your website's content, structure, and technical elements to improve its ranking in local search results."}</p>
                                             </div>
                                         </li>
 
                                         <li>
                                             <div className={style.content}>
                                                 <h3>Off-Page Optimization</h3>
-                                                <p>Building high-quality backlinks from reputable websites to enhance your website's authority and credibility.</p>
+                                                <p>{"Building high-quality backlinks from reputable websites to enhance your website's authority and credibility."}</p>
                                             </div>
                                         </li>
 
@@ -242,7 +242,7 @@ const LocalSeo = () => {
                                         <li>
                                             <div className={style.content}>
                                                 <h3>Regular Reporting & Analytics</h3>
-                                                <p>Comprehensive reporting on your website's performance, including keyword rankings, website traffic, and conversion rates, to track progress and identify areas for improvement.</p>
+                                                <p>{"Comprehensive reporting on your website's performance, including keyword rankings, website traffic, and conversion rates, to track progress and identify areas for improvement."}</p>
                                             </div>
                                         </li>
                                         <div style={{ clear: "both" }}></div>
