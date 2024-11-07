@@ -92,10 +92,10 @@ function MegaMenu() {
                                           </Link>
                                         </li>
                                         <li className="list-group-item">
-                                          <Link href="#">
-                                            Enterprise SEO
+                                          <Link href="/local-seo">
+                                            Local
                                             <br />
-                                            Services
+                                            SEO
                                           </Link>
                                         </li>
                                       </ul>
