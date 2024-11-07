@@ -1,0 +1,500 @@
+.seoHdr section {
+    padding: 60px 0px;
+}
+
+.seoHdr h2 {
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.seoHdr h2 span {
+    background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+    background-clip: text;
+    color: transparent;
+}
+
+/*Banner Section*/
+
+.banner {
+    background-image: url("/assets/seo-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 120px 0px 60px 0px !important;
+}
+
+.banner h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.banner h1 span {
+    background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+    background-clip: text;
+    color: transparent;
+}
+
+.banner p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.banner a {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+    border: 2px solid var(--btnCol);
+    color: var(--textLight);
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    transition: 2s;
+}
+
+/* Our Methodology Section CSS */
+.methodology h2 {
+    text-align: center;
+}
+
+.cont {
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.contFirst {
+    display: flex;
+    gap: 20px;
+}
+
+.contHdr {
+    width: 33.33%;
+    align-content: center;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.contHdr h3 {
+    font-size: 36px;
+}
+
+.service {
+    width: 33.33%;
+    align-content: center;
+    background: linear-gradient(to right, #024945, #12a89c);
+    border-left: 5px solid var(--btnCol);
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: ease 2s;
+}
+
+.service:hover {
+    transform: scale(0.9);
+}
+
+.icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.serviceTitle {
+    color: var(--btnCol);
+    margin: 0 0 10px;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.contact:hover {
+    background: linear-gradient(90deg, #EE4C8D 65%, #e76f51 99.54%);
+}
+
+.contact h3 {
+    margin: 0;
+}
+
+.contact p {
+    margin: 5px 0 0;
+}
+
+/*search*/
+.search h2 {
+    text-align: center;
+}
+
+/*OnPage*/
+.onPage {
+    background-image: url("/assets/onpage-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.onPage h2 {
+    text-align: center;
+}
+
+.onPage h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid var(--btnCol);
+}
+
+.onPage h3 span {
+    background-color: var(--btnCol);
+    margin-right: 5px;
+    padding: 0px 5px;
+}
+
+/*Citation*/
+.citation {
+    background-image: url("/assets/citation-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.citation h2 {
+    text-align: center;
+}
+
+.citation p {
+    text-align: justify;
+}
+
+.citation svg {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+/*Review*/
+.review {
+    background-image: url("/assets/citation-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.review h2 {
+    text-align: center;
+}
+
+.review p {
+    text-align: justify;
+}
+
+.review svg {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+/*Reporting & Analytics CSS*/
+.reporting {
+    background-image: url("/assets/reporting-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.reporting h2 {
+    text-align: center;
+}
+
+.report {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.reported {
+    display: flex;
+    justify-content: center;
+}
+
+.data {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid var(--btnCol);
+    border-radius: 10px;
+}
+
+/* Deliverables Timeline css */
+.deliverables {
+    background-image: url("/assets/deliverables-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+.deliverables h2 {
+    text-align: center;
+}
+
+.timeline {
+    position: relative;
+    width: 1000px;
+    box-sizing: border-box;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background: #c5c5c5;
+}
+
+.timeline ul {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline ul li {
+    list-style: none;
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.timeline ul li:nth-child(odd) {
+    float: left;
+    text-align: right;
+    clear: both;
+}
+
+.timeline ul li:nth-child(even) {
+    float: right;
+    text-align: left;
+    clear: both;
+}
+
+.content {
+    padding: 10px;
+    border: 1px solid var(--btnCol);
+    border-radius: 10px;
+}
+
+.timeline ul li:nth-child(odd):before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 24px;
+    right: -6px;
+    background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.2);
+}
+
+.timeline ul li:nth-child(even):before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 24px;
+    left: -4px;
+    background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.2);
+}
+
+.timeline ul li h3 {
+    padding: 0;
+    margin: 0;
+    color: var(--btnCol);
+    font-weight: 600;
+}
+
+.timeline ul li p {
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+/**/
+@media(max-width:1000px) {
+    .timeline {
+        width: 100%;
+    }
+}
+
+@media(max-width:767px) {
+    .timeline {
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .timeline:before {
+        left: 20px;
+        height: 100%;
+    }
+
+    .timeline ul li:nth-child(odd),
+    .timeline ul li:nth-child(even) {
+        width: 100%;
+        text-align: left;
+        padding-left: 50px;
+        padding-bottom: 50px;
+    }
+
+    .timeline ul li:nth-child(odd):before,
+    .timeline ul li:nth-child(even):before {
+        top: -18px;
+        left: 16px;
+    }
+}
+
+/*Pricing Tab CSS*/
+.pricing {
+    background-image: url("/assets/pricing-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.pricing h2 {
+    text-align: center;
+}
+
+.price {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+.priceTab1,
+.priceTab2,
+.priceTab3 {
+    background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+.price h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.price h3 span {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.priceTab1 {
+    height: 50vh;
+}
+
+.priceTab2 {
+    height: 60vh;
+}
+
+.priceTab3 {
+    height: 70vh;
+}
+
+
+/*Why Nextupgrad CSS*/
+.why {
+    text-align: center;
+    background-image: url("/assets/deliverables-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.whyUp,
+.whyDown {
+    padding: 20px;
+    margin: 5px;
+    width: 24%;
+    background-color: #fff;
+    color: var(--textDark);
+    border-radius: 10px;
+}
+
+.whyUp svg,
+.whyDown svg {
+    font-size: 60px;
+    color: var(--btnCol);
+    margin-bottom: 15px;
+}
+
+.whyUp {
+    margin-bottom: 30px;
+}
+
+.whyDown {
+    margin-top: 30px;
+}
+
+/*Case Study CSS*/
+
+.caseStudy {
+    background-image: url("/assets/case-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.caseStudy h2 {
+    text-align: center;
+}
+
+.case {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caseCont {
+    padding: 20px;
+    background-image: url("https://picsum.photos/300");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.caseCont h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/*FAQs*/
+
+.faq h2 {
+    text-align: center;
+}
+
+.accord h2 {
+    margin: 0;
+}
+
+.accord .accordion-item {
+    margin-bottom: 20px !important;
+}
