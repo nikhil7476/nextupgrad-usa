@@ -389,6 +389,21 @@ li {
   transform: scale(1.05);
 }
 
+/*Local SEO Page CSS*/
+.accordion-item {
+  margin-bottom: 20px;
+}
+
+.accordion-button {
+  background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+  color: var(--textLight) !important;
+  font-size: 20px !important;
+  font-weight: 600;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
 
 /*Media Queries*/
 
