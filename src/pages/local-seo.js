@@ -7,7 +7,8 @@ import { MdOutlineSupportAgent, MdOutlineStoreMallDirectory } from "react-icons/
 import { TbTargetArrow } from "react-icons/tb";
 import { GiTeamIdea } from "react-icons/gi";
 import { AiOutlineFileSearch } from "react-icons/ai";
-import { FaRegFolderOpen } from "react-icons/fa";
+import { FaRegFolderOpen, FaTimesCircle } from "react-icons/fa";
+import { FaCircleCheck } from "react-icons/fa6";
 import { ImProfile } from "react-icons/im";
 import style from "@/styles/localSeo.module.css";
 import CountUp from "react-countup";
@@ -252,25 +253,6 @@ const LocalSeo = () => {
                         </Row>
                     </Container>
                 </section>
-                <section className={style.pricing}>
-                    <Container>
-                        <h2>Pricing & <span>Packages</span></h2>
-                        <Row className={style.price}>
-                            <Col className={`col-md-3 ${style.priceTab1}`}>
-                                <h3><span><CountUp end={500} duration={5} prefix="$" suffix="+" /></span><br />Basic</h3>
-                                <p>Ideal for startups and small businesses looking to establish their online presence and gain local visibility.</p>
-                            </Col>
-                            <Col className={`col-md-3 ${style.priceTab2}`}>
-                                <h3><span><CountUp end={1000} duration={5} prefix="$" suffix="+" /></span><br />Standard</h3>
-                                <p>A comprehensive package designed to drive targeted traffic and enhance brand awareness in the local market.</p>
-                            </Col>
-                            <Col className={`col-md-3 ${style.priceTab3}`}>
-                                <h3><span><CountUp end={1500} duration={5} prefix="$" suffix="+" /></span><br />Premium</h3>
-                                <p>Our most comprehensive package tailored for businesses seeking significant online dominance and maximum ROI.</p>
-                            </Col>
-                        </Row>
-                    </Container>
-                </section>
                 <section className={style.why}>
                     <Container>
                         <h2 className={style.whyTitle}>Why <span>Nextupgrad</span></h2>
@@ -301,6 +283,79 @@ const LocalSeo = () => {
                                     keeping you informed about the progress of your
                                     campaign and addressing any questions you may have.</p>
                             </Col>
+                        </Row>
+                    </Container>
+                </section>
+                {/* <section className={style.pricing}>
+                    <Container>
+                        <h2>Pricing & <span>Packages</span></h2>
+                        <Row className={style.price}>
+                            <Col className={`col-md-3 ${style.priceTab1}`}>
+                                <h3><span><CountUp end={500} duration={5} prefix="$" suffix="+" /></span><br />Basic</h3>
+                                <p>Ideal for startups and small businesses looking to establish their online presence and gain local visibility.</p>
+                            </Col>
+                            <Col className={`col-md-3 ${style.priceTab2}`}>
+                                <h3><span><CountUp end={1000} duration={5} prefix="$" suffix="+" /></span><br />Standard</h3>
+                                <p>A comprehensive package designed to drive targeted traffic and enhance brand awareness in the local market.</p>
+                            </Col>
+                            <Col className={`col-md-3 ${style.priceTab3}`}>
+                                <h3><span><CountUp end={1500} duration={5} prefix="$" suffix="+" /></span><br />Premium</h3>
+                                <p>Our most comprehensive package tailored for businesses seeking significant online dominance and maximum ROI.</p>
+                            </Col>
+                        </Row>
+                    </Container>
+                </section> */}
+                <section className={style.pricing}>
+                    <Container>
+                        <h2>Our Affordable <span>Pricing Plans</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <Row className={style.priceRow}>
+                            <Col className="col-md-4">
+                                <div className={style.priceCard}>
+                                    <h3>Weekly Plan</h3>
+                                    <p><sup>$</sup>120<sub>/ week</sub></p>
+                                    <ul>
+                                        <li><span>SEO & Branding</span><FaCircleCheck /></li>
+                                        <li><span>Digital Marketing</span><FaCircleCheck /></li>
+                                        <li><span>Google Analytics</span><FaCircleCheck /></li>
+                                        <li><span>Branding Solutions</span><FaCircleCheck /></li>
+                                        <li><span>Digital Accounts</span><FaCircleCheck /></li>
+                                        <li className={style.declined}><span>Pay-per-Click</span><FaTimesCircle /></li>
+                                        <li className={style.declined}><span>24/7 Support</span><FaTimesCircle /></li>
+                                    </ul>
+                                </div>
+                            </Col>
+                            <Col className="col-md-4">
+                                <div className={style.priceCard}>
+                                    <h3>Monthly Plan</h3>
+                                    <p><sup>$</sup>840<sub>/ month</sub></p>
+                                    <ul>
+                                        <li><span>SEO & Branding</span><FaCircleCheck /></li>
+                                        <li><span>Digital Marketing</span><FaCircleCheck /></li>
+                                        <li><span>Google Analytics</span><FaCircleCheck /></li>
+                                        <li><span>Branding Solutions</span><FaCircleCheck /></li>
+                                        <li><span>Digital Accounts</span><FaCircleCheck /></li>
+                                        <li><span>Pay-per-Click</span><FaCircleCheck /></li>
+                                        <li className={style.declined}><span>24/7 Support</span><FaTimesCircle /></li>
+                                    </ul>
+                                </div>
+                            </Col>
+                            <Col className="col-md-4">
+                                <div className={style.priceCard}>
+                                    <h3>Yearly Plan</h3>
+                                    <p><sup>$</sup>3,600<sub>/ year</sub></p>
+                                    <ul>
+                                        <li><span>SEO & Branding</span><FaCircleCheck /></li>
+                                        <li><span>Digital Marketing</span><FaCircleCheck /></li>
+                                        <li><span>Google Analytics</span><FaCircleCheck /></li>
+                                        <li><span>Branding Solutions</span><FaCircleCheck /></li>
+                                        <li><span>Digital Accounts</span><FaCircleCheck /></li>
+                                        <li><span>Pay-per-Click</span><FaCircleCheck /></li>
+                                        <li><span>24/7 Support</span><FaCircleCheck /></li>
+                                    </ul>
+                                </div>
+                            </Col>
+                            <Link href="#" title="get started">Get Started</Link>
                         </Row>
                     </Container>
                 </section>
