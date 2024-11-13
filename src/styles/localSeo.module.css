@@ -88,7 +88,7 @@
 .service {
     width: 33.33%;
     align-content: center;
-    background: linear-gradient(to right, #024945, #12a89c);
+    background-color: #000;
     border-left: 5px solid var(--btnCol);
     padding: 15px;
     margin: 10px 0;
@@ -169,6 +169,7 @@
     background-position: center center;
     background-attachment: fixed;
 }
+
 .citation h2 {
     text-align: center;
 }
@@ -364,7 +365,7 @@
 }
 
 /*Pricing Tab CSS*/
-.pricing {
+/* .pricing {
     background-image: url("/assets/pricing-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -412,8 +413,102 @@
 
 .priceTab3 {
     height: 70vh;
+} */
+
+/*Pricing Card CSS*/
+
+.pricing h2 {
+    text-align: center;
+    margin-bottom: 10px;
 }
 
+.pricing p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.priceRow {
+    justify-content: space-evenly;
+}
+
+.priceCard {
+    text-align: center;
+    padding: 20px 40px;
+    margin-bottom: 30px;
+    color: #000;
+    background-color: #fff;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.priceCard:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+    transform: translateY(-10px);
+}
+
+.priceCard h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.priceCard p {
+    color: #e76f51;
+    padding: 10px 40px 0;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.priceCard p sup {
+    top: -18px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.priceCard p sub {
+    bottom: 2px;
+    color: #000;
+    padding-right: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.priceCard ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8384AC;
+}
+
+.priceCard ul li svg {
+    color: green;
+}
+
+.declined {
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+}
+
+.declined svg {
+    color: red !important;
+}
+
+.pricing a {
+    width: fit-content;
+    color: #fff;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+    transition: .5s;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 17px 35px 13px 35px;
+}
 
 /*Why Nextupgrad CSS*/
 .why {
