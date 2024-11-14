@@ -170,7 +170,7 @@ const LocalSeo = () => {
                         </Row>
                     </Container>
                 </section>
-                <section className={style.reporting}>
+                {/* <section className={style.reporting}>
                     <Container>
                         <h2>Reporting & <span>Analytics</span></h2>
                         <Row className={style.report}>
@@ -187,6 +187,31 @@ const LocalSeo = () => {
                             <Col className={`col-md-5 ${style.data}`}>
                                 <h3>Performance Tracking</h3>
                                 <p>{"We track the progress of your local SEO campaign over time, providing regular updates and insights into your website's growth and performance. This allows us to refine our strategies and make adjustments as needed to ensure continuous improvement in your search engine rankings and visibility."}</p>
+                            </Col>
+                        </Row>
+                    </Container>
+                </section> */}
+                <section className={style.reporting}>
+                    <Container>
+                        <Row>
+                            <h2>Reporting & <span>Analytics</span></h2>
+                            <Col className="col-md-4">
+                                <div className={style.repoCardOne}>
+                                    <h3>Regular Reporting</h3>
+                                    <p>{"We provide comprehensive reports tracking your website's performance, including keyword rankings, traffic, and conversion rates. This data helps gauge the effectiveness of your SEO strategy and highlights improvement areas, offering you insights to enhance local visibility and drive growth."}</p>
+                                </div>
+                            </Col>
+                            <Col className="col-md-4">
+                                <div className={style.repoCardTwo}>
+                                    <h3>Data Analysis</h3>
+                                    <p>{"Our team analyzes data to reveal valuable insights and discover optimization opportunities. By providing actionable recommendations tailored to your goals, we ensure that your local SEO campaign stays aligned with your business objectives and delivers consistent, measurable results for maximum impact."}</p>
+                                </div>
+                            </Col>
+                            <Col className="col-md-4">
+                                <div className={style.repoCardThree}>
+                                    <h3>Performance Tracking</h3>
+                                    <p>{"We monitor your local SEO campaign’s progress, delivering updates and insights into your website's growth and performance. This enables us to adjust strategies as needed, supporting continuous improvement in search engine rankings and enhancing visibility to drive long-term, sustainable success."}</p>
+                                </div>
                             </Col>
                         </Row>
                     </Container>
@@ -286,25 +311,6 @@ const LocalSeo = () => {
                         </Row>
                     </Container>
                 </section>
-                {/* <section className={style.pricing}>
-                    <Container>
-                        <h2>Pricing & <span>Packages</span></h2>
-                        <Row className={style.price}>
-                            <Col className={`col-md-3 ${style.priceTab1}`}>
-                                <h3><span><CountUp end={500} duration={5} prefix="$" suffix="+" /></span><br />Basic</h3>
-                                <p>Ideal for startups and small businesses looking to establish their online presence and gain local visibility.</p>
-                            </Col>
-                            <Col className={`col-md-3 ${style.priceTab2}`}>
-                                <h3><span><CountUp end={1000} duration={5} prefix="$" suffix="+" /></span><br />Standard</h3>
-                                <p>A comprehensive package designed to drive targeted traffic and enhance brand awareness in the local market.</p>
-                            </Col>
-                            <Col className={`col-md-3 ${style.priceTab3}`}>
-                                <h3><span><CountUp end={1500} duration={5} prefix="$" suffix="+" /></span><br />Premium</h3>
-                                <p>Our most comprehensive package tailored for businesses seeking significant online dominance and maximum ROI.</p>
-                            </Col>
-                        </Row>
-                    </Container>
-                </section> */}
                 <section className={style.pricing}>
                     <Container>
                         <h2>Our Affordable <span>Pricing Plans</span></h2>
