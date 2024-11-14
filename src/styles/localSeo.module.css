@@ -207,32 +207,88 @@
 
 /*Reporting & Analytics CSS*/
 .reporting {
-    background-image: url("/assets/reporting-bg.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-color: #fff;
 }
 
 .reporting h2 {
     text-align: center;
+    color: #000;
 }
 
-.report {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 30px;
+.repoCardOne,
+.repoCardTwo,
+.repoCardThree {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: .5s;
+    cursor: pointer;
 }
 
-.reported {
-    display: flex;
-    justify-content: center;
+.repoCardOne {
+    background-image: url("/assets/regular-reporting.jpg");
 }
 
-.data {
-    text-align: center;
-    padding: 10px;
-    border: 1px solid var(--btnCol);
-    border-radius: 10px;
+.repoCardTwo {
+    background-image: url("/assets/data-analysis.jpg");
+}
+
+.repoCardThree {
+    background-image: url("/assets/performance-tracking.jpg");
+}
+
+.repoCardOne:hover,
+.repoCardTwo:hover,
+.repoCardThree:hover {
+    transform: translateY(-10px);
+}
+
+.repoCardOne:before,
+.repoCardTwo:before,
+.repoCardThree:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(31, 31, 34, 0.96) 0%, rgba(31, 31, 34, 0.9) 58.33%, rgba(22, 22, 24, 0.6) 100%);
+    transition: .5s;
+    z-index: -1;
+}
+
+.repoCardOne:hover::before,
+.repoCardTwo:hover::before,
+.repoCardThree:hover::before {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.repoCardOne:after,
+.repoCardTwo:after,
+.repoCardThree:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(80.77deg, #7906D3 0%, #1377D2 100%);
+    transition: .5s;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.repoCardOne:hover::after,
+.repoCardTwo:hover::after,
+.repoCardThree:hover::after {
+    opacity: 1;
+    visibility: visible;
 }
 
 /* Deliverables Timeline css */
@@ -363,57 +419,6 @@
         left: 16px;
     }
 }
-
-/*Pricing Tab CSS*/
-/* .pricing {
-    background-image: url("/assets/pricing-bg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.pricing h2 {
-    text-align: center;
-}
-
-.price {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: end;
-}
-
-.priceTab1,
-.priceTab2,
-.priceTab3 {
-    background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    align-content: center;
-}
-
-.price h3 {
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 30px;
-}
-
-.price h3 span {
-    font-weight: 700;
-    font-size: 48px;
-}
-
-.priceTab1 {
-    height: 50vh;
-}
-
-.priceTab2 {
-    height: 60vh;
-}
-
-.priceTab3 {
-    height: 70vh;
-} */
 
 /*Pricing Card CSS*/
 
