@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import { Col, Container, Row, Accordion, Tab, Tabs } from "react-bootstrap";
+import { Col, Container, Row, Accordion, Tab, Nav } from "react-bootstrap";
 import { BiMessageRounded } from "react-icons/bi";
 import { IoArrowUndoOutline, IoBarChartOutline } from "react-icons/io5";
 import { MdOutlineSupportAgent, MdOutlineStoreMallDirectory } from "react-icons/md";
@@ -79,139 +79,147 @@ const LocalSeo = () => {
                         </Row>
                     </Container>
                 </section>
-                <section className={style.search}>
+                <section className={style.seoTabs}>
                     <Container>
                         <Row>
-                            <h2>Local <span>Search</span> Optimization</h2>
-                            <Col className="col-md-6">
-                                <h3>Google My Business (GMB)</h3>
-                                <p>laim and optimize your Google My Business listing to ensure accurate information about your business, including your address, phone number, website, and hours of operation. Engaging with customers through GMB allows you to respond to reviews, post updates, and share photos and videos, showcasing your business and driving local traffic.</p>
-                            </Col>
-                            <Col className="col-md-6">
-                                <h3>Local Directories</h3>
-                                <p>{"List your business on other relevant local directories such as Yelp, TripAdvisor, and Yellow Pages. Ensuring consistency across these directories is crucial for local SEO, as search engines rely on this information to determine your business's legitimacy and visibility."}</p>
-                            </Col>
-                        </Row>
-                    </Container>
-                </section>
-                <section className={style.onPage}>
-                    <Container>
-                        <Row>
-                            <Col className="col-md-4">
-                                <img src="https://picsum.photos/350/400" />
-                            </Col>
-                            <Col className="col-md-8">
-                                <h2>On-page <span>Optimization</span></h2>
-                                <Row>
-                                    <Col className="col-md-6">
-                                        <h3><span>1.</span> Content Optimization</h3>
-                                        <p>We ensure your website content is relevant, engaging, and optimized for target keywords. This includes writing high-quality content, structuring it for readability, and using keyword-rich headings and subheadings.</p>
-                                    </Col>
-                                    <Col className="col-md-6">
-                                        <h3><span>2.</span> Technical SEO</h3>
-                                        <p>{"We optimize your website's technical aspects, such as site speed, mobile responsiveness, and structured data, to improve its crawlability and user experience."}</p>
-                                    </Col>
-                                </Row>
-                                <Row>
-                                    <Col className="col-md-6">
-                                        <h3><span>3.</span> Meta Data Optimization</h3>
-                                        <p>{"We craft compelling title tags and meta descriptions that accurately describe your website's content and attract clicks from search engine results pages."}</p>
-                                    </Col>
-                                    <Col className="col-md-6">
-                                        <h3><span>4.</span> Internal Linking</h3>
-                                        <p>We implement a strategic internal linking strategy to improve website navigation and distribute link juice throughout your site.</p>
-                                    </Col>
-                                </Row>
-                            </Col>
-                        </Row>
-                    </Container>
-                </section>
-                <section className={style.citation}>
-                    <Container>
-                        <h2>Citation <span>Building</span></h2>
-                        <Row>
-                            <Col className="col-md-4">
-                                <FaRegFolderOpen />
-                                <h3>Local Directories</h3>
-                                <p>We ensure your business is listed on major local directories like Google My Business, Yelp, and TripAdvisor. Accurate and consistent information across these platforms strengthens your online presence and increases visibility in local search results.</p>
-                            </Col>
-                            <Col className="col-md-4">
-                                <ImProfile />
-                                <h3>Online Business Profiles</h3>
-                                <p>{"We create and optimize online business profiles on platforms relevant to your industry, such as Angie's List, HomeAdvisor, and others. This expands your reach to a wider audience and helps build trust and credibilit"}</p>
-                            </Col>
-                            <Col className="col-md-4">
-                                <MdOutlineStoreMallDirectory />
-                                <h3>Industry-Specific Directories</h3>
-                                <p>We leverage industry-specific directories relevant to your business, such as those focused on healthcare, legal services, or restaurants. This ensures you are reaching the most targeted audience and maximizing your visibility within your niche.</p>
-                            </Col>
-                        </Row>
-                    </Container>
-                </section>
-                <section className={style.review}>
-                    <Container>
-                        <h2>Review <span>Management</span></h2>
-                        <Row>
-                            <Col className="col-md-4">
-                                <BiMessageRounded />
-                                <h3>Encouraging Reviews</h3>
-                                <p>We guide you on how to strategically request reviews from your satisfied customers, providing easy-to-use tools and templates for review requests. We encourage your customers to leave reviews across various platforms like Google My Business, Yelp, and TripAdvisor, enhancing your online reputation.</p>
-                            </Col>
-                            <Col className="col-md-4">
-                                <IoArrowUndoOutline />
-                                <h3>Responding to Reviews</h3>
-                                <p>We help you respond to reviews promptly and professionally, building customer relationships and showcasing your commitment to service excellence. We craft thoughtful replies that address customer concerns, acknowledge positive feedback, and maintain a consistent brand voice.</p>
-                            </Col>
-                            <Col className="col-md-4">
-                                <IoBarChartOutline />
-                                <h3>Review Monitoring & Analysis</h3>
-                                <p>We track and analyze your online reviews, identifying trends and insights to understand customer sentiment and make data-driven improvements. By monitoring your reviews, we can identify areas for improvement and proactively address any negative feedback to maintain a strong online reputation.</p>
-                            </Col>
-                        </Row>
-                    </Container>
-                </section>
-                {/* <section className={style.reporting}>
-                    <Container>
-                        <h2>Reporting & <span>Analytics</span></h2>
-                        <Row className={style.report}>
-                            <Col className={`col-md-5 ${style.data}`}>
-                                <h3>Regular Reporting</h3>
-                                <p>{"We provide comprehensive reports that track your website's performance, including keyword rankings, website traffic, and conversion rates. This data allows you to understand the effectiveness of your local SEO strategy and identify areas for improvement."}</p>
-                            </Col>
-                            <Col className={`col-md-5 ${style.data}`}>
-                                <h3>Data Analysis</h3>
-                                <p>We analyze your data to uncover valuable insights and identify opportunities for optimization. Our team will provide actionable recommendations based on the data, ensuring that your local SEO campaign remains aligned with your business goals and achieves maximum results.</p>
-                            </Col>
-                        </Row>
-                        <Row className={style.reported}>
-                            <Col className={`col-md-5 ${style.data}`}>
-                                <h3>Performance Tracking</h3>
-                                <p>{"We track the progress of your local SEO campaign over time, providing regular updates and insights into your website's growth and performance. This allows us to refine our strategies and make adjustments as needed to ensure continuous improvement in your search engine rankings and visibility."}</p>
-                            </Col>
-                        </Row>
-                    </Container>
-                </section> */}
-                <section className={style.reporting}>
-                    <Container>
-                        <Row>
-                            <h2>Reporting & <span>Analytics</span></h2>
-                            <Col className="col-md-4">
-                                <div className={style.repoCardOne}>
-                                    <h3>Regular Reporting</h3>
-                                    <p>{"We provide comprehensive reports tracking your website's performance, including keyword rankings, traffic, and conversion rates. This data helps gauge the effectiveness of your SEO strategy and highlights improvement areas, offering you insights to enhance local visibility and drive growth."}</p>
-                                </div>
-                            </Col>
-                            <Col className="col-md-4">
-                                <div className={style.repoCardTwo}>
-                                    <h3>Data Analysis</h3>
-                                    <p>{"Our team analyzes data to reveal valuable insights and discover optimization opportunities. By providing actionable recommendations tailored to your goals, we ensure that your local SEO campaign stays aligned with your business objectives and delivers consistent, measurable results for maximum impact."}</p>
-                                </div>
-                            </Col>
-                            <Col className="col-md-4">
-                                <div className={style.repoCardThree}>
-                                    <h3>Performance Tracking</h3>
-                                    <p>{"We monitor your local SEO campaign’s progress, delivering updates and insights into your website's growth and performance. This enables us to adjust strategies as needed, supporting continuous improvement in search engine rankings and enhancing visibility to drive long-term, sustainable success."}</p>
-                                </div>
+                            <Col>
+                                <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+                                    <Row className="justify-content-around">
+                                        <Col sm={3}>
+                                            <Nav variant="pills" className={`flex-column ${style.seoService}`}>
+                                                <Nav.Item>
+                                                    <Nav.Link eventKey="first">Local Search Optimization</Nav.Link>
+                                                </Nav.Item>
+                                                <Nav.Item>
+                                                    <Nav.Link eventKey="second">On-page Optimization</Nav.Link>
+                                                </Nav.Item>
+                                                <Nav.Item>
+                                                    <Nav.Link eventKey="third">Citation Building</Nav.Link>
+                                                </Nav.Item>
+                                                <Nav.Item>
+                                                    <Nav.Link eventKey="fourth">Review Management</Nav.Link>
+                                                </Nav.Item>
+                                                <Nav.Item>
+                                                    <Nav.Link eventKey="fifth">Reporting & Analytics</Nav.Link>
+                                                </Nav.Item>
+                                            </Nav>
+                                        </Col>
+                                        <Col sm={8}>
+                                            <Tab.Content>
+                                                <Tab.Pane eventKey="first">
+                                                    <div className={style.tabCont}>
+                                                        <div>
+                                                            <h2><span><img src="/assets/local-seo.svg" /></span> Local Search Optimization</h2>
+                                                            <div>
+                                                                <h3>{"Google My Business (GMB)"}</h3>
+                                                                <p>{"laim and optimize your Google My Business listing to ensure accurate information about your business, including your address, phone number, website, and hours of operation. Engaging with customers through GMB allows you to respond to reviews, post updates, and share photos and videos, showcasing your business and driving local traffic."}</p>
+                                                            </div>
+                                                            <div>
+                                                                <h3>Local Directories</h3>
+                                                                <p>{"List your business on other relevant local directories such as Yelp, TripAdvisor, and Yellow Pages. Ensuring consistency across these directories is crucial for local SEO, as search engines rely on this information to determine your business's legitimacy and visibility."}</p>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <img src="https://picsum.photos/350/400" />
+                                                        </div>
+                                                    </div>
+                                                </Tab.Pane>
+                                                <Tab.Pane eventKey="second">
+                                                    <div className={style.tabCont}>
+                                                        <div>
+                                                            <h2><span><img src="/assets/on-page.png" /></span> On-page Optimization</h2>
+                                                            <div>
+                                                                <h3>Content Optimization</h3>
+                                                                <p>{"We ensure your website content is relevant, engaging, and optimized for target keywords. This includes writing high-quality content, structuring it for readability, and using keyword-rich headings and subheadings."}</p>
+                                                            </div>
+                                                            <div>
+                                                                <h3>Technical SEO</h3>
+                                                                <p>{"We optimize your website's technical aspects, such as site speed, mobile responsiveness, and structured data, to improve its crawlability and user experience."}</p>
+                                                            </div>
+                                                            <div>
+                                                                <h3>Meta Data Optimization</h3>
+                                                                <p>{"We craft compelling title tags and meta descriptions that accurately describe your website's content and attract clicks from search engine results pages."}</p>
+                                                            </div>
+                                                            <div>
+                                                                <h3>Internal Linking</h3>
+                                                                <p>{"We implement a strategic internal linking strategy to improve website navigation and distribute link juice throughout your site."}</p>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <img src="https://picsum.photos/350/400" />
+                                                        </div>
+                                                    </div>
+                                                </Tab.Pane>
+                                                <Tab.Pane eventKey="third">
+                                                    <div className={style.tabCont}>
+                                                        <div>
+                                                            <h2><span><img src="/assets/citation.webp" /></span> Citation Building</h2>
+                                                            <div>
+                                                                <h3>Local Directories</h3>
+                                                                <p>{"We ensure your business is listed on major local directories like Google My Business, Yelp, and TripAdvisor. Accurate and consistent information across these platforms strengthens your online presence and increases visibility in local search results."}</p>
+                                                            </div>
+                                                            <div>
+                                                                <h3>Online Business Profiles</h3>
+                                                                <p>{"We create and optimize online business profiles on platforms relevant to your industry, such as Angie's List, HomeAdvisor, and others. This expands your reach to a wider audience and helps build trust and credibilit."}</p>
+                                                            </div>
+                                                            <div>
+                                                                <h3>Industry-Specific Directories</h3>
+                                                                <p>{"We leverage industry-specific directories relevant to your business, such as those focused on healthcare, legal services, or restaurants. This ensures you are reaching the most targeted audience and maximizing your visibility within your niche."}</p>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <img src="https://picsum.photos/350/400" />
+                                                        </div>
+                                                    </div>
+                                                </Tab.Pane>
+                                                <Tab.Pane eventKey="fourth">
+                                                    <div className={style.tabCont}>
+                                                        <div>
+                                                            <h2><span><img src="/assets/review.webp" /></span> Review Management</h2>
+                                                            <div>
+                                                                <h3>Encouraging Reviews</h3>
+                                                                <p>{"We guide you on how to strategically request reviews from your satisfied customers, providing easy-to-use tools and templates for review requests. We encourage your customers to leave reviews across various platforms like Google My Business, Yelp, and TripAdvisor, enhancing your online reputation."}</p>
+                                                            </div>
+                                                            <div>
+                                                                <h3>Responding to Reviews</h3>
+                                                                <p>{"We help you respond to reviews promptly and professionally, building customer relationships and showcasing your commitment to service excellence. We craft thoughtful replies that address customer concerns, acknowledge positive feedback, and maintain a consistent brand voice."}</p>
+                                                            </div>
+                                                            <div>
+                                                                <h3>Review Monitoring & Analysis</h3>
+                                                                <p>{"We track and analyze your online reviews, identifying trends and insights to understand customer sentiment and make data-driven improvements. By monitoring your reviews, we can identify areas for improvement and proactively address any negative feedback to maintain a strong online reputation."}</p>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <img src="https://picsum.photos/350/400" />
+                                                        </div>
+                                                    </div>
+                                                </Tab.Pane>
+                                                <Tab.Pane eventKey="fifth">
+                                                    <div className={style.tabCont}>
+                                                        <div>
+                                                            <h2><span><img src="/assets/reporting.webp" /></span> Reporting & Analytics</h2>
+                                                            <div>
+                                                                <h3>Regular Reporting</h3>
+                                                                <p>{"We provide comprehensive reports tracking your website's performance, including keyword rankings, traffic, and conversion rates. This data helps gauge the effectiveness of your SEO strategy and highlights improvement areas, offering you insights to enhance local visibility and drive growth."}</p>
+                                                            </div>
+                                                            <div>
+                                                                <h3>Data Analysis</h3>
+                                                                <p>{"Our team analyzes data to reveal valuable insights and discover optimization opportunities. By providing actionable recommendations tailored to your goals, we ensure that your local SEO campaign stays aligned with your business objectives and delivers consistent, measurable results for maximum impact."}</p>
+                                                            </div>
+                                                            <div>
+                                                                <h3>Performance Tracking</h3>
+                                                                <p>{"We monitor your local SEO campaign’s progress, delivering updates and insights into your website's growth and performance. This enables us to adjust strategies as needed, supporting continuous improvement in search engine rankings and enhancing visibility to drive long-term, sustainable success."}</p>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <img src="https://picsum.photos/350/400" />
+                                                        </div>
+                                                    </div>
+                                                </Tab.Pane>
+                                            </Tab.Content>
+                                        </Col>
+                                    </Row>
+                                </Tab.Container>
                             </Col>
                         </Row>
                     </Container>
