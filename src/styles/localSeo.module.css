@@ -131,159 +131,48 @@
     margin: 5px 0 0;
 }
 
-/*search*/
-.search h2 {
-    text-align: center;
+
+/**/
+
+.seoTabs .container {
+    width: 1250px !important;
+    max-width: 1250px !important;
 }
 
-/*OnPage*/
-.onPage {
-    background-image: url("/assets/onpage-bg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+.seoTabs h2 {
+    font-size: 28px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
 }
 
-
-.onPage h2 {
-    text-align: center;
-}
-
-.onPage h3 {
+.seoTabs h3 {
     font-size: 20px;
-    margin-bottom: 15px;
-    border-bottom: 1px solid var(--btnCol);
+    font-weight: 600;
 }
 
-.onPage h3 span {
-    background-color: var(--btnCol);
-    margin-right: 5px;
-    padding: 0px 5px;
+.seoService a {
+    color: #fff;
+    padding: 24px 15px;
+    border-bottom: 0.5px solid #fff;
+    border-radius: 0px !important;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 
-/*Citation*/
-.citation {
-    background-image: url("/assets/citation-bg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+.tabCont {
+    display: flex;
+    gap: 20px;
 }
 
-.citation h2 {
-    text-align: center;
+.tabCont p {
+    font-size: 15px;
 }
 
-.citation p {
-    text-align: justify;
-}
-
-.citation svg {
-    font-size: 60px;
-    margin-bottom: 15px;
-}
-
-/*Review*/
-.review {
-    background-image: url("/assets/citation-bg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-}
-
-.review h2 {
-    text-align: center;
-}
-
-.review p {
-    text-align: justify;
-}
-
-.review svg {
-    font-size: 60px;
-    margin-bottom: 15px;
-}
-
-/*Reporting & Analytics CSS*/
-.reporting h2 {
-    text-align: center;
-}
-
-.repoCardOne,
-.repoCardTwo,
-.repoCardThree {
-    padding: 20px;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    transition: .5s;
-    cursor: pointer;
-}
-
-.repoCardOne {
-    background-image: url("/assets/regular-reporting.jpg");
-}
-
-.repoCardTwo {
-    background-image: url("/assets/data-analysis.jpg");
-}
-
-.repoCardThree {
-    background-image: url("/assets/performance-tracking.jpg");
-}
-
-.repoCardOne:hover,
-.repoCardTwo:hover,
-.repoCardThree:hover {
-    transform: translateY(-10px);
-}
-
-.repoCardOne:before,
-.repoCardTwo:before,
-.repoCardThree:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, rgba(31, 31, 34, 0.96) 0%, rgba(31, 31, 34, 0.9) 58.33%, rgba(22, 22, 24, 0.6) 100%);
-    transition: .5s;
-    z-index: -1;
-}
-
-.repoCardOne:hover::before,
-.repoCardTwo:hover::before,
-.repoCardThree:hover::before {
-    opacity: 0;
-    visibility: hidden;
-}
-
-.repoCardOne:after,
-.repoCardTwo:after,
-.repoCardThree:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(80.77deg, #7906D3 0%, #1377D2 100%);
-    transition: .5s;
-    z-index: -1;
-    opacity: 0;
-    visibility: hidden;
-}
-
-.repoCardOne:hover::after,
-.repoCardTwo:hover::after,
-.repoCardThree:hover::after {
-    opacity: 1;
-    visibility: visible;
+.tabCont img {
+    border-radius: 10px;
 }
 
 /* Deliverables Timeline css */
