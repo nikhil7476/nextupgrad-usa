@@ -4,8 +4,9 @@ import { Col, Container, Row, Accordion, Tab, Nav } from "react-bootstrap";
 import { MdOutlineSupportAgent } from "react-icons/md";
 import { TbTargetArrow } from "react-icons/tb";
 import { GiTeamIdea } from "react-icons/gi";
+import { GoXCircleFill } from "react-icons/go";
 import { AiOutlineFileSearch } from "react-icons/ai";
-import { FaTools, FaGlobeAmericas, FaMapPin, FaStar } from 'react-icons/fa';
+import { FaTools, FaGlobeAmericas, FaMapPin, FaStar, FaCheckCircle } from 'react-icons/fa';
 import style from "@/styles/localSeo.module.css";
 const LocalSeo = () => {
     return (
@@ -334,13 +335,13 @@ const LocalSeo = () => {
                                     <sup>$</sup>120<sub>/week</sub>
                                 </p>
                                 <ul>
-                                    <li>SEO & Branding</li>
-                                    <li>Digital Marketing</li>
-                                    <li>Google Analytics</li>
-                                    <li>Branding Solutions</li>
-                                    <li>Digital Accounts</li>
-                                    <li className={style.disabled}>Pay-per-Click</li>
-                                    <li className={style.disabled}>24/7 Support</li>
+                                    <li>SEO & Branding <FaCheckCircle /></li>
+                                    <li>Digital Marketing <FaCheckCircle /></li>
+                                    <li>Google Analytics <FaCheckCircle /></li>
+                                    <li>Branding Solutions <FaCheckCircle /></li>
+                                    <li>Digital Accounts <FaCheckCircle /></li>
+                                    <li className={style.disabled}>Pay-per-Click <GoXCircleFill /></li>
+                                    <li className={style.disabled}>24/7 Support <GoXCircleFill /></li>
                                 </ul>
                                 <button className={style.choosePlan}>Choose Plan</button>
                             </div>
@@ -352,13 +353,13 @@ const LocalSeo = () => {
                                     <sup>$</sup>840<sub>/month</sub>
                                 </p>
                                 <ul>
-                                    <li>SEO & Branding</li>
-                                    <li>Digital Marketing</li>
-                                    <li>Google Analytics</li>
-                                    <li>Branding Solutions</li>
-                                    <li>Digital Accounts</li>
-                                    <li>Pay-per-Click</li>
-                                    <li className={style.disabled}>24/7 Support</li>
+                                    <li>SEO & Branding <FaCheckCircle /></li>
+                                    <li>Digital Marketing <FaCheckCircle /></li>
+                                    <li>Google Analytics <FaCheckCircle /></li>
+                                    <li>Branding Solutions <FaCheckCircle /></li>
+                                    <li>Digital Accounts <FaCheckCircle /></li>
+                                    <li>Pay-per-Click <FaCheckCircle /></li>
+                                    <li className={style.disabled}>24/7 Support <GoXCircleFill /></li>
                                 </ul>
                                 <button className={style.choosePlan}>Choose Plan</button>
                             </div>
@@ -370,13 +371,13 @@ const LocalSeo = () => {
                                     <sup>$</sup>3,600<sub>/year</sub>
                                 </p>
                                 <ul>
-                                    <li>SEO & Branding</li>
-                                    <li>Digital Marketing</li>
-                                    <li>Google Analytics</li>
-                                    <li>Branding Solutions</li>
-                                    <li>Digital Accounts</li>
-                                    <li>Pay-per-Click</li>
-                                    <li>24/7 Support</li>
+                                    <li>SEO & Branding <FaCheckCircle /></li>
+                                    <li>Digital Marketing <FaCheckCircle /></li>
+                                    <li>Google Analytics <FaCheckCircle /></li>
+                                    <li>Branding Solutions <FaCheckCircle /></li>
+                                    <li>Digital Accounts <FaCheckCircle /></li>
+                                    <li>Pay-per-Click <FaCheckCircle /></li>
+                                    <li>24/7 Support <FaCheckCircle /></li>
                                 </ul>
                                 <button className={style.choosePlan}>Choose Plan</button>
                             </div>

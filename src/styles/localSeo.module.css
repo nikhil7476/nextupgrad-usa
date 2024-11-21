@@ -335,6 +335,7 @@
 }
 
 .priceCard ul {
+    text-align: left;
     list-style: none;
     padding: 0;
     margin: 1.5rem 0;
@@ -344,11 +345,24 @@
 
 .priceCard ul li {
     margin: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .priceCard ul li.disabled {
     color: #fff;
     text-decoration: line-through;
+}
+
+.priceCard ul li svg {
+    font-size: 20px;
+    color: #008000;
+}
+
+.priceCard ul li.disabled svg {
+    font-size: 20px;
+    color: #ff0000;
 }
 
 .choosePlan {
