@@ -222,7 +222,7 @@ const LocalSeo = () => {
                 <section className={style.deliverables}>
                     <Container>
                         <Row className="justify-content-center">
-                            <h2>Our <span>Deliverables</span></h2>
+                            <h2>Our Deliverables</h2>
                             <Col className="col-md-10">
                                 <div className={style.timeline}>
                                     <ul>
