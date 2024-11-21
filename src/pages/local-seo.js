@@ -1,17 +1,12 @@
 import Head from "next/head";
 import Link from "next/link";
 import { Col, Container, Row, Accordion, Tab, Nav } from "react-bootstrap";
-import { BiMessageRounded } from "react-icons/bi";
-import { IoArrowUndoOutline, IoBarChartOutline } from "react-icons/io5";
-import { MdOutlineSupportAgent, MdOutlineStoreMallDirectory } from "react-icons/md";
+import { MdOutlineSupportAgent } from "react-icons/md";
 import { TbTargetArrow } from "react-icons/tb";
 import { GiTeamIdea } from "react-icons/gi";
 import { AiOutlineFileSearch } from "react-icons/ai";
-import { FaRegFolderOpen, FaTimesCircle } from "react-icons/fa";
-import { FaCircleCheck } from "react-icons/fa6";
-import { ImProfile } from "react-icons/im";
+import { FaTools, FaGlobeAmericas, FaMapPin, FaStar } from 'react-icons/fa';
 import style from "@/styles/localSeo.module.css";
-import CountUp from "react-countup";
 const LocalSeo = () => {
     return (
         <>
@@ -32,48 +27,47 @@ const LocalSeo = () => {
                 </section>
                 <section className={style.methodology}>
                     <Container>
-                        <Row>
+                        <Row className="text-center mb-4">
                             <h2>Our <span>Methodology</span></h2>
-                            <Col>
-                                <div className={style.cont}>
-                                    <div className={style.contFirst}>
-                                        <div className={style.contHdr}>
-                                            <h3 className={style.serviceTitle}>Elevate Your Online Presence: Our Comprehensive SEO Services</h3>
-                                        </div>
-                                        <div className={style.service}>
-                                            <div className={style.icon}>🛠️</div>
-                                            <h3 className={style.serviceTitle}>On-Page Optimization</h3>
-                                            <p>Our team optimizes every aspect of your website, from content and structure to technical elements. We enhance title tags, meta descriptions, headings, and images, ensuring that your site is not only crawlable but also resonates with search engines and users alike.</p>
-                                        </div>
-                                        <div className={style.service}>
-                                            <div className={style.icon}>🌐</div>
-                                            <h3 className={style.serviceTitle}>Keyword Research & Analysis</h3>
-                                            <p>We begin by conducting thorough keyword research to identify the most relevant and high-volume search terms that your target audience is using. This helps us understand the competitive landscape and pinpoint opportunities for ranking improvement.</p>
-                                        </div>
+                        </Row>
+                        <Row className="justify-content-evenly">
+                            <Col xs={12} md={7} className="d-flex flex-column gap-4">
+                                <div className={style.service}>
+                                    <FaTools size={48} className={style.icon} />
+                                    <div className={style.serviceContent}>
+                                        <h3 className={style.serviceTitle}>On-Page Optimization</h3>
+                                        <p>We optimize every aspect of your website, from content and structure to technical elements, ensuring everything is search-engine friendly.</p>
                                     </div>
-                                    <div className={style.contFirst}>
-                                        <div className={style.service}>
-                                            <div className={style.icon}>🌐</div>
-                                            <h3 className={style.serviceTitle}>Off-Page Optimization</h3>
-                                            <p>We focus on creating high-quality backlinks from reputable websites to boost your site’s authority and credibility. Our outreach strategies, guest blogging, and link-building initiatives work together to enhance your rankings and visibility in search results.</p>
-                                        </div>
-                                        <div className={style.service}>
-                                            <div className={style.icon}>📍</div>
-                                            <h3 className={style.serviceTitle}>Local Citations & Directories</h3>
-                                            <p>We ensure your business shines in local searches by listing it on major directories like Google My Business, Yelp, and TripAdvisor. Our optimization efforts guarantee that your business information is accurate and consistent, essential for attracting local customers.</p>
-                                        </div>
-                                        <div className={style.service}>
-                                            <div className={style.icon}>⭐</div>
-                                            <h3 className={style.serviceTitle}>Review Management</h3>
-                                            <p>We actively manage your online reputation by encouraging positive reviews and professionally addressing any negative feedback. This proactive approach helps build trust and credibility, making your business more appealing to potential customers.</p>
-                                        </div>
+                                </div>
+                                <div className={style.service}>
+                                    <FaGlobeAmericas size={48} className={style.icon} />
+                                    <div className={style.serviceContent}>
+                                        <h3 className={style.serviceTitle}>Keyword Research & Analysis</h3>
+                                        <p>We identify high-volume search terms and uncover opportunities to improve your rankings, helping you stay ahead of the competition.</p>
                                     </div>
-                                    <Link href="#" title="Contact Us">
-                                        <div className={style.contact}>
-                                            <h3>{"Let’s Transform Your Online Presence Today!"}</h3>
-                                            <p>Contact us to learn how our tailored SEO strategies can elevate your business!</p>
-                                        </div>
-                                    </Link>
+                                </div>
+                                <div className={style.service}>
+                                    <FaGlobeAmericas size={48} className={style.icon} />
+                                    <div className={style.serviceContent}>
+                                        <h3 className={style.serviceTitle}>Off-Page Optimization</h3>
+                                        <p>We enhance your website's authority with high-quality backlinks, boosting your site’s credibility and visibility on search engines.</p>
+                                    </div>
+                                </div>
+                            </Col>
+                            <Col xs={12} md={4} className="d-flex flex-column gap-4">
+                                <div className={style.service}>
+                                    <FaMapPin size={48} className={style.icon} />
+                                    <div className={style.serviceContent}>
+                                        <h3 className={style.serviceTitle}>Local Citations & Directories</h3>
+                                        <p>We make sure your business appears in relevant local directories, like Google My Business, helping you attract more local customers.</p>
+                                    </div>
+                                </div>
+                                <div className={style.service}>
+                                    <FaStar size={48} className={style.icon} />
+                                    <div className={style.serviceContent}>
+                                        <h3 className={style.serviceTitle}>Review Management</h3>
+                                        <p>We actively manage your online reputation by encouraging positive reviews and addressing negative feedback, building trust with customers.</p>
+                                    </div>
                                 </div>
                             </Col>
                         </Row>
@@ -82,6 +76,7 @@ const LocalSeo = () => {
                 <section className={style.seoTabs}>
                     <Container>
                         <Row>
+                            <h2>What do our <span>local SEO</span> services include?</h2>
                             <Col>
                                 <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                                     <Row className="justify-content-around">
@@ -109,13 +104,13 @@ const LocalSeo = () => {
                                                 <Tab.Pane eventKey="first">
                                                     <div className={style.tabCont}>
                                                         <div>
-                                                            <h2><span><img src="/assets/local-seo.svg" /></span> Local Search Optimization</h2>
+                                                            <h3><span><img src="/assets/local-seo.svg" /></span> Local Search Optimization</h3>
                                                             <div>
-                                                                <h3>{"Google My Business (GMB)"}</h3>
+                                                                <h4>{"Google My Business (GMB)"}</h4>
                                                                 <p>{"laim and optimize your Google My Business listing to ensure accurate information about your business, including your address, phone number, website, and hours of operation. Engaging with customers through GMB allows you to respond to reviews, post updates, and share photos and videos, showcasing your business and driving local traffic."}</p>
                                                             </div>
                                                             <div>
-                                                                <h3>Local Directories</h3>
+                                                                <h4>Local Directories</h4>
                                                                 <p>{"List your business on other relevant local directories such as Yelp, TripAdvisor, and Yellow Pages. Ensuring consistency across these directories is crucial for local SEO, as search engines rely on this information to determine your business's legitimacy and visibility."}</p>
                                                             </div>
                                                         </div>
@@ -127,21 +122,21 @@ const LocalSeo = () => {
                                                 <Tab.Pane eventKey="second">
                                                     <div className={style.tabCont}>
                                                         <div>
-                                                            <h2><span><img src="/assets/on-page.png" /></span> On-page Optimization</h2>
+                                                            <h3><span><img src="/assets/on-page.png" /></span> On-page Optimization</h3>
                                                             <div>
-                                                                <h3>Content Optimization</h3>
+                                                                <h4>Content Optimization</h4>
                                                                 <p>{"We ensure your website content is relevant, engaging, and optimized for target keywords. This includes writing high-quality content, structuring it for readability, and using keyword-rich headings and subheadings."}</p>
                                                             </div>
                                                             <div>
-                                                                <h3>Technical SEO</h3>
+                                                                <h4>Technical SEO</h4>
                                                                 <p>{"We optimize your website's technical aspects, such as site speed, mobile responsiveness, and structured data, to improve its crawlability and user experience."}</p>
                                                             </div>
                                                             <div>
-                                                                <h3>Meta Data Optimization</h3>
+                                                                <h4>Meta Data Optimization</h4>
                                                                 <p>{"We craft compelling title tags and meta descriptions that accurately describe your website's content and attract clicks from search engine results pages."}</p>
                                                             </div>
                                                             <div>
-                                                                <h3>Internal Linking</h3>
+                                                                <h4>Internal Linking</h4>
                                                                 <p>{"We implement a strategic internal linking strategy to improve website navigation and distribute link juice throughout your site."}</p>
                                                             </div>
                                                         </div>
@@ -153,17 +148,17 @@ const LocalSeo = () => {
                                                 <Tab.Pane eventKey="third">
                                                     <div className={style.tabCont}>
                                                         <div>
-                                                            <h2><span><img src="/assets/citation.webp" /></span> Citation Building</h2>
+                                                            <h3><span><img src="/assets/citation.webp" /></span> Citation Building</h3>
                                                             <div>
-                                                                <h3>Local Directories</h3>
+                                                                <h4>Local Directories</h4>
                                                                 <p>{"We ensure your business is listed on major local directories like Google My Business, Yelp, and TripAdvisor. Accurate and consistent information across these platforms strengthens your online presence and increases visibility in local search results."}</p>
                                                             </div>
                                                             <div>
-                                                                <h3>Online Business Profiles</h3>
+                                                                <h4>Online Business Profiles</h4>
                                                                 <p>{"We create and optimize online business profiles on platforms relevant to your industry, such as Angie's List, HomeAdvisor, and others. This expands your reach to a wider audience and helps build trust and credibilit."}</p>
                                                             </div>
                                                             <div>
-                                                                <h3>Industry-Specific Directories</h3>
+                                                                <h4>Industry-Specific Directories</h4>
                                                                 <p>{"We leverage industry-specific directories relevant to your business, such as those focused on healthcare, legal services, or restaurants. This ensures you are reaching the most targeted audience and maximizing your visibility within your niche."}</p>
                                                             </div>
                                                         </div>
@@ -175,17 +170,17 @@ const LocalSeo = () => {
                                                 <Tab.Pane eventKey="fourth">
                                                     <div className={style.tabCont}>
                                                         <div>
-                                                            <h2><span><img src="/assets/review.webp" /></span> Review Management</h2>
+                                                            <h3><span><img src="/assets/review.webp" /></span> Review Management</h3>
                                                             <div>
-                                                                <h3>Encouraging Reviews</h3>
+                                                                <h4>Encouraging Reviews</h4>
                                                                 <p>{"We guide you on how to strategically request reviews from your satisfied customers, providing easy-to-use tools and templates for review requests. We encourage your customers to leave reviews across various platforms like Google My Business, Yelp, and TripAdvisor, enhancing your online reputation."}</p>
                                                             </div>
                                                             <div>
-                                                                <h3>Responding to Reviews</h3>
+                                                                <h4>Responding to Reviews</h4>
                                                                 <p>{"We help you respond to reviews promptly and professionally, building customer relationships and showcasing your commitment to service excellence. We craft thoughtful replies that address customer concerns, acknowledge positive feedback, and maintain a consistent brand voice."}</p>
                                                             </div>
                                                             <div>
-                                                                <h3>Review Monitoring & Analysis</h3>
+                                                                <h4>Review Monitoring & Analysis</h4>
                                                                 <p>{"We track and analyze your online reviews, identifying trends and insights to understand customer sentiment and make data-driven improvements. By monitoring your reviews, we can identify areas for improvement and proactively address any negative feedback to maintain a strong online reputation."}</p>
                                                             </div>
                                                         </div>
@@ -197,17 +192,17 @@ const LocalSeo = () => {
                                                 <Tab.Pane eventKey="fifth">
                                                     <div className={style.tabCont}>
                                                         <div>
-                                                            <h2><span><img src="/assets/reporting.webp" /></span> Reporting & Analytics</h2>
+                                                            <h3><span><img src="/assets/reporting.webp" /></span> Reporting & Analytics</h3>
                                                             <div>
-                                                                <h3>Regular Reporting</h3>
+                                                                <h4>Regular Reporting</h4>
                                                                 <p>{"We provide comprehensive reports tracking your website's performance, including keyword rankings, traffic, and conversion rates. This data helps gauge the effectiveness of your SEO strategy and highlights improvement areas, offering you insights to enhance local visibility and drive growth."}</p>
                                                             </div>
                                                             <div>
-                                                                <h3>Data Analysis</h3>
+                                                                <h4>Data Analysis</h4>
                                                                 <p>{"Our team analyzes data to reveal valuable insights and discover optimization opportunities. By providing actionable recommendations tailored to your goals, we ensure that your local SEO campaign stays aligned with your business objectives and delivers consistent, measurable results for maximum impact."}</p>
                                                             </div>
                                                             <div>
-                                                                <h3>Performance Tracking</h3>
+                                                                <h4>Performance Tracking</h4>
                                                                 <p>{"We monitor your local SEO campaign’s progress, delivering updates and insights into your website's growth and performance. This enables us to adjust strategies as needed, supporting continuous improvement in search engine rankings and enhancing visibility to drive long-term, sustainable success."}</p>
                                                             </div>
                                                         </div>
@@ -291,109 +286,135 @@ const LocalSeo = () => {
                         <h2 className={style.whyTitle}>Why <span>Nextupgrad</span></h2>
                         <Row className={style.whyCont}>
                             <Col className={`col-md-3 ${style.whyUp}`}>
-                                <TbTargetArrow />
+                                <div className={style.iconContainer}>
+                                    <TbTargetArrow className={style.icon} />
+                                </div>
                                 <h3>Results-Driven Approach</h3>
-                                <p>We prioritize measurable results and use data-driven strategies to deliver
-                                    tangible improvements in your local search rankings and business growth.</p>
+                                <p>We prioritize measurable results and use data-driven strategies to deliver tangible improvements in your local search rankings and business growth.</p>
                             </Col>
                             <Col className={`col-md-3 ${style.whyDown}`}>
-                                <MdOutlineSupportAgent />
+                                <div className={style.iconContainer}>
+                                    <MdOutlineSupportAgent className={style.icon} />
+                                </div>
                                 <h3>Dedicated Team & Support</h3>
-                                <p>Our team of experienced SEO professionals is committed to
-                                    delivering exceptional service and providing ongoing support
-                                    throughout your campaign.</p>
+                                <p>Our team of experienced SEO professionals is committed to delivering exceptional service and providing ongoing support throughout your campaign.</p>
                             </Col>
                             <Col className={`col-md-3 ${style.whyUp}`}>
-                                <GiTeamIdea />
+                                <div className={style.iconContainer}>
+                                    <GiTeamIdea className={style.icon} />
+                                </div>
                                 <h3>NYC Expertise & Experience</h3>
-                                <p>We have a deep understanding of the New York City market, its unique
-                                    search landscape, and the specific needs of local businesses.</p>
+                                <p>We have a deep understanding of the New York City market, its unique search landscape, and the specific needs of local businesses.</p>
                             </Col>
                             <Col className={`col-md-3 ${style.whyDown}`}>
-                                <AiOutlineFileSearch />
+                                <div className={style.iconContainer}>
+                                    <AiOutlineFileSearch className={style.icon} />
+                                </div>
                                 <h3>Transparent Communication</h3>
-                                <p>We believe in open and transparent communication,
-                                    keeping you informed about the progress of your
-                                    campaign and addressing any questions you may have.</p>
+                                <p>We believe in open and transparent communication, keeping you informed about the progress of your campaign and addressing any questions you may have.</p>
                             </Col>
                         </Row>
                     </Container>
                 </section>
                 <section className={style.pricing}>
                     <Container>
-                        <h2>Our Affordable <span>Pricing Plans</span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <Row className={style.priceRow}>
-                            <Col className="col-md-4">
-                                <div className={style.priceCard}>
-                                    <h3>Weekly Plan</h3>
-                                    <p><sup>$</sup>120<sub>/ week</sub></p>
-                                    <ul>
-                                        <li><span>SEO & Branding</span><FaCircleCheck /></li>
-                                        <li><span>Digital Marketing</span><FaCircleCheck /></li>
-                                        <li><span>Google Analytics</span><FaCircleCheck /></li>
-                                        <li><span>Branding Solutions</span><FaCircleCheck /></li>
-                                        <li><span>Digital Accounts</span><FaCircleCheck /></li>
-                                        <li className={style.declined}><span>Pay-per-Click</span><FaTimesCircle /></li>
-                                        <li className={style.declined}><span>24/7 Support</span><FaTimesCircle /></li>
-                                    </ul>
-                                </div>
-                            </Col>
-                            <Col className="col-md-4">
-                                <div className={style.priceCard}>
-                                    <h3>Monthly Plan</h3>
-                                    <p><sup>$</sup>840<sub>/ month</sub></p>
-                                    <ul>
-                                        <li><span>SEO & Branding</span><FaCircleCheck /></li>
-                                        <li><span>Digital Marketing</span><FaCircleCheck /></li>
-                                        <li><span>Google Analytics</span><FaCircleCheck /></li>
-                                        <li><span>Branding Solutions</span><FaCircleCheck /></li>
-                                        <li><span>Digital Accounts</span><FaCircleCheck /></li>
-                                        <li><span>Pay-per-Click</span><FaCircleCheck /></li>
-                                        <li className={style.declined}><span>24/7 Support</span><FaTimesCircle /></li>
-                                    </ul>
-                                </div>
-                            </Col>
-                            <Col className="col-md-4">
-                                <div className={style.priceCard}>
-                                    <h3>Yearly Plan</h3>
-                                    <p><sup>$</sup>3,600<sub>/ year</sub></p>
-                                    <ul>
-                                        <li><span>SEO & Branding</span><FaCircleCheck /></li>
-                                        <li><span>Digital Marketing</span><FaCircleCheck /></li>
-                                        <li><span>Google Analytics</span><FaCircleCheck /></li>
-                                        <li><span>Branding Solutions</span><FaCircleCheck /></li>
-                                        <li><span>Digital Accounts</span><FaCircleCheck /></li>
-                                        <li><span>Pay-per-Click</span><FaCircleCheck /></li>
-                                        <li><span>24/7 Support</span><FaCircleCheck /></li>
-                                    </ul>
-                                </div>
-                            </Col>
-                            <Link href="#" title="get started">Get Started</Link>
-                        </Row>
+                        <div className={style.title}>
+                            <h2>
+                                Affordable <span>Pricing Plans</span>
+                            </h2>
+                            <p>
+                                Find the perfect plan to suit your needs. Simple, transparent pricing.
+                            </p>
+                        </div>
+                        <div className={style.cardRow}>
+                            {/* Weekly Plan */}
+                            <div className={`${style.priceCard} ${style.weekly}`}>
+                                <h3>Weekly Plan</h3>
+                                <p>
+                                    <sup>$</sup>120<sub>/week</sub>
+                                </p>
+                                <ul>
+                                    <li>SEO & Branding</li>
+                                    <li>Digital Marketing</li>
+                                    <li>Google Analytics</li>
+                                    <li>Branding Solutions</li>
+                                    <li>Digital Accounts</li>
+                                    <li className={style.disabled}>Pay-per-Click</li>
+                                    <li className={style.disabled}>24/7 Support</li>
+                                </ul>
+                                <button className={style.choosePlan}>Choose Plan</button>
+                            </div>
+
+                            {/* Monthly Plan */}
+                            <div className={`${style.priceCard} ${style.featured}`}>
+                                <h3>Monthly Plan</h3>
+                                <p>
+                                    <sup>$</sup>840<sub>/month</sub>
+                                </p>
+                                <ul>
+                                    <li>SEO & Branding</li>
+                                    <li>Digital Marketing</li>
+                                    <li>Google Analytics</li>
+                                    <li>Branding Solutions</li>
+                                    <li>Digital Accounts</li>
+                                    <li>Pay-per-Click</li>
+                                    <li className={style.disabled}>24/7 Support</li>
+                                </ul>
+                                <button className={style.choosePlan}>Choose Plan</button>
+                            </div>
+
+                            {/* Yearly Plan */}
+                            <div className={`${style.priceCard} ${style.yearly}`}>
+                                <h3>Yearly Plan</h3>
+                                <p>
+                                    <sup>$</sup>3,600<sub>/year</sub>
+                                </p>
+                                <ul>
+                                    <li>SEO & Branding</li>
+                                    <li>Digital Marketing</li>
+                                    <li>Google Analytics</li>
+                                    <li>Branding Solutions</li>
+                                    <li>Digital Accounts</li>
+                                    <li>Pay-per-Click</li>
+                                    <li>24/7 Support</li>
+                                </ul>
+                                <button className={style.choosePlan}>Choose Plan</button>
+                            </div>
+                        </div>
                     </Container>
                 </section>
                 <section className={style.caseStudy}>
                     <Container>
-                        <h2>Case <span>Study</span></h2>
+                        <div className={style.title}>
+                            <h2>
+                                Case <span>Study</span>
+                            </h2>
+                            <p>Explore our recent work and success stories. Innovation meets results!</p>
+                        </div>
                         <Row className={style.case}>
                             <Col className={`col-md-3 ${style.caseCont}`}>
-                                <h3>Lorem ipsum dolor sit amet</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <div className={style.card}>
+                                    <div className={style.cardOverlay}></div>
+                                    <h3>Lorem Ipsum Dolor</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+                                    <button className={style.readMore}>Read More</button>
+                                </div>
                             </Col>
                             <Col className={`col-md-3 ${style.caseCont}`}>
-                                <h3>Lorem ipsum dolor sit amet</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <div className={style.card}>
+                                    <div className={style.cardOverlay}></div>
+                                    <h3>Consectetur Adipiscing</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+                                    <button className={style.readMore}>Read More</button>
+                                </div>
                             </Col>
                             <Col className={`col-md-3 ${style.caseCont}`}>
-                                <h3>Lorem ipsum dolor sit amet</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <div className={style.card}>
+                                    <div className={style.cardOverlay}></div>
+                                    <h3>Eiusmod Tempor</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+                                    <button className={style.readMore}>Read More</button>
+                                </div>
                             </Col>
                         </Row>
                     </Container>
@@ -401,8 +422,8 @@ const LocalSeo = () => {
                 <section className={style.faq}>
                     <Container>
                         <h2>Frequently <span>Asked</span> Questions</h2>
-                        <Row>
-                            <Col className={style.accord}>
+                        <Row className="justify-content-center">
+                            <Col className={`col-md-10 ${style.accord}`}>
                                 <Accordion defaultActiveKey="0" flush>
                                     <Accordion.Item eventKey="0">
                                         <Accordion.Header>1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</Accordion.Header>
