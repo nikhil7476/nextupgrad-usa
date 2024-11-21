@@ -28,7 +28,7 @@ const LocalSeo = () => {
                 <section className={style.methodology}>
                     <Container>
                         <Row className="text-center mb-4">
-                            <h2>Our <span>Methodology</span></h2>
+                            <h2>Our Methodology</h2>
                         </Row>
                         <Row className="justify-content-evenly">
                             <Col xs={12} md={7} className="d-flex flex-column gap-4">
@@ -221,9 +221,9 @@ const LocalSeo = () => {
                 </section>
                 <section className={style.deliverables}>
                     <Container>
-                        <Row>
+                        <Row className="justify-content-center">
                             <h2>Our <span>Deliverables</span></h2>
-                            <Col>
+                            <Col className="col-md-10">
                                 <div className={style.timeline}>
                                     <ul>
                                         <li>
@@ -320,7 +320,7 @@ const LocalSeo = () => {
                     <Container>
                         <div className={style.title}>
                             <h2>
-                                Affordable <span>Pricing Plans</span>
+                                Affordable Pricing Plans
                             </h2>
                             <p>
                                 Find the perfect plan to suit your needs. Simple, transparent pricing.
@@ -387,7 +387,7 @@ const LocalSeo = () => {
                     <Container>
                         <div className={style.title}>
                             <h2>
-                                Case <span>Study</span>
+                                Case Study
                             </h2>
                             <p>Explore our recent work and success stories. Innovation meets results!</p>
                         </div>
@@ -421,7 +421,7 @@ const LocalSeo = () => {
                 </section>
                 <section className={style.faq}>
                     <Container>
-                        <h2>Frequently <span>Asked</span> Questions</h2>
+                        <h2>Frequently Asked Questions</h2>
                         <Row className="justify-content-center">
                             <Col className={`col-md-10 ${style.accord}`}>
                                 <Accordion defaultActiveKey="0" flush>
