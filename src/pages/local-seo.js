@@ -50,7 +50,7 @@ const LocalSeo = () => {
                                     <FaGlobeAmericas size={48} className={style.icon} />
                                     <div className={style.serviceContent}>
                                         <h3 className={style.serviceTitle}>Off-Page Optimization</h3>
-                                        <p>We enhance your website's authority with high-quality backlinks, boosting your site’s credibility and visibility on search engines.</p>
+                                        <p>{"We enhance your website's authority with high-quality backlinks, boosting your site’s credibility and visibility on search engines."}</p>
                                     </div>
                                 </div>
                             </Col>
