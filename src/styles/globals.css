@@ -56,6 +56,11 @@ a:hover {
   color: var(--btnCol);
 }
 
+.container {
+  max-width: 1250px !important;
+  width: 1250px !important;
+}
+
 p {
   margin-top: 0;
   margin-bottom: 10px;
@@ -109,6 +114,10 @@ li {
   transition: all .5s ease;
   border-radius: 0 0 20px 20px;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+.megamenu .container {
+  width: 100% !important;
 }
 
 /* Show megamenu when hovering on dropdown */
@@ -390,19 +399,31 @@ li {
 }
 
 /*Local SEO Page CSS*/
+
+/*FAQs*/
 .accordion-item {
   margin-bottom: 20px;
 }
 
 .accordion-button {
-  background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
-  color: var(--textLight) !important;
+  color: var(--textDark) !important;
   font-size: 20px !important;
   font-weight: 600;
 }
 
 .accordion-button:focus {
   box-shadow: none !important;
+}
+
+.seoTabs .nav-pills .nav-link.active {
+  color: var(--btnCol) !important;
+  background-color: transparent !important;
+  border-bottom: 1px solid #e76f51 !important;
+}
+
+.seoTabs .nav-pills .nav-link:hover {
+  color: var(--btnCol) !important;
+  border-bottom: 1px solid #e76f51 !important;
 }
 
 /*Media Queries*/
