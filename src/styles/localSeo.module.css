@@ -59,78 +59,55 @@
     text-align: center;
 }
 
-.cont {
-    margin: auto;
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-
-
-.contFirst {
+.service {
     display: flex;
     gap: 20px;
-}
-
-.contHdr {
-    width: 33.33%;
-    align-content: center;
-    padding: 15px;
-    margin: 10px 0;
-}
-
-.contHdr h3 {
-    font-size: 36px;
-}
-
-.service {
-    width: 33.33%;
-    align-content: center;
-    background-color: #000;
-    border-left: 5px solid var(--btnCol);
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 5px;
-    transition: ease 2s;
+    background: #2c3e50;
+    padding: 25px;
+    border-radius: 12px;
+    height: 100%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .service:hover {
-    transform: scale(0.9);
+    transform: translateY(-5px);
+    background-color: #34495e;
+    /* Darker on hover */
 }
 
 .icon {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 48px;
+    color: #f39c12;
+    /* Accent color */
+}
+
+.serviceContent {
+    display: flex;
+    flex-direction: column;
 }
 
 .serviceTitle {
-    color: var(--btnCol);
-    margin: 0 0 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
-.contact {
-    text-align: center;
-    margin-top: 20px;
-    padding: 10px;
-    background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
-    border-radius: 5px;
-    color: #fff;
+.service p {
+    font-size: 1.1rem;
+    color: #d3d3d3;
+    line-height: 1.6;
 }
 
-.contact:hover {
-    background: linear-gradient(90deg, #EE4C8D 65%, #e76f51 99.54%);
-}
+@media (max-width: 767px) {
+    .methodology h2 {
+        font-size: 2.2rem;
+    }
 
-.contact h3 {
-    margin: 0;
+    .service {
+        padding: 20px;
+        font-size: 1rem;
+    }
 }
-
-.contact p {
-    margin: 5px 0 0;
-}
-
 
 /**/
 
@@ -140,13 +117,17 @@
 }
 
 .seoTabs h2 {
+    text-align: center;
+}
+
+.seoTabs h3 {
     font-size: 28px;
     display: flex;
     gap: 15px;
     align-items: center;
 }
 
-.seoTabs h3 {
+.seoTabs h4 {
     font-size: 20px;
     font-weight: 600;
 }
@@ -305,168 +286,323 @@
 }
 
 /*Pricing Card CSS*/
-
-.pricing h2 {
+.pricing {
+    background: #192733;
+    padding: 4rem 2rem;
+    color: #e4e6eb;
     text-align: center;
-    margin-bottom: 10px;
 }
 
-.pricing p {
-    text-align: center;
-    margin-bottom: 20px;
+.pricing .title p {
+    font-size: 1rem;
+    color: #a6aebc;
+    margin-bottom: 3rem;
 }
 
-.priceRow {
-    justify-content: space-evenly;
+.cardRow {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
 }
 
 .priceCard {
+    background: #1f2d3a;
+    border: 1px solid #2a3948;
+    border-radius: 8px;
+    padding: 2rem;
     text-align: center;
-    padding: 20px 40px;
-    margin-bottom: 30px;
-    color: #000;
-    background-color: #fff;
-    padding-bottom: 30px;
-    border-radius: 5px;
-    transition: .5s;
+    transition: all 0.3s ease;
+    width: 100%;
+    max-width: 320px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .priceCard:hover {
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
-    transform: translateY(-10px);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
 }
 
 .priceCard h3 {
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 1.6rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
 }
 
 .priceCard p {
-    color: #e76f51;
-    padding: 10px 40px 0;
-    font-size: 40px;
-    font-weight: 900;
-    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--btnCol);
 }
 
-.priceCard p sup {
-    top: -18px;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.priceCard p sub {
-    bottom: 2px;
-    color: #000;
-    padding-right: 5px;
-    font-size: 14px;
-    font-weight: 500;
+.priceCard ul {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+    color: #fff;
+    font-size: 0.9rem;
 }
 
 .priceCard ul li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-    font-size: 16px;
-    font-weight: 500;
-    color: #8384AC;
+    margin: 0.5rem 0;
 }
 
-.priceCard ul li svg {
-    color: green;
-}
-
-.declined {
-    text-decoration: line-through;
-    text-decoration-color: red;
-    text-decoration-thickness: 2px;
-}
-
-.declined svg {
-    color: red !important;
-}
-
-.pricing a {
-    width: fit-content;
+.priceCard ul li.disabled {
     color: #fff;
-    text-transform: uppercase;
+    text-decoration: line-through;
+}
+
+.choosePlan {
     background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
-    transition: .5s;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
     border-radius: 5px;
-    font-weight: 600;
-    font-size: 16px;
-    padding: 17px 35px 13px 35px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.choosePlan:hover {
+    background: linear-gradient(90deg, #EE4C8D 65%, #e76f51 99.54%);
 }
 
 /*Why Nextupgrad CSS*/
-.why {
+.whyTitle {
     text-align: center;
-    background-image: url("/assets/deliverables-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.whyCont {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    position: relative;
 }
 
 .whyUp,
 .whyDown {
-    padding: 20px;
-    margin: 5px;
-    width: 24%;
-    background-color: #fff;
-    color: var(--textDark);
-    border-radius: 10px;
+    padding: 2.5rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    text-align: center;
+    flex: 1;
+    transition: transform 0.4s ease, opacity 0.3s ease-in-out;
+    border: 1px solid #2a3948;
+    border-radius: 8px;
 }
 
-.whyUp svg,
-.whyDown svg {
-    font-size: 60px;
-    color: var(--btnCol);
-    margin-bottom: 15px;
+.whyUp:hover,
+.whyDown:hover {
+    transform: translateY(-10px);
+    opacity: 0.9;
 }
 
-.whyUp {
-    margin-bottom: 30px;
+.whyUp h3,
+.whyDown h3 {
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    position: relative;
+    z-index: 2;
 }
 
+.whyUp p,
+.whyDown p {
+    font-size: 1rem;
+    color: #b0b0b0;
+    line-height: 1.6;
+    margin-top: 1rem;
+    position: relative;
+    z-index: 2;
+}
+
+.iconContainer {
+    background: linear-gradient(135deg, #ff6f61 30%, #ff3b2f 100%);
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icon {
+    font-size: 3rem;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.iconContainer:hover {
+    background-color: #ff3b2f;
+    /* Darker shade on hover */
+    transform: scale(1.1);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.iconContainer:hover .icon {
+    transform: rotate(15deg);
+}
+
+.whyUp,
 .whyDown {
-    margin-top: 30px;
+    background: transparent;
+    box-shadow: none;
+    position: relative;
+    padding: 2rem;
+}
+
+.whyUp::before,
+.whyDown::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(255, 111, 97, 0.2), rgba(255, 111, 97, 0));
+    z-index: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.whyUp:hover::before,
+.whyDown:hover::before {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .whyCont {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /*Case Study CSS*/
 
 .caseStudy {
-    background-image: url("/assets/case-bg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    position: relative;
+    overflow: hidden;
 }
 
-.caseStudy h2 {
+.caseStudy .title {
     text-align: center;
+}
+
+.caseStudy .title p {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
 }
 
 .case {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .caseCont {
-    padding: 20px;
-    background-image: url("https://picsum.photos/300");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex: 1 1 calc(30% - 2rem);
+    position: relative;
 }
 
-.caseCont h3 {
-    font-size: 28px;
-    font-weight: 600;
+.card {
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 2rem;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+}
+
+.cardOverlay {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, rgba(255, 111, 97, 0.9), rgba(255, 161, 124, 0.8));
+    transition: top 0.4s ease-in-out;
+    z-index: 0;
+}
+
+.card:hover .cardOverlay {
+    top: 0;
+}
+
+.card h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 2;
+}
+
+.card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    position: relative;
+    z-index: 2;
+}
+
+.readMore {
+    margin-top: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    background: #ff6f61;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    position: relative;
+    z-index: 2;
+}
+
+.readMore:hover {
+    background: #ff3b2f;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover p,
+.card:hover h3 {
+    color: #fff;
+}
+
+/* Background Design Elements */
+.caseStudy::before,
+.caseStudy::after {
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(255, 111, 97, 0.4), rgba(255, 111, 97, 0));
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.caseStudy::before {
+    top: -100px;
+    left: -100px;
+}
+
+.caseStudy::after {
+    bottom: -100px;
+    right: -100px;
 }
 
 /*FAQs*/
