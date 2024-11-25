@@ -402,29 +402,33 @@ li {
 
 /*FAQs*/
 .accordion-item {
-  margin-bottom: 20px;
-}
-
-.accordion-button {
-  color: var(--textDark) !important;
-  font-size: 20px !important;
-  font-weight: 600;
-}
-
-.accordion-button:focus {
-  box-shadow: none !important;
-}
-
-.seoTabs .nav-pills .nav-link.active {
-  color: var(--btnCol) !important;
+  margin-bottom: 10px !important;
+  color: #fff !important;
   background-color: transparent !important;
-  border-bottom: 1px solid #e76f51 !important;
+  border: none !important;
 }
 
-.seoTabs .nav-pills .nav-link:hover {
-  color: var(--btnCol) !important;
-  border-bottom: 1px solid #e76f51 !important;
+.accordion-button, .accordion-button:not(.collapsed) {
+  border-radius: 8px 8px 0px 0px !important;
 }
+
+.accordion-button, .accordion-button:not(.collapsed), .accordion-body {
+  background-color: #192733 !important;
+  color: #fff !important;
+  box-shadow: none !important;
+  border: 1px solid #2a3948 !important;
+}
+
+.accordion-body {
+  margin-top: 10px !important;
+  border-radius: 0px 0px 8px 8px !important;
+}
+
+.accordion-collapse.collapse.show {
+  display: flex !important;
+  justify-content: center !important;
+}
+
 
 /*Media Queries*/
 
