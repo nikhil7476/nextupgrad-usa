@@ -429,6 +429,9 @@ li {
   justify-content: center !important;
 }
 
+.accordion-button:after, .accordion-button:not(.collapsed):after {
+  background-image: url("/assets/accord-arrow.svg") !important;
+}
 
 /*Media Queries*/
 
