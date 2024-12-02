@@ -274,7 +274,7 @@ li {
 }
 
 .serveTb .nav-pills .nav-link.active {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 .serveTb .nav-link:hover {

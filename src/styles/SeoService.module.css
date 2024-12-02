@@ -214,6 +214,13 @@
     padding: 10px;
     border: 1px solid #2a3948;
     border-radius: 10px;
+    transition: .3s;
+}
+
+.content:hover {
+    transform: scale(1.1);
+    background: linear-gradient(135deg, rgba(255, 111, 97, 0.2), rgba(255, 111, 97, 0));
+    cursor: pointer;
 }
 
 .timeline ul li:nth-child(odd):before {

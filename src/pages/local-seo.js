@@ -84,19 +84,19 @@ const LocalSeo = () => {
                                     <Row className="justify-content-around">
                                         <Col sm={3}>
                                             <Nav variant="pills" className={`flex-column ${style.seoService}`}>
-                                                <Nav.Item>
+                                                <Nav.Item className={style.tabLinks}>
                                                     <Nav.Link eventKey="first">Local Search Optimization</Nav.Link>
                                                 </Nav.Item>
-                                                <Nav.Item>
+                                                <Nav.Item className={style.tabLinks}>
                                                     <Nav.Link eventKey="second">On-page Optimization</Nav.Link>
                                                 </Nav.Item>
-                                                <Nav.Item>
+                                                <Nav.Item className={style.tabLinks}>
                                                     <Nav.Link eventKey="third">Citation Building</Nav.Link>
                                                 </Nav.Item>
-                                                <Nav.Item>
+                                                <Nav.Item className={style.tabLinks}>
                                                     <Nav.Link eventKey="fourth">Review Management</Nav.Link>
                                                 </Nav.Item>
-                                                <Nav.Item>
+                                                <Nav.Item className={style.tabLinks}>
                                                     <Nav.Link eventKey="fifth">Reporting & Analytics</Nav.Link>
                                                 </Nav.Item>
                                             </Nav>
