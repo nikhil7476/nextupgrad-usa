@@ -8,7 +8,7 @@ import { GoXCircleFill } from "react-icons/go";
 import { AiOutlineFileSearch } from "react-icons/ai";
 import { FaTools, FaGlobeAmericas, FaMapPin, FaStar, FaCheckCircle } from 'react-icons/fa';
 import style from "@/styles/SeoService.module.css";
-import LocalAccordion from "@/components/LocalAccordion";
+import SeoServiceAccordion from "@/components/SeoServiceAccordion";
 const SeoService = () => {
     return (
         <>
@@ -426,7 +426,7 @@ const SeoService = () => {
                         <h2>Frequently Asked Questions</h2>
                         <Row className="justify-content-center">
                             <Col className={`col-md-8 ${style.accord}`}>
-                                <LocalAccordion />
+                                <SeoServiceAccordion />
                             </Col>
                         </Row>
                     </Container>
