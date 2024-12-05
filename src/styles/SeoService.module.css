@@ -159,9 +159,15 @@
   padding: 20px;
   border: 1px solid #2a3948;
   border-radius: 5px;
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
   position: relative;
+  transition: background-size 0.8s cubic-bezier(0.25, 0.1, 0.25, 1);
+  cursor: pointer;
+}
+
+.caseCard:hover {
+  background-size: 115%;
 }
 
 .caseCard:before {
