@@ -529,7 +529,7 @@ const SeoService = () => {
                 <section className={style.searches}>
                     <Container>
                         <Row className="text-center">
-                            <h2>60,000+ Searches Happen Each Second</h2>
+                            <h2><CountUp end={60000} duration={5} suffix="+" /> Searches Happen Each Second</h2>
                             <p>Our SEO services make sure your business shows up where it matters most: at the top of search results.<br />We focus on bringing the right people to your site using smart keyword choices, clear website structures, and engaging content.</p>
                             <Col>
                                 <StatisticsSection />
@@ -538,8 +538,8 @@ const SeoService = () => {
                     </Container>
                 </section>
                 <section className={style.whyChoose}>
-                    <Container>
-                        <h2>Why Nextupgrad</h2>
+                    <Container className="text-center">
+                        <h2>Why <span>Nextupgrad</span></h2>
                         <Row>
                             <Col className="col-md-3">
                                 <div className={style.whyCard}>
