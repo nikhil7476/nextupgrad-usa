@@ -114,8 +114,12 @@ const SeoService = () => {
                 </section>
                 <section className={style.deliverables} id="deli">
                     <Container>
-                        <h2>Our Deliverables</h2>
-                        <p>Experience comprehensive search engine optimization {"(SEO)"} services with Nextupgrad USA. Our full-service solutions attract qualified traffic and convert it into revenue. With Nextupgrad USA as your SEO agency, {"you'll"} benefit from strategic development, performance optimization, continuous measurement, and adaptive strategies.</p>
+                        <Row className="text-center">
+                            <Col>
+                                <h2>Our Deliverables</h2>
+                                <p>Experience comprehensive search engine optimization {"(SEO)"} services with Nextupgrad USA.<br />Our full-service solutions attract qualified traffic and convert it into revenue. With Nextupgrad USA as your SEO agency,<br />{"you'll"} benefit from strategic development, performance optimization, continuous measurement, and adaptive strategies.</p>
+                            </Col>
+                        </Row>
                         <Row>
                             <Col>
                                 <Tab.Container id="left-tabs-example" defaultActiveKey="first">
@@ -283,51 +287,6 @@ const SeoService = () => {
                         </Row>
                     </Container>
                 </section>
-                {/* <section className={style.caseStudy}>
-                    <Container>
-                        <h2>Case Studies</h2>
-                        <p>Check out our SEO services, which have helped businesses across industries achieve exceptional results.<br/>{"Here’s"} a glimpse of what {"we’ve"} done for our clients:</p>
-                        <Row>
-                            <Col className="col-md-4">
-                                <div className={style.caseCard}>
-                                    <div className={style.caseHead}>
-                                        <h3>Transforming security solutions with innovative technology</h3>
-                                    </div>
-                                    <div className={style.caseStat}>
-                                        <p><span><CountUp end={100} duration={5} suffix="+" /></span><br />Global Brands Empowered</p>
-                                        <p><span><CountUp end={1000} duration={5} suffix="+" /></span><br />Integrated Security Deployments</p>
-                                        <p><span><CountUp end={20} duration={5} suffix="%" /></span><br />Quicker Incident Responses</p>
-                                    </div>
-                                </div>
-                            </Col>
-                            <Col className="col-md-4">
-                                <div className={style.caseCard}>
-                                    <div className={style.caseHead}>
-                                        <h3>Transforming security solutions with innovative technology</h3>
-                                    </div>
-                                    <div className={style.caseStat}>
-                                        <p><span><CountUp end={100} duration={5} suffix="+" /></span><br />Global Brands Empowered</p>
-                                        <p><span><CountUp end={1000} duration={5} suffix="+" /></span><br />Integrated Security Deployments</p>
-                                        <p><span><CountUp end={20} duration={5} suffix="%" /></span><br />Quicker Incident Responses</p>
-                                    </div>
-                                </div>
-                            </Col>
-                            <Col className="col-md-4">
-                                <div className={style.caseCard}>
-                                    <div className={style.caseHead}>
-                                        <h3>Transforming security solutions with innovative technology</h3>
-                                    </div>
-                                    <div className={style.caseStat}>
-                                        <p><span><CountUp end={100} duration={5} suffix="+" /></span><br />Global Brands Empowered</p>
-                                        <p><span><CountUp end={1000} duration={5} suffix="+" /></span><br />Integrated Security Deployments</p>
-                                        <p><span><CountUp end={20} duration={5} suffix="%" /></span><br />Quicker Incident Responses</p>
-                                    </div>
-                                </div>
-                            </Col>
-                        </Row>
-                        <Link href="#" title="Schedule a Call Now" className={style.ctaBtn}>Schedule a Call Now</Link>
-                    </Container>
-                </section> */}
                 <section className={style.caseStudy}>
                     <Container>
                         <h2>Case Studies</h2>
@@ -368,9 +327,13 @@ const SeoService = () => {
                 </section>
                 <section className={style.approach}>
                     <Container>
-                        <h2>Our Approach</h2>
-                        <h3>Unveiling Our SEO {"Agency’s"} R.O.C.K.E.T. Strategy<br /><span>From Search to Success: $2 Million Revenue Generated</span></h3>
-                        <p>Discover how our proven R.O.C.K.E.T. system is transforming SEO results. With strategies designed for real impact, {"we’ve"} helped our recent clients earn over $2 Million in search revenue. Let us help your brand reach the top today!</p>
+                        <Row className="text-center">
+                            <Col>
+                                <h2>Our Approach</h2>
+                                <h3>Unveiling Our SEO {"Agency’s"} R.O.C.K.E.T. Strategy<br /><span>From Search to Success: $2 Million Revenue Generated</span></h3>
+                                <p>Discover how our proven R.O.C.K.E.T. system is transforming SEO results. With strategies designed for real impact,<br/>{"we’ve"} helped our recent clients earn over $2 Million in search revenue. Let us help your brand reach the top today!</p>
+                            </Col>
+                        </Row>
                         <Row>
                             <Col>
                                 <Tab.Container id="left-tabs-example" defaultActiveKey="first">
@@ -558,7 +521,7 @@ const SeoService = () => {
                     </Container>
                 </section>
                 <section className={style.grow}>
-                    <Container>
+                    <Container className="mb-4">
                         <h2>Growing your business with SEO </h2>
                         <Row>
                             <Col className="col-md-6">

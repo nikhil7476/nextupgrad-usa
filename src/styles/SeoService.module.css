@@ -161,6 +161,7 @@
   border-radius: 5px;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 .caseCard:before {
