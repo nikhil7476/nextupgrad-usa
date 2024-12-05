@@ -542,28 +542,28 @@ const SeoService = () => {
                         <h2>Why Nextupgrad</h2>
                         <Row>
                             <Col className="col-md-3">
-                                <div>
+                                <div className={style.whyCard}>
                                     <TbTargetArrow />
                                     <h3>Results-Driven Approach</h3>
                                     <p>We prioritize measurable results and use data-driven strategies to deliver tangible improvements in your local search rankings and business growth.</p>
                                 </div>
                             </Col>
                             <Col className="col-md-3">
-                                <div>
+                                <div className={style.whyCard}>
                                     <MdOutlineSupportAgent />
                                     <h3>Dedicated Team & Support</h3>
                                     <p>Our team of experienced SEO professionals is committed to delivering exceptional service and providing ongoing support throughout your campaign.</p>
                                 </div>
                             </Col>
                             <Col className="col-md-3">
-                                <div>
+                                <div className={style.whyCard}>
                                     <GiTeamIdea />
                                     <h3>NYC Expertise & Experience</h3>
                                     <p>We have a deep understanding of the New York City market, its unique search landscape, and the specific needs of local businesses.</p>
                                 </div>
                             </Col>
                             <Col className="col-md-3">
-                                <div>
+                                <div className={style.whyCard}>
                                     <AiOutlineFileSearch />
                                     <h3>Transparent Communication</h3>
                                     <p>We believe in open and transparent communication, keeping you informed about the progress of your campaign and addressing any questions you may have.</p>

@@ -180,11 +180,11 @@ li {
   background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
   border: 1px solid var(--btnCol);
   text-align: center;
-  padding: 10px 30px;
+  padding: 5px 30px;
   position: fixed;
   top: 50%;
   z-index: 99;
-  right: -60px;
+  right: -68px;
   transition: 0.5s;
   transform: translatey(-50%) rotate(-90deg);
   min-width: 180px;
