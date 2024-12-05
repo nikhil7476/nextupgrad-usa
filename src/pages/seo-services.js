@@ -3,6 +3,7 @@ import Link from "next/link";
 import CountUp from "react-countup";
 import { Col, Container, Row, Nav, Tab, Table } from "react-bootstrap";
 import { MdOutlineSupportAgent } from "react-icons/md";
+import { RxDoubleArrowDown } from "react-icons/rx";
 import { TbTargetArrow } from "react-icons/tb";
 import { GiTeamIdea } from "react-icons/gi";
 import { AiOutlineFileSearch } from "react-icons/ai";
@@ -20,58 +21,53 @@ const SeoService = () => {
                 <section className={style.serviceBanner}>
                     <Container>
                         <Row>
-                            <Col className="col-md-6">
-                                <h1>SEO Services</h1>
-                                <p>{"In today's digital age, a strong online presence is essential. At Nextupgrad USA, we specialize in providing premier SEO services to help your business excel in a competitive online market. Our experts employ advanced strategies, industry best practices, and data-driven insights to enhance your website's visibility, attract high-quality traffic, and deliver measurable results. Whether you're a startup aiming to establish yourself or an established brand seeking to dominate your niche, we have the tools and expertise to achieve your goals."}</p>
+                            <Col className="col-md-6 align-content-center">
+                                <h1>Capture More Revenue with the <span>Best SEO Services</span></h1>
+                                <p>In {"today's"} digital age, a strong online presence is essential. At Nextupgrad USA, we specialize in providing premier SEO services to help your business excel in a competitive online market.</p>
+                                <p>Our experts employ advanced strategies, industry best practices, and data-driven insights to enhance your {"website's"} visibility, attract high-quality traffic, and deliver measurable results. Whether {"you're"} a startup aiming to establish yourself or an established brand seeking to dominate your niche, we have the tools and expertise to achieve your goals.</p>
+                                <Link href="#" title="Schedule a Call Now" className={style.ctaBtn}>Schedule a Call Now</Link>
                             </Col>
                             <Col className="col-md-6">
-                                <Row>
-                                    <Col className="col-md-6">
+                                <Row className="justify-content-center">
+                                    <Col className="col-md-4">
                                         <div className={style.flipBox}>
                                             <div className={style.flipBoxInner}>
                                                 <div className={style.flipBoxFront}>
-                                                    <h2>Front Side</h2>
+                                                    <h2>420%</h2>
+                                                    <p>Higher NPS® Score Than<br /><span>Industry average: 16</span></p>
                                                 </div>
                                                 <div className={style.flipBoxBack}>
-                                                    <h2>Back Side</h2>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Col>
-                                    <Col className="col-md-6">
-                                        <div className={style.flipBox}>
-                                            <div className={style.flipBoxInner}>
-                                                <div className={style.flipBoxFront}>
-                                                    <h2>Front Side</h2>
-                                                </div>
-                                                <div className={style.flipBoxBack}>
-                                                    <h2>Back Side</h2>
+                                                    <p>Why Is Our NPS So High?</p>
+                                                    <p>Turn-key solutions<br />Real business results<br />Consistent communication</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </Col>
                                 </Row>
-                                <Row>
-                                    <Col className="col-md-6">
+                                <Row className="justify-content-evenly">
+                                    <Col className="col-md-4">
                                         <div className={style.flipBox}>
                                             <div className={style.flipBoxInner}>
                                                 <div className={style.flipBoxFront}>
-                                                    <h2>Front Side</h2>
+                                                    <h2>10%</h2>
+                                                    <p>Average Traffic Increase</p>
                                                 </div>
                                                 <div className={style.flipBoxBack}>
-                                                    <h2>Back Side</h2>
+                                                    <p>At Nextupgrad, we deliver tailored local SEO strategies to drive your business growth and maximize revenue from the start.</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col className="col-md-6">
+                                    <Col className="col-md-4">
                                         <div className={style.flipBox}>
                                             <div className={style.flipBoxInner}>
                                                 <div className={style.flipBoxFront}>
-                                                    <h2>Front Side</h2>
+                                                    <h2>93%</h2>
+                                                    <p>Client Satisfaction Score<br /><span>Industry average: 72%</span></p>
                                                 </div>
                                                 <div className={style.flipBoxBack}>
-                                                    <h2>Back Side</h2>
+                                                    <p>Why Is Our Satisfaction<br />Score So High?</p>
+                                                    <p>Project management<br />ROI Tracking<br />Diverse skillsets</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -79,12 +75,17 @@ const SeoService = () => {
                                 </Row>
                             </Col>
                         </Row>
+                        <Row className="justify-content-center">
+                            <Col className="col-md-1">
+                                <Link href="#deli" title="Scroll Down" className={style.vertMove} ><RxDoubleArrowDown /></Link>
+                            </Col>
+                        </Row>
                     </Container>
                 </section>
-                <section className={style.deliverables}>
+                <section className={style.deliverables} id="deli">
                     <Container>
                         <h2>Our Deliverables</h2>
-                        <p>{"Experience comprehensive search engine optimization (SEO) services with Nextupgrad USA. Our full-service solutions attract qualified traffic and convert it into revenue. With Nextupgrad USA as your SEO agency, you'll benefit from strategic development, performance optimization, continuous measurement, and adaptive strategies."}</p>
+                        <p>Experience comprehensive search engine optimization {"(SEO)"} services with Nextupgrad USA. Our full-service solutions attract qualified traffic and convert it into revenue. With Nextupgrad USA as your SEO agency, {"you'll"} benefit from strategic development, performance optimization, continuous measurement, and adaptive strategies.</p>
                         <Row>
                             <Col>
                                 <Tab.Container id="left-tabs-example" defaultActiveKey="first">
@@ -95,7 +96,7 @@ const SeoService = () => {
                                                     <Nav.Link eventKey="first">Overview</Nav.Link>
                                                 </Nav.Item>
                                                 <Nav.Item>
-                                                    <Nav.Link eventKey="second">Performance Tracking & Transparent Reporting</Nav.Link>
+                                                    <Nav.Link eventKey="second">Performance Tracking<br/>& Transparent Reporting</Nav.Link>
                                                 </Nav.Item>
                                                 <Nav.Item>
                                                     <Nav.Link eventKey="third">Keyword Research</Nav.Link>
@@ -113,21 +114,21 @@ const SeoService = () => {
                                                     <Nav.Link eventKey="seventh">Technical SEO</Nav.Link>
                                                 </Nav.Item>
                                                 <Nav.Item>
-                                                    <Nav.Link eventKey="eight">Content Creation & Optimization</Nav.Link>
+                                                    <Nav.Link eventKey="eight">Content Creation<br/>& Optimization</Nav.Link>
                                                 </Nav.Item>
                                             </Nav>
                                         </Col>
-                                        <Col sm={9}>
+                                        <Col sm={8}>
                                             <Tab.Content>
                                                 <Tab.Pane eventKey="first">
                                                     <h3>Overview</h3>
                                                     <p>Achieve unparalleled SEO results with customized solutions.</p>
                                                     <p>Align your SEO goals with your unique business needs and reap the rewards of targeted optimization.</p>
                                                     <p>At Nextupgrad USA, our SEO approach is driven by revenue marketing. This means every optimization is designed to impact your bottom line. Discover how our SEO firm helps grow our {"client's"} businesses through revenue-focused SEO.</p>
-                                                    <Link href="#" title="Send a Proposal Now">Send a Proposal Now</Link>
+                                                    <Link href="#" title="Send a Proposal Now" className={style.ctaBtn}>Send a Proposal Now</Link>
                                                 </Tab.Pane>
                                                 <Tab.Pane eventKey="second">
-                                                    <h2>Performance Tracking & Transparent Reporting</h2>
+                                                    <h3>Performance Tracking & Transparent Reporting</h3>
                                                     <p>A comprehensive website SEO audit forms the cornerstone of a successful SEO strategy. Our SEO services meticulously analyze every aspect of your {"website's"} performance, providing actionable insights for growth.</p>
                                                     <p>Your dedicated account manager will assess:</p>
                                                     <ol>
@@ -140,10 +141,10 @@ const SeoService = () => {
                                                     <p>We leverage advanced tools as part of our <strong>SEO marketing</strong> approach. These tools allow our <strong>SEO agency</strong> to uncover hidden opportunities, fix underlying issues, and craft a robust strategy to position your business competitively.</p>
                                                     <p>We deliver actionable recommendations that drive tangible results by focusing on your {"website's"} strengths and addressing weaknesses. With our expertise, your business can achieve enhanced visibility, traffic, and conversions through cutting-edge <strong>SEO services</strong>.</p>
                                                     <p>This thorough audit lays the groundwork for ongoing success, enabling your website to perform optimally in search engines. Let our <strong>SEO agency</strong> transform your online presence into a high-performing asset!</p>
-                                                    <Link href="#" title="Send a Proposal Now">Send a Proposal Now</Link>
+                                                    <Link href="#" title="Send a Proposal Now" className={style.ctaBtn}>Send a Proposal Now</Link>
                                                 </Tab.Pane>
                                                 <Tab.Pane eventKey="third">
-                                                    <h2>Keyword Research</h2>
+                                                    <h3>Keyword Research</h3>
                                                     <p>In {"today’s"} competitive digital landscape, ranking high on search engines is essential. Our managed SEO services are designed to help you achieve this with focused keyword research.</p>
                                                     <ol>
                                                         <li><strong>Understand Your Current Position:</strong> We start by analyzing the keywords you already rank for to identify strengths and areas for growth.</li>
@@ -152,16 +153,16 @@ const SeoService = () => {
                                                     </ol>
                                                     <p>This step-by-step approach ensures you connect with your audience through meaningful search queries, increasing your visibility and engagement. Whether {"you’re"} targeting local customers or a broader market, our methods help your business rise in the search rankings.</p>
                                                     <p>Start building your path to better visibility today.</p>
-                                                    <Link href="#" title="Send a Proposal Now">Send a Proposal Now</Link>
+                                                    <Link href="#" title="Send a Proposal Now" className={style.ctaBtn}>Send a Proposal Now</Link>
                                                 </Tab.Pane>
                                                 <Tab.Pane eventKey="fourth">
-                                                    <h2>Link Building</h2>
+                                                    <h3>Link Building</h3>
                                                     <p>At <strong>Nextupgrad USA</strong>, we focus on building effective SEO solutions designed to meet your business goals. At the heart of our service is <strong>custom link building</strong>, a key factor in improving your online presence.</p>
-                                                    <h3>Why Link Building is Key:</h3>
+                                                    <h4>Why Link Building is Key:</h4>
                                                     <p>Backlinks from trusted websites signal search engines to rank your site higher, driving more visitors. But not all links add {"value - that’s"} where our <strong>dedicated team</strong> steps in.</p>
                                                     <Row>
                                                         <Col className="col-md-6">
-                                                            <h3>Our Approach:</h3>
+                                                            <h5>Our Approach:</h5>
                                                             <ol>
                                                                 <li><strong>Smart Research:</strong> We identify websites that matter to your business and audience.</li>
                                                                 <li><strong>Compelling Content Creation:</strong> We create content that attracts links naturally.</li>
@@ -169,7 +170,7 @@ const SeoService = () => {
                                                             </ol>
                                                         </Col>
                                                         <Col className="col-md-6">
-                                                            <h3>What You Get:</h3>
+                                                            <h5>What You Get:</h5>
                                                             <ol>
                                                                 <li><strong>Better Search Rankings:</strong> Be more visible when customers search for your services.</li>
                                                                 <li><strong>Stronger Website Reputation:</strong> Build trust with search engines and users.</li>
@@ -178,12 +179,12 @@ const SeoService = () => {
                                                         </Col>
                                                     </Row>
                                                     <p>We focus on making every link count, helping businesses like yours succeed online with strategies that work and results you can trust.</p>
-                                                    <h3>{"Let’s"} Work Together</h3>
-                                                    <p>Want your website to rank higher and attract more customers? <strong>Reach out to Nextupgrad USA today. {"Let’s"} build a stronger online presence for your business—starting now!</strong></p>
-                                                    <Link href="#" title="Send a Proposal Now">Send a Proposal Now</Link>
+                                                    <h4>{"Let’s"} Work Together</h4>
+                                                    <p>Want your website to rank higher and attract more customers? <strong>Reach out to Nextupgrad USA today. {"Let’s"} build a stronger online presence for your business - starting now!</strong></p>
+                                                    <Link href="#" title="Send a Proposal Now" className={style.ctaBtn}>Send a Proposal Now</Link>
                                                 </Tab.Pane>
                                                 <Tab.Pane eventKey="fifth">
-                                                    <h2>On-page SEO</h2>
+                                                    <h3>On-page SEO</h3>
                                                     <p>At Nextupgrad USA, our on-page SEO services are here to make your website work harder for you. As a trusted <strong>SEO agency</strong>, we handle all the important details to help your site show up higher on search engines and attract more visitors.<br />{"Here’s"} what we do:</p>
                                                     <ol>
                                                         <li><strong>Title Tags:</strong> Write clear and effective titles that include important keywords.</li>
@@ -196,12 +197,12 @@ const SeoService = () => {
                                                     <p>Unlike many <strong>SEO companies</strong>, we focus on what actually works for your business. Whether {"you're"} a small business looking for <strong>SEO services near Chicago</strong> or competing in a busy market, {"we’ll"} make sure your site keeps up with the latest search trends.</p>
                                                     <p>As one of the best <strong>SEO optimization companies in New York</strong>, {"we’ll"} help you get more customers, increase traffic, and improve your online visibility. From writing better headlines to fixing the technical stuff, we take care of it all.</p>
                                                     <p>Want to see how we can help? Let us create a custom plan just for your website.</p>
-                                                    <Link href="#" title="Send a Proposal Now">Send a Proposal Now</Link>
+                                                    <Link href="#" title="Send a Proposal Now" className={style.ctaBtn}>Send a Proposal Now</Link>
                                                 </Tab.Pane>
                                                 <Tab.Pane eventKey="sixth">
-                                                    <h2>Off-page SEO</h2>
+                                                    <h3>Off-page SEO</h3>
                                                     <p>Take your website to the next level with our proven off-page SEO strategies. As a trusted SEO expert in NYC, we focus on improving factors outside your website that boost your online visibility and rankings.</p>
-                                                    <h3>What We Do for Your Off-Page SEO:</h3>
+                                                    <h4>What We Do for Your Off-Page SEO:</h4>
                                                     <ol>
                                                         <li><strong>Content Creation:</strong> We create interesting and shareable content that gets more backlinks and grabs attention on social media. This approach makes us one of the best SEO services near NYC.</li>
                                                         <li><strong>Outreach:</strong> We connect with other websites and online platforms to get your brand noticed by more people.</li>
@@ -212,10 +213,10 @@ const SeoService = () => {
                                                     </ol>
                                                     <p>Our off-page SEO services are designed to help businesses looking for reliable SEO services near NYC. Whether {"you’re"} a small local business or a growing company, we make sure you stand out online.</p>
                                                     <p><strong>Ready to work with the best SEO company in NYC? Contact us today and {"let’s"} get started!</strong></p>
-                                                    <Link href="#" title="Send a Proposal Now">Send a Proposal Now</Link>
+                                                    <Link href="#" title="Send a Proposal Now" className={style.ctaBtn}>Send a Proposal Now</Link>
                                                 </Tab.Pane>
                                                 <Tab.Pane eventKey="seventh">
-                                                    <h2>Technical SEO</h2>
+                                                    <h3>Technical SEO</h3>
                                                     <p>Looking for the best SEO company in NYC to fix your {"website's"} technical issues? {"We’re"} here to help. Our SEO services near NYC make it easy for search engines and visitors to use your site.<br />{"Here’s"} what we do:</p>
                                                     <ol>
                                                         <li>Fix <strong>robots.txt files</strong> to guide search engines properly.</li>
@@ -227,10 +228,10 @@ const SeoService = () => {
                                                     </ol>
                                                     <p>Unlike other <strong>SEO optimization companies in NYC</strong>, we focus on practical solutions to make your site work better without breaking the bank. Want to know about our <strong>SEO package pricing?</strong> We have options that fit businesses of all sizes.</p>
                                                     <p>Your website should work for you, not against you. Call the best <strong>SEO company in NYC</strong> today and {"let’s"} make your site work the way it should!</p>
-                                                    <Link href="#" title="Send a Proposal Now">Send a Proposal Now</Link>
+                                                    <Link href="#" title="Send a Proposal Now" className={style.ctaBtn}>Send a Proposal Now</Link>
                                                 </Tab.Pane>
                                                 <Tab.Pane eventKey="eight">
-                                                    <h2>Content creation and optimization</h2>
+                                                    <h3>Content creation and optimization</h3>
                                                     <p>Looking for the best SEO company in Texas to fix your {"website's"} technical issues? {"We’re"} here to help. Our SEO services near Pennsylvania make it easy for search engines and visitors to use your site.<br />{"Here’s"} what we do:</p>
                                                     <ol>
                                                         <li>Fix <strong>robots.txt files</strong> to guide search engines properly.</li>
@@ -242,7 +243,7 @@ const SeoService = () => {
                                                     </ol>
                                                     <p>Unlike other <strong>SEO optimization companies in NYC</strong>, we focus on practical solutions to make your site work better without breaking the bank. Want to know about our <strong>SEO package pricing</strong>? We have options that fit businesses of all sizes.</p>
                                                     <p>Your website should work for you, not against you. Call the <strong>best SEO company in NYC</strong> today and {"let’s"} make your site work the way it should!</p>
-                                                    <Link href="#" title="Send a Proposal Now">Send a Proposal Now</Link>
+                                                    <Link href="#" title="Send a Proposal Now" className={style.ctaBtn}>Send a Proposal Now</Link>
                                                 </Tab.Pane>
                                             </Tab.Content>
                                         </Col>
@@ -294,7 +295,7 @@ const SeoService = () => {
                                 </div>
                             </Col>
                         </Row>
-                        <Link href="#" title="Schedule a Call Now">Schedule a Call Now</Link>
+                        <Link href="#" title="Schedule a Call Now" className={style.ctaBtn}>Schedule a Call Now</Link>
                     </Container>
                 </section>
                 <section className={style.approach}>
@@ -328,7 +329,7 @@ const SeoService = () => {
                                                 </Nav.Item>
                                             </Nav>
                                         </Col>
-                                        <Col sm={11}>
+                                        <Col sm={10}>
                                             <Tab.Content>
                                                 <Tab.Pane eventKey="first">
                                                     <h4>Research: Building the Right SEO Plan for Your Business</h4>
@@ -340,7 +341,7 @@ const SeoService = () => {
                                                         <li><strong>Checking Your Website:</strong> Your website is your online home. We examine it closely to find {"what’s"} working well and what could use improvement to get the results {"you’re"} after.</li>
                                                     </ol>
                                                     <p>With this information—and your input—our SEO experts can create a clear and effective plan. This ensures your customers can find your business easily and understand why {"you’re"} the best choice for their needs.</p>
-                                                    <Link href="#" title="Send a Proposal Now">Send a Proposal Now</Link>
+                                                    <Link href="#" title="Send a Proposal Now" className={style.ctaBtn}>Send a Proposal Now</Link>
                                                 </Tab.Pane>
                                                 <Tab.Pane eventKey="second">
                                                     <h4>Optimize</h4>
@@ -352,7 +353,7 @@ const SeoService = () => {
                                                     </ol>
                                                     <p>Our team includes specialists in SEO, website development, and content writing who collaborate to make your website stand out.</p>
                                                     <p>Get your website working harder for you. <strong>Work with Nextupgrad USA to reach more people and grow your business online</strong>.</p>
-                                                    <Link href="#" title="Send a Proposal Now">Send a Proposal Now</Link>
+                                                    <Link href="#" title="Send a Proposal Now" className={style.ctaBtn}>Send a Proposal Now</Link>
                                                 </Tab.Pane>
                                                 <Tab.Pane eventKey="third">
                                                     <h4>Content</h4>
@@ -365,7 +366,7 @@ const SeoService = () => {
                                                         <li><strong>Keeping an Eye on Performance:</strong> We track how your content is doing with tools like Google Analytics and Search Console. This helps us make better decisions and get you better results over time.</li>
                                                     </ol>
                                                     <p>Prefer to create your own content? No problem! Your account manager can give you tips, a list of keywords to use, and a plan to help your writing rank higher and reach more people.</p>
-                                                    <Link href="#" title="Send a Proposal Now">Send a Proposal Now</Link>
+                                                    <Link href="#" title="Send a Proposal Now" className={style.ctaBtn}>Send a Proposal Now</Link>
                                                 </Tab.Pane>
                                                 <Tab.Pane eventKey="fourth">
                                                     <h4>Keywords</h4>
@@ -379,7 +380,7 @@ const SeoService = () => {
                                                         <li><strong>Make Your Business Easy to Find:</strong> Your goal is to match your website with the words people use when they search, so they can quickly connect with your business.</li>
                                                     </ol>
                                                     <p>This simple, focused strategy will help your website stand out, bring in the right traffic, and turn more visitors into customers.</p>
-                                                    <Link href="#" title="Send a Proposal Now">Send a Proposal Now</Link>
+                                                    <Link href="#" title="Send a Proposal Now" className={style.ctaBtn}>Send a Proposal Now</Link>
                                                 </Tab.Pane>
                                                 <Tab.Pane eventKey="fifth">
                                                     <h4>Evaluation</h4>
@@ -387,7 +388,7 @@ const SeoService = () => {
                                                     <p>Our SEO team is one of the best in the industry, helping businesses from all types of industries get links from respected websites. These links not only improve your {"website’s"} authority but also attract the right visitors who are more likely to become customers.</p>
                                                     <p>A good backlink profile means your business can rank higher for the keywords that matter most to your audience. This leads to more people finding your website, visiting your pages, and taking action—whether {"that’s"} making a purchase, booking a service, or contacting you.</p>
                                                     <p>{"Don’t"} let the complexity of SEO hold you back. Let us help you create a backlink strategy that delivers real results.</p>
-                                                    <Link href="#" title="Send a Proposal Now">Send a Proposal Now</Link>
+                                                    <Link href="#" title="Send a Proposal Now" className={style.ctaBtn}>Send a Proposal Now</Link>
                                                 </Tab.Pane>
                                                 <Tab.Pane eventKey="sixth">
                                                     <h4>Testing</h4>
@@ -396,7 +397,7 @@ const SeoService = () => {
                                                     <p>But {"it’s"} not just about getting more visitors. With our conversion-focused approach, we help make sure those visitors take action—whether {"it’s"} making a purchase, booking a service, or filling out a form. Using tools like Google Analytics and conversion tracking, we identify {"what’s"} working, {"what’s"} not, and how to improve. From clearer calls-to-action to making the checkout process easier, we focus on practical changes that deliver results.</p>
                                                     <p>If {"you’re"} looking to grow your sales or leads, our combined SEO and CRO strategies make it simple for people to find you—and choose you.</p>
                                                     <p>Ready to turn traffic into revenue? Contact us today to get started!</p>
-                                                    <Link href="#" title="Send a Proposal Now">Send a Proposal Now</Link>
+                                                    <Link href="#" title="Send a Proposal Now" className={style.ctaBtn}>Send a Proposal Now</Link>
                                                 </Tab.Pane>
                                             </Tab.Content>
                                         </Col>
@@ -485,32 +486,7 @@ const SeoService = () => {
                                 </Table>
                             </Col>
                         </Row>
-                        <Link href="#" title="See Our Affordable Plans">See Our Affordable Plans</Link>
-                    </Container>
-                </section>
-                <section>
-                    <Container className="py-5 text-center text-white">
-                        <Row className="justify-content-center align-items-center">
-                            <Col md={8}>
-                                <div
-                                    style={{
-                                        border: '4px solid #E87354',
-                                        borderRadius: '15px',
-                                        padding: '20px',
-                                        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                                    }}
-                                >
-                                    <h2 style={{ fontWeight: 'bold', color: '#E87354', marginBottom: '15px' }}>
-                                        Stat Highlight
-                                    </h2>
-                                    <p style={{ fontSize: '18px', lineHeight: '1.6', color: '#ffffff' }}>
-                                        Companies that invest in <strong>SEO</strong> typically experience a{' '}
-                                        <span style={{ color: '#E87354', fontWeight: 'bold' }}>13.2x higher ROI</span> than
-                                        other marketing efforts.
-                                    </p>
-                                </div>
-                            </Col>
-                        </Row>
+                        <Link href="#" title="See Our Affordable Plans" className={style.ctaBtn}>See Our Affordable Plans</Link>
                     </Container>
                 </section>
                 <section className={style.grow}>
@@ -525,12 +501,36 @@ const SeoService = () => {
                             </Col>
                         </Row>
                     </Container>
+                    <Container className="text-center text-white">
+                        <Row className="justify-content-center align-items-center">
+                            <Col md={8}>
+                                <div
+                                    style={{
+                                        border: '4px solid #2a3948',
+                                        background: 'linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0))',
+                                        borderRadius: '15px',
+                                        padding: '20px',
+                                        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                                    }}
+                                >
+                                    <h3 style={{ fontSize: '45px', fontWeight: 'bold', marginBottom: '15px' }}>
+                                        Stat Highlight
+                                    </h3>
+                                    <p style={{ fontSize: '18px', lineHeight: '1.6', color: '#ffffff' }}>
+                                        Companies that invest in <strong>SEO</strong> typically experience a{' '}
+                                        <span style={{ color: '#E87354', fontWeight: 'bold' }}>13.2x higher ROI</span> than
+                                        other marketing efforts.
+                                    </p>
+                                </div>
+                            </Col>
+                        </Row>
+                    </Container>
                 </section>
                 <section className={style.searches}>
                     <Container>
-                        <h2>60,000+ Searches Happen Each Second</h2>
-                        <p>Our SEO services make sure your business shows up where it matters most: at the top of search results. We focus on bringing the right people to your site using smart keyword choices, clear website structures, and engaging content.</p>
-                        <Row>
+                        <Row className="text-center">
+                            <h2>60,000+ Searches Happen Each Second</h2>
+                            <p>Our SEO services make sure your business shows up where it matters most: at the top of search results.<br />We focus on bringing the right people to your site using smart keyword choices, clear website structures, and engaging content.</p>
                             <Col>
                                 <StatisticsSection />
                             </Col>
@@ -570,7 +570,7 @@ const SeoService = () => {
                                 </div>
                             </Col>
                         </Row>
-                        <Link href="#" title="Send a Proposal Now">Send a Proposal Now</Link>
+                        <Link href="#" title="Send a Proposal Now" className={style.ctaBtn}>Send a Proposal Now</Link>
                     </Container>
                 </section>
                 <section className={style.serviceFaq}>

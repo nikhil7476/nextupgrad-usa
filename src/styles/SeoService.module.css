@@ -1,66 +1,164 @@
 .serviceHdr section {
-    padding: 60px 0px;
+  padding: 60px 0px;
+}
+
+.serviceHdr h1 {
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 64px;
+  letter-spacing: -.042em;
 }
 
 .serviceHdr h2 {
-    font-size: 50px;
-    font-weight: 600;
-    text-transform: capitalize;
-    margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.serviceHdr h1 span {
+  background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+  background-clip: text;
+  color: transparent;
 }
 
 .serviceHdr h2 span {
-    background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
-    background-clip: text;
-    color: transparent;
+  background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+  background-clip: text;
+  color: transparent;
+}
+
+.serviceHdr p {
+  margin-bottom: 20px;
+}
+
+.ctaBtn {
+  display: inline-block;
+  background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+  border: 1px solid var(--btnCol);
+  color: #fff;
+  padding: 15px 20px;
+}
+
+.ctaBtn:hover {
+  color: #fff;
+}
+
+
+.deliverables,
+.approach,
+.grow,
+.whyChoose {
+  background-color: #142330;
 }
 
 /*Banner Section*/
 
 .serviceBanner {
-    background-image: url("/assets/seo-banner.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding: 120px 0px 60px 0px !important;
+  padding: 120px 0px 60px 0px !important;
 }
 
 .flipBox {
-    background-color: transparent;
-    width: 300px;
-    height: 200px;
-    border: 1px solid #f1f1f1;
-    perspective: 1000px;
+  background-color: transparent;
+  width: 250px;
+  height: 250px;
+  perspective: 1000px;
+}
+
+.flipBoxInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 50%;
+}
+
+.flipBox:hover .flipBoxInner {
+  transform: rotateY(180deg)
+}
+
+.flipBoxFront,
+.flipBoxBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 50%;
+}
+
+.flipBoxFront {
+  background: linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0));
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.flipBoxBack {
+  background: linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0));
+  padding: 20px;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flipBoxFront h2,
+.flipBoxBack h2 {
+  margin-bottom: 10px;
+}
+
+.flipBoxFront p,
+.flipBoxBack p {
+  margin-bottom: 5px;
+}
+
+.flipBoxFront p span {
+  font-size: 14px;
+}
+
+.vertMove {
+  color: #fff;
+  font-size: 30px;
+}
+
+.vertMove svg {
+  animation: mover 1s infinite alternate;
+}
+
+.vertMove svg {
+  animation: mover 1s infinite alternate;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0);
   }
-  
-  .flipBoxInner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
+
+  100% {
+    transform: translateY(-10px);
   }
-  
-  .flipBox:hover .flipBoxInner {
-    transform: rotateY(180deg);
-  }
-  
-  .flipBoxFront, .flipBoxBack {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .flipBoxFront {
-    background-color: #bbb;
-    color: black;
-  }
-  
-  .flipBoxBack {
-    background-color: dodgerblue;
-    color: white;
-    transform: rotateY(180deg);
-  }
+}
+
+/*Deliverables Section CSS*/
+
+/*CaseStudy Section CSS*/
+
+/*Approach Section CSS*/
+
+/*Pricing Section CSS*/
+
+/*Grow Section CSS*/
+
+/*Searches Section CSS*/
+
+/*WhyChoose Section CSS*/
+
+/*ServiceFaq Section CSS*/

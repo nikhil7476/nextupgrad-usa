@@ -21,9 +21,9 @@ const StatisticsSection = () => {
 
   return (
     <Container className="py-5 text-center text-white">
-      <Row>
+      <Row className="justify-content-evenly">
         {stats.map((stat, index) => (
-          <Col md={4} key={index} className="d-flex flex-column align-items-center mb-4">
+          <Col md={3} key={index} className="d-flex flex-column align-items-center">
             <div style={{ width: '120px', height: '120px', marginBottom: '15px' }}>
               <CircularProgressbar
                 value={stat.percentage}
