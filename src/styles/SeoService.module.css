@@ -145,6 +145,60 @@
 /*Deliverables Section CSS*/
 
 /*CaseStudy Section CSS*/
+.caseStudy {
+  text-align: center;
+}
+
+.caseCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 350px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #2a3948;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+}
+
+.caseCard:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: -1;
+}
+
+.caseStat {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.caseHead h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.caseStat p {
+  font-size: 12px;
+  color: #fff;
+  line-height: 18px;
+  margin-bottom: 0;
+}
+
+.caseStat p span {
+  font-size: 30px;
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
+  background-clip: text;
+  color: transparent;
+}
+
 
 /*Approach Section CSS*/
 

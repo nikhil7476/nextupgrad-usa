@@ -11,6 +11,36 @@ import style from "@/styles/SeoService.module.css";
 import SeoServiceAccordion from "@/components/SeoServiceAccordion";
 import StatisticsSection from "@/components/StatisticsSection";
 
+const caseStudies = [
+    {
+        title: "Transforming security solutions with innovative technology",
+        stats: [
+            { end: 100, suffix: "+", label: "Global Brands Empowered" },
+            { end: 1000, suffix: "+", label: "Integrated Security Deployments" },
+            { end: 20, suffix: "%", label: "Quicker Incident Responses" },
+        ],
+        backgroundImage: "url('/assets/case-study-0ne.webp')",
+    },
+    {
+        title: "Optimizing logistics operations with AI and IoT",
+        stats: [
+            { end: 200, suffix: "+", label: "Warehouses Digitized" },
+            { end: 5000, suffix: "+", label: "Deliveries Optimized" },
+            { end: 30, suffix: "%", label: "Cost Reduction" },
+        ],
+        backgroundImage: "url('/assets/case-study-Two.webp')",
+    },
+    {
+        title: "Revolutionizing retail with omnichannel strategies",
+        stats: [
+            { end: 300, suffix: "+", label: "Stores Transformed" },
+            { end: 10000, suffix: "+", label: "Products Sold" },
+            { end: 50, suffix: "%", label: "Customer Retention Boost" },
+        ],
+        backgroundImage: "url('/assets/case-study-three.png')",
+    },
+];
+
 const SeoService = () => {
     return (
         <>
@@ -96,7 +126,7 @@ const SeoService = () => {
                                                     <Nav.Link eventKey="first">Overview</Nav.Link>
                                                 </Nav.Item>
                                                 <Nav.Item>
-                                                    <Nav.Link eventKey="second">Performance Tracking<br/>& Transparent Reporting</Nav.Link>
+                                                    <Nav.Link eventKey="second">Performance Tracking<br />& Transparent Reporting</Nav.Link>
                                                 </Nav.Item>
                                                 <Nav.Item>
                                                     <Nav.Link eventKey="third">Keyword Research</Nav.Link>
@@ -114,7 +144,7 @@ const SeoService = () => {
                                                     <Nav.Link eventKey="seventh">Technical SEO</Nav.Link>
                                                 </Nav.Item>
                                                 <Nav.Item>
-                                                    <Nav.Link eventKey="eight">Content Creation<br/>& Optimization</Nav.Link>
+                                                    <Nav.Link eventKey="eight">Content Creation<br />& Optimization</Nav.Link>
                                                 </Nav.Item>
                                             </Nav>
                                         </Col>
@@ -253,17 +283,17 @@ const SeoService = () => {
                         </Row>
                     </Container>
                 </section>
-                <section className={style.caseStudy}>
+                {/* <section className={style.caseStudy}>
                     <Container>
                         <h2>Case Studies</h2>
-                        <p>Check out our SEO services, which have helped businesses across industries achieve exceptional results. {"Here’s"} a glimpse of what {"we’ve"} done for our clients:</p>
+                        <p>Check out our SEO services, which have helped businesses across industries achieve exceptional results.<br/>{"Here’s"} a glimpse of what {"we’ve"} done for our clients:</p>
                         <Row>
                             <Col className="col-md-4">
-                                <div>
-                                    <div>
+                                <div className={style.caseCard}>
+                                    <div className={style.caseHead}>
                                         <h3>Transforming security solutions with innovative technology</h3>
                                     </div>
-                                    <div>
+                                    <div className={style.caseStat}>
                                         <p><span><CountUp end={100} duration={5} suffix="+" /></span><br />Global Brands Empowered</p>
                                         <p><span><CountUp end={1000} duration={5} suffix="+" /></span><br />Integrated Security Deployments</p>
                                         <p><span><CountUp end={20} duration={5} suffix="%" /></span><br />Quicker Incident Responses</p>
@@ -271,11 +301,11 @@ const SeoService = () => {
                                 </div>
                             </Col>
                             <Col className="col-md-4">
-                                <div>
-                                    <div>
+                                <div className={style.caseCard}>
+                                    <div className={style.caseHead}>
                                         <h3>Transforming security solutions with innovative technology</h3>
                                     </div>
-                                    <div>
+                                    <div className={style.caseStat}>
                                         <p><span><CountUp end={100} duration={5} suffix="+" /></span><br />Global Brands Empowered</p>
                                         <p><span><CountUp end={1000} duration={5} suffix="+" /></span><br />Integrated Security Deployments</p>
                                         <p><span><CountUp end={20} duration={5} suffix="%" /></span><br />Quicker Incident Responses</p>
@@ -283,11 +313,11 @@ const SeoService = () => {
                                 </div>
                             </Col>
                             <Col className="col-md-4">
-                                <div>
-                                    <div>
+                                <div className={style.caseCard}>
+                                    <div className={style.caseHead}>
                                         <h3>Transforming security solutions with innovative technology</h3>
                                     </div>
-                                    <div>
+                                    <div className={style.caseStat}>
                                         <p><span><CountUp end={100} duration={5} suffix="+" /></span><br />Global Brands Empowered</p>
                                         <p><span><CountUp end={1000} duration={5} suffix="+" /></span><br />Integrated Security Deployments</p>
                                         <p><span><CountUp end={20} duration={5} suffix="%" /></span><br />Quicker Incident Responses</p>
@@ -296,6 +326,44 @@ const SeoService = () => {
                             </Col>
                         </Row>
                         <Link href="#" title="Schedule a Call Now" className={style.ctaBtn}>Schedule a Call Now</Link>
+                    </Container>
+                </section> */}
+                <section className={style.caseStudy}>
+                    <Container>
+                        <h2>Case Studies</h2>
+                        <p>
+                            Check out our SEO services, which have helped businesses across industries achieve exceptional results.
+                            <br />
+                            {"Here’s"} a glimpse of what {"we’ve"} done for our clients:
+                        </p>
+                        <Row>
+                            {caseStudies.map((caseStudy, index) => (
+                                <Col key={index} className="col-md-4">
+                                    <div
+                                        className={style.caseCard}
+                                        style={{ backgroundImage: caseStudy.backgroundImage }}
+                                    >
+                                        <div className={style.caseHead}>
+                                            <h3>{caseStudy.title}</h3>
+                                        </div>
+                                        <div className={style.caseStat}>
+                                            {caseStudy.stats.map((stat, i) => (
+                                                <p key={i}>
+                                                    <span>
+                                                        <CountUp end={stat.end} duration={5} suffix={stat.suffix} />
+                                                    </span>
+                                                    <br />
+                                                    {stat.label}
+                                                </p>
+                                            ))}
+                                        </div>
+                                    </div>
+                                </Col>
+                            ))}
+                        </Row>
+                        <Link href="#" title="Schedule a Call Now" className={style.ctaBtn}>
+                            Schedule a Call Now
+                        </Link>
                     </Container>
                 </section>
                 <section className={style.approach}>
