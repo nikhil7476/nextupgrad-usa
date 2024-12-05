@@ -31,7 +31,7 @@ const StatisticsSection = () => {
                 styles={buildStyles({
                   textSize: '16px',
                   textColor: '#ffffff',
-                  pathColor: '#28c76f',
+                  pathColor: '#E87354',
                   trailColor: '#2c2f33',
                 })}
               />
