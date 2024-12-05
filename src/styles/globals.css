@@ -408,11 +408,14 @@ li {
   border: none !important;
 }
 
-.accordion-button, .accordion-button:not(.collapsed) {
+.accordion-button,
+.accordion-button:not(.collapsed) {
   border-radius: 8px 8px 0px 0px !important;
 }
 
-.accordion-button, .accordion-button:not(.collapsed), .accordion-body {
+.accordion-button,
+.accordion-button:not(.collapsed),
+.accordion-body {
   background-color: #192733 !important;
   color: #fff !important;
   box-shadow: none !important;
@@ -420,6 +423,7 @@ li {
 }
 
 .accordion-body {
+  width: 100% !important;
   margin-top: 10px !important;
   border-radius: 0px 0px 8px 8px !important;
 }
@@ -429,9 +433,57 @@ li {
   justify-content: center !important;
 }
 
-.accordion-button:after, .accordion-button:not(.collapsed):after {
+.accordion-button:after,
+.accordion-button:not(.collapsed):after {
   background-image: url("/assets/accord-arrow.svg") !important;
 }
+
+
+
+/*StatisticsSection CSS*/
+.circular-chart {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: conic-gradient(#28c76f var(--percentage, 0%), #2c2f33 var(--percentage, 0%));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.percentage {
+  position: absolute;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.circular-chart .circle {
+  --percentage: 0%;
+  animation: fill 1.5s ease-in-out forwards;
+}
+
+@keyframes fill {
+  0% {
+    --percentage: 0%;
+  }
+
+  100% {
+    --percentage: 93%;
+  }
+}
+
 
 /*Media Queries*/
 

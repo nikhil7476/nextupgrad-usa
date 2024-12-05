@@ -20,6 +20,7 @@
     "react-animate-on-scroll": "^2.1.9",
     "react-animations": "^1.0.0",
     "react-bootstrap": "^2.10.4",
+    "react-circular-progressbar": "^2.1.0",
     "react-cookie-consent": "^9.0.0",
     "react-countup": "^6.5.3",
     "react-dom": "^18",

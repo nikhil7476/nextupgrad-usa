@@ -2,7 +2,13 @@ import Head from "next/head";
 import Link from "next/link";
 import CountUp from "react-countup";
 import { Col, Container, Row, Nav, Tab, Table } from "react-bootstrap";
+import { MdOutlineSupportAgent } from "react-icons/md";
+import { TbTargetArrow } from "react-icons/tb";
+import { GiTeamIdea } from "react-icons/gi";
+import { AiOutlineFileSearch } from "react-icons/ai";
 import style from "@/styles/SeoService.module.css";
+import SeoServiceAccordion from "@/components/SeoServiceAccordion";
+import StatisticsSection from "@/components/StatisticsSection";
 
 const SeoService = () => {
     return (
@@ -132,7 +138,7 @@ const SeoService = () => {
                                                         <li>Additional key SEO factors tailored to your industry</li>
                                                     </ol>
                                                     <p>We leverage advanced tools as part of our <strong>SEO marketing</strong> approach. These tools allow our <strong>SEO agency</strong> to uncover hidden opportunities, fix underlying issues, and craft a robust strategy to position your business competitively.</p>
-                                                    <p>We deliver actionable recommendations that drive tangible results by focusing on your website's strengths and addressing weaknesses. With our expertise, your business can achieve enhanced visibility, traffic, and conversions through cutting-edge <strong>SEO services</strong>.</p>
+                                                    <p>We deliver actionable recommendations that drive tangible results by focusing on your {"website's"} strengths and addressing weaknesses. With our expertise, your business can achieve enhanced visibility, traffic, and conversions through cutting-edge <strong>SEO services</strong>.</p>
                                                     <p>This thorough audit lays the groundwork for ongoing success, enabling your website to perform optimally in search engines. Let our <strong>SEO agency</strong> transform your online presence into a high-performing asset!</p>
                                                     <Link href="#" title="Send a Proposal Now">Send a Proposal Now</Link>
                                                 </Tab.Pane>
@@ -187,7 +193,7 @@ const SeoService = () => {
                                                         <li><strong>SEO-Friendly URLs:</strong> Simplify and clean up your links for better search rankings.</li>
                                                         <li><strong>User Experience (UX):</strong> Make your site simple to use, so visitors stay longer and take action.</li>
                                                     </ol>
-                                                    <p>Unlike many <strong>SEO companies</strong>, we focus on what actually works for your business. Whether you're a small business looking for <strong>SEO services near Chicago</strong> or competing in a busy market, {"we’ll"} make sure your site keeps up with the latest search trends.</p>
+                                                    <p>Unlike many <strong>SEO companies</strong>, we focus on what actually works for your business. Whether {"you're"} a small business looking for <strong>SEO services near Chicago</strong> or competing in a busy market, {"we’ll"} make sure your site keeps up with the latest search trends.</p>
                                                     <p>As one of the best <strong>SEO optimization companies in New York</strong>, {"we’ll"} help you get more customers, increase traffic, and improve your online visibility. From writing better headlines to fixing the technical stuff, we take care of it all.</p>
                                                     <p>Want to see how we can help? Let us create a custom plan just for your website.</p>
                                                     <Link href="#" title="Send a Proposal Now">Send a Proposal Now</Link>
@@ -210,7 +216,7 @@ const SeoService = () => {
                                                 </Tab.Pane>
                                                 <Tab.Pane eventKey="seventh">
                                                     <h2>Technical SEO</h2>
-                                                    <p>Looking for the best SEO company in NYC to fix your website's technical issues? {"We’re"} here to help. Our SEO services near NYC make it easy for search engines and visitors to use your site.<br />{"Here’s"} what we do:</p>
+                                                    <p>Looking for the best SEO company in NYC to fix your {"website's"} technical issues? {"We’re"} here to help. Our SEO services near NYC make it easy for search engines and visitors to use your site.<br />{"Here’s"} what we do:</p>
                                                     <ol>
                                                         <li>Fix <strong>robots.txt files</strong> to guide search engines properly.</li>
                                                         <li>Build and submit <strong>XML and HTML sitemaps</strong> so all pages are found.</li>
@@ -225,7 +231,7 @@ const SeoService = () => {
                                                 </Tab.Pane>
                                                 <Tab.Pane eventKey="eight">
                                                     <h2>Content creation and optimization</h2>
-                                                    <p>Looking for the best SEO company in Texas to fix your website's technical issues? {"We’re"} here to help. Our SEO services near Pennsylvania make it easy for search engines and visitors to use your site.<br />{"Here’s"} what we do:</p>
+                                                    <p>Looking for the best SEO company in Texas to fix your {"website's"} technical issues? {"We’re"} here to help. Our SEO services near Pennsylvania make it easy for search engines and visitors to use your site.<br />{"Here’s"} what we do:</p>
                                                     <ol>
                                                         <li>Fix <strong>robots.txt files</strong> to guide search engines properly.</li>
                                                         <li>Build and submit <strong>XML and HTML sitemaps</strong> so all pages are found.</li>
@@ -369,7 +375,7 @@ const SeoService = () => {
                                                         <li><strong>Link Keywords to Your Goals:</strong> Focus on keywords that directly support your business goals, like boosting sales, increasing inquiries, or driving more visits to your website.</li>
                                                         <li><strong>Spot High-Value Keywords:</strong> Use research to find keywords that deliver the most bang for your buck—whether {"it’s"} specific phrases with low competition or trending terms in your field.</li>
                                                         <li><strong>Find New Ideas:</strong> Look beyond the usual keywords to discover untapped opportunities. Research keywords that your competitors might not be using yet.</li>
-                                                        <li><strong>Work with an SEO Specialist:</strong> An expert can help keep your keywords effective by tracking results and making updates based on what's working and {"what’s"} not.</li>
+                                                        <li><strong>Work with an SEO Specialist:</strong> An expert can help keep your keywords effective by tracking results and making updates based on {"what's"} working and {"what’s"} not.</li>
                                                         <li><strong>Make Your Business Easy to Find:</strong> Your goal is to match your website with the words people use when they search, so they can quickly connect with your business.</li>
                                                     </ol>
                                                     <p>This simple, focused strategy will help your website stand out, bring in the right traffic, and turn more visitors into customers.</p>
@@ -480,6 +486,101 @@ const SeoService = () => {
                             </Col>
                         </Row>
                         <Link href="#" title="See Our Affordable Plans">See Our Affordable Plans</Link>
+                    </Container>
+                </section>
+                <section>
+                    <Container className="py-5 text-center text-white">
+                        <Row className="justify-content-center align-items-center">
+                            <Col md={8}>
+                                <div
+                                    style={{
+                                        border: '4px solid #E87354',
+                                        borderRadius: '15px',
+                                        padding: '20px',
+                                        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                                    }}
+                                >
+                                    <h2 style={{ fontWeight: 'bold', color: '#E87354', marginBottom: '15px' }}>
+                                        Stat Highlight
+                                    </h2>
+                                    <p style={{ fontSize: '18px', lineHeight: '1.6', color: '#ffffff' }}>
+                                        Companies that invest in <strong>SEO</strong> typically experience a{' '}
+                                        <span style={{ color: '#E87354', fontWeight: 'bold' }}>13.2x higher ROI</span> than
+                                        other marketing efforts.
+                                    </p>
+                                </div>
+                            </Col>
+                        </Row>
+                    </Container>
+                </section>
+                <section className={style.grow}>
+                    <Container>
+                        <h2>Growing your business with SEO </h2>
+                        <Row>
+                            <Col className="col-md-6">
+                                <p>Every day, 3.5 billion searches occur on Google. With this vast number of queries, standing out in search results is crucial for business visibility. Expert keyword research and SEO optimization are essential in ensuring your business gains the visibility it needs to boost profitability.</p>
+                            </Col>
+                            <Col className="col-md-6">
+                                <p>By partnering with an SEO provider, you gain access to a dedicated team of experts committed to your digital success. Whether your goal is to drive traffic, generate leads, maximize sales, or increase brand awareness, we are here to support you. Our SEO strategies are designed for optimal success.</p>
+                            </Col>
+                        </Row>
+                    </Container>
+                </section>
+                <section className={style.searches}>
+                    <Container>
+                        <h2>60,000+ Searches Happen Each Second</h2>
+                        <p>Our SEO services make sure your business shows up where it matters most: at the top of search results. We focus on bringing the right people to your site using smart keyword choices, clear website structures, and engaging content.</p>
+                        <Row>
+                            <Col>
+                                <StatisticsSection />
+                            </Col>
+                        </Row>
+                    </Container>
+                </section>
+                <section className={style.whyChoose}>
+                    <Container>
+                        <h2>Why Nextupgrad</h2>
+                        <Row>
+                            <Col className="col-md-3">
+                                <div>
+                                    <TbTargetArrow />
+                                    <h3>Results-Driven Approach</h3>
+                                    <p>We prioritize measurable results and use data-driven strategies to deliver tangible improvements in your local search rankings and business growth.</p>
+                                </div>
+                            </Col>
+                            <Col className="col-md-3">
+                                <div>
+                                    <MdOutlineSupportAgent />
+                                    <h3>Dedicated Team & Support</h3>
+                                    <p>Our team of experienced SEO professionals is committed to delivering exceptional service and providing ongoing support throughout your campaign.</p>
+                                </div>
+                            </Col>
+                            <Col className="col-md-3">
+                                <div>
+                                    <GiTeamIdea />
+                                    <h3>NYC Expertise & Experience</h3>
+                                    <p>We have a deep understanding of the New York City market, its unique search landscape, and the specific needs of local businesses.</p>
+                                </div>
+                            </Col>
+                            <Col className="col-md-3">
+                                <div>
+                                    <AiOutlineFileSearch />
+                                    <h3>Transparent Communication</h3>
+                                    <p>We believe in open and transparent communication, keeping you informed about the progress of your campaign and addressing any questions you may have.</p>
+                                </div>
+                            </Col>
+                        </Row>
+                        <Link href="#" title="Send a Proposal Now">Send a Proposal Now</Link>
+                    </Container>
+                </section>
+                <section className={style.serviceFaq}>
+                    <Container>
+                        <h2>Frequently Asked Questions</h2>
+                        <Row className="justify-content-center">
+                            <Col className="col-md-8">
+                                <SeoServiceAccordion />
+                            </Col>
+                        </Row>
                     </Container>
                 </section>
             </div>
