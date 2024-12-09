@@ -120,7 +120,7 @@ const SeoService = () => {
                                 <p>Experience comprehensive search engine optimization {"(SEO)"} services with Nextupgrad USA.<br />Our full-service solutions attract qualified traffic and convert it into revenue. With Nextupgrad USA as your SEO agency,<br />{"you'll"} benefit from strategic development, performance optimization, continuous measurement, and adaptive strategies.</p>
                             </Col>
                         </Row>
-                        <Row>
+                        <Row className="mt-5">
                             <Col>
                                 <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                                     <Row>
@@ -155,11 +155,18 @@ const SeoService = () => {
                                         <Col sm={8} className={style.delTabCont}>
                                             <Tab.Content>
                                                 <Tab.Pane eventKey="first">
-                                                    <h3>Overview</h3>
-                                                    <p>Achieve unparalleled SEO results with customized solutions.</p>
-                                                    <p>Align your SEO goals with your unique business needs and reap the rewards of targeted optimization.</p>
-                                                    <p>At Nextupgrad USA, our SEO approach is driven by revenue marketing. This means every optimization is designed to impact your bottom line. Discover how our SEO firm helps grow our {"client's"} businesses through revenue-focused SEO.</p>
-                                                    <Link href="#" title="Send a Proposal Now" className={style.ctaBtn}>Send a Proposal Now</Link>
+                                                    <Row>
+                                                        <Col className="col-md-8">
+                                                        <h3>Overview</h3>
+                                                            <p>Achieve unparalleled SEO results with customized solutions.</p>
+                                                            <p>Align your SEO goals with your unique business needs and reap the rewards of targeted optimization.</p>
+                                                            <p>At Nextupgrad USA, our SEO approach is driven by revenue marketing. This means every optimization is designed to impact your bottom line. Discover how our SEO firm helps grow our {"client's"} businesses through revenue-focused SEO.</p>
+                                                            <Link href="#" title="Send a Proposal Now" className={style.ctaBtn}>Send a Proposal Now</Link>
+                                                        </Col>
+                                                        <Col className="col-md-4">
+                                                            <img src="https://picsum.photos/350/400" />
+                                                        </Col>
+                                                    </Row>
                                                 </Tab.Pane>
                                                 <Tab.Pane eventKey="second">
                                                     <h3>Performance Tracking & Transparent Reporting</h3>
