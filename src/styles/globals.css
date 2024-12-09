@@ -439,6 +439,14 @@ li {
 }
 
 
+/*SEO Services*/
+/*Deliverables Tab*/
+
+.delTab .nav-pills .nav-link.active {
+  background: linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0)) !important;
+  box-shadow: 0 2px 22px rgba(110, 123, 129, .2) !important;
+  border: 1px solid #fff;
+}
 
 /*StatisticsSection CSS*/
 .circular-chart {

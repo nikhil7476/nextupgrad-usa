@@ -144,6 +144,18 @@
 
 /*Deliverables Section CSS*/
 
+.tabLink a {
+  color: #fff;
+  background: linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0));
+  box-shadow: 0 2px 22px rgba(110, 123, 129, .2) !important;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+}
+
+.tabLink a:hover {
+  color: #fff; 
+}
+
 /*CaseStudy Section CSS*/
 .caseStudy {
   text-align: center;

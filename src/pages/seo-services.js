@@ -124,35 +124,35 @@ const SeoService = () => {
                             <Col>
                                 <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                                     <Row>
-                                        <Col sm={3}>
+                                        <Col sm={3} className="delTab">
                                             <Nav variant="pills" className="flex-column">
-                                                <Nav.Item>
-                                                    <Nav.Link eventKey="first">Overview</Nav.Link>
+                                                <Nav.Item className={style.tabLink}>
+                                                    <Nav.Link eventKey="first" className={style.tabLinkText}>Overview</Nav.Link>
                                                 </Nav.Item>
-                                                <Nav.Item>
-                                                    <Nav.Link eventKey="second">Performance Tracking<br />& Transparent Reporting</Nav.Link>
+                                                <Nav.Item className={style.tabLink}>
+                                                    <Nav.Link eventKey="second" className={style.tabLinkText}>Performance Tracking<br />& Transparent Reporting</Nav.Link>
                                                 </Nav.Item>
-                                                <Nav.Item>
-                                                    <Nav.Link eventKey="third">Keyword Research</Nav.Link>
+                                                <Nav.Item className={style.tabLink}>
+                                                    <Nav.Link eventKey="third" className={style.tabLinkText}>Keyword Research</Nav.Link>
                                                 </Nav.Item>
-                                                <Nav.Item>
-                                                    <Nav.Link eventKey="fourth">Link Building</Nav.Link>
+                                                <Nav.Item className={style.tabLink}>
+                                                    <Nav.Link eventKey="fourth" className={style.tabLinkText}>Link Building</Nav.Link>
                                                 </Nav.Item>
-                                                <Nav.Item>
-                                                    <Nav.Link eventKey="fifth">On-page SEO</Nav.Link>
+                                                <Nav.Item className={style.tabLink}>
+                                                    <Nav.Link eventKey="fifth" className={style.tabLinkText}>On-page SEO</Nav.Link>
                                                 </Nav.Item>
-                                                <Nav.Item>
-                                                    <Nav.Link eventKey="sixth">Off-page SEO</Nav.Link>
+                                                <Nav.Item className={style.tabLink}>
+                                                    <Nav.Link eventKey="sixth" className={style.tabLinkText}>Off-page SEO</Nav.Link>
                                                 </Nav.Item>
-                                                <Nav.Item>
+                                                <Nav.Item className={style.tabLink}>
                                                     <Nav.Link eventKey="seventh">Technical SEO</Nav.Link>
                                                 </Nav.Item>
-                                                <Nav.Item>
-                                                    <Nav.Link eventKey="eight">Content Creation<br />& Optimization</Nav.Link>
+                                                <Nav.Item className={style.tabLink}>
+                                                    <Nav.Link eventKey="eight" className={style.tabLinkText}>Content Creation<br />& Optimization</Nav.Link>
                                                 </Nav.Item>
                                             </Nav>
                                         </Col>
-                                        <Col sm={8}>
+                                        <Col sm={8} className={style.delTabCont}>
                                             <Tab.Content>
                                                 <Tab.Pane eventKey="first">
                                                     <h3>Overview</h3>
@@ -165,15 +165,21 @@ const SeoService = () => {
                                                     <h3>Performance Tracking & Transparent Reporting</h3>
                                                     <p>A comprehensive website SEO audit forms the cornerstone of a successful SEO strategy. Our SEO services meticulously analyze every aspect of your {"website's"} performance, providing actionable insights for growth.</p>
                                                     <p>Your dedicated account manager will assess:</p>
-                                                    <ol>
-                                                        <li>Your {"website’s"} structure and content</li>
-                                                        <li>Google Analytics data for traffic and performance insights</li>
-                                                        <li>Google Search Console metrics for visibility and indexing</li>
-                                                        <li>Competitor strategies to identify market opportunities</li>
-                                                        <li>Additional key SEO factors tailored to your industry</li>
-                                                    </ol>
-                                                    <p>We leverage advanced tools as part of our <strong>SEO marketing</strong> approach. These tools allow our <strong>SEO agency</strong> to uncover hidden opportunities, fix underlying issues, and craft a robust strategy to position your business competitively.</p>
-                                                    <p>We deliver actionable recommendations that drive tangible results by focusing on your {"website's"} strengths and addressing weaknesses. With our expertise, your business can achieve enhanced visibility, traffic, and conversions through cutting-edge <strong>SEO services</strong>.</p>
+                                                    <Row>
+                                                        <Col className="col-md-6">
+                                                            <ol>
+                                                                <li>Your {"website’s"} structure and content</li>
+                                                                <li>Google Analytics data for traffic and performance insights</li>
+                                                                <li>Google Search Console metrics for visibility and indexing</li>
+                                                                <li>Competitor strategies to identify market opportunities</li>
+                                                                <li>Additional key SEO factors tailored to your industry</li>
+                                                            </ol>
+                                                        </Col>
+                                                        <Col className="col-md-6">
+                                                            <p>We leverage advanced tools as part of our <strong>SEO marketing</strong> approach. These tools allow our <strong>SEO agency</strong> to uncover hidden opportunities, fix underlying issues, and craft a robust strategy to position your business competitively.</p>
+                                                            <p>We deliver actionable recommendations that drive tangible results by focusing on your {"website's"} strengths and addressing weaknesses. With our expertise, your business can achieve enhanced visibility, traffic, and conversions through cutting-edge <strong>SEO services</strong>.</p>
+                                                        </Col>
+                                                    </Row>
                                                     <p>This thorough audit lays the groundwork for ongoing success, enabling your website to perform optimally in search engines. Let our <strong>SEO agency</strong> transform your online presence into a high-performing asset!</p>
                                                     <Link href="#" title="Send a Proposal Now" className={style.ctaBtn}>Send a Proposal Now</Link>
                                                 </Tab.Pane>
@@ -220,16 +226,22 @@ const SeoService = () => {
                                                 <Tab.Pane eventKey="fifth">
                                                     <h3>On-page SEO</h3>
                                                     <p>At Nextupgrad USA, our on-page SEO services are here to make your website work harder for you. As a trusted <strong>SEO agency</strong>, we handle all the important details to help your site show up higher on search engines and attract more visitors.<br />{"Here’s"} what we do:</p>
-                                                    <ol>
-                                                        <li><strong>Title Tags:</strong> Write clear and effective titles that include important keywords.</li>
-                                                        <li><strong>Meta Descriptions:</strong> Create short, attention-grabbing descriptions to get more clicks.</li>
-                                                        <li><strong>Headings (H1, H2, etc.):</strong> Organize your content to make it easy for users and search engines to read.</li>
-                                                        <li><strong>Content Updates:</strong> Add the right keywords naturally to make your pages more useful and visible.</li>
-                                                        <li><strong>SEO-Friendly URLs:</strong> Simplify and clean up your links for better search rankings.</li>
-                                                        <li><strong>User Experience (UX):</strong> Make your site simple to use, so visitors stay longer and take action.</li>
-                                                    </ol>
-                                                    <p>Unlike many <strong>SEO companies</strong>, we focus on what actually works for your business. Whether {"you're"} a small business looking for <strong>SEO services near Chicago</strong> or competing in a busy market, {"we’ll"} make sure your site keeps up with the latest search trends.</p>
-                                                    <p>As one of the best <strong>SEO optimization companies in New York</strong>, {"we’ll"} help you get more customers, increase traffic, and improve your online visibility. From writing better headlines to fixing the technical stuff, we take care of it all.</p>
+                                                    <Row>
+                                                        <Col className="col-md-6">
+                                                            <ol>
+                                                                <li><strong>Title Tags:</strong> Write clear and effective titles that include important keywords.</li>
+                                                                <li><strong>Meta Descriptions:</strong> Create short, attention-grabbing descriptions to get more clicks.</li>
+                                                                <li><strong>Headings (H1, H2, etc.):</strong> Organize your content to make it easy for users and search engines to read.</li>
+                                                                <li><strong>Content Updates:</strong> Add the right keywords naturally to make your pages more useful and visible.</li>
+                                                                <li><strong>SEO-Friendly URLs:</strong> Simplify and clean up your links for better search rankings.</li>
+                                                                <li><strong>User Experience (UX):</strong> Make your site simple to use, so visitors stay longer and take action.</li>
+                                                            </ol>
+                                                        </Col>
+                                                        <Col className="col-md-6">
+                                                            <p>Unlike many <strong>SEO companies</strong>, we focus on what actually works for your business. Whether {"you're"} a small business looking for <strong>SEO services near Chicago</strong> or competing in a busy market, {"we’ll"} make sure your site keeps up with the latest search trends.</p>
+                                                            <p>As one of the best <strong>SEO optimization companies in New York</strong>, {"we’ll"} help you get more customers, increase traffic, and improve your online visibility. From writing better headlines to fixing the technical stuff, we take care of it all.</p>
+                                                        </Col>
+                                                    </Row>
                                                     <p>Want to see how we can help? Let us create a custom plan just for your website.</p>
                                                     <Link href="#" title="Send a Proposal Now" className={style.ctaBtn}>Send a Proposal Now</Link>
                                                 </Tab.Pane>
@@ -331,7 +343,7 @@ const SeoService = () => {
                             <Col>
                                 <h2>Our Approach</h2>
                                 <h3>Unveiling Our SEO {"Agency’s"} R.O.C.K.E.T. Strategy<br /><span>From Search to Success: $2 Million Revenue Generated</span></h3>
-                                <p>Discover how our proven R.O.C.K.E.T. system is transforming SEO results. With strategies designed for real impact,<br/>{"we’ve"} helped our recent clients earn over $2 Million in search revenue. Let us help your brand reach the top today!</p>
+                                <p>Discover how our proven R.O.C.K.E.T. system is transforming SEO results. With strategies designed for real impact,<br />{"we’ve"} helped our recent clients earn over $2 Million in search revenue. Let us help your brand reach the top today!</p>
                             </Col>
                         </Row>
                         <Row>
