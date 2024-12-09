@@ -501,6 +501,15 @@ li {
 }
 
 
+/*SEO Services FAQ*/
+.seoAccordion .accordion-header {
+  margin-bottom: 10px;
+}
+
+.seoAccordion .accordion-body {
+  margin-top: 0px !important;
+}
+
 /*Media Queries*/
 
 @media screen and (max-width: 450px) {

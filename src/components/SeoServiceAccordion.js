@@ -3,7 +3,7 @@ import { Accordion } from "react-bootstrap";
 function SeoServiceAccordion() {
     return (
         <>
-            <Accordion defaultActiveKey="0" flush>
+            <Accordion defaultActiveKey="0" flush className="seoAccordion">
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>How long does it take to see results from SEO?</Accordion.Header>
                     <Accordion.Body>
