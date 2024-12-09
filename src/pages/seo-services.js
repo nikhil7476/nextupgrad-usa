@@ -123,7 +123,7 @@ const SeoService = () => {
                         <Row className="mt-5">
                             <Col>
                                 <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-                                    <Row>
+                                    <Row className="justify-content-evenly">
                                         <Col sm={3} className="delTab">
                                             <Nav variant="pills" className="flex-column">
                                                 <Nav.Item className={style.tabLink}>
@@ -156,14 +156,14 @@ const SeoService = () => {
                                             <Tab.Content>
                                                 <Tab.Pane eventKey="first">
                                                     <Row>
-                                                        <Col className="col-md-8">
-                                                        <h3>Overview</h3>
+                                                        <Col className="col-md-6">
+                                                            <h3>Overview</h3>
                                                             <p>Achieve unparalleled SEO results with customized solutions.</p>
                                                             <p>Align your SEO goals with your unique business needs and reap the rewards of targeted optimization.</p>
                                                             <p>At Nextupgrad USA, our SEO approach is driven by revenue marketing. This means every optimization is designed to impact your bottom line. Discover how our SEO firm helps grow our {"client's"} businesses through revenue-focused SEO.</p>
                                                             <Link href="#" title="Send a Proposal Now" className={style.ctaBtn}>Send a Proposal Now</Link>
                                                         </Col>
-                                                        <Col className="col-md-4">
+                                                        <Col className="col-md-6">
                                                             <img src="https://picsum.photos/350/400" />
                                                         </Col>
                                                     </Row>
@@ -353,33 +353,33 @@ const SeoService = () => {
                                 <p>Discover how our proven R.O.C.K.E.T. system is transforming SEO results. With strategies designed for real impact,<br />{"we’ve"} helped our recent clients earn over $2 Million in search revenue. Let us help your brand reach the top today!</p>
                             </Col>
                         </Row>
-                        <Row>
+                        <Row className="mt-5">
                             <Col>
                                 <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                                     <Row>
-                                        <Col sm={1}>
+                                        <Col sm={1} className="apprTab">
                                             <Nav variant="pills" className="flex-column">
-                                                <Nav.Item>
+                                                <Nav.Item className={style.approachLink}>
                                                     <Nav.Link eventKey="first">R</Nav.Link>
                                                 </Nav.Item>
-                                                <Nav.Item>
+                                                <Nav.Item className={style.approachLink}>
                                                     <Nav.Link eventKey="second">O</Nav.Link>
                                                 </Nav.Item>
-                                                <Nav.Item>
+                                                <Nav.Item className={style.approachLink}>
                                                     <Nav.Link eventKey="third">C</Nav.Link>
                                                 </Nav.Item>
-                                                <Nav.Item>
+                                                <Nav.Item className={style.approachLink}>
                                                     <Nav.Link eventKey="fourth">K</Nav.Link>
                                                 </Nav.Item>
-                                                <Nav.Item>
+                                                <Nav.Item className={style.approachLink}>
                                                     <Nav.Link eventKey="fifth">E</Nav.Link>
                                                 </Nav.Item>
-                                                <Nav.Item>
+                                                <Nav.Item className={style.approachLink}>
                                                     <Nav.Link eventKey="sixth">T</Nav.Link>
                                                 </Nav.Item>
                                             </Nav>
                                         </Col>
-                                        <Col sm={10}>
+                                        <Col sm={10} className={style.apprTabCont}>
                                             <Tab.Content>
                                                 <Tab.Pane eventKey="first">
                                                     <h4>Research: Building the Right SEO Plan for Your Business</h4>

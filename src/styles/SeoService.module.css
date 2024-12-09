@@ -147,13 +147,16 @@
 .tabLink a {
   color: #fff;
   background: linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0));
-  box-shadow: 0 2px 22px rgba(110, 123, 129, .2) !important;
   padding: 10px 20px;
   margin-bottom: 15px;
 }
 
 .tabLink a:hover {
-  color: #fff; 
+  color: #fff;
+}
+
+.delTabCont {
+  text-align: justify;
 }
 
 /*CaseStudy Section CSS*/
@@ -220,6 +223,22 @@
 
 
 /*Approach Section CSS*/
+
+.approachLink a {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  align-content: center;
+  color: #fff;
+  background: linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0));
+  border-radius: 100% !important;
+  margin-bottom: 20px;
+}
+
+.approachLink a:hover {
+  color: #fff;
+}
 
 /*Pricing Section CSS*/
 
