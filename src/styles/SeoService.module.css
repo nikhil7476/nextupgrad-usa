@@ -254,6 +254,12 @@
   padding: 20px 40px;
   margin-bottom: 20px;
   text-align: left;
+  transform: skewY(5deg);
+  transition: .3s;
+}
+
+.whyCard:hover {
+  transform: rotate(360deg);
 }
 
 .whyCard svg {
