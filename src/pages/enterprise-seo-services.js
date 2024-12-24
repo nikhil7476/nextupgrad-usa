@@ -45,20 +45,20 @@ function Home() {
                 <title>Enterprise SEO Services - Nextupgrad USA</title>
             </Head>
             <div className={styles.enterprise}>
-                <setion className={styles.enterpriseBnr}>
+                <section className={styles.enterpriseBnr}>
                     <Container>
                         <Row className="justify-content-between">
-                            <Col className="col-md-7 align-content-center">
-                                <h1>Best Enterprise SEO Service Providers</h1>
+                            <Col className="col-md-6 align-content-center">
+                                <h1>Best <span>Enterprise SEO<br/>Service</span> Providers</h1>
                                 <p>We specialize in enterprise SEO services, working with medium and large IT projects and high-traffic portals that receive hundreds of thousands of visitors from search engines. Our experts have experience across diverse sectors, from e-commerce to complex technology solutions.</p>
-                                <Link href="#" title="Contact Us">Contact Us</Link>
+                                <Link href="#" title="Contact Us" className={styles.ctaBtn}>Contact Us</Link>
                             </Col>
                             <Col className="col-md-4">
                                 <img src="https://picsum.photos/350/400" />
                             </Col>
                         </Row>
                     </Container>
-                </setion>
+                </section>
                 <section className={styles.problems}>
                     <Container>
                         <Row className="mb-5">
@@ -133,7 +133,7 @@ function Home() {
                         </Row>
                         <Row className="text-center">
                             <Col>
-                                <Link href="#" title="Contact Us">Send a Proposal Now</Link>
+                                <Link href="#" title="Contact Us" className={styles.ctaBtn}>Send a Proposal Now</Link>
                             </Col>
                         </Row>
                     </Container>

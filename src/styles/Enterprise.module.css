@@ -2,8 +2,17 @@
     padding: 60px 0px;
 }
 
-.enterpriseBnr {
-    padding: 120px 0px 60px 0px !important;
+.enterprise h1 {
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 64px;
+    letter-spacing: -.042em;
+}
+
+.enterprise h1 span {
+    background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
+    background-clip: text;
+    color: transparent;
 }
 
 .enterprise h2 {
@@ -21,11 +30,29 @@
     color: var(--btnCol);
 }
 
+.enterprise .ctaBtn {
+    color: #fff;
+    background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+    border: 1px solid var(--btnCol);
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 20px;
+    line-height: 1.2em;
+    text-transform: capitalize;
+}
 
 .enterprise .accordHead {
     font-size: 24px !important;
     font-weight: 400 !important;
     line-height: 1.2em !important;
+}
+
+.enterpriseBnr {
+    padding: 120px 0px 60px 0px !important;
+}
+
+.enterpriseBnr p {
+    padding-bottom: 20px;
 }
 
 
