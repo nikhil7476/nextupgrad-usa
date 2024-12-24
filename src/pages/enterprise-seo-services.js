@@ -84,7 +84,7 @@ function Home() {
                                         <h3>Poor Lead Quality</h3>
                                     </div>
                                     <div>
-                                        <p>If you need help attracting the right leads, low-quality content and untargeted traffic can be major culprits, diminishing the quality of leads you generate from the organic search. Don't let inefficient strategies hold your business back; refocus your approach to engage the right audience and improve lead quality!</p>
+                                        <p>If you need help attracting the right leads, low-quality content and untargeted traffic can be major culprits, diminishing the quality of leads you generate from the organic search. {"Don't"} let inefficient strategies hold your business back; refocus your approach to engage the right audience and improve lead quality!</p>
                                     </div>
                                 </div>
                             </Col>
@@ -94,7 +94,7 @@ function Home() {
                                         <h3>Unfair Competition</h3>
                                     </div>
                                     <div>
-                                        <p>On occasion, some competitors might resort to unethical tactics, such as intentionally targeting a website. These actions are intended to lower the site's search rankings, pushing it further down the results page and out of the leading positions.</p>
+                                        <p>On occasion, some competitors might resort to unethical tactics, such as intentionally targeting a website. These actions are intended to lower the {"site's"} search rankings, pushing it further down the results page and out of the leading positions.</p>
                                     </div>
                                 </div>
                             </Col>
@@ -252,7 +252,7 @@ function Home() {
                                                                     </Accordion.Body>
                                                                 </Accordion.Item>
                                                                 <Accordion.Item eventKey="4">
-                                                                    <Accordion.Header>5. Google's Algorithm Updates</Accordion.Header>
+                                                                    <Accordion.Header>5. {"Google's"} Algorithm Updates</Accordion.Header>
                                                                     <Accordion.Body>
                                                                         Websites that meet user needs and offer unique benefits are rewarded with regular updates. You stay ahead of these developments with customized SEO.
                                                                     </Accordion.Body>
@@ -269,7 +269,7 @@ function Home() {
                                                             <p>If you understand SEO, you know that it includes a wide range of subjects, such as web design and content creation. Every element of your website needs to be optimized if you want to succeed in competitive search results, especially for large enterprises.</p>
                                                         </Col>
                                                         <Col className="col-md-6">
-                                                            <p>We offer complete, all-inclusive enterprise SEO solutions as a full-service digital marketing firm. Whether you're a small business in North Carolina or trying to reach a global audience, our experience with SEO for huge enterprises guarantees that your website will stand out in search results.</p>
+                                                            <p>We offer complete, all-inclusive enterprise SEO solutions as a full-service digital marketing firm. Whether {"you're"} a small business in North Carolina or trying to reach a global audience, our experience with SEO for huge enterprises guarantees that your website will stand out in search results.</p>
                                                         </Col>
                                                     </Row>
                                                     <Row>
@@ -277,7 +277,7 @@ function Home() {
                                                             <p>We have skilled developers, content writers, and graphic designers on our committed team. This eliminates the need for you to work with outside parties on site copy, site improvements, or unique visuals. Rather, the entire process will be managed inside by your personal account manager.</p>
                                                         </Col>
                                                         <Col className="col-md-6">
-                                                            <p>It's very quick and simple for your staff. No more exchanging information between businesses or juggling several sources. Your SEO campaigns will run much more smoothly and effectively if you collaborate with a single agency for everything instead.</p>
+                                                            <p>{"It's"} very quick and simple for your staff. No more exchanging information between businesses or juggling several sources. Your SEO campaigns will run much more smoothly and effectively if you collaborate with a single agency for everything instead.</p>
                                                         </Col>
                                                     </Row>
                                                 </Tab.Pane>
@@ -313,7 +313,7 @@ function Home() {
                         <Row className="mb-5">
                             <Col>
                                 <h2><span>Results</span><br />What results do you get with us?</h2>
-                                <p>We at Nextupgrad USA are committed to the success of your project. Our team's extensive experience and proven methodologies ensure results that surpass client expectations.</p>
+                                <p>We at Nextupgrad USA are committed to the success of your project. Our {"team's"} extensive experience and proven methodologies ensure results that surpass client expectations.</p>
                             </Col>
                         </Row>
                         <Row className={styles.resultRow}>
