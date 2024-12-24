@@ -124,6 +124,18 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+/*Services*/
+.tabLink a {
+    color: #fff;
+    background: linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0));
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+
+.tabLink a:hover {
+  color: #fff;
+}
+
 /*Why Choose*/
 .whyCard {
     background: linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0));
