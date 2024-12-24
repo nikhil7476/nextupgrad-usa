@@ -175,13 +175,13 @@ function Home() {
                                                     <p>In {"today’s"} fast-paced digital environment, businesses of all sizes want customized solutions to grow. Our <strong>enterprise SEO services in New York & SEO</strong> for large corporations in North Carolina provide customized strategies by allocating a dedicated account team to your business. This team ensures practical solutions and quantifiable results for your enterprise digital marketing and SEO services.</p>
                                                     <Accordion flush>
                                                         <Accordion.Item eventKey="0">
-                                                            <Accordion.Header>Your Dedicated Account Team: A Personalized Approach</Accordion.Header>
+                                                            <Accordion.Header className={styles.accordHead}>Your Dedicated Account Team: A Personalized Approach</Accordion.Header>
                                                             <Accordion.Body>
                                                                 Our specialist account teams, usually composed of five or more members, work as an extension of your business. Each team member takes time to get to know your brand, products, services, and client feedback. This allows them to effectively represent your brand and adapt tactics to fit your specific goals.
                                                             </Accordion.Body>
                                                         </Accordion.Item>
                                                         <Accordion.Item eventKey="1">
-                                                            <Accordion.Header>Focused Insights and Regular Strategy Updates</Accordion.Header>
+                                                            <Accordion.Header className={styles.accordHead}>Focused Insights and Regular Strategy Updates</Accordion.Header>
                                                             <Accordion.Body>
                                                                 <p>Every month, our team provides:</p>
                                                                 <ol>
@@ -206,7 +206,7 @@ function Home() {
                                                     </Row>
                                                     <Accordion flush>
                                                         <Accordion.Item eventKey="0">
-                                                            <Accordion.Header>What Our Reports Include</Accordion.Header>
+                                                            <Accordion.Header className={styles.accordHead}>What Our Reports Include</Accordion.Header>
                                                             <Accordion.Body>
                                                                 <ol>
                                                                     <li>A clear overview of performance metrics, helping you monitor the results of our <strong>enterprise SEO solutions for large corporations.</strong></li>
@@ -228,31 +228,31 @@ function Home() {
                                                             <h4>Why is customized SEO the #1 choice?</h4>
                                                             <Accordion flush>
                                                                 <Accordion.Item eventKey="0">
-                                                                    <Accordion.Header>1. Advanced Search Engines</Accordion.Header>
+                                                                    <Accordion.Header className={styles.accordHead}>1. Advanced Search Engines</Accordion.Header>
                                                                     <Accordion.Body>
                                                                         Google now prioritizes relevant, high-quality information created for certain search intents. Using generic SEO strategies is no longer enough.
                                                                     </Accordion.Body>
                                                                 </Accordion.Item>
                                                                 <Accordion.Item eventKey="1">
-                                                                    <Accordion.Header>2. Evolved User Behavior</Accordion.Header>
+                                                                    <Accordion.Header className={styles.accordHead}>2. Evolved User Behavior</Accordion.Header>
                                                                     <Accordion.Body>
                                                                         Customers want experiences that are customized to them. Personalized SEO ensures that your website exactly satisfies these requirements.
                                                                     </Accordion.Body>
                                                                 </Accordion.Item>
                                                                 <Accordion.Item eventKey="2">
-                                                                    <Accordion.Header>3. Intensified Competition</Accordion.Header>
+                                                                    <Accordion.Header className={styles.accordHead}>3. Intensified Competition</Accordion.Header>
                                                                     <Accordion.Body>
                                                                         A one-size-fits-all strategy is unsustainable as more businesses vie for online presence. Personalized SEO gives you a competitive advantage.
                                                                     </Accordion.Body>
                                                                 </Accordion.Item>
                                                                 <Accordion.Item eventKey="3">
-                                                                    <Accordion.Header>4. Measurable Results</Accordion.Header>
+                                                                    <Accordion.Header className={styles.accordHead}>4. Measurable Results</Accordion.Header>
                                                                     <Accordion.Body>
                                                                         Analytics tools facilitate data-driven decision-making and plan improvement by assisting you in monitoring the return on investment of customized SEO efforts.
                                                                     </Accordion.Body>
                                                                 </Accordion.Item>
                                                                 <Accordion.Item eventKey="4">
-                                                                    <Accordion.Header>5. {"Google's"} Algorithm Updates</Accordion.Header>
+                                                                    <Accordion.Header className={styles.accordHead}>5. {"Google's"} Algorithm Updates</Accordion.Header>
                                                                     <Accordion.Body>
                                                                         Websites that meet user needs and offer unique benefits are rewarded with regular updates. You stay ahead of these developments with customized SEO.
                                                                     </Accordion.Body>
@@ -401,7 +401,7 @@ function Home() {
                     <Container>
                         <Row className="mb-5">
                             <Col>
-                                <h2>Case Studies</h2>
+                                <h2><span>Cases</span><br/>Case Studies</h2>
                                 <p>
                                     Check out our SEO services, which have helped businesses across industries achieve exceptional results.
                                     <br />
@@ -454,19 +454,19 @@ function Home() {
                             <Col className="col-md-8">
                                 <Accordion defaultActiveKey="0" flush>
                                     <Accordion.Item eventKey="0">
-                                        <Accordion.Header>Q1 - What is the cost of corporate enterprise SEO services?</Accordion.Header>
+                                        <Accordion.Header className={styles.accordHead}>Q1 - What is the cost of corporate enterprise SEO services?</Accordion.Header>
                                         <Accordion.Body>
                                             <strong>Answer - </strong>The cost of enterprise SEO services is higher than for other segments. The exact price is calculated individually after analyzing the competition and the website.
                                         </Accordion.Body>
                                     </Accordion.Item>
                                     <Accordion.Item eventKey="1">
-                                        <Accordion.Header>Q2 - When to expect the results of the enterprise SEO services?</Accordion.Header>
+                                        <Accordion.Header className={styles.accordHead}>Q2 - When to expect the results of the enterprise SEO services?</Accordion.Header>
                                         <Accordion.Body>
                                             <strong>Answer - </strong>Competition in promotion for enterprise companies is tight compared to other segments. So the first noticeable results are possible after 4-9 months of activities.
                                         </Accordion.Body>
                                     </Accordion.Item>
                                     <Accordion.Item eventKey="2">
-                                        <Accordion.Header>Q3 - What mistakes do customers make when using corporate SEO services?</Accordion.Header>
+                                        <Accordion.Header className={styles.accordHead}>Q3 - What mistakes do customers make when using corporate SEO services?</Accordion.Header>
                                         <Accordion.Body>
                                             <strong>Answer - </strong>The main mistakes of clients when promoting the setting of unrealistic goals, the wrong choice of a company for promotion, and the wrong choice of KPI.
                                         </Accordion.Body>

@@ -6,6 +6,29 @@
     padding: 120px 0px 60px 0px !important;
 }
 
+.enterprise h2 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 123.4%;
+    text-transform: capitalize;
+}
+
+.enterprise h2 span {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 123.4%;
+    text-transform: uppercase;
+    color: var(--btnCol);
+}
+
+
+.enterprise .accordHead {
+    font-size: 24px !important;
+    font-weight: 400 !important;
+    line-height: 1.2em !important;
+}
+
+
 
 /*Results Section*/
 .resultRow {
