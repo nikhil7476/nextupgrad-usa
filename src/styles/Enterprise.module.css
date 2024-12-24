@@ -89,6 +89,13 @@
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 10px;
+    align-content: center;
+}
+
+.cardTitle svg {
+    color: #e76f51;
+    font-size: 30px;
+    margin-right: 10px;
 }
 
 .cardDescription {

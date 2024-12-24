@@ -4,6 +4,7 @@ import CountUp from "react-countup";
 import styles from "@/styles/Enterprise.module.css";
 import { Col, Row, Container, Tab, Nav, Accordion } from "react-bootstrap";
 import { TbTargetArrow } from "react-icons/tb";
+import { BsQuestionDiamondFill } from "react-icons/bs";
 import { MdOutlineSupportAgent } from "react-icons/md";
 import { GiTeamIdea } from "react-icons/gi";
 import { AiOutlineFileSearch } from "react-icons/ai";
@@ -105,7 +106,7 @@ function Home() {
                             ].map((problem, index) => (
                                 <Col key={index} className={`${styles.cardCol} col-md-6 mb-4`}>
                                     <div className={styles.problemCard}>
-                                        <h3 className={styles.cardTitle}>{problem.title}</h3>
+                                        <h3 className={styles.cardTitle}><span><BsQuestionDiamondFill /></span>{problem.title}</h3>
                                         <p className={styles.cardDescription}>{problem.description}</p>
                                     </div>
                                 </Col>
