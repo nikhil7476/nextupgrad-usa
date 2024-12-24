@@ -49,7 +49,7 @@ function Home() {
                     <Container>
                         <Row className="justify-content-between">
                             <Col className="col-md-6 align-content-center">
-                                <h1>Best <span>Enterprise SEO<br/>Service</span> Providers</h1>
+                                <h1>Best <span>Enterprise SEO<br />Service</span> Providers</h1>
                                 <p>We specialize in enterprise SEO services, working with medium and large IT projects and high-traffic portals that receive hundreds of thousands of visitors from search engines. Our experts have experience across diverse sectors, from e-commerce to complex technology solutions.</p>
                                 <Link href="#" title="Contact Us" className={styles.ctaBtn}>Contact Us</Link>
                             </Col>
@@ -63,77 +63,59 @@ function Home() {
                     <Container>
                         <Row className="mb-5">
                             <Col>
-                                <h2><span>Problem</span><br />Problem we solve with Enterprise SEO Solutions</h2>
-                                <p>We can solve the following problems with the effective enterprise SEO services:</p>
+                                <h2>
+                                    <span>Problem</span><br />
+                                    Problems We Solve with Enterprise SEO Solutions
+                                </h2>
+                                <p>We can solve the following problems with effective enterprise SEO services:</p>
                             </Col>
                         </Row>
                         <Row className="mb-5">
-                            <Col className="col-md-4">
-                                <div>
-                                    <div>
-                                        <h3>No Demand for the Product Yet</h3>
+                            {[
+                                {
+                                    title: "No Demand for the Product Yet",
+                                    description:
+                                        "In the beginning, potential prospects need to be aware of your product. Strengthening your website, polishing your content, and implementing SERM tools can educate the audience more about the opportunities and benefits your product offers.",
+                                },
+                                {
+                                    title: "Poor Lead Quality",
+                                    description:
+                                        "If you need help attracting the right leads, low-quality content and untargeted traffic can be major culprits. Refocus your approach to engage the right audience and improve lead quality!",
+                                },
+                                {
+                                    title: "Unfair Competition",
+                                    description:
+                                        "On occasion, some competitors might resort to unethical tactics, such as intentionally targeting a website to lower its search rankings.",
+                                },
+                                {
+                                    title: "The Site Has No or Few Visitors",
+                                    description:
+                                        "Your website can effortlessly attract the right audience with thoughtfully crafted, optimized content, even without relying on active link-building strategies.",
+                                },
+                                {
+                                    title: "Low ROI",
+                                    description:
+                                        "Clients often allocate their marketing budget to less critical SEO tasks, overlooking those that deliver greater value.",
+                                },
+                                {
+                                    title: "Low Conversion Rate",
+                                    description:
+                                        "The website experiences high traffic but struggles with a low conversion rate due to irrelevant visitors or ineffective landing page design.",
+                                },
+                            ].map((problem, index) => (
+                                <Col key={index} className={`${styles.cardCol} col-md-6 mb-4`}>
+                                    <div className={styles.problemCard}>
+                                        <h3 className={styles.cardTitle}>{problem.title}</h3>
+                                        <p className={styles.cardDescription}>{problem.description}</p>
                                     </div>
-                                    <div>
-                                        <p>In the beginning, potential prospects need to be aware of your product. Strengthening your website, polishing your content, and implementing SERM (Search Engine Reputation Management) tools can educate the audience more about the opportunities and benefits your product offers.</p>
-                                    </div>
-                                </div>
-                            </Col>
-                            <Col className="col-md-4">
-                                <div>
-                                    <div>
-                                        <h3>Poor Lead Quality</h3>
-                                    </div>
-                                    <div>
-                                        <p>If you need help attracting the right leads, low-quality content and untargeted traffic can be major culprits, diminishing the quality of leads you generate from the organic search. {"Don't"} let inefficient strategies hold your business back; refocus your approach to engage the right audience and improve lead quality!</p>
-                                    </div>
-                                </div>
-                            </Col>
-                            <Col className="col-md-4">
-                                <div>
-                                    <div>
-                                        <h3>Unfair Competition</h3>
-                                    </div>
-                                    <div>
-                                        <p>On occasion, some competitors might resort to unethical tactics, such as intentionally targeting a website. These actions are intended to lower the {"site's"} search rankings, pushing it further down the results page and out of the leading positions.</p>
-                                    </div>
-                                </div>
-                            </Col>
-                        </Row>
-                        <Row className="mb-5">
-                            <Col className="col-md-4">
-                                <div>
-                                    <div>
-                                        <h3>The site has no or few visitors.</h3>
-                                    </div>
-                                    <div>
-                                        <p>Your website can effortlessly attract the right audience with thoughtfully crafted, optimized content, even without relying on active link-building strategies.</p>
-                                    </div>
-                                </div>
-                            </Col>
-                            <Col className="col-md-4">
-                                <div>
-                                    <div>
-                                        <h3>Low ROI</h3>
-                                    </div>
-                                    <div>
-                                        <p>Clients often allocate their marketing budget to less critical SEO tasks, overlooking those that deliver greater value.</p>
-                                    </div>
-                                </div>
-                            </Col>
-                            <Col className="col-md-4">
-                                <div>
-                                    <div>
-                                        <h3>Low Conversion Rate</h3>
-                                    </div>
-                                    <div>
-                                        <p>The website experiences high traffic but struggles with a low conversion rate. This issue is often caused by attracting irrelevant visitors or ineffective landing page design and content structure.</p>
-                                    </div>
-                                </div>
-                            </Col>
+                                </Col>
+                            ))}
                         </Row>
                         <Row className="text-center">
                             <Col>
-                                <Link href="#" title="Contact Us" className={styles.ctaBtn}>Send a Proposal Now</Link>
+                                <Link href="#" title="Contact Us" className={styles.ctaBtn}>
+                                    Send a Proposal Now
+                                </Link>
                             </Col>
                         </Row>
                     </Container>
@@ -401,7 +383,7 @@ function Home() {
                     <Container>
                         <Row className="mb-5">
                             <Col>
-                                <h2><span>Cases</span><br/>Case Studies</h2>
+                                <h2><span>Cases</span><br />Case Studies</h2>
                                 <p>
                                     Check out our SEO services, which have helped businesses across industries achieve exceptional results.
                                     <br />

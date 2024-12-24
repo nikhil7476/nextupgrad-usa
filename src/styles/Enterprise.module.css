@@ -47,15 +47,54 @@
     line-height: 1.2em !important;
 }
 
+.services,
+.whyChoose,
+.faqs {
+    background-color: #142330;
+}
+
+/*Banner Section*/
 .enterpriseBnr {
     padding: 120px 0px 60px 0px !important;
+    background: linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0));
 }
 
 .enterpriseBnr p {
     padding-bottom: 20px;
 }
 
+/*Problem Section*/
+.cardCol {
+    display: flex;
+    align-items: stretch;
+}
 
+.problemCard {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #2a3948;
+    border-radius: 8px;
+    background: linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.problemCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cardTitle {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.cardDescription {
+    font-size: 16px;
+    line-height: 1.6;
+}
 
 /*Results Section*/
 .resultRow {
