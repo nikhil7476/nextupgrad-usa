@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 :root {
   --background: #ffffff;
@@ -6,7 +6,7 @@
   --ftrBackground: #192733;
   --textLight: #ffffff;
   --textDark: #000000;
-  --btnCol: #E87354;
+  --btnCol: #e87354;
   --ftrLink: rgba(255, 255, 255, 0.52);
 }
 
@@ -22,7 +22,6 @@ body {
   color: var(--textLight) !important;
   overflow-x: hidden;
 }
-
 
 h1,
 h2,
@@ -78,7 +77,6 @@ li {
   margin: 5px 0px;
 }
 
-
 /*MegaMenu Header Styles*/
 
 /* Navbar styles */
@@ -111,9 +109,9 @@ li {
   display: none;
   margin-top: 0px;
   background-color: var(--background);
-  transition: all .5s ease;
+  transition: all 0.5s ease;
   border-radius: 0 0 20px 20px;
-  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .megamenu .container {
@@ -121,7 +119,7 @@ li {
 }
 
 /* Show megamenu when hovering on dropdown */
-.mega-dropdown:hover>.megamenu {
+.mega-dropdown:hover > .megamenu {
   display: block;
 }
 
@@ -173,11 +171,10 @@ li {
 
 /*MegaMenu Header Style Ends*/
 
-
 /*CTA Button*/
 .ctaButton {
   /* background-color: var(--btnCol); */
-  background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
   border: 1px solid var(--btnCol);
   text-align: center;
   padding: 5px 30px;
@@ -199,7 +196,6 @@ li {
 .ctaButton a {
   color: var(--textLight);
 }
-
 
 /*Home Tab CSS*/
 .homeTb {
@@ -249,7 +245,6 @@ li {
   text-align: left;
 }
 
-
 /*Services Tab*/
 
 .serveTb .nav-item {
@@ -270,7 +265,6 @@ li {
   color: var(--textDark);
   font-size: 22px;
   font-weight: 700;
-
 }
 
 .serveTb .nav-pills .nav-link.active {
@@ -297,7 +291,7 @@ li {
 }
 
 .serveTb .nav-link.active span {
-  background: linear-gradient(to top, rgba(255, 255, 255, .1) 0, #fff 100%);
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.1) 0, #fff 100%);
   background-clip: text;
   color: transparent;
 }
@@ -438,23 +432,29 @@ li {
   background-image: url("/assets/accord-arrow.svg") !important;
 }
 
-
 /*SEO Services*/
 /*Deliverables Tab*/
 
 .delTab .nav-pills .nav-link.active {
-  background: linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0)) !important;
-  box-shadow: 0 2px 22px rgba(110, 123, 129, .2) !important;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  ) !important;
+  box-shadow: 0 2px 22px rgba(110, 123, 129, 0.2) !important;
   border: 2px solid #2a3948;
 }
 
 /*Approach Tabs*/
 .apprTab .nav-pills .nav-link.active {
-  background: linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0)) !important;
-  box-shadow: 0 2px 22px rgba(110, 123, 129, .2) !important;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  ) !important;
+  box-shadow: 0 2px 22px rgba(110, 123, 129, 0.2) !important;
   border: 2px solid #2a3948;
 }
-
 
 /*StatisticsSection CSS*/
 .circular-chart {
@@ -471,7 +471,10 @@ li {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: conic-gradient(#28c76f var(--percentage, 0%), #2c2f33 var(--percentage, 0%));
+  background: conic-gradient(
+    #28c76f var(--percentage, 0%),
+    #2c2f33 var(--percentage, 0%)
+  );
   display: flex;
   justify-content: center;
   align-items: center;
@@ -500,7 +503,6 @@ li {
   }
 }
 
-
 /*SEO Services FAQ*/
 .seoAccordion .accordion-header {
   margin-bottom: 10px;
@@ -513,6 +515,12 @@ li {
 /*Media Queries*/
 
 @media screen and (max-width: 450px) {
+  .container {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0px 20px !important;
+  }
+
   .ctaButton {
     padding: 0px;
   }

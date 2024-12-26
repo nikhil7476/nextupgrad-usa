@@ -48,7 +48,7 @@ function Home() {
             <div className={styles.enterprise}>
                 <section className={styles.enterpriseBnr}>
                     <Container>
-                        <Row className="justify-content-between">
+                        <Row className={`justify-content-between ${styles.bannerRow}`}>
                             <Col className="col-md-6 align-content-center">
                                 <h1>Best <span>Enterprise SEO<br />Service</span> Providers</h1>
                                 <p>We specialize in enterprise SEO services, working with medium and large IT projects and high-traffic portals that receive hundreds of thousands of visitors from search engines. Our experts have experience across diverse sectors, from e-commerce to complex technology solutions.</p>
@@ -71,7 +71,7 @@ function Home() {
                                 <p>We can solve the following problems with effective enterprise SEO services:</p>
                             </Col>
                         </Row>
-                        <Row className="mb-5">
+                        <Row className={`"mb-5" ${styles.probs}`}>
                             {[
                                 {
                                     title: "No Demand for the Product Yet",

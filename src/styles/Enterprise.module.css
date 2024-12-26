@@ -225,3 +225,20 @@
     background-clip: text;
     color: transparent;
 }
+
+
+/*Media Querys*/
+@media screen and (max-width: 450px) {
+    .bannerRow {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .probs {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+  }
