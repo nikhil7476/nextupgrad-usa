@@ -128,7 +128,7 @@ function MegaMenu() {
                                           </Link>
                                         </li>
                                         <li className="list-group-item">
-                                          <Link href="#">
+                                          <Link href="/seo-audit">
                                             SEO
                                             <br />
                                             Audits
