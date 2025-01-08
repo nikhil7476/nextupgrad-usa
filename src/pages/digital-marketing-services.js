@@ -723,8 +723,7 @@ function DigitalMarketing() {
                 <Accordion defaultActiveKey="0" flush>
                   <Accordion.Item eventKey="0">
                     <Accordion.Header className={styles.accordHead}>
-                      Q1 - What is the cost of corporate enterprise SEO
-                      services?
+                      Q1 - Would my business benefit from digital marketing?
                     </Accordion.Header>
                     <Accordion.Body>
                       <strong>Answer - </strong>The cost of enterprise SEO
@@ -735,8 +734,7 @@ function DigitalMarketing() {
                   </Accordion.Item>
                   <Accordion.Item eventKey="1">
                     <Accordion.Header className={styles.accordHead}>
-                      Q2 - When to expect the results of the enterprise SEO
-                      services?
+                      Q2 - How much do digital marketing services cost?
                     </Accordion.Header>
                     <Accordion.Body>
                       <strong>Answer - </strong>Competition in promotion for
@@ -747,14 +745,49 @@ function DigitalMarketing() {
                   </Accordion.Item>
                   <Accordion.Item eventKey="2">
                     <Accordion.Header className={styles.accordHead}>
-                      Q3 - What mistakes do customers make when using corporate
-                      SEO services?
+                      Q3 - What can Internet marketing services help with?
                     </Accordion.Header>
                     <Accordion.Body>
                       <strong>Answer - </strong>The main mistakes of clients
                       when promoting the setting of unrealistic goals, the wrong
                       choice of a company for promotion, and the wrong choice of
                       KPI.
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="3">
+                    <Accordion.Header className={styles.accordHead}>
+                      Q4 - What can a website marketing company do for you?
+                    </Accordion.Header>
+                    <Accordion.Body>
+                      <strong>Answer - </strong>The main mistakes of clients
+                      when promoting the setting of unrealistic goals, the wrong
+                      choice of a company for promotion, and the wrong choice of
+                      KPI.
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="4">
+                    <Accordion.Header className={styles.accordHead}>
+                      Q5 - How do I choose a digital marketing agency?
+                    </Accordion.Header>
+                    <Accordion.Body>
+                      <strong>Answer - </strong>The main mistakes of clients
+                      when promoting the setting of unrealistic goals, the wrong
+                      choice of a company for promotion, and the wrong choice of
+                      KPI.
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="5">
+                    <Accordion.Header className={styles.accordHead}>
+                      Q6 - What digital marketing services does your company
+                      provide?
+                    </Accordion.Header>
+                    <Accordion.Body>
+                      <strong>Answer - </strong>Nextupgrad offers a
+                      comprehensive suite of digital marketing services,
+                      including but not limited to SEO, social media management,
+                      content marketing, PPC advertising, email marketing, and
+                      more. Our goal is to provide end-to-end solutions for your
+                      online presence.
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
