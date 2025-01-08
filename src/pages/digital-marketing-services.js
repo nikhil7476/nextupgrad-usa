@@ -167,34 +167,6 @@ function DigitalMarketing() {
                   Our all-inclusive web marketing services provide everything
                   you need to succeed online:
                 </h2>
-                <Row>
-                  <Col className="col-md-6">
-                    <ol>
-                      <li>
-                        We prioritize timeless marketing principles over
-                        fleeting trends. Our strategy focuses on the
-                        fundamentals that guarantee enduring success for your
-                        business.
-                      </li>
-                      <li>
-                        A dedicated account manager backed by a team of digital
-                        marketing specialists.
-                      </li>
-                    </ol>
-                  </Col>
-                  <Col className="col-md-6">
-                    <ol>
-                      <li>
-                        Custom digital marketing strategy designed for your
-                        business, industry, and goals.
-                      </li>
-                      <li>
-                        First-Party Data Activation to increase your marketing
-                        ROI by 20% or more.
-                      </li>
-                    </ol>
-                  </Col>
-                </Row>
               </Col>
             </Row>
             <Row>
@@ -203,6 +175,14 @@ function DigitalMarketing() {
                   <Row className="justify-content-evenly">
                     <Col sm={3} className="delTab">
                       <Nav variant="pills" className="flex-column">
+                        <Nav.Item className={styles.tabLink}>
+                          <Nav.Link
+                            eventKey="zero"
+                            className={styles.tabLinkText}
+                          >
+                            Overview
+                          </Nav.Link>
+                        </Nav.Item>
                         <Nav.Item className={styles.tabLink}>
                           <Nav.Link
                             eventKey="first"
@@ -255,6 +235,37 @@ function DigitalMarketing() {
                     </Col>
                     <Col sm={8} className={styles.delTabCont}>
                       <Tab.Content>
+                        <Tab.Pane eventKey="zero">
+                          <h3>Overview</h3>
+                          <ol className="mb-4">
+                            <li>
+                              We prioritize timeless marketing principles over
+                              fleeting trends.
+                              <br />
+                              Our strategy focuses on the fundamentals that
+                              guarantee enduring success for your business.
+                            </li>
+                            <li>
+                              A dedicated account manager backed by a team of
+                              digital marketing specialists.
+                            </li>
+                            <li>
+                              Custom digital marketing strategy designed for
+                              your business, industry, and goals.
+                            </li>
+                            <li>
+                              First-Party Data Activation to increase your
+                              marketing ROI by 20% or more.
+                            </li>
+                          </ol>
+                          <Link
+                            href="#"
+                            title="Contact Us"
+                            className={styles.ctaBtn}
+                          >
+                            Explore Our Digital Marketing Services
+                          </Link>
+                        </Tab.Pane>
                         <Tab.Pane eventKey="first">
                           <h3>Search Engine Optimization {"(SEO)"} Services</h3>
                           <p>
