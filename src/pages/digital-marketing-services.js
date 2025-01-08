@@ -64,8 +64,18 @@ function DigitalMarketing() {
                   Send A Proposal Now
                 </Link>
               </Col>
-              <Col className="col-md-4">
-                <img src="https://picsum.photos/350/400" />
+              <Col className="col-md-5">
+                <div className={styles.resultCard}>
+                  <h2>
+                    Maximize 20% ROI with Our Strategic Digital Marketing
+                    Services
+                  </h2>
+                  <p>
+                    {
+                      "“Experience a 20% boost in ROI with our bespoke digital marketing services. From strategic planning to flawless execution, we offer full-spectrum support tailored to your campaigns. Explore our top-notch solutions now or connect with us for a custom proposal!”"
+                    }
+                  </p>
+                </div>
               </Col>
             </Row>
           </Container>
@@ -826,7 +836,8 @@ function DigitalMarketing() {
                     </Accordion.Header>
                     <Accordion.Body>
                       <strong>Answer - </strong>Choosing the right digital
-                      marketing agency can significantly impact your {"business's"}
+                      marketing agency can significantly impact your{" "}
+                      {"business's"}
                       online success. {"Here's"} a step-by-step guide to help
                       you make the best choice:
                       <ol>
