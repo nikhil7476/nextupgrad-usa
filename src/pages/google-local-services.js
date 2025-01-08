@@ -220,7 +220,8 @@ function GoogleServices() {
                         <Tab.Pane eventKey="second">
                           <h3>Budget Management</h3>
                           <p>
-                            By partnering with our paid ad specialists, {"you'll"}
+                            By partnering with our paid ad specialists,{" "}
+                            {"you'll"}
                             make the most of your ad spend while reaching your
                             business objectives.
                           </p>
@@ -635,54 +636,78 @@ function GoogleServices() {
                       plans?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>In our management plans, lead
-                      disputes are handled through an automated system
-                      introduced by Google. This system utilizes machine
-                      learning to automatically review and credit accounts for
-                      low-quality leads, eliminating the need for manual
-                      disputes. Advertisers can expect faster resolutions and
-                      more efficient crediting of invalid leads. Although
-                      credits for {'"job type not serviced"'} and {'"geo not serviced"'}
-                      are no longer available, the overall number of credits is
-                      expected to increase. Additionally, advertisers can
-                      provide feedback on leads through a Lead Feedback survey
-                      to help improve future lead quality.
+                      <strong>Answer - </strong>Lead disputes are managed
+                      through an automated system provided by Google in our
+                      management plans. The system uses machine learning to
+                      review and credit accounts for poor-quality leads, so the
+                      account does not need to be disputed manually. Advertisers
+                      will have quicker resolutions and more effective crediting
+                      of invalid leads. With credits for{" "}
+                      {'"job type not serviced"'}
+                      and {'"geo not serviced"'} no longer offered, overall the
+                      number of credits is expected to rise. Additionally,
+                      advertisers can provide feedback on leads through a Lead
+                      Feedback survey to help improve future lead quality.
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="3">
                     <Accordion.Header className={styles.accordHead}>
-                      Q4 - What can a website marketing company do for you?
+                      Q4 - What kind of reporting can I expect from your ad
+                      management services?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>The main mistakes of clients
-                      when promoting the setting of unrealistic goals, the wrong
-                      choice of a company for promotion, and the wrong choice of
-                      KPI.
+                      <strong>Answer - </strong>Our ad management services
+                      include detailed reporting to help you understand the
+                      outcomes of each campaign.
+                      <ol>
+                        <li>
+                          <strong>Performance Metrics:</strong> click-through
+                          rates and conversion and ROI insights. Training for
+                          all dates until October 2023.
+                        </li>
+                        <li>
+                          <strong>Audience Insights:</strong> demographic and
+                          behavioral data about your target audience.{" "}
+                        </li>
+                        <li>
+                          <strong>Custom Reports:</strong> reports focusing on
+                          what you want to achieve.
+                        </li>
+                        <li>
+                          <strong>Continuous Insights:</strong> Regular
+                          performance recaps and actionable enhancements for
+                          optimization.
+                        </li>
+                      </ol>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="4">
                     <Accordion.Header className={styles.accordHead}>
-                      Q5 - How do I choose a digital marketing agency?
+                      Q5 - How do your plans differ in terms of geographic
+                      targeting?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>The main mistakes of clients
-                      when promoting the setting of unrealistic goals, the wrong
-                      choice of a company for promotion, and the wrong choice of
-                      KPI.
-                    </Accordion.Body>
-                  </Accordion.Item>
-                  <Accordion.Item eventKey="5">
-                    <Accordion.Header className={styles.accordHead}>
-                      Q6 - What digital marketing services does your company
-                      provide?
-                    </Accordion.Header>
-                    <Accordion.Body>
-                      <strong>Answer - </strong>Nextupgrad offers a
-                      comprehensive suite of digital marketing services,
-                      including but not limited to SEO, social media management,
-                      content marketing, PPC advertising, email marketing, and
-                      more. Our goal is to provide end-to-end solutions for your
-                      online presence.
+                      <strong>Answer - </strong>We have a variety of plans
+                      with different levels of geographic targeting for your
+                      business needs:
+                      <ol>
+                        <li>
+                          <strong>Basic Plan:</strong> The basic plan
+                          targets regional or country-specific audiences so you
+                          can reach audiences locally.
+                        </li>
+                        <li>
+                          <strong>Business Plan:</strong> This will allow you to
+                          target a larger audience with the help of advanced
+                          targeting options, like cities or neighborhoods.
+                        </li>
+                        <li>
+                          <strong>Premium Plan:</strong> Zip Code Targeting &
+                          market-based segmentation of the audience to target.
+                        </li>
+                      </ol>
+                      Whether your geographic goals are will allow you to
+                      maximize your {"campaign's"}
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
