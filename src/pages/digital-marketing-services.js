@@ -39,7 +39,7 @@ const caseStudies = [
     },
 ];
 
-function EnterpriseSeo() {
+function DigitalMarketing() {
     return (
         <>
             <Head>
@@ -464,4 +464,4 @@ function EnterpriseSeo() {
     );
 }
 
-export default EnterpriseSeo;
+export default DigitalMarketing;
