@@ -479,8 +479,8 @@ function DigitalMarketing() {
                 </h2>
                 <p>
                   Our digital marketing company in New York delivers tangible
-                  results that contribute to your {"business's"} success. Here are
-                  some of the key outcomes you can expect:
+                  results that contribute to your {"business's"} success. Here
+                  are some of the key outcomes you can expect:
                 </p>
               </Col>
             </Row>
@@ -581,8 +581,8 @@ function DigitalMarketing() {
                 <div className={styles.resultCard}>
                   <h3>Monitoring and Reporting</h3>
                   <p>
-                    We monitor your {"campaign's"} performance and deliver regular
-                    reports to ensure transparency and accountability.
+                    We monitor your {"campaign's"} performance and deliver
+                    regular reports to ensure transparency and accountability.
                   </p>
                 </div>
               </Col>
@@ -726,10 +726,17 @@ function DigitalMarketing() {
                       Q1 - Would my business benefit from digital marketing?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>The cost of enterprise SEO
-                      services is higher than for other segments. The exact
-                      price is calculated individually after analyzing the
-                      competition and the website.
+                      <strong>Answer - </strong>Absolutely! Digital marketing is
+                      essential for businesses of all sizes in {"today's"}{" "}
+                      connected world. It helps you reach a broader audience,
+                      build brand awareness, and engage with potential customers
+                      where they spend most of their time—online. Whether you
+                      want to boost website traffic, generate leads, or increase
+                      sales, digital marketing offers targeted strategies
+                      customized to your business goals. With tools like social
+                      media, search engine optimization {"(SEO)"}, email
+                      campaigns, and pay-per-click ads, you can achieve
+                      measurable results while staying cost-effective.
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="1">
@@ -737,10 +744,20 @@ function DigitalMarketing() {
                       Q2 - How much do digital marketing services cost?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>Competition in promotion for
-                      enterprise companies is tight compared to other segments.
-                      So the first noticeable results are possible after 4-9
-                      months of activities.
+                      <p>
+                        <strong>Answer - </strong>The cost of digital marketing
+                        services varies based on the specific needs of your
+                        business, the scope of the campaign, and the platforms
+                        used. Packages can range from as little as $500 per
+                        month for small-scale campaigns to $10,000+ per month
+                        for comprehensive strategies involving SEO, PPC, social
+                        media, and content marketing.
+                      </p>
+                      <p>
+                        We offer flexible pricing plans customized to your goals
+                        and budget. Contact us for a custom quote that meets
+                        your unique marketing needs.
+                      </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="2">
@@ -748,10 +765,40 @@ function DigitalMarketing() {
                       Q3 - What can Internet marketing services help with?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>The main mistakes of clients
-                      when promoting the setting of unrealistic goals, the wrong
-                      choice of a company for promotion, and the wrong choice of
-                      KPI.
+                      <strong>Answer - </strong>Internet marketing services are
+                      designed to help your business thrive in the digital
+                      world. They can assist with:
+                      <ol>
+                        <li>
+                          <strong>Boosting Online Visibility:</strong> From
+                          search engine optimization {"(SEO)"} to social media
+                          advertising, these services ensure your business
+                          stands out online.
+                        </li>
+                        <li>
+                          <strong>Driving Targeted Traffic:</strong> Using
+                          data-driven strategies like pay-per-click {"(PPC)"}{" "}
+                          ads and content marketing, they attract the right
+                          audience to your website.
+                        </li>
+                        <li>
+                          <strong>Building Brand Authority:</strong> Internet
+                          marketing helps establish your brand as an industry
+                          leader through thought leadership content, social
+                          proof, and consistent messaging.
+                        </li>
+                        <li>
+                          <strong>Generating Leads and Sales:</strong> With
+                          optimized campaigns and clear calls to action, these
+                          services convert visitors into paying customers.
+                        </li>
+                        <li>
+                          <strong>Analyzing and Refining Strategies:</strong>{" "}
+                          Advanced analytics tools help monitor performance,
+                          identify {"what’s"} working, and adjust strategies for
+                          better results.
+                        </li>
+                      </ol>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="3">
@@ -759,10 +806,18 @@ function DigitalMarketing() {
                       Q4 - What can a website marketing company do for you?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>The main mistakes of clients
-                      when promoting the setting of unrealistic goals, the wrong
-                      choice of a company for promotion, and the wrong choice of
-                      KPI.
+                      <strong>Answer - </strong>A website marketing company
+                      increases the efficiency and visibility of your online
+                      presence, which supports the growth of your business. To
+                      attract your target audience, they optimize your website
+                      to increase traffic and turn visitors into loyal clients.
+                      SEO for higher ranks, content production to engage
+                      readers, social media marketing to reach a wider audience,
+                      and PPC {"(pay-per-click)"} advertising to generate leads
+                      right away are all included in this. Additionally, they
+                      examine metrics for growth to improve methods and make
+                      sure your website is an effective instrument for achieving
+                      your {"business's"} goals.
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="4">
@@ -770,10 +825,63 @@ function DigitalMarketing() {
                       Q5 - How do I choose a digital marketing agency?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>The main mistakes of clients
-                      when promoting the setting of unrealistic goals, the wrong
-                      choice of a company for promotion, and the wrong choice of
-                      KPI.
+                      <strong>Answer - </strong>Choosing the right digital
+                      marketing agency can significantly impact your business's
+                      online success. {"Here's"} a step-by-step guide to help
+                      you make the best choice:
+                      <ol>
+                        <li>
+                          <strong>Understand Your Goals:</strong> Clearly define
+                          what you want to achieve—brand awareness, lead
+                          generation, increased sales, or something else. This
+                          will help you find an agency that specializes in your
+                          desired outcomes.
+                        </li>
+                        <li>
+                          <strong>Evaluate their expertise:</strong> Look for
+                          agencies with proven expertise in key areas such as
+                          SEO, PPC, social media marketing, content creation,
+                          and analytics. Check if their skills align with your
+                          specific needs.
+                        </li>
+                        <li>
+                          <strong>Review Their Portfolio:</strong> Examine the
+                          {"agency’s"} past work to see if {"they’ve"} achieved
+                          results for businesses similar to yours. A strong
+                          portfolio speaks volumes about their capabilities.
+                        </li>
+                        <li>
+                          <strong>
+                            Check Client Testimonials and Reviews:
+                          </strong>{" "}
+                          Online reviews and client testimonials provide
+                          insights into the {"agency's"} reliability,
+                          communication, and ability to deliver on promises.
+                        </li>
+                        <li>
+                          <strong>Assess Their Transparency:</strong> A good
+                          agency will be upfront about its strategies,
+                          timelines, and pricing. Be wary of those offering
+                          vague promises or "guaranteed" results.
+                        </li>
+                        <li>
+                          <strong>Ask About Tools and Techniques:</strong>{" "}
+                          Inquire about the technology and tools they use to
+                          ensure their methods are up-to-date and effective.
+                        </li>
+                        <li>
+                          <strong>Communication and Compatibility:</strong>{" "}
+                          Choose an agency that listens to your needs,
+                          communicates effectively, and fits your {"company’s"}
+                          culture and values
+                        </li>
+                        <li>
+                          <strong>Discuss budget and ROI:</strong> Align
+                          expectations about costs and the measurable return on
+                          investment {"(ROI)"}. Ensure the services provided
+                          justify the expenses.
+                        </li>
+                      </ol>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="5">

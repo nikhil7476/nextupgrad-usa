@@ -140,37 +140,13 @@ function GoogleServices() {
                 <h2>
                   <span>Services</span>
                   <br />
-                  Our all-inclusive web marketing services provide everything
-                  you need to succeed online:
+                  {"What's"} Included in Our Google Local Services Ad Management
+                  Plans?
                 </h2>
-                <Row>
-                  <Col className="col-md-6">
-                    <ol>
-                      <li>
-                        We prioritize timeless marketing principles over
-                        fleeting trends. Our strategy focuses on the
-                        fundamentals that guarantee enduring success for your
-                        business.
-                      </li>
-                      <li>
-                        A dedicated account manager backed by a team of digital
-                        marketing specialists.
-                      </li>
-                    </ol>
-                  </Col>
-                  <Col className="col-md-6">
-                    <ol>
-                      <li>
-                        Custom digital marketing strategy designed for your
-                        business, industry, and goals.
-                      </li>
-                      <li>
-                        First-Party Data Activation to increase your marketing
-                        ROI by 20% or more.
-                      </li>
-                    </ol>
-                  </Col>
-                </Row>
+                <p>
+                  {"Here's"} a detailed overview of the features included in our
+                  ad management plans:
+                </p>
               </Col>
             </Row>
             <Row>
@@ -184,7 +160,7 @@ function GoogleServices() {
                             eventKey="first"
                             className={styles.tabLinkText}
                           >
-                            Search Engine Optimization {"(SEO)"} Services
+                            Voice Search Optimization
                           </Nav.Link>
                         </Nav.Item>
                         <Nav.Item className={styles.tabLink}>
@@ -192,7 +168,7 @@ function GoogleServices() {
                             eventKey="second"
                             className={styles.tabLinkText}
                           >
-                            Pay-Per-Click {"(PPC)"} Marketing
+                            Budget Management
                           </Nav.Link>
                         </Nav.Item>
                         <Nav.Item className={styles.tabLink}>
@@ -200,7 +176,7 @@ function GoogleServices() {
                             eventKey="third"
                             className={styles.tabLinkText}
                           >
-                            Social Media Marketing
+                            Geographic Targeting
                           </Nav.Link>
                         </Nav.Item>
                         <Nav.Item className={styles.tabLink}>
@@ -208,7 +184,7 @@ function GoogleServices() {
                             eventKey="fourth"
                             className={styles.tabLinkText}
                           >
-                            Content Marketing Services {"(CMS)"}
+                            Dedicated Local Marketing Expert
                           </Nav.Link>
                         </Nav.Item>
                         <Nav.Item className={styles.tabLink}>
@@ -216,15 +192,7 @@ function GoogleServices() {
                             eventKey="fifth"
                             className={styles.tabLinkText}
                           >
-                            Email Marketing Services
-                          </Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item className={styles.tabLink}>
-                          <Nav.Link
-                            eventKey="sixth"
-                            className={styles.tabLinkText}
-                          >
-                            Website Design & Development Services
+                            Custom Reporting
                           </Nav.Link>
                         </Nav.Item>
                       </Nav>
