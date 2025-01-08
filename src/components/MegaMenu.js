@@ -95,7 +95,7 @@ function MegaMenu() {
                                           <Link href="/local-seo">
                                             Local
                                             <br />
-                                            SEO
+                                            SEO Services
                                           </Link>
                                         </li>
                                       </ul>
@@ -103,17 +103,17 @@ function MegaMenu() {
                                     <div className="col-xs-12 col-sm">
                                       <ul className="list-group">
                                         <li className="list-group-item">
-                                          <Link href="#">
+                                          <Link href="/digital-marketing-services">
                                             Digital Marketing
                                             <br />
                                             Services
                                           </Link>
                                         </li>
                                         <li className="list-group-item">
-                                          <Link href="#">
-                                            Google Local
+                                          <Link href="/enterprise-seo-services">
+                                            Enterprise
                                             <br />
-                                            Services Ads Management
+                                            SEO Services
                                           </Link>
                                         </li>
                                       </ul>
@@ -269,7 +269,7 @@ function MegaMenu() {
                                     <div className="col-xs-12 col-sm">
                                       <ul className="list-group">
                                         <li className="list-group-item">
-                                        <Link href="#"> Marketing?</Link>
+                                          <Link href="#"> Marketing?</Link>
                                         </li>
                                         <li className="list-group-item">
                                           <Link href="#">
