@@ -121,16 +121,17 @@ function MegaMenu() {
                                     <div className="col-xs-12 col-sm">
                                       <ul className="list-group">
                                         <li className="list-group-item">
-                                          <Link href="#">
-                                            SEO
+                                          <Link href="/google-local-services">
+                                            Google Local Services
                                             <br />
-                                            Audits
+                                            Ads Management
                                           </Link>
                                         </li>
                                         <li className="list-group-item">
                                           <Link href="#">
-                                            Generative Engine
-                                            <br />& Chat Optimization
+                                            SEO
+                                            <br />
+                                            Audits
                                           </Link>
                                         </li>
                                       </ul>
