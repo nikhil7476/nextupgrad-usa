@@ -479,7 +479,7 @@ function DigitalMarketing() {
                 </h2>
                 <p>
                   Our digital marketing company in New York delivers tangible
-                  results that contribute to your business's success. Here are
+                  results that contribute to your {"business's"} success. Here are
                   some of the key outcomes you can expect:
                 </p>
               </Col>
@@ -581,7 +581,7 @@ function DigitalMarketing() {
                 <div className={styles.resultCard}>
                   <h3>Monitoring and Reporting</h3>
                   <p>
-                    We monitor your campaign's performance and deliver regular
+                    We monitor your {"campaign's"} performance and deliver regular
                     reports to ensure transparency and accountability.
                   </p>
                 </div>
