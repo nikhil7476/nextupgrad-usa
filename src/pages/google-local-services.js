@@ -200,219 +200,82 @@ function GoogleServices() {
                     <Col sm={8} className={styles.delTabCont}>
                       <Tab.Content>
                         <Tab.Pane eventKey="first">
-                          <h3>Search Engine Optimization {"(SEO)"} Services</h3>
+                          <h3>Voice Search Optimization</h3>
                           <p>
-                            Rank higher in organic search results on Google,
-                            Bing, and other search engines with NextUpgrad.
-                            Using strategic search engine optimization {"(SEO)"}
-                            , we help drive more traffic, increase visibility,
-                            and elevate your online presence. Partner with our
-                            award-winning digital marketing services in New York
-                            to get a custom strategy and start generating
-                            revenue today.
+                            By 2025, half of American consumers will use voice
+                            search every day.
                           </p>
                           <p>
-                            Some areas of SEO a hired agency may focus on
-                            include:
+                            With the growing popularity of voice search for
+                            finding local services, {"it’s"} essential to
+                            optimize your ad content for this technology.
                           </p>
-                          <ol>
-                            <li>
-                              <strong>On-Page SEO:</strong> focuses on
-                              optimizing the website internally to rank higher
-                              {
-                                "(e.g., blog posts, articles, landing pages, schema, etc.)."
-                              }
-                            </li>
-                            <li>
-                              <strong>Off-Page SEO:</strong> helps optimize the
-                              website externally using outside tactics like
-                              link-building.
-                            </li>
-                            <li>
-                              <strong>Technical SEO:</strong> involves
-                              optimizations to website and servers to help bots
-                              crawl and index your site.
-                            </li>
-                          </ol>
-                          <Link
-                            href="#"
-                            title="Contact Us"
-                            className={styles.ctaBtn}
-                          >
-                            Explore SEO Services
-                          </Link>
+                          <p>
+                            At NextUpgrad, our Local Services ad management
+                            plans include voice search optimization. This
+                            enables you to reach more qualified leads and
+                            ensures you {"don’t"} miss out on potential revenue.
+                          </p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="second">
-                          <h3>Pay-Per-Click {"(PPC)"} Marketing</h3>
+                          <h3>Budget Management</h3>
                           <p>
-                            Reach and convert high-value consumers and business
-                            buyers into clients using Google Ads, Microsoft
-                            Advertising, and other effective ad networks.
-                            Request a proposal today to see how to transform
-                            your company with Nextupgrad Boston PPC Services.
+                            By partnering with our paid ad specialists, {"you'll"}
+                            make the most of your ad spend while reaching your
+                            business objectives.
                           </p>
-                          <p>Some ad types include:</p>
-                          <ol>
-                            <li>
-                              <strong>Shopping:</strong> a carousel of ads from
-                              available online marketplaces
-                            </li>
-                            <li>
-                              <strong>Display:</strong> image-based or
-                              video-based ads
-                            </li>
-                            <li>
-                              <strong>Search:</strong> text-based ads
-                            </li>
-                            <li>
-                              <strong>Social:</strong> ads that appear on social
-                              media
-                            </li>
-                          </ol>
-                          <Link
-                            href="#"
-                            title="Contact Us"
-                            className={styles.ctaBtn}
-                          >
-                            Explore PPC Services
-                          </Link>
+                          <p>
+                            We strive to keep the ad process hassle-free,
+                            allowing us to handle the complexities so you
+                            achieve maximum ROI. As your Google Ads management
+                            partner, NextUpgrad ensures you {"won't"} have to
+                            worry about exceeding your campaign budget.
+                          </p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="third">
-                          <h3>Social Media Marketing</h3>
+                          <h3>Geographic Targeting</h3>
                           <p>
-                            Explore social media marketing in Dallas as a
-                            powerful digital marketing channel to enhance brand
-                            awareness, customer loyalty, and client
-                            satisfaction. We optimize every aspect of your
-                            social strategy, from increasing engagement to
-                            achieving targeted reach.
+                            Our ad management solutions include sophisticated
+                            geographic targeting designed to reach your ideal
+                            customers.
                           </p>
-                          <Accordion
-                            className="mb-4"
-                            defaultActiveKey="0"
-                            flush
-                          >
-                            <Accordion.Item eventKey="0">
-                              <Accordion.Header className={styles.accordHead}>
-                                Organic Social Media Management
-                              </Accordion.Header>
-                              <Accordion.Body>
-                                Strengthen your brand presence, boost
-                                engagement, and connect with your audience
-                                through regular posts on Facebook, Twitter{" "}
-                                {"(now X)"}, Instagram, LinkedIn, and other
-                                platforms.
-                              </Accordion.Body>
-                            </Accordion.Item>
-                            <Accordion.Item eventKey="1">
-                              <Accordion.Header className={styles.accordHead}>
-                                Paid Social Advertising
-                              </Accordion.Header>
-                              <Accordion.Body>
-                                Expand your reach, engage and re-engage your
-                                audience, and drive revenue with paid ads on
-                                Facebook, LinkedIn, YouTube, and more.
-                              </Accordion.Body>
-                            </Accordion.Item>
-                          </Accordion>
-                          <Link
-                            href="#"
-                            title="Contact Us"
-                            className={styles.ctaBtn}
-                          >
-                            Explore Social Media Services
-                          </Link>
+                          <p>
+                            Seamlessly connect with leads in lucrative areas
+                            close to your business. This targeting feature
+                            enables you to optimize your ad budget and engage
+                            with the most valuable customers in your vicinity.
+                          </p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="fourth">
-                          <h3>Content Marketing Services {"(CMS)"}</h3>
+                          <h3>Dedicated Local Marketing Expert</h3>
                           <p>
-                            Some common forms used in content marketing are:
+                            NextUpgrad has been delivering exceptional results
+                            for clients for more than a decade.
                           </p>
-                          <Row className="mb-4">
-                            <Col className="col-md-4">
-                              <ul>
-                                <li>Blog Posts & Articles</li>
-                                <li>Case Studies</li>
-                                <li>Social Media Posts</li>
-                                <li>Press Releases</li>
-                              </ul>
-                            </Col>
-                            <Col className="col-md-4">
-                              <ul>
-                                <li>White Papers</li>
-                                <li>Emails</li>
-                                <li>Newsletter</li>
-                                <li>Infographics</li>
-                              </ul>
-                            </Col>
-                            <Col className="col-md-4">
-                              <ul>
-                                <li>Landing Pages</li>
-                                <li>Videos</li>
-                                <li>Webinars</li>
-                                <li>Podcasts</li>
-                              </ul>
-                            </Col>
-                          </Row>
-                          <Link
-                            href="#"
-                            title="Contact Us"
-                            className={styles.ctaBtn}
-                          >
-                            Explore Content Marketing Services
-                          </Link>
+                          <p>
+                            By choosing to work with us, {"you'll"} collaborate
+                            with a dedicated local marketing expert committed to
+                            making your ad campaigns successful. With our
+                            extensive industry knowledge, {"we'll"} help you
+                            generate relevant leads, boost conversions, and
+                            increase revenue for your business.
+                          </p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="fifth">
-                          <h3>Email Marketing Services</h3>
+                          <h3>Custom Reporting</h3>
                           <p>
-                            Our expert email marketing team creates targeted and
-                            engaging campaigns to boost open rates, click rates,
-                            and conversions, ultimately driving revenue for your
-                            business to inform them about.
+                            We provide custom ad reporting, giving you clear
+                            insights into your spending.
                           </p>
-                          <Row className="mb-4">
-                            <Col className="col-md-4">
-                              <ul>
-                                <li>Special Offers</li>
-                                <li>New Products</li>
-                              </ul>
-                            </Col>
-                            <Col className="col-md-4">
-                              <ul>
-                                <li>News updates</li>
-                                <li>Ebooks or Other New Content</li>
-                              </ul>
-                            </Col>
-                            <Col className="col-md-4">
-                              <ul>
-                                <li>Webinars</li>
-                                <li>Your Brand</li>
-                              </ul>
-                            </Col>
-                          </Row>
-                          <Link
-                            href="#"
-                            title="Contact Us"
-                            className={styles.ctaBtn}
-                          >
-                            Explore Email Marketing Services
-                          </Link>
-                        </Tab.Pane>
-                        <Tab.Pane eventKey="sixth">
-                          <h3>Website Design & Development Services</h3>
-                          <p className="mb-4">
-                            Prevent your business from losing clients, leads,
-                            and revenue to competitors. Invest in a professional
-                            website design or redesign that adheres to SEO and
-                            conversion rate optimization best practices.
+                          <p>
+                            Moreover, we help you identify and implement
+                            necessary adjustments to boost your ad{" "}
+                            {"campaigns'"}
+                            effectiveness. Our basic plans come with monthly
+                            reports, and you can choose to upgrade to our
+                            aggressive or market leader plans for automatic
+                            monthly cloud updates.
                           </p>
-                          <Link
-                            href="#"
-                            title="Contact Us"
-                            className={styles.ctaBtn}
-                          >
-                            Explore Design & Development Services
-                          </Link>
                         </Tab.Pane>
                       </Tab.Content>
                     </Col>
@@ -431,30 +294,31 @@ function GoogleServices() {
                   <br />
                   What Results We Provide
                 </h2>
-                <p>
-                  Our digital marketing company in New York delivers tangible
-                  results that contribute to your {"business's"} success. Here
-                  are some of the key outcomes you can expect:
-                </p>
               </Col>
             </Row>
             <Row className={styles.resultRow}>
               <Col className="col-md-6">
                 <div className={styles.resultCard}>
-                  <h3>Improved Brand Awareness</h3>
+                  <h3>Increased Leads & Bookings</h3>
                   <p>
-                    We ensure your brand is recognized and remembered by your
-                    target audience, boosting overall awareness and visibility.
+                    Google Local Services Ads {"(LSAs)"} help your business
+                    reach local customers who are actively seeking your
+                    services. With our expert management, {"you’ll"} see a
+                    significant rise in qualified leads and direct bookings,
+                    leading to increased revenue growth.
                   </p>
                 </div>
               </Col>
               <Col className="col-md-6 align-content-center">
                 <div>
-                  <h3>Enhanced Customer Trust & Loyalty</h3>
+                  <h3>Enhanced Brand Visibility</h3>
                   <p>
-                    We build trust and loyalty with your clients through
-                    effective reputation management and consistent
-                    communication.
+                    Local service ads {"(LSA)"} highlight your business details,
+                    such as service areas, customer reviews, and the Google
+                    Guarantee {"(when applicable)"}. This helps boost your{" "}
+                    {"brand's"} visibility, fosters trust with potential
+                    customers, and positions your business as a leading option
+                    in your local market.
                   </p>
                 </div>
               </Col>
@@ -462,21 +326,23 @@ function GoogleServices() {
             <Row className="mb-5">
               <Col className="col-md-6 align-content-center">
                 <div>
-                  <h3>Increase Reach and Traffic</h3>
+                  <h3>Improved ROI</h3>
                   <p>
-                    We utilize various digital channels to broaden your audience
-                    and drive more traffic to your website, boosting your
-                    campaign performance.
+                    We use data-driven strategies to optimize your LSA campaigns
+                    for maximum ROI. By tracking key metrics and adjusting bids
+                    and budgets in real time, we ensure you only pay for
+                    qualified leads that convert into paying customers.
                   </p>
                 </div>
               </Col>
               <Col className="col-md-6">
                 <div className={styles.resultCard}>
-                  <h3>Drive Sales and Grow Your Business</h3>
+                  <h3>Peace of Mind</h3>
                   <p>
-                    Our comprehensive strategy increases visibility and helps
-                    turn potential customers into loyal buyers, leading to
-                    higher sales and sustainable growth for your business.
+                    Let our skilled team take care of the complexities of LSA
+                    management. We manage campaign setup, continuous
+                    optimization, and performance reporting, allowing you to
+                    concentrate on running your business.
                   </p>
                 </div>
               </Col>
@@ -490,54 +356,100 @@ function GoogleServices() {
                 <h2>
                   <span>Process</span>
                   <br />
-                  Stages of Our Digital Marketing Services
+                  Stages of Our Google Local Services
                 </h2>
-                <p>
-                  Our digital marketing services utilize a structured process
-                  designed to ensure the success of your business initiatives.
-                  The stages include:
-                </p>
               </Col>
             </Row>
             <Row className={styles.resultRow}>
-              <Col className="col-md-6">
-                <div className={styles.resultCard}>
-                  <h3>Analysing the current situation </h3>
-                  <p>
-                    We begin by evaluating your online presence to identify its
-                    strengths, weaknesses, and opportunities for improvement.
-                  </p>
-                </div>
-              </Col>
-              <Col className="col-md-6 align-content-center">
+              <Col className="col-md-4 align-content-center">
                 <div>
-                  <h3>Formation of Strategy</h3>
+                  <h3>Campaign Setup & Optimization</h3>
                   <p>
-                    Following our thorough analysis, we develop a customized
-                    strategy that aligns with your business goals and
-                    effectively targets your specific audience.
+                    This initial stage focuses on building a strong foundation
+                    for your LSA campaign. It involves:
                   </p>
+                  <ol>
+                    <li>
+                      <strong>Keyword Research & Targeting:</strong> Identifying
+                      relevant keywords and location-based targeting options to
+                      reach the right audience.
+                    </li>
+                    <li>
+                      <strong>Ad Copy & Visuals:</strong> Crafting compelling ad
+                      copy and selecting high-quality images or videos that
+                      showcase your business and services.
+                    </li>
+                    <li>
+                      <strong>Budget Allocation & Bidding Strategies:</strong>{" "}
+                      Determining your daily budget and setting appropriate bids
+                      to maximize your return on investment.
+                    </li>
+                    <li>
+                      <strong>Performance Tracking & Analysis:</strong>{" "}
+                      Implementing conversion tracking and analyzing key metrics
+                      like call volume, leads, and customer reviews to identify
+                      areas for improvement.
+                    </li>
+                  </ol>
                 </div>
               </Col>
-            </Row>
-            <Row className="mb-5">
-              <Col className="col-md-6 align-content-center">
-                <div>
-                  <h3>Implementation of the Campaign</h3>
-                  <p>
-                    Our team executes the strategy using a range of tools and
-                    platforms. These include media outreach, content creation,
-                    and social media management.
-                  </p>
-                </div>
-              </Col>
-              <Col className="col-md-6">
+              <Col className="col-md-4">
                 <div className={styles.resultCard}>
-                  <h3>Monitoring and Reporting</h3>
+                  <h3>Lead Qualification & Management</h3>
                   <p>
-                    We monitor your {"campaign's"} performance and deliver
-                    regular reports to ensure transparency and accountability.
+                    Once leads start coming in, effective management includes:
                   </p>
+                  <ol>
+                    <li>
+                      <strong>Lead Routing System:</strong> Set up a system to
+                      route leads to the appropriate team members or
+                      departments.
+                    </li>
+                    <li>
+                      <strong>Qualify Leads:</strong> Quickly assess and
+                      prioritize leads most likely to convert into paying
+                      customers.
+                    </li>
+                    <li>
+                      <strong>Respond Promptly:</strong> Acknowledge and respond
+                      to all leads swiftly to build trust and maintain interest.
+                    </li>
+                    <li>
+                      <strong>Track Lead Sources & Conversion Rates:</strong>{" "}
+                      Monitor the effectiveness of various lead sources and
+                      track conversions throughout the customer journey.
+                    </li>
+                  </ol>
+                </div>
+              </Col>
+              <Col className="col-md-4 align-content-center">
+                <div>
+                  <h3>Customer Service & Review Management</h3>
+                  <ol>
+                    <li>
+                      <strong>Delivering Exceptional Service:</strong> Going
+                      above and beyond to meet customer expectations and exceed
+                      their satisfaction.
+                    </li>
+                    <li>
+                      <strong>Encouraging Customer Reviews:</strong> promptly
+                      requesting and actively encouraging customer reviews on
+                      Google and other relevant platforms.
+                    </li>
+                    <li>
+                      <strong>Monitoring and Responding to Reviews:</strong>{" "}
+                      Regularly monitoring online reviews and responding
+                      promptly and professionally to both positive and negative
+                      feedback.
+                    </li>
+                    <li>
+                      <strong>
+                        Building Long-Term Customer Relationships:
+                      </strong>{" "}
+                      cultivating strong relationships with your customers to
+                      foster loyalty and repeat business.
+                    </li>
+                  </ol>
                 </div>
               </Col>
             </Row>
@@ -677,35 +589,64 @@ function GoogleServices() {
                 <Accordion defaultActiveKey="0" flush>
                   <Accordion.Item eventKey="0">
                     <Accordion.Header className={styles.accordHead}>
-                      Q1 - Would my business benefit from digital marketing?
+                      Q1 - How does voice search optimization benefit my
+                      business?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>The cost of enterprise SEO
-                      services is higher than for other segments. The exact
-                      price is calculated individually after analyzing the
-                      competition and the website.
+                      <strong>Answer - </strong>Voice search optimization can
+                      significantly increase your business by making it easier
+                      for potential customers to find you. As more people use
+                      voice-enabled devices, optimizing for voice search ensures
+                      your content is personalized to natural, conversational
+                      queries. This improves your visibility in search results,
+                      increasing traffic to your website. By focusing on local
+                      search terms and providing concise, clear answers, you can
+                      also improve your chances of appearing in featured
+                      snippets, which often drive higher engagement. Ultimately,
+                      voice search optimization enhances the user experience,
+                      providing faster, more accurate responses, and helps your
+                      business stay competitive in a digital-first world.
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="1">
                     <Accordion.Header className={styles.accordHead}>
-                      Q2 - How much do digital marketing services cost?
+                      Q2 - What is the process for setting up a Google Local
+                      Services ad?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>Competition in promotion for
-                      enterprise companies is tight compared to other segments.
-                      So the first noticeable results are possible after 4-9
-                      months of activities.
+                      <strong>Answer - </strong>Voice search optimization
+                      benefits your business by enhancing visibility and
+                      accessibility. It allows you to reach a broader audience,
+                      as more users rely on voice commands for local searches,
+                      which can significantly increase foot traffic.
+                      Additionally, optimizing for voice search improves the
+                      user experience by providing quick and convenient access
+                      to information, fostering customer satisfaction and
+                      loyalty. This approach also helps improve your overall SEO
+                      strategy, as voice-friendly content often ranks better in
+                      traditional search results. Ultimately, embracing voice
+                      search optimization positions your business competitively
+                      in a rapidly evolving digital landscape.
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="2">
                     <Accordion.Header className={styles.accordHead}>
-                      Q3 - What can Internet marketing services help with?
+                      Q3 - How do you handle lead disputes in your management
+                      plans?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>The main mistakes of clients
-                      when promoting the setting of unrealistic goals, the wrong
-                      choice of a company for promotion, and the wrong choice of
-                      KPI.
+                      <strong>Answer - </strong>In our management plans, lead
+                      disputes are handled through an automated system
+                      introduced by Google. This system utilizes machine
+                      learning to automatically review and credit accounts for
+                      low-quality leads, eliminating the need for manual
+                      disputes. Advertisers can expect faster resolutions and
+                      more efficient crediting of invalid leads. Although
+                      credits for {'"job type not serviced"'} and {'"geo not serviced"'}
+                      are no longer available, the overall number of credits is
+                      expected to increase. Additionally, advertisers can
+                      provide feedback on leads through a Lead Feedback survey
+                      to help improve future lead quality.
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="3">
