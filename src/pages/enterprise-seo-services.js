@@ -434,7 +434,7 @@ function EnterpriseSeo() {
                             </Col>
                         </Row>
                         <Row className="justify-content-center">
-                            <Col className="col-md-8">
+                            <Col className="col-md-11">
                                 <Accordion defaultActiveKey="0" flush>
                                     <Accordion.Item eventKey="0">
                                         <Accordion.Header className={styles.accordHead}>Q1 - What is the cost of corporate enterprise SEO services?</Accordion.Header>

@@ -627,7 +627,7 @@ const SeoService = () => {
                     <Container>
                         <h2>Frequently Asked Questions</h2>
                         <Row className="justify-content-center">
-                            <Col className="col-md-8">
+                            <Col className="col-md-11">
                                 <SeoServiceAccordion />
                             </Col>
                         </Row>

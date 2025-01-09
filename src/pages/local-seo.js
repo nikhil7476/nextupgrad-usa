@@ -425,7 +425,7 @@ const LocalSeo = () => {
                     <Container>
                         <h2>Frequently Asked Questions</h2>
                         <Row className="justify-content-center">
-                            <Col className={`col-md-8 ${style.accord}`}>
+                            <Col className={`col-md-11 ${style.accord}`}>
                                 <LocalAccordion />
                             </Col>
                         </Row>

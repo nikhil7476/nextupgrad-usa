@@ -43,7 +43,7 @@ function SeoAudit() {
   return (
     <>
       <Head>
-        <title>Google Local Services Ads Management - Nextupgrad USA</title>
+        <title>Website SEO Audit Services - Nextupgrad USA</title>
       </Head>
       <div className={styles.enterprise}>
         <section className={styles.enterpriseBnr}>
@@ -51,14 +51,18 @@ function SeoAudit() {
             <Row className={`justify-content-between ${styles.bannerRow}`}>
               <Col className="col-md-6 align-content-center">
                 <h1>
-                  <span>Google Local Services</span> Ads Management
+                  Website <span>SEO Audit Services</span>: Pinpoint Issues,
+                  Propel Results
                 </h1>
                 <p>
-                  Looking to attract more local customers, increase foot
-                  traffic, and boost your {"business's"} conversion rates?
-                  Google Local Services ads are an excellent investment, and
-                  NextUpgrad simplifies the ad management process for you. Call
-                  us at +1 408-400-3232, or continue reading to find out more.
+                  Is your website struggling to capture and convert search
+                  traffic? Discover the obstacles holding you back and get a
+                  customized action plan with {"NextUpgrad's"} top SEO audit
+                  services in New Jersey.
+                </p>
+                <p>
+                  Learn more about our comprehensive website SEO audit services
+                  or request a custom proposal today!
                 </p>
                 <Link href="#" title="Contact Us" className={styles.ctaBtn}>
                   Send A Proposal Now
@@ -77,36 +81,49 @@ function SeoAudit() {
                 <h2>
                   <span>Problem</span>
                   <br />
-                  What Problems We Solve
+                  Problems we solve with website audit service
                 </h2>
+                <p>
+                  More than 90% of companies struggle with website development.
+                  The primary reasons for this are ineffective SEO strategies
+                  and a poor understanding of search algorithms. Clients can
+                  overcome these challenges by choosing our best SEO audit
+                  services in New Jersey and improving their online promotion
+                  efforts.
+                </p>
               </Col>
             </Row>
             <Row className={`"mb-5" ${styles.probs}`}>
               {[
                 {
-                  title: "Inconsistent Leads",
+                  title: "Frequent Drops",
                   description:
-                    "Inconsistent lead flow can hurt your business, causing spikes in demand followed by frustrating slow periods. With Google Local Services Ads Management, you can attract a steady stream of qualified leads. Whether you're targeting customers for local ads near New York or enhancing your visibility, this approach ensures consistent inquiries and bookings. Predictable lead generation helps optimize staffing and resources, maximizing your revenue potential.",
+                    "The decline in search result rankings negatively impacts both web traffic and brand visibility. Conducting an SEO audit helps identify errors that occurred during the website's optimization for specific search engines.",
                 },
                 {
-                  title: "Low Conversion Rates",
+                  title: "Lack of Traffic",
                   description:
-                    "Grabbing attention is easy; converting it into customers is the real challenge. Traditional marketing struggles, but Google Local Services Ads with expert Google Ads management connect you to qualified leads actively seeking your services. Nextupgrad’s Google Ads management delivers optimized campaigns that drive inquiries and maximize conversions, and make every click count. Say goodbye to wasted efforts and hello to effective lead generation and successful transactions with Nextupgrad.",
+                    "The website is unpopular among users, resulting in the company failing to attract new customers and losing revenue. An audit can help identify the reasons for the lack of visitors, whether it is due to poor search engine rankings or significant internal issues.",
                 },
                 {
-                  title: "Limited Visibility",
+                  title: "Low Conversion",
                   description:
-                    "If your business lacks online visibility, you're missing a significant market opportunity. Many potential customers use online searches to find local businesses. Google Local Services ads in Newyork can boost your visibility, ensuring your business appears prominently in relevant search results. This boost translates to greater brand awareness and a larger customer base.",
+                    "The resource attracts users, but they do not take targeted actions. By using web analytics tools, you can track visitor activity on your site in real time. This helps identify which pages users are most likely to leave and at what stages in the purchase process customers abandon their journey.",
                 },
                 {
-                  title: "Lack of Data & Insights",
+                  title: "Lack of Recognition",
                   description:
-                    "Making informed business decisions without data is like driving blindfolded. Google Local Services ads offer valuable insights into customer behavior and campaign performance. These insights enable you to track key metrics, spot areas for improvement, and make data-driven decisions to optimize your campaigns for maximum ROI.",
+                    "The brand lacks online recognition, resulting in a stagnant audience and limited business growth. By analyzing external links and mentions, you can effectively develop a promotion strategy leveraging third-party platforms, including media outlets and social networks.",
                 },
                 {
-                  title: "Lost in the Digital Noise",
+                  title: "Low-Quality Leads",
                   description:
-                    "In today’s hyperconnected world, people often rely on online searches to find local businesses. It can be challenging to get noticed, as customers may have trouble finding your services amidst many options. Google Local Services ads help your business stand out, making it easier for local customers to find the services you offer.",
+                    "Leads continue to flow in but do not align with the business's objectives. Analyzing SEO helps identify the primary traffic sources, allowing us to assess their relevance and value to the company.",
+                },
+                {
+                  title: "Low Profitability",
+                  description:
+                    "Promotional investments frequently fall short of expectations. Conducting a thorough SEO audit offers valuable insights into the viability of your SEO strategies. This information enables you to make well-informed decisions and plan your budget effectively.",
                 },
               ].map((problem, index) => (
                 <Col key={index} className={`${styles.cardCol} col-md-6 mb-4`}>
@@ -140,12 +157,22 @@ function SeoAudit() {
                 <h2>
                   <span>Services</span>
                   <br />
-                  {"What's"} Included in Our Google Local Services Ad Management
-                  Plans?
+                  What Do Our SEO Audit Services Include?
                 </h2>
                 <p>
-                  {"Here's"} a detailed overview of the features included in our
-                  ad management plans:
+                  NextUpgrad SEO audit services in New Jersey provide the
+                  complete solution to improve the traffic, leads, and revenue
+                  for your business website. From our standard reports to
+                  customized plans of action, we share with you a thorough plan
+                  of action to target your {"website's"} strengths, weaknesses,
+                  and opportunities. Our service identifies the SEO problems
+                  that are holding back your rankings and then provides an
+                  actionable audit report.
+                </p>
+                <p>
+                  Alternatively, we can implement these recommendations for you.
+                  Learn more about {"what’s"} included in your SEO audit plan
+                  below.
                 </p>
               </Col>
             </Row>
@@ -160,7 +187,7 @@ function SeoAudit() {
                             eventKey="first"
                             className={styles.tabLinkText}
                           >
-                            Voice Search Optimization
+                            On-Page SEO Audit
                           </Nav.Link>
                         </Nav.Item>
                         <Nav.Item className={styles.tabLink}>
@@ -168,7 +195,7 @@ function SeoAudit() {
                             eventKey="second"
                             className={styles.tabLinkText}
                           >
-                            Budget Management
+                            Off-Page SEO Audit
                           </Nav.Link>
                         </Nav.Item>
                         <Nav.Item className={styles.tabLink}>
@@ -176,7 +203,7 @@ function SeoAudit() {
                             eventKey="third"
                             className={styles.tabLinkText}
                           >
-                            Geographic Targeting
+                            Technical SEO Audit
                           </Nav.Link>
                         </Nav.Item>
                         <Nav.Item className={styles.tabLink}>
@@ -184,7 +211,7 @@ function SeoAudit() {
                             eventKey="fourth"
                             className={styles.tabLinkText}
                           >
-                            Dedicated Local Marketing Expert
+                            SEO Report
                           </Nav.Link>
                         </Nav.Item>
                         <Nav.Item className={styles.tabLink}>
@@ -192,7 +219,15 @@ function SeoAudit() {
                             eventKey="fifth"
                             className={styles.tabLinkText}
                           >
-                            Custom Reporting
+                            SEO Strategy
+                          </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item className={styles.tabLink}>
+                          <Nav.Link
+                            eventKey="sixth"
+                            className={styles.tabLinkText}
+                          >
+                            Audit Implementation
                           </Nav.Link>
                         </Nav.Item>
                       </Nav>
@@ -200,81 +235,204 @@ function SeoAudit() {
                     <Col sm={8} className={styles.delTabCont}>
                       <Tab.Content>
                         <Tab.Pane eventKey="first">
-                          <h3>Voice Search Optimization</h3>
+                          <h3>On-Page SEO Audit</h3>
                           <p>
-                            By 2025, half of American consumers will use voice
-                            search every day.
+                            Your search engine optimization {"(SEO)"} audit
+                            begins with on-page SEO, where we check for the
+                            following issues:
                           </p>
+                          <ol>
+                            <li>Missing title tags & Meta descriptions</li>
+                            <li>Duplicate Content</li>
+                            <li>Thin Content</li>
+                            <li>Keyword Stuffing And more</li>
+                          </ol>
                           <p>
-                            With the growing popularity of voice search for
-                            finding local services, {"it’s"} essential to
-                            optimize your ad content for this technology.
-                          </p>
-                          <p>
-                            At NextUpgrad, our Local Services ad management
-                            plans include voice search optimization. This
-                            enables you to reach more qualified leads and
-                            ensures you {"don’t"} miss out on potential revenue.
+                            NextUpgrad will not only identify these issues but
+                            also offer recommendations on how to resolve them.
                           </p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="second">
-                          <h3>Budget Management</h3>
+                          <h3>Off-Page SEO Audit</h3>
                           <p>
-                            By partnering with our paid ad specialists, {"you'll"}
-                            make the most of your ad spend while reaching your
-                            business objectives.
+                            Check Out Your {"Site's"} Reputation: Our
+                            Foundational SEO Audit
                           </p>
                           <p>
-                            We strive to keep the ad process hassle-free,
-                            allowing us to handle the complexities so you
-                            achieve maximum ROI. As your Google Ads management
-                            partner, NextUpgrad ensures you {"won't"} have to
-                            worry about exceeding your campaign budget.
+                            Get to know the reputation of your website with our
+                            complete SEO audit. In this audit, everything will
+                            be analyzed in a detailed off-page way, and you can
+                            compare your off-page SEO with your top competitors
+                            so that you will get some useful suggestions and
+                            recommendations.
+                          </p>
+                          <p>We assess in the following domains:</p>
+                          <Row>
+                            <Col md={6}>
+                              <ol style={{ listStylePosition: "inside" }}>
+                                <li>Backlink Quality</li>
+                                <li>Backlink Anchor Text</li>
+                                <li>Backlink Placement</li>
+                              </ol>
+                            </Col>
+                            <Col md={6}>
+                              <ol
+                                start={4}
+                                style={{ listStylePosition: "inside" }}
+                              >
+                                <li>Backlink Relevance</li>
+                                <li>Backlink Quantity</li>
+                              </ol>
+                            </Col>
+                          </Row>
+                          <p>
+                            Our recommendations are not just advice to you to
+                            acquire more links. Read on for a thorough
+                            approach to doing so your business attracts
+                            high-quality, relevant links from reputable sites
+                            within your industry. Best of all, our team of
+                            off-page SEO specialists is ready to implement this
+                            strategy for you.
                           </p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="third">
-                          <h3>Geographic Targeting</h3>
+                          <h3>Technical SEO Audit</h3>
                           <p>
-                            Our ad management solutions include sophisticated
-                            geographic targeting designed to reach your ideal
-                            customers.
+                            Is your website invisible in search results due to
+                            crawling and indexing errors? Our dedicated SEO
+                            audit expert can help! As part of your SEO audit,
+                            they will examine essential files and technical
+                            elements, including:
                           </p>
+                          <Row>
+                            <Col md={6}>
+                              <ol style={{ listStylePosition: "inside" }}>
+                                <li>.htaccess file</li>
+                                <li>Robots.txt</li>
+                                <li>Sitemap</li>
+                              </ol>
+                            </Col>
+                            <Col md={6}>
+                              <ol
+                                start={4}
+                                style={{ listStylePosition: "inside" }}
+                              >
+                                <li>HTTP headers</li>
+                                <li>404 error pages</li>
+                                <li>Page Speed</li>
+                              </ol>
+                            </Col>
+                          </Row>
                           <p>
-                            Seamlessly connect with leads in lucrative areas
-                            close to your business. This targeting feature
-                            enables you to optimize your ad budget and engage
-                            with the most valuable customers in your vicinity.
+                            Our technical SEO audit services also address these
+                            issues. With our in-house development team, you can
+                            swiftly resolve problems and begin seeing results,
+                            such as having your site indexed in Google or Bing
+                            search results.
                           </p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="fourth">
-                          <h3>Dedicated Local Marketing Expert</h3>
+                          <h3>SEO Report</h3>
                           <p>
-                            NextUpgrad has been delivering exceptional results
-                            for clients for more than a decade.
+                            After conducting our comprehensive analysis and
+                            audit, your dedicated account manager will offer
+                            clear, prioritized recommendations to resolve SEO
+                            issues on your site. You can choose to address these
+                            issues internally or with the support of your
+                            NextUpgrad team.
                           </p>
+                          <p>Our recommendations could include:</p>
+                          <Row>
+                            <Col md={6}>
+                              <ol style={{ listStylePosition: "inside" }}>
+                                <li>Mobile Responsiveness</li>
+                                <li>HTTPS (SSL Security)</li>
+                                <li>Page Speed</li>
+                                <li>Schema Markup</li>
+                                <li>Site Architecture</li>
+                                <li>AMP (Accelerated Mobile Pages)</li>
+                                <li>Redirects</li>
+                              </ol>
+                            </Col>
+                            <Col md={6}>
+                              <ol
+                                start={8}
+                                style={{ listStylePosition: "inside" }}
+                              >
+                                <li>Custom 404 Errors</li>
+                                <li>Canonicalization</li>
+                                <li>Image and Hyperlink Optimization</li>
+                                <li>Core Web Vitals</li>
+                                <li>Multilingual SEO</li>
+                                <li>Preferred Domain Versions</li>
+                              </ol>
+                            </Col>
+                          </Row>
                           <p>
-                            By choosing to work with us, {"you'll"} collaborate
-                            with a dedicated local marketing expert committed to
-                            making your ad campaigns successful. With our
-                            extensive industry knowledge, {"we'll"} help you
-                            generate relevant leads, boost conversions, and
-                            increase revenue for your business.
+                            These are just some of the key factors that
+                            NextUpgrad will tackle as part of your SEO audit
+                            package. Each element plays a crucial role in
+                            attracting search engine crawlers and, consequently,
+                            bringing more customers to your site.
                           </p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="fifth">
-                          <h3>Custom Reporting</h3>
+                          <h3>SEO Strategy</h3>
                           <p>
-                            We provide custom ad reporting, giving you clear
-                            insights into your spending.
+                            Search engine optimization {"(SEO)"} is not a
+                            one-time task; {"it’s"} an ongoing strategy that has
+                            helped businesses expand, enter new markets, and
+                            boost local economies. {"NextUpgrad's"} SEO audit
+                            services provide a recommended SEO strategy, guiding
+                            you on the next steps after addressing your SEO
+                            issues.
                           </p>
+                          <p>Our strategy considers:</p>
+                          <Row>
+                            <Col md={6}>
+                              <ol style={{ listStylePosition: "inside" }}>
+                                <li>Your business</li>
+                                <li>Your business goals</li>
+                                <li>Your current SEO strategy</li>
+                              </ol>
+                            </Col>
+                            <Col md={6}>
+                              <ol
+                                start={4}
+                                style={{ listStylePosition: "inside" }}
+                              >
+                                <li>Your target audience</li>
+                                <li>Your {"competitor's "}analysis</li>
+                              </ol>
+                            </Col>
+                          </Row>
                           <p>
-                            Moreover, we help you identify and implement
-                            necessary adjustments to boost your ad{" "}
-                            {"campaigns'"}
-                            effectiveness. Our basic plans come with monthly
-                            reports, and you can choose to upgrade to our
-                            aggressive or market leader plans for automatic
-                            monthly cloud updates.
+                            The outcome? An actionable plan customized to your
+                            business and future aspirations.
+                          </p>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="sixth">
+                          <h3>Audit Implementation</h3>
+                          <p>Select the Best Choice for You</p>
+                          <p>
+                            You need to fix it yourself or have your
+                            NextUpgrad team fix it for you.
+                          </p>
+                          <h4>Maximize Your NextUpgrad Team</h4>
+                          <p>
+                            Use a full-service team that includes SEO experts,
+                            web developers, professional copywriters, etc., like
+                            NextUpgrad. Implementing our SEO recommendations can
+                            lead to getting indexed, higher ranks, as well as
+                            higher traffic and revenue.
+                          </p>
+                          <h4>Fix Issues In-House</h4>
+                          <p>
+                            Prefer to handle SEO issues internally? NextUpgrad
+                            can still assist you! Our SEO audit services come
+                            with support and training from our team. Whether you
+                            need guidance for your developers or explanations
+                            for fixes, {"we’re"} here to help.
                           </p>
                         </Tab.Pane>
                       </Tab.Content>
@@ -292,57 +450,84 @@ function SeoAudit() {
                 <h2>
                   <span>Results</span>
                   <br />
-                  What Results We Provide
+                  What Results Do We Provide?
                 </h2>
+                <p>
+                  When performing an SEO audit, we focus on the specific goals
+                  of your business. This enables us to evaluate your{" "}
+                  {"company's"}
+                  potential and offer personalized recommendations.
+                </p>
               </Col>
             </Row>
             <Row className={styles.resultRow}>
-              <Col className="col-md-6">
+              <Col className="col-md-4">
                 <div className={styles.resultCard}>
-                  <h3>Increased Leads & Bookings</h3>
+                  <h3>
+                    Error
+                    <br />
+                    Reporting
+                  </h3>
                   <p>
-                    Google Local Services Ads {"(LSAs)"} help your business
-                    reach local customers who are actively seeking your
-                    services. With our expert management, {"you’ll"} see a
-                    significant rise in qualified leads and direct bookings,
-                    leading to increased revenue growth.
+                    A comprehensive report highlighting the issues we discovered
+                    during our SEO audit, pinpointing the {"project's"}{" "}
+                    weaknesses and areas of risk.
                   </p>
                 </div>
               </Col>
-              <Col className="col-md-6 align-content-center">
+              <Col className="col-md-4 align-content-center">
                 <div>
-                  <h3>Enhanced Brand Visibility</h3>
+                  <h3>Recommendations for Improving Content</h3>
                   <p>
-                    Local service ads {"(LSA)"} highlight your business details,
-                    such as service areas, customer reviews, and the Google
-                    Guarantee {"(when applicable)"}. This helps boost your{" "}
-                    {"brand's"} visibility, fosters trust with potential
-                    customers, and positions your business as a leading option
-                    in your local market.
+                    Here are valuable suggestions from our IT experts to
+                    optimize your page content strategically. Follow our
+                    actionable tips and proven techniques to increase engagement
+                    and convert visitors into loyal customers.
+                  </p>
+                </div>
+              </Col>
+              <Col className="col-md-4">
+                <div className={styles.resultCard}>
+                  <h3>Instructions for Error Corrections</h3>
+                  <p>
+                    A series of actions to address the issues outlined in the
+                    report, aligned with the {"company's"} primary goals and
+                    needs.
                   </p>
                 </div>
               </Col>
             </Row>
             <Row className="mb-5">
-              <Col className="col-md-6 align-content-center">
+              <Col className="col-md-4 align-content-center">
                 <div>
-                  <h3>Improved ROI</h3>
+                  <h3>Analytical Report on Competitors</h3>
                   <p>
-                    We use data-driven strategies to optimize your LSA campaigns
-                    for maximum ROI. By tracking key metrics and adjusting bids
-                    and budgets in real time, we ensure you only pay for
-                    qualified leads that convert into paying customers.
+                    A map outlining current and potential competitors in the
+                    commercial niche, along with an analysis of their SEO
+                    strategies and the current state of their online presence.
                   </p>
                 </div>
               </Col>
-              <Col className="col-md-6">
+              <Col className="col-md-4">
                 <div className={styles.resultCard}>
-                  <h3>Peace of Mind</h3>
+                  <h3>
+                    Plan for Implementing the Best Practices in the Market
+                  </h3>
                   <p>
-                    Let our skilled team take care of the complexities of LSA
-                    management. We manage campaign setup, continuous
-                    optimization, and performance reporting, allowing you to
-                    concentrate on running your business.
+                    Leverage competitor insights strategically by analyzing
+                    their tactics, identifying gaps, and innovating your
+                    approach. Adopt best practices while maintaining your unique
+                    value, driving growth, and securing a leadership position in
+                    your niche.
+                  </p>
+                </div>
+              </Col>
+              <Col className="col-md-4 align-content-center">
+                <div>
+                  <h3>Correction of the Link-Building Strategy</h3>
+                  <p>
+                    Update the strategy for acquiring high-quality backlinks,
+                    focusing on the {"company's"} top marketing channels.
                   </p>
                 </div>
               </Col>
@@ -356,100 +541,64 @@ function SeoAudit() {
                 <h2>
                   <span>Process</span>
                   <br />
-                  Stages of Our Google Local Services
+                  Stages of Our SEO Audit Service
                 </h2>
+                <p>
+                  Our SEO audit service involves a thorough examination of your
+                  business. We employ a multi-stage approach to assess your
+                  website and all of its components.
+                </p>
               </Col>
             </Row>
             <Row className={styles.resultRow}>
-              <Col className="col-md-4 align-content-center">
+              <Col className="col-md-6 align-content-center">
                 <div>
-                  <h3>Campaign Setup & Optimization</h3>
+                  <h3>Competitor Analysis</h3>
                   <p>
-                    This initial stage focuses on building a strong foundation
-                    for your LSA campaign. It involves:
+                    We analyze the resources of top-ranking competitors in
+                    search results. This includes examining their strengths and
+                    weaknesses, technical status, content types, and keyword
+                    strategies, backlink profiles, and promotion tactics. Based
+                    on this analysis, we provide recommendations to surpass
+                    competitors efficiently, using optimal resources.
                   </p>
-                  <ol>
-                    <li>
-                      <strong>Keyword Research & Targeting:</strong> Identifying
-                      relevant keywords and location-based targeting options to
-                      reach the right audience.
-                    </li>
-                    <li>
-                      <strong>Ad Copy & Visuals:</strong> Crafting compelling ad
-                      copy and selecting high-quality images or videos that
-                      showcase your business and services.
-                    </li>
-                    <li>
-                      <strong>Budget Allocation & Bidding Strategies:</strong>{" "}
-                      Determining your daily budget and setting appropriate bids
-                      to maximize your return on investment.
-                    </li>
-                    <li>
-                      <strong>Performance Tracking & Analysis:</strong>{" "}
-                      Implementing conversion tracking and analyzing key metrics
-                      like call volume, leads, and customer reviews to identify
-                      areas for improvement.
-                    </li>
-                  </ol>
                 </div>
               </Col>
-              <Col className="col-md-4">
+              <Col className="col-md-6">
                 <div className={styles.resultCard}>
-                  <h3>Lead Qualification & Management</h3>
+                  <h3>Link Profile Audit</h3>
                   <p>
-                    Once leads start coming in, effective management includes:
+                    We evaluate the link profile of your resource and your
+                    competitors to identify weaknesses and growth opportunities.
+                    Then, we create a customized link-building strategy.
                   </p>
-                  <ol>
-                    <li>
-                      <strong>Lead Routing System:</strong> Set up a system to
-                      route leads to the appropriate team members or
-                      departments.
-                    </li>
-                    <li>
-                      <strong>Qualify Leads:</strong> Quickly assess and
-                      prioritize leads most likely to convert into paying
-                      customers.
-                    </li>
-                    <li>
-                      <strong>Respond Promptly:</strong> Acknowledge and respond
-                      to all leads swiftly to build trust and maintain interest.
-                    </li>
-                    <li>
-                      <strong>Track Lead Sources & Conversion Rates:</strong>{" "}
-                      Monitor the effectiveness of various lead sources and
-                      track conversions throughout the customer journey.
-                    </li>
-                  </ol>
                 </div>
               </Col>
-              <Col className="col-md-4 align-content-center">
+            </Row>
+            <Row className="mb-5">
+              <Col className="col-md-6">
+                <div className={styles.resultCard}>
+                  <h3>On-Page SEO Audit</h3>
+                  <p>
+                    We thoroughly examine the {"client's"} business, understand
+                    the values of their target audience, and analyze
+                    competitors. Based on this, we create detailed technical
+                    requirements that include essential optimization details and
+                    valuable recommendations for developing relevant and
+                    engaging content.
+                  </p>
+                </div>
+              </Col>
+              <Col className="col-md-6 align-content-center">
                 <div>
-                  <h3>Customer Service & Review Management</h3>
-                  <ol>
-                    <li>
-                      <strong>Delivering Exceptional Service:</strong> Going
-                      above and beyond to meet customer expectations and exceed
-                      their satisfaction.
-                    </li>
-                    <li>
-                      <strong>Encouraging Customer Reviews:</strong> promptly
-                      requesting and actively encouraging customer reviews on
-                      Google and other relevant platforms.
-                    </li>
-                    <li>
-                      <strong>Monitoring and Responding to Reviews:</strong>{" "}
-                      Regularly monitoring online reviews and responding
-                      promptly and professionally to both positive and negative
-                      feedback.
-                    </li>
-                    <li>
-                      <strong>
-                        Building Long-Term Customer Relationships:
-                      </strong>{" "}
-                      cultivating strong relationships with your customers to
-                      foster loyalty and repeat business.
-                    </li>
-                  </ol>
+                  <h3>Content Audit</h3>
+                  <p>
+                    We assess the quality of page titles and descriptions as
+                    they appear in search results, along with keywords in tags
+                    and inline titles. We also analyze the {"content's"} value
+                    to the target audience and its compliance with search
+                    algorithms.
+                  </p>
                 </div>
               </Col>
             </Row>
@@ -585,104 +734,72 @@ function SeoAudit() {
               </Col>
             </Row>
             <Row className="justify-content-center">
-              <Col className="col-md-8">
+              <Col className="col-md-11">
                 <Accordion defaultActiveKey="0" flush>
                   <Accordion.Item eventKey="0">
                     <Accordion.Header className={styles.accordHead}>
-                      Q1 - How does voice search optimization benefit my
-                      business?
+                      Q1 - What is an SEO auditing service?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>Voice search optimization can
-                      significantly increase your business by making it easier
-                      for potential customers to find you. As more people use
-                      voice-enabled devices, optimizing for voice search ensures
-                      your content is personalized to natural, conversational
-                      queries. This improves your visibility in search results,
-                      increasing traffic to your website. By focusing on local
-                      search terms and providing concise, clear answers, you can
-                      also improve your chances of appearing in featured
-                      snippets, which often drive higher engagement. Ultimately,
-                      voice search optimization enhances the user experience,
-                      providing faster, more accurate responses, and helps your
-                      business stay competitive in a digital-first world.
+                      <strong>Answer - </strong>An SEO audit examines your
+                      website for internal issues related to content, structure,
+                      links, page addresses, loading speed, and more, ensuring
+                      compliance with search engine guidelines. After the audit,
+                      you will receive a detailed list of identified errors. By
+                      addressing these issues, you can improve your search
+                      result rankings, attract more visitors, and ultimately
+                      increase sales.
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="1">
                     <Accordion.Header className={styles.accordHead}>
-                      Q2 - What is the process for setting up a Google Local
-                      Services ad?
+                      Q2 - What is the price of an SEO audit service?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>Voice search optimization
-                      benefits your business by enhancing visibility and
-                      accessibility. It allows you to reach a broader audience,
-                      as more users rely on voice commands for local searches,
-                      which can significantly increase foot traffic.
-                      Additionally, optimizing for voice search improves the
-                      user experience by providing quick and convenient access
-                      to information, fostering customer satisfaction and
-                      loyalty. This approach also helps improve your overall SEO
-                      strategy, as voice-friendly content often ranks better in
-                      traditional search results. Ultimately, embracing voice
-                      search optimization positions your business competitively
-                      in a rapidly evolving digital landscape.
+                      <strong>Answer - </strong>You can order an SEO audit for
+                      your website at various price points, depending on your
+                      business needs and desired outcomes. After an initial
+                      consultation, we provide a personalized cost estimate
+                      based on the agreed scope of work and the urgency of the
+                      project.
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="2">
                     <Accordion.Header className={styles.accordHead}>
-                      Q3 - How do you handle lead disputes in your management
-                      plans?
+                      Q3 - How long does a comprehensive SEO audit service take?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>In our management plans, lead
-                      disputes are handled through an automated system
-                      introduced by Google. This system utilizes machine
-                      learning to automatically review and credit accounts for
-                      low-quality leads, eliminating the need for manual
-                      disputes. Advertisers can expect faster resolutions and
-                      more efficient crediting of invalid leads. Although
-                      credits for {'"job type not serviced"'} and {'"geo not serviced"'}
-                      are no longer available, the overall number of credits is
-                      expected to increase. Additionally, advertisers can
-                      provide feedback on leads through a Lead Feedback survey
-                      to help improve future lead quality.
+                      <strong>Answer - </strong>Our comprehensive SEO audit
+                      service typically takes 1-2 weeks to complete. However,
+                      the duration may vary based on the specifics of your
+                      website, such as its business domain, subject matter,
+                      scale, data volume, and the number of promotion channels.
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="3">
                     <Accordion.Header className={styles.accordHead}>
-                      Q4 - What can a website marketing company do for you?
+                      Q4 - Why invest in an SEO audit package?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>The main mistakes of clients
-                      when promoting the setting of unrealistic goals, the wrong
-                      choice of a company for promotion, and the wrong choice of
-                      KPI.
-                    </Accordion.Body>
-                  </Accordion.Item>
-                  <Accordion.Item eventKey="4">
-                    <Accordion.Header className={styles.accordHead}>
-                      Q5 - How do I choose a digital marketing agency?
-                    </Accordion.Header>
-                    <Accordion.Body>
-                      <strong>Answer - </strong>The main mistakes of clients
-                      when promoting the setting of unrealistic goals, the wrong
-                      choice of a company for promotion, and the wrong choice of
-                      KPI.
-                    </Accordion.Body>
-                  </Accordion.Item>
-                  <Accordion.Item eventKey="5">
-                    <Accordion.Header className={styles.accordHead}>
-                      Q6 - What digital marketing services does your company
-                      provide?
-                    </Accordion.Header>
-                    <Accordion.Body>
-                      <strong>Answer - </strong>Nextupgrad offers a
-                      comprehensive suite of digital marketing services,
-                      including but not limited to SEO, social media management,
-                      content marketing, PPC advertising, email marketing, and
-                      more. Our goal is to provide end-to-end solutions for your
-                      online presence.
+                      <strong>Answer - </strong>Investing in an SEO audit
+                      package benefits your business by:
+                      <ol>
+                        <li>Diagnosing lost or stagnant rankings</li>
+                        <li>Identifying issues affecting SEO performance</li>
+                        <li>Providing solutions to increase traffic</li>
+                        <li>
+                          <strong>
+                            Our mission as your SEO services provider is
+                            straightforward:{" "}
+                          </strong>
+                          Turn SEO into a revenue driver for your company. Our
+                          comprehensive SEO audit examines every aspect, from
+                          title tags to page speed.
+                        </li>
+                      </ol>
+                      Get insights into your {"site's"} SEO needs and reach your
+                      traffic and revenue goals. Contact our experienced team of
+                      strategists today!
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
