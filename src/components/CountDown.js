@@ -29,8 +29,8 @@ const CountdownSection = () => {
 
   return (
     <div className={style.countdownSection}>
-      <h2>December 25, 2024</h2>
-      <Countdown date={new Date('2024-12-25T00:00:00')} renderer={renderer} />
+      <h2>January 26, 2025</h2>
+      <Countdown date={new Date('2025-01-26T00:00:00')} renderer={renderer} />
     </div>
   );
 };
