@@ -1,135 +1,151 @@
 .enterprise section {
-    padding: 60px 0px;
+  padding: 60px 0px;
 }
 
 .enterprise h1 {
-    font-size: 56px;
-    font-weight: 900;
-    line-height: 64px;
-    letter-spacing: -.042em;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 64px;
+  letter-spacing: -0.042em;
 }
 
 .enterprise h1 span {
-    background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
-    background-clip: text;
-    color: transparent;
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
+  background-clip: text;
+  color: transparent;
 }
 
 .enterprise h2 {
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 123.4%;
-    text-transform: capitalize;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 123.4%;
+  text-transform: capitalize;
 }
 
 .enterprise h2 span {
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 123.4%;
-    text-transform: uppercase;
-    color: var(--btnCol);
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 123.4%;
+  text-transform: uppercase;
+  color: var(--btnCol);
 }
 
 .enterprise .ctaBtn {
-    color: #fff;
-    background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
-    border: 1px solid var(--btnCol);
-    text-align: center;
-    padding: 10px 30px;
-    font-size: 20px;
-    line-height: 1.2em;
-    text-transform: capitalize;
+  color: #fff;
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
+  border: 1px solid var(--btnCol);
+  text-align: center;
+  padding: 10px 30px;
+  font-size: 20px;
+  line-height: 1.2em;
+  text-transform: capitalize;
 }
 
 .enterprise .accordHead {
-    font-size: 24px !important;
-    font-weight: 400 !important;
-    line-height: 1.2em !important;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  line-height: 1.2em !important;
 }
 
 .services,
 .whyChoose,
 .faqs {
-    background-color: #142330;
+  background-color: #142330;
 }
 
 /*Banner Section*/
 .enterpriseBnr {
-    padding: 120px 0px 60px 0px !important;
-    background: linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0));
+  padding: 120px 0px 60px 0px !important;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
 }
 
 .enterpriseBnr p {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 /*Problem Section*/
 .cardCol {
-    display: flex;
-    align-items: stretch;
+  display: flex;
+  align-items: stretch;
 }
 
 .problemCard {
-    flex: 1;
-    padding: 20px;
-    border: 1px solid #2a3948;
-    border-radius: 8px;
-    background: linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0));
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #2a3948;
+  border-radius: 8px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
 .problemCard:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .cardTitle {
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    align-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  align-content: center;
 }
 
 .cardTitle svg {
-    color: #e76f51;
-    font-size: 30px;
-    margin-right: 10px;
+  color: #e76f51;
+  font-size: 30px;
+  margin-right: 10px;
 }
 
 .cardDescription {
-    font-size: 16px;
-    line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 /*Results Section*/
 .resultRow {
-    padding-bottom: 30px;
-    margin-bottom: 30px;
-    border-bottom: 1px solid #2a3948;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #2a3948;
 }
 
 .resultCard {
-    padding: 20px;
-    border: 1px solid #2a3948;
-    border-radius: 10px;
-    background: linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0));
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+  border: 1px solid #2a3948;
+  border-radius: 10px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .resultCard:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 /*Services*/
 .tabLink a {
-    color: #fff;
-    background: linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0));
-    padding: 10px 20px;
-    margin-bottom: 15px;
+  color: #fff;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
+  padding: 10px 20px;
+  margin-bottom: 15px;
 }
 
 .tabLink a:hover {
@@ -138,107 +154,109 @@
 
 /*Why Choose*/
 .whyCard {
-    background: linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0));
-    border: 1px solid #2a3948;
-    border-radius: 10px;
-    padding: 20px 40px;
-    margin-bottom: 20px;
-    text-align: left;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    transform: skewY(5deg);
-    transition: .3s;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
+  border: 1px solid #2a3948;
+  border-radius: 10px;
+  padding: 20px 40px;
+  margin-bottom: 20px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform: skewY(5deg);
+  transition: 0.3s;
 }
 
 .whyCard:hover {
-    transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 .whyCard svg {
-    font-size: 50px;
-    margin-bottom: 10px;
+  font-size: 50px;
+  margin-bottom: 10px;
 }
 
 .whyCard h3 {
-    font-size: 24px;
-    font-weight: 600;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .whyCard p {
-    margin: 0;
+  margin: 0;
 }
 
 /*CaseStudy Section CSS*/
 .caseCard {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 350px;
-    margin-bottom: 20px;
-    text-align: left;
-    padding: 20px;
-    border: 1px solid #2a3948;
-    border-radius: 5px;
-    background-size: 100%;
-    background-position: center;
-    position: relative;
-    transition: background-size 0.8s cubic-bezier(0.25, 0.1, 0.25, 1);
-    cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 350px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #2a3948;
+  border-radius: 5px;
+  background-size: 100%;
+  background-position: center;
+  position: relative;
+  transition: background-size 0.8s cubic-bezier(0.25, 0.1, 0.25, 1);
+  cursor: pointer;
 }
 
 .caseCard:hover {
-    background-size: 115%;
+  background-size: 115%;
 }
 
 .caseCard:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, .5);
-    z-index: -1;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
 }
 
 .caseStat {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
 }
 
 .caseHead h3 {
-    font-size: 1.5rem;
-    margin-bottom: 15px;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
 }
 
 .caseStat p {
-    font-size: 12px;
-    color: #fff;
-    line-height: 18px;
-    margin-bottom: 0;
+  font-size: 12px;
+  color: #fff;
+  line-height: 18px;
+  margin-bottom: 0;
 }
 
 .caseStat p span {
-    font-size: 30px;
-    background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
-    background-clip: text;
-    color: transparent;
+  font-size: 30px;
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
+  background-clip: text;
+  color: transparent;
 }
-
 
 /*Media Querys*/
 @media screen and (max-width: 450px) {
-    .bannerRow {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .probs {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-
+  .bannerRow {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
+
+  .probs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
