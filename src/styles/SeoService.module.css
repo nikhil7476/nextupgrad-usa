@@ -6,7 +6,7 @@
   font-size: 56px;
   font-weight: 900;
   line-height: 64px;
-  letter-spacing: -.042em;
+  letter-spacing: -0.042em;
 }
 
 .serviceHdr h2 {
@@ -17,13 +17,13 @@
 }
 
 .serviceHdr h1 span {
-  background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
   background-clip: text;
   color: transparent;
 }
 
 .serviceHdr h2 span {
-  background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
   background-clip: text;
   color: transparent;
 }
@@ -34,7 +34,7 @@
 
 .ctaBtn {
   display: inline-block;
-  background: linear-gradient(90deg, #e76f51 65%, #EE4C8D 99.54%);
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
   border: 1px solid var(--btnCol);
   color: #fff;
   padding: 15px 20px;
@@ -43,7 +43,6 @@
 .ctaBtn:hover {
   color: #fff;
 }
-
 
 .deliverables,
 .approach,
@@ -76,7 +75,7 @@
 }
 
 .flipBox:hover .flipBoxInner {
-  transform: rotateY(180deg)
+  transform: rotateY(180deg);
 }
 
 .flipBoxFront,
@@ -89,7 +88,11 @@
 }
 
 .flipBoxFront {
-  background: linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0));
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -99,7 +102,11 @@
 }
 
 .flipBoxBack {
-  background: linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0));
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
   padding: 20px;
   color: white;
   transform: rotateY(180deg);
@@ -146,7 +153,11 @@
 
 .tabLink a {
   color: #fff;
-  background: linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0));
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
   padding: 10px 20px;
   margin-bottom: 15px;
 }
@@ -192,7 +203,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: -1;
 }
 
@@ -221,7 +232,6 @@
   color: transparent;
 }
 
-
 /*Approach Section CSS*/
 
 .approachLink a {
@@ -231,7 +241,11 @@
   text-align: center;
   align-content: center;
   color: #fff;
-  background: linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0));
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
   border-radius: 100% !important;
   margin-bottom: 20px;
 }
@@ -248,18 +262,57 @@
 
 /*WhyChoose Section CSS*/
 .whyCard {
-  background: linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0));
-  border: 1px solid #2a3948;
-  border-radius: 10px;
   padding: 20px 40px;
-  margin-bottom: 20px;
-  text-align: left;
-  transform: skewY(5deg);
-  transition: .3s;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
+  border-radius: 8px;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  cursor: pointer;
 }
 
 .whyCard:hover {
-  transform: rotate(360deg);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.whyCard:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+  transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  z-index: 1;
+}
+
+.whyCard:hover:before {
+  transform: translateX(-100%);
+}
+
+.whyCard:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+  transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  z-index: 1;
+}
+
+.whyCard:hover:after {
+  transform: translateX(100%);
 }
 
 .whyCard svg {
@@ -275,6 +328,5 @@
 .whyCard p {
   margin: 0;
 }
-
 
 /*ServiceFaq Section CSS*/
