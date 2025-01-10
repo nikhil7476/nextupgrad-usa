@@ -157,12 +157,22 @@ function PpcManagement() {
                 <h2>
                   <span>Services</span>
                   <br />
-                  {"What's"} Included in Our Google Local Services Ad Management
-                  Plans?
+                  Maximize Your ROI with Expert-Managed PPC Services
                 </h2>
                 <p>
-                  {"Here's"} a detailed overview of the features included in our
-                  ad management plans:
+                  Unlock the full potential of your advertising budget with
+                  NextUpgrad PPC services in New Jersey. Our comprehensive
+                  pay-per-click management solutions cover every aspect, from
+                  strategy creation to execution and ongoing management.
+                  Customize our services to meet your specific needs and see how
+                  {"we've"} generated over $2 million in revenue for our
+                  clients. Let us boost your business success today.
+                </p>
+                <p>
+                  <strong>Summary : </strong>Stop micromanaging your PPC
+                  campaigns with minimal results. Our PPC company utilizes
+                  expert optimizations and advanced technology to boost your ROI
+                  from paid advertising.
                 </p>
               </Col>
             </Row>
@@ -177,7 +187,7 @@ function PpcManagement() {
                             eventKey="first"
                             className={styles.tabLinkText}
                           >
-                            Voice Search Optimization
+                            PPC Audit
                           </Nav.Link>
                         </Nav.Item>
                         <Nav.Item className={styles.tabLink}>
@@ -185,7 +195,7 @@ function PpcManagement() {
                             eventKey="second"
                             className={styles.tabLinkText}
                           >
-                            Budget Management
+                            Ad Creatives
                           </Nav.Link>
                         </Nav.Item>
                         <Nav.Item className={styles.tabLink}>
@@ -193,7 +203,7 @@ function PpcManagement() {
                             eventKey="third"
                             className={styles.tabLinkText}
                           >
-                            Geographic Targeting
+                            Bid Management
                           </Nav.Link>
                         </Nav.Item>
                         <Nav.Item className={styles.tabLink}>
@@ -201,7 +211,7 @@ function PpcManagement() {
                             eventKey="fourth"
                             className={styles.tabLinkText}
                           >
-                            Dedicated Local Marketing Expert
+                            Landing Page Creation & Optimization
                           </Nav.Link>
                         </Nav.Item>
                         <Nav.Item className={styles.tabLink}>
@@ -209,7 +219,7 @@ function PpcManagement() {
                             eventKey="fifth"
                             className={styles.tabLinkText}
                           >
-                            Custom Reporting
+                            Keyword Research
                           </Nav.Link>
                         </Nav.Item>
                       </Nav>
@@ -217,82 +227,127 @@ function PpcManagement() {
                     <Col sm={8} className={styles.delTabCont}>
                       <Tab.Content>
                         <Tab.Pane eventKey="first">
-                          <h3>Voice Search Optimization</h3>
+                          <h3>PPC Audit</h3>
                           <p>
-                            By 2025, half of American consumers will use voice
-                            search every day.
+                            A complete PPC audit allows your dedicated account
+                            manager to provide data-driven recommendations for
+                            your pay-per-click strategy. They will also assess
+                            the health of your PPC ad management campaigns by
+                            verifying the setup and optimization of your
+                            account, campaigns, and ad groups.
                           </p>
+                          <p>The audit will cover:</p>
+                          <ol>
+                            <li>Competitor ads</li>
+                            <li>Bid Optimization</li>
+                            <li>
+                              Advertising assets{" "}
+                              {"(images, landing pages, ad copy)"}
+                            </li>
+                            <li>Tracking and more</li>
+                          </ol>
                           <p>
-                            With the growing popularity of voice search for
-                            finding local services, {"it’s"} essential to
-                            optimize your ad content for this technology.
-                          </p>
-                          <p>
-                            At NextUpgrad, our Local Services ad management
-                            plans include voice search optimization. This
-                            enables you to reach more qualified leads and
-                            ensures you {"don’t"} miss out on potential revenue.
+                            Using insights from our PPC management {"company’s"}
+                            research, your account manager will create a
+                            customized PPC marketing strategy for your business.
                           </p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="second">
-                          <h3>Budget Management</h3>
+                          <h3>Ad Creatives</h3>
                           <p>
-                            By partnering with our paid ad specialists,{" "}
-                            {"you'll"}
-                            make the most of your ad spend while reaching your
-                            business objectives.
+                            NextUpgrad makes building, launching, and optimizing
+                            ad campaigns effortless with its complete
+                            pay-per-click {"(PPC)"} services. As a full-service
+                            PPC management company, we have the expertise to
+                            handle every aspect of your ad campaign, including:
+                          </p>
+                          <Row>
+                            <Col md={6}>
+                              <ol style={{ listStylePosition: "inside" }}>
+                                <li>Set-up ad campaigns</li>
+                                <li>Designing ad graphics</li>
+                                <li>Writing ad copy</li>
+                              </ol>
+                            </Col>
+                            <Col md={6}>
+                              <ol
+                                start={4}
+                                style={{ listStylePosition: "inside" }}
+                              >
+                                <li>Building ad web landing pages</li>
+                                <li>Creating audio or video ads</li>
+                              </ol>
+                            </Col>
+                          </Row>
+                          <p>
+                            With NextUpgrad, you can surpass the competition by
+                            quickly launching compelling ads that effectively
+                            attract and convert your target audience. Our
+                            services eliminate the hassle of securing in-house
+                            design time and the drawbacks of hiring freelancers.
                           </p>
                           <p>
-                            We strive to keep the ad process hassle-free,
-                            allowing us to handle the complexities so you
-                            achieve maximum ROI. As your Google Ads management
-                            partner, NextUpgrad ensures you {"won't"} have to
-                            worry about exceeding your campaign budget.
+                            Switch to {"NextUpgrad's"} PPC Management Services
+                            and experience a seamless, efficient approach to
+                            your advertising needs.
                           </p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="third">
-                          <h3>Geographic Targeting</h3>
+                          <h3>Bid Management</h3>
                           <p>
-                            Our ad management solutions include sophisticated
-                            geographic targeting designed to reach your ideal
-                            customers.
+                            Forget wasted ad spend. With {"NextUpgrad’s"} PPC
+                            management services.
                           </p>
+                          <p>Our complete bid management includes:</p>
+                          <ol>
+                            <li>Monitoring for fraudulent activity</li>
+                            <li>Optimizing bids to maximize ROI</li>
+                            <li>
+                              Leveraging AI to meet monthly ad spend targets
+                            </li>
+                          </ol>
                           <p>
-                            Seamlessly connect with leads in lucrative areas
-                            close to your business. This targeting feature
-                            enables you to optimize your ad budget and engage
-                            with the most valuable customers in your vicinity.
+                            With our proactive Google PPC Management Services,
+                            your team can focus on high-priority projects
+                            instead of constantly monitoring ad accounts.
                           </p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="fourth">
-                          <h3>Dedicated Local Marketing Expert</h3>
+                          <h3>Landing Page Creation & Optimization</h3>
                           <p>
-                            NextUpgrad has been delivering exceptional results
-                            for clients for more than a decade.
+                            Transform your ad campaigns from start to finish
+                            with {"NextUpgrad's"} pay-per-click management
+                            services.
                           </p>
                           <p>
-                            By choosing to work with us, {"you'll"} collaborate
-                            with a dedicated local marketing expert committed to
-                            making your ad campaigns successful. With our
-                            extensive industry knowledge, {"we'll"} help you
-                            generate relevant leads, boost conversions, and
-                            increase revenue for your business.
+                            Increase your leads and revenue by converting more
+                            paid traffic through our landing page library; our
+                            clients have captured 10% more leads from their
+                            landing pages.
                           </p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="fifth">
-                          <h3>Custom Reporting</h3>
+                          <h3>Keyword Research</h3>
+                          <h4>Keyword Research and Analysis</h4>
                           <p>
-                            We provide custom ad reporting, giving you clear
-                            insights into your spending.
+                            Keyword Analysis for Accurate Targeting Find out the
+                            terms people search for in your audience, so you get
+                            your message to the right people at the right time.
                           </p>
+                          <h4>Ongoing keyword optimizations</h4>
                           <p>
-                            Moreover, we help you identify and implement
-                            necessary adjustments to boost your ad{" "}
-                            {"campaigns'"}
-                            effectiveness. Our basic plans come with monthly
-                            reports, and you can choose to upgrade to our
-                            aggressive or market leader plans for automatic
-                            monthly cloud updates.
+                            Continuously refining your keyword strategy in real
+                            time enables you to stay ahead in a dynamic
+                            environment. Adapt to market trends and audience
+                            behavior seamlessly for maximum impact and
+                            cost-efficiency.
+                          </p>
+                          <h4>Dynamic Keyword Insertion into Ads</h4>
+                          <p>
+                            Enhance engagement with personalized ad content.
+                            Automatically integrate search terms into your ads,
+                            making them highly relevant to user queries, driving
+                            clicks, and improving conversion rates.
                           </p>
                         </Tab.Pane>
                       </Tab.Content>
@@ -317,26 +372,22 @@ function PpcManagement() {
             <Row className={styles.resultRow}>
               <Col className="col-md-6">
                 <div className={styles.resultCard}>
-                  <h3>Increased Leads & Bookings</h3>
+                  <h3>Online Visibility</h3>
                   <p>
-                    Google Local Services Ads {"(LSAs)"} help your business
-                    reach local customers who are actively seeking your
-                    services. With our expert management, {"you’ll"} see a
-                    significant rise in qualified leads and direct bookings,
-                    leading to increased revenue growth.
+                    Leveraging targeted keyword research and ad placements to
+                    ensure your business appears prominently in search results.
+                    With our PPC management, expect to dominate search engines
+                    and expand your {"brand's"} digital footprint.
                   </p>
                 </div>
               </Col>
               <Col className="col-md-6 align-content-center">
                 <div>
-                  <h3>Enhanced Brand Visibility</h3>
+                  <h3>Increased Website Traffic</h3>
                   <p>
-                    Local service ads {"(LSA)"} highlight your business details,
-                    such as service areas, customer reviews, and the Google
-                    Guarantee {"(when applicable)"}. This helps boost your{" "}
-                    {"brand's"} visibility, fosters trust with potential
-                    customers, and positions your business as a leading option
-                    in your local market.
+                    Drive high-impact traffic to your website through strategic
+                    ad campaigns. Our team ensures you capture your target
+                    {"audience's"} attention and lead them to take action.
                   </p>
                 </div>
               </Col>
@@ -344,23 +395,22 @@ function PpcManagement() {
             <Row className="mb-5">
               <Col className="col-md-6 align-content-center">
                 <div>
-                  <h3>Improved ROI</h3>
+                  <h3>Improved ROI {"(Return on Investment)"}</h3>
                   <p>
-                    We use data-driven strategies to optimize your LSA campaigns
-                    for maximum ROI. By tracking key metrics and adjusting bids
-                    and budgets in real time, we ensure you only pay for
-                    qualified leads that convert into paying customers.
+                    Maximize every dollar spent with precise ad targeting and
+                    continuous campaign optimization. Our experts use analytics
+                    and A/B testing to deliver measurable results and
+                    high-performing campaigns.
                   </p>
                 </div>
               </Col>
               <Col className="col-md-6">
                 <div className={styles.resultCard}>
-                  <h3>Peace of Mind</h3>
+                  <h3>Measurable Success with Data Insights</h3>
                   <p>
-                    Let our skilled team take care of the complexities of LSA
-                    management. We manage campaign setup, continuous
-                    optimization, and performance reporting, allowing you to
-                    concentrate on running your business.
+                    Gain clarity on campaign performance through detailed
+                    reports. Understand customer behavior, refine strategies,
+                    and celebrate proven results.
                   </p>
                 </div>
               </Col>
@@ -374,100 +424,85 @@ function PpcManagement() {
                 <h2>
                   <span>Process</span>
                   <br />
-                  Stages of Our Google Local Services
+                  Stages of Our PPC Management Services
                 </h2>
               </Col>
             </Row>
             <Row className={styles.resultRow}>
+              <Col className="col-md-4">
+                <div className={styles.resultCard}>
+                  <h3>Discovery & Goal Setting</h3>
+                  <p>
+                    First, gain a deep understanding of the {"client's"}{" "}
+                    business, goals, and target audience. Set measurable
+                    objectives like lead generation or sales. Identify key
+                    performance indicators {"(KPIs)"}, like click-through rates{" "}
+                    {"(CTR)"} or return on investment {"(ROI)"}, to ensure the
+                    campaign aligns with the
+                    {"business's"} vision and priorities.
+                  </p>
+                </div>
+              </Col>
               <Col className="col-md-4 align-content-center">
                 <div>
-                  <h3>Campaign Setup & Optimization</h3>
+                  <h3>Competitor Analysis</h3>
                   <p>
-                    This initial stage focuses on building a strong foundation
-                    for your LSA campaign. It involves:
+                    Analyze {"competitors’"} strategies, industry trends, and
+                    audience behaviors. Identify untapped opportunities and
+                    niche markets. Use these insights to craft a targeted
+                    strategy for maximum impact.
                   </p>
-                  <ol>
-                    <li>
-                      <strong>Keyword Research & Targeting:</strong> Identifying
-                      relevant keywords and location-based targeting options to
-                      reach the right audience.
-                    </li>
-                    <li>
-                      <strong>Ad Copy & Visuals:</strong> Crafting compelling ad
-                      copy and selecting high-quality images or videos that
-                      showcase your business and services.
-                    </li>
-                    <li>
-                      <strong>Budget Allocation & Bidding Strategies:</strong>{" "}
-                      Determining your daily budget and setting appropriate bids
-                      to maximize your return on investment.
-                    </li>
-                    <li>
-                      <strong>Performance Tracking & Analysis:</strong>{" "}
-                      Implementing conversion tracking and analyzing key metrics
-                      like call volume, leads, and customer reviews to identify
-                      areas for improvement.
-                    </li>
-                  </ol>
                 </div>
               </Col>
               <Col className="col-md-4">
                 <div className={styles.resultCard}>
-                  <h3>Lead Qualification & Management</h3>
+                  <h3>Campaign Strategy Development</h3>
                   <p>
-                    Once leads start coming in, effective management includes:
+                    Choose platforms, budgets, and campaign structures that
+                    align with your goals. Create ad types and bidding
+                    strategies tailored to your {"client's"} needs. This
+                    approach ensures campaigns are efficient, scalable, and
+                    effective, delivering results within budget limits.
                   </p>
-                  <ol>
-                    <li>
-                      <strong>Lead Routing System:</strong> Set up a system to
-                      route leads to the appropriate team members or
-                      departments.
-                    </li>
-                    <li>
-                      <strong>Qualify Leads:</strong> Quickly assess and
-                      prioritize leads most likely to convert into paying
-                      customers.
-                    </li>
-                    <li>
-                      <strong>Respond Promptly:</strong> Acknowledge and respond
-                      to all leads swiftly to build trust and maintain interest.
-                    </li>
-                    <li>
-                      <strong>Track Lead Sources & Conversion Rates:</strong>{" "}
-                      Monitor the effectiveness of various lead sources and
-                      track conversions throughout the customer journey.
-                    </li>
-                  </ol>
+                </div>
+              </Col>
+            </Row>
+            <Row className="mb-5">
+              <Col className="col-md-4 align-content-center">
+                <div>
+                  <h3>Ad Creation & Copywriting</h3>
+                  <p>
+                    Create persuasive ad copy accompanied by visually appealing
+                    designs. Tailor messages to the {"audience's"} needs and
+                    highlight strong calls to action {"(CTAs)"}. Effective ads
+                    attract clicks, build brand awareness, and lead users
+                    towards desired actions, such as making purchases or signing
+                    up
+                  </p>
+                </div>
+              </Col>
+              <Col className="col-md-4">
+                <div className={styles.resultCard}>
+                  <h3>Scaling & Continuous Improvement</h3>
+                  <p>
+                    Expand successful campaigns by increasing budgets or
+                    targeting new markets. Introduce remarketing strategies.
+                    Stay updated on trends to maintain competitiveness, ensuring
+                    campaigns evolve alongside the business for long-term
+                    results.
+                  </p>
                 </div>
               </Col>
               <Col className="col-md-4 align-content-center">
                 <div>
-                  <h3>Customer Service & Review Management</h3>
-                  <ol>
-                    <li>
-                      <strong>Delivering Exceptional Service:</strong> Going
-                      above and beyond to meet customer expectations and exceed
-                      their satisfaction.
-                    </li>
-                    <li>
-                      <strong>Encouraging Customer Reviews:</strong> promptly
-                      requesting and actively encouraging customer reviews on
-                      Google and other relevant platforms.
-                    </li>
-                    <li>
-                      <strong>Monitoring and Responding to Reviews:</strong>{" "}
-                      Regularly monitoring online reviews and responding
-                      promptly and professionally to both positive and negative
-                      feedback.
-                    </li>
-                    <li>
-                      <strong>
-                        Building Long-Term Customer Relationships:
-                      </strong>{" "}
-                      cultivating strong relationships with your customers to
-                      foster loyalty and repeat business.
-                    </li>
-                  </ol>
+                  <h3>Reporting & Insights</h3>
+                  <p>
+                    Provide transparent reports showcasing campaign metrics like
+                    clicks and ROI. Share actionable insights and
+                    recommendations. Regular updates keep the client informed,
+                    and campaigns are aligned with evolving business objectives
+                    for sustained success.
+                  </p>
                 </div>
               </Col>
             </Row>
@@ -607,8 +642,7 @@ function PpcManagement() {
                 <Accordion defaultActiveKey="0" flush>
                   <Accordion.Item eventKey="0">
                     <Accordion.Header className={styles.accordHead}>
-                      Q1 - How does voice search optimization benefit my
-                      business?
+                      Q1 - Why invest in PPC?
                     </Accordion.Header>
                     <Accordion.Body>
                       <strong>Answer - </strong>Voice search optimization can
@@ -628,103 +662,99 @@ function PpcManagement() {
                   </Accordion.Item>
                   <Accordion.Item eventKey="1">
                     <Accordion.Header className={styles.accordHead}>
-                      Q2 - What is the process for setting up a Google Local
-                      Services ad?
+                      Q2 - What are PPC services?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>Voice search optimization
-                      benefits your business by enhancing visibility and
-                      accessibility. It allows you to reach a broader audience,
-                      as more users rely on voice commands for local searches,
-                      which can significantly increase foot traffic.
-                      Additionally, optimizing for voice search improves the
-                      user experience by providing quick and convenient access
-                      to information, fostering customer satisfaction and
-                      loyalty. This approach also helps improve your overall SEO
-                      strategy, as voice-friendly content often ranks better in
-                      traditional search results. Ultimately, embracing voice
-                      search optimization positions your business competitively
-                      in a rapidly evolving digital landscape.
+                      <strong>Answer - </strong>PPC management services offer
+                      professional oversight of your pay-per-click strategy and
+                      campaigns for a set fee. These services can include
+                      developing strategies, managing bids, creating ad copy,
+                      and more.
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="2">
                     <Accordion.Header className={styles.accordHead}>
-                      Q3 - How do you handle lead disputes in your management
-                      plans?
+                      Q3 - What do PPC services include?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>Lead disputes are managed
-                      through an automated system provided by Google in our
-                      management plans. The system uses machine learning to
-                      review and credit accounts for poor-quality leads, so the
-                      account does not need to be disputed manually. Advertisers
-                      will have quicker resolutions and more effective crediting
-                      of invalid leads. With credits for{" "}
-                      {'"job type not serviced"'}
-                      and {'"geo not serviced"'} no longer offered, overall the
-                      number of credits is expected to rise. Additionally,
-                      advertisers can provide feedback on leads through a Lead
-                      Feedback survey to help improve future lead quality.
+                      <strong>Answer - </strong>The deliverables for PPC
+                      {"(Pay-Per-Click)"} services vary based on the provider
+                      and chosen plan. Generally, PPC management services
+                      include advertising on Google and Bing, keyword targeting,
+                      bid management, and routine reporting.
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="3">
                     <Accordion.Header className={styles.accordHead}>
-                      Q4 - What kind of reporting can I expect from your ad
-                      management services?
+                      Q4 - Why work with a PPC management company?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>Our ad management services
-                      include detailed reporting to help you understand the
-                      outcomes of each campaign.
+                      <p>
+                        <strong>Answer - </strong>How Hiring A PPC Agency Is The
+                        Best Business Decision You Make
+                      </p>
+                      <p>
+                        Search engine marketing requires ongoing management.
+                        {"It’s"} not a {"“set it and forget it”"} approach;
+                        regular tweaks are important for optimal performance.
+                      </p>
+                      <p>
+                        As a business owner whose responsibilities would include
+                        writing checks, ordering inventory and
+                        managing operations, you probably {"won’t"} have the
+                        time to set up PPC campaigns properly. This is the point
+                        at which employing a PPC agency offers immeasurable
+                        value. A professional agency can give you back-to-back
+                        services so that you can concentrate on handling your
+                        business while experts manage and optimize your PPC
+                        campaigns.
+                      </p>
+                      <p>Why You Should Hire a PPC Agency: Key Benefits</p>
                       <ol>
                         <li>
-                          <strong>Performance Metrics:</strong> click-through
-                          rates and conversion and ROI insights. Training for
-                          all dates until October 2023.
+                          <p>
+                            <strong>Avoid the Learning Curve</strong>
+                            <br />
+                            Are you a PPC expert? Otherwise, learning how to use
+                            PPC advertising is steep learning curve. Good
+                            campaigns require working knowledge of PPC
+                            tactics and mechanics. It is also not practical
+                            to train someone in your team, as you lose out on
+                            workforce resources. With a pay per click management
+                            agency, you avoid having to seek in-house expertise
+                            and instead hire specialists.
+                          </p>
                         </li>
                         <li>
-                          <strong>Audience Insights:</strong> demographic and
-                          behavioral data about your target audience.{" "}
+                          <strong>Save Time</strong>
+                          <br />
+                          Hiring a PPC management company saves you significant
+                          time. Becoming a PPC expert requires many hours of
+                          study and practice—time that could otherwise be
+                          invested in your core business operations. An agency
+                          ensures your campaigns are vigilantly monitored for
+                          best results, relieving you of daily oversight tasks.
                         </li>
                         <li>
-                          <strong>Custom Reports:</strong> reports focusing on
-                          what you want to achieve.
+                          <strong>Achieve Targeted Results</strong>
+                          <br />A PPC agency aligns with your advertising goals,
+                          whether {"you’re"} aiming to target specific keywords,
+                          demographics, or initiate a remarketing campaign.
+                          Their expertise ensures your campaign is structured
+                          for success and tailored to achieve your desired
+                          outcomes.
                         </li>
                         <li>
-                          <strong>Continuous Insights:</strong> Regular
-                          performance recaps and actionable enhancements for
-                          optimization.
+                          <strong>Leverage Expert Knowledge</strong>
+                          <br />
+                          PPC agency professionals are seasoned experts. With
+                          thousands of hours dedicated to refining their skills,
+                          they possess the in-depth knowledge necessary for
+                          crafting successful PPC campaigns. Instead of trial
+                          and error, rely on experts to execute strategies that
+                          elevate your business success.
                         </li>
                       </ol>
-                    </Accordion.Body>
-                  </Accordion.Item>
-                  <Accordion.Item eventKey="4">
-                    <Accordion.Header className={styles.accordHead}>
-                      Q5 - How do your plans differ in terms of geographic
-                      targeting?
-                    </Accordion.Header>
-                    <Accordion.Body>
-                      <strong>Answer - </strong>We have a variety of plans
-                      with different levels of geographic targeting for your
-                      business needs:
-                      <ol>
-                        <li>
-                          <strong>Basic Plan:</strong> The basic plan
-                          targets regional or country-specific audiences so you
-                          can reach audiences locally.
-                        </li>
-                        <li>
-                          <strong>Business Plan:</strong> This will allow you to
-                          target a larger audience with the help of advanced
-                          targeting options, like cities or neighborhoods.
-                        </li>
-                        <li>
-                          <strong>Premium Plan:</strong> Zip Code Targeting &
-                          market-based segmentation of the audience to target.
-                        </li>
-                      </ol>
-                      Whether your geographic goals are will allow you to
-                      maximize your {"campaign's"}
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
