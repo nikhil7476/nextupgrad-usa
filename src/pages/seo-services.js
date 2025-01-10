@@ -460,8 +460,8 @@ const SeoService = () => {
                 <section className={style.pricing}>
                     <Container>
                         <h2>Pricing Model</h2>
-                        <Row className="justify-content-center">
-                            <Col className="col-md-11">
+                        <Row>
+                            <Col>
                                 <Table striped bordered hover variant="dark">
                                     <thead>
                                         <tr>
@@ -490,8 +490,8 @@ const SeoService = () => {
                                 </Table>
                             </Col>
                         </Row>
-                        <Row className="justify-content-center">
-                            <Col className="col-md-11">
+                        <Row>
+                            <Col>
                                 <Table striped bordered hover variant="dark">
                                     <thead>
                                         <tr>
