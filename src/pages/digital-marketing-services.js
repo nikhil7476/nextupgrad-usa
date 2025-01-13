@@ -2,7 +2,16 @@ import Head from "next/head";
 import Link from "next/link";
 import CountUp from "react-countup";
 import styles from "@/styles/Enterprise.module.css";
-import { Col, Row, Container, Tab, Nav, Accordion } from "react-bootstrap";
+import {
+  Col,
+  Row,
+  Container,
+  Tab,
+  Nav,
+  Accordion,
+  Form,
+  Button,
+} from "react-bootstrap";
 import { TbTargetArrow } from "react-icons/tb";
 import { BsFillPatchQuestionFill } from "react-icons/bs";
 import { MdOutlineSupportAgent } from "react-icons/md";
@@ -60,9 +69,24 @@ function DigitalMarketing() {
                   targets the metrics that matter most. Collaborate with our
                   digital marketing services to deliver measurable outcomes.
                 </p>
-                <Link href="#" title="Contact Us" className={styles.ctaBtn}>
-                  Send A Proposal Now
-                </Link>
+                <Form className={styles.proposalForm}>
+                  <Form.Group
+                    className={styles.propEmail}
+                    controlId="formBasicEmail"
+                  >
+                    <Form.Control
+                      type="email"
+                      placeholder="Enter your website"
+                    />
+                  </Form.Group>
+                  <Button
+                    variant="primary"
+                    type="submit"
+                    className={styles.ctaBtn}
+                  >
+                    Send Me A Proposal
+                  </Button>
+                </Form>
               </Col>
               <Col className="col-md-5">
                 <div className={styles.resultCard}>

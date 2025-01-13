@@ -52,6 +52,19 @@
 }
 
 /*Banner Section*/
+.proposalForm {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.propEmail {
+  width: 50%;
+}
+
+.propEmail input {
+  padding: 10px;
+}
 
 .serviceBanner {
   padding: 120px 0px 60px 0px !important;
