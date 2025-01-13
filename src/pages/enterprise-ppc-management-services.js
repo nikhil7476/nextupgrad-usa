@@ -2,16 +2,8 @@ import Head from "next/head";
 import Link from "next/link";
 import CountUp from "react-countup";
 import styles from "@/styles/Enterprise.module.css";
-import {
-  Col,
-  Row,
-  Container,
-  Tab,
-  Nav,
-  Accordion,
-  Form,
-  Button,
-} from "react-bootstrap";
+import { Col, Row, Container, Tab, Nav, Accordion } from "react-bootstrap";
+import TestForms from "@/components/WebsiteForm";
 import { TbTargetArrow } from "react-icons/tb";
 import { BsFillPatchQuestionFill } from "react-icons/bs";
 import { MdOutlineSupportAgent } from "react-icons/md";
@@ -70,24 +62,7 @@ function EnterprisePpcManagement() {
                   Utilize our expertise and award-winning technology for similar
                   results. Request your free strategy proposal today!
                 </p>
-                <Form className={styles.proposalForm}>
-                  <Form.Group
-                    className={styles.propEmail}
-                    controlId="formBasicEmail"
-                  >
-                    <Form.Control
-                      type="email"
-                      placeholder="Enter your website"
-                    />
-                  </Form.Group>
-                  <Button
-                    variant="primary"
-                    type="submit"
-                    className={styles.ctaBtn}
-                  >
-                    Send Me A Proposal
-                  </Button>
-                </Form>
+                <TestForms />
               </Col>
               <Col className="col-md-4">
                 <img src="https://picsum.photos/350/400" />
