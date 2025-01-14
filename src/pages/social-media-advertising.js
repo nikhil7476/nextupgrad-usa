@@ -40,11 +40,11 @@ const caseStudies = [
   },
 ];
 
-function EnterprisePpcManagement() {
+function SocialMediaAdvertising() {
   return (
     <>
       <Head>
-        <title>Enterprise PPC Management Solutions - Nextupgrad USA</title>
+        <title>PPC Management Services - Nextupgrad USA</title>
       </Head>
       <div className={styles.enterprise}>
         <section className={styles.enterpriseBnr}>
@@ -52,15 +52,15 @@ function EnterprisePpcManagement() {
             <Row className={`justify-content-between ${styles.bannerRow}`}>
               <Col className="col-md-6 align-content-center">
                 <h1>
-                  <span>Enterprise PPC Management Solutions</span> for Scalable
-                  Growth
+                  PPC Management Services: Drive Revenue Growth with{" "}
+                  <span>Strategic PPC Campaigns</span>
                 </h1>
                 <p>
-                  NextUpgrad is an award-winning enterprise PPC management
-                  service focused on maximizing your return on ad spend {"(ROAS)"}.
-                  Whether you aim to increase sales, generate leads, or attract
-                  more phone calls, our services are designed to help you meet
-                  your business objectives.
+                  Convert clicks into revenue with our PPC management services.
+                  By integrating your sales data with your campaigns, {"we’ve"}
+                  helped businesses achieve an average 25% increase in ROI.
+                  Utilize our expertise and award-winning technology for similar
+                  results. Request your free strategy proposal today!
                 </p>
                 <TestForms />
               </Col>
@@ -780,4 +780,4 @@ function EnterprisePpcManagement() {
   );
 }
 
-export default EnterprisePpcManagement;
+export default SocialMediaAdvertising;
