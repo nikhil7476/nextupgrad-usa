@@ -234,6 +234,8 @@ li {
 
 .tebPane img {
   margin-bottom: 10px;
+  width: 100%;
+  height: auto;
 }
 
 .tebPane h3 {

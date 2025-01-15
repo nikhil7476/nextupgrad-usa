@@ -238,8 +238,8 @@ function Home() {
                 className={styles.bannerImg}
                 title="Achievements"
                 priority="true"
-                width={100}
-                height={100}
+                width={798}
+                height={834}
               />
             </Col>
           </Row>
