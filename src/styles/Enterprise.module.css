@@ -54,6 +54,11 @@
 }
 
 /*Banner Section*/
+.bnrImg {
+  width: 100%;
+  height: auto;
+}
+
 .proposalForm {
   display: flex;
   gap: 10px;

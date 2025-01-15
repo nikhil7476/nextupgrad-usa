@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 import CountUp from "react-countup";
 import styles from "@/styles/Enterprise.module.css";
 import { Col, Row, Container, Tab, Nav, Accordion } from "react-bootstrap";
@@ -65,8 +66,14 @@ function SocialMediaAdvertising() {
                 </p>
                 <TestForms />
               </Col>
-              <Col className="col-md-4">
-                <img src="https://picsum.photos/350/400" />
+              <Col className="col-md-5">
+                <Image
+                  src="/assets/banner-socmedad.png"
+                  alt="banner-socmedad"
+                  width={670}
+                  height={454}
+                  className={styles.bnrImg}
+                />
               </Col>
             </Row>
           </Container>
@@ -747,7 +754,9 @@ function SocialMediaAdvertising() {
           <Container>
             <Row className="justify-content-center">
               <Col className="col-md-8 text-center">
-                <h2 className="mb-5">Are You Ready To Drive More Leads & Sales</h2>
+                <h2 className="mb-5">
+                  Are You Ready To Drive More Leads & Sales
+                </h2>
                 <Link href="#" title="Get A Proposal" className={styles.ctaBtn}>
                   Get A Custom Proposal
                 </Link>
