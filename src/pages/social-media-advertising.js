@@ -44,7 +44,7 @@ function SocialMediaAdvertising() {
   return (
     <>
       <Head>
-        <title>PPC Management Services - Nextupgrad USA</title>
+        <title>Social Media Marketing Services - Nextupgrad USA</title>
       </Head>
       <div className={styles.enterprise}>
         <section className={styles.enterpriseBnr}>
@@ -52,15 +52,15 @@ function SocialMediaAdvertising() {
             <Row className={`justify-content-between ${styles.bannerRow}`}>
               <Col className="col-md-6 align-content-center">
                 <h1>
-                  PPC Management Services: Drive Revenue Growth with{" "}
-                  <span>Strategic PPC Campaigns</span>
+                  <span>Social Media Marketing Services</span> for Growing Small
+                  Businesses
                 </h1>
                 <p>
-                  Convert clicks into revenue with our PPC management services.
-                  By integrating your sales data with your campaigns, {"we’ve"}
-                  helped businesses achieve an average 25% increase in ROI.
-                  Utilize our expertise and award-winning technology for similar
-                  results. Request your free strategy proposal today!
+                  NextUpgrad focuses on driving impactful business growth
+                  through social media advertising services. We can help you
+                  increase your {"brand's"} online presence or generate targeted
+                  leads. Contact our social media marketing agencies for a free
+                  quote today!
                 </p>
                 <TestForms />
               </Col>
@@ -84,42 +84,34 @@ function SocialMediaAdvertising() {
             <Row className={`"mb-5" ${styles.probs}`}>
               {[
                 {
-                  title: "Inefficient Budget Spending",
-                  title_desc:
-                    "Small businesses often waste money on underperforming ads.",
+                  title: "Lack of Online Visibility",
                   description:
-                    "Our PPC management service identifies underperforming areas in your campaigns, reallocating your budget to high-performing strategies. With continuous monitoring and optimization, we ensure every dollar is spent effectively, maximizing your ROI and reducing unnecessary costs.",
+                    "Use social media paid promotions on channels such as Facebook and Instagram to increase your business awareness. Run a social media marketing campaign to target your target audience.",
                 },
                 {
-                  title: "Low Click-Through Rates (CTR)",
-                  title_desc:
-                    "Ads may not grab user attention or entice clicks.",
+                  title: "Low Engagement Rates",
                   description:
-                    "We create attention-grabbing headlines, engaging visuals, and compelling ad copy customized to your audience. Our strategies are designed to improve CTR by testing various ad formats and placements, ensuring your ads connect with potential clients and encourage more clicks.",
+                    "Build your content to be engaging and reach your audience. Persona—How many personas do you want to build for your campaigns, depending on cluster segments and common threads?",
                 },
                 {
-                  title: "Target Audience Mismatch",
-                  title_desc: "Ads fail to reach the right demographic.",
+                  title: "Limited Advertising Budget",
                   description:
-                    "Using advanced audience targeting tools, we identify and engage your ideal clients. By analyzing user behavior, location, and preferences, we ensure your ads appear in front of those most likely to engage, increasing the effectiveness of your campaigns.",
+                    "Utilize affordable social media ads in Denver that can reach local people. Retargeting campaigns and split-testing ads will help ensure you know what works best while still being within budget and optimizing your spending.",
                 },
                 {
-                  title: "Poor Conversion Rates",
-                  title_desc: "Traffic doesn’t translate to leads or sales.",
+                  title: "Ineffective Content Strategy",
                   description:
-                    "We enhance your landing pages, streamline the user experience, and employ conversion-focused strategies. By testing calls-to-action and simplifying customer journeys, we transform ad clicks into meaningful actions, like purchases or inquiries, boosting your overall conversions.",
+                    "Business2Community Choose your networks wisely with a detailed content calendar to plan a structured social media marketing campaign Get inspired by the best social media advertising campaigns for content that is relevant to your brand ethos and what your audience would expect to see.",
                 },
                 {
-                  title: "Inadequate Performance Tracking",
-                  title_desc: "Unclear ROI from ad campaigns.",
+                  title: "Limited Time to Manage Social Media",
                   description:
-                    "Our detailed analytics and performance reports give you clear insights into every campaign’s success. We use tracking tools to measure impressions, clicks, and conversions, offering actionable recommendations to refine your approach and maximize returns.",
+                    "Outsource social media advertising tasks to a local expert or agency specializing in social media advertising in Denver. They can handle everything from campaign strategy to performance tracking, saving you time while delivering results.",
                 },
                 {
-                  title: "Overwhelming Management Workload",
-                  title_desc: "Managing PPC ads can consume valuable time.",
+                  title: "Difficulty in Tracking Results",
                   description:
-                    "We take over the complexities of managing your PPC campaigns, from strategy creation to daily optimizations. With our dedicated team, you’ll save time while ensuring your campaigns perform at their best, letting you focus on growing your business.",
+                    "Leverage analytics tools to measure the success of your social media marketing campaign. Compare your metrics against the benchmarks set by the best social media advertising campaigns to refine strategies for sustained growth and success.",
                 },
               ].map((problem, index) => (
                 <Col key={index} className={`${styles.cardCol} col-md-6 mb-4`}>
@@ -130,9 +122,6 @@ function SocialMediaAdvertising() {
                       </span>
                       {problem.title}
                     </h3>
-                    <p className={styles.cardDescription}>
-                      {problem.title_desc}
-                    </p>
                     <p className={styles.cardDescription}>
                       {problem.description}
                     </p>
@@ -156,23 +145,9 @@ function SocialMediaAdvertising() {
                 <h2>
                   <span>Services</span>
                   <br />
-                  Maximize Your ROI with Expert-Managed PPC Services
+                  Top Benefits of NextUpgrad {"Marketing's"} Social Media
+                  Services for Small Businesses
                 </h2>
-                <p>
-                  Unlock the full potential of your advertising budget with
-                  NextUpgrad PPC services in New Jersey. Our comprehensive
-                  pay-per-click management solutions cover every aspect, from
-                  strategy creation to execution and ongoing management.
-                  Customize our services to meet your specific needs and see how
-                  {"we've"} generated over $2 million in revenue for our
-                  clients. Let us boost your business success today.
-                </p>
-                <p>
-                  <strong>Summary : </strong>Stop micromanaging your PPC
-                  campaigns with minimal results. Our PPC company utilizes
-                  expert optimizations and advanced technology to boost your ROI
-                  from paid advertising.
-                </p>
               </Col>
             </Row>
             <Row>
@@ -186,7 +161,7 @@ function SocialMediaAdvertising() {
                             eventKey="first"
                             className={styles.tabLinkText}
                           >
-                            PPC Audit
+                            Instagram Advertising Services
                           </Nav.Link>
                         </Nav.Item>
                         <Nav.Item className={styles.tabLink}>
@@ -194,7 +169,7 @@ function SocialMediaAdvertising() {
                             eventKey="second"
                             className={styles.tabLinkText}
                           >
-                            Ad Creatives
+                            LinkedIn Advertising Services
                           </Nav.Link>
                         </Nav.Item>
                         <Nav.Item className={styles.tabLink}>
@@ -202,7 +177,7 @@ function SocialMediaAdvertising() {
                             eventKey="third"
                             className={styles.tabLinkText}
                           >
-                            Bid Management
+                            Facebook Advertising Services
                           </Nav.Link>
                         </Nav.Item>
                         <Nav.Item className={styles.tabLink}>
@@ -210,7 +185,7 @@ function SocialMediaAdvertising() {
                             eventKey="fourth"
                             className={styles.tabLinkText}
                           >
-                            Landing Page Creation & Optimization
+                            X {"(Twitter)"} Advertising Services
                           </Nav.Link>
                         </Nav.Item>
                         <Nav.Item className={styles.tabLink}>
@@ -218,7 +193,7 @@ function SocialMediaAdvertising() {
                             eventKey="fifth"
                             className={styles.tabLinkText}
                           >
-                            Keyword Research
+                            Pinterest Advertising Services
                           </Nav.Link>
                         </Nav.Item>
                       </Nav>
@@ -226,127 +201,153 @@ function SocialMediaAdvertising() {
                     <Col sm={8} className={styles.delTabCont}>
                       <Tab.Content>
                         <Tab.Pane eventKey="first">
-                          <h3>PPC Audit</h3>
-                          <p>
-                            A complete PPC audit allows your dedicated account
-                            manager to provide data-driven recommendations for
-                            your pay-per-click strategy. They will also assess
-                            the health of your PPC ad management campaigns by
-                            verifying the setup and optimization of your
-                            account, campaigns, and ad groups.
-                          </p>
-                          <p>The audit will cover:</p>
+                          <h3>Instagram Advertising Services</h3>
+                          <h4>
+                            Top Benefits of Our Instagram Marketing Services for
+                            Small Businesses
+                          </h4>
                           <ol>
-                            <li>Competitor ads</li>
-                            <li>Bid Optimization</li>
                             <li>
-                              Advertising assets{" "}
-                              {"(images, landing pages, ad copy)"}
+                              Increase brand awareness with branded Instagram
+                              reels designed to captivate your audience.
                             </li>
-                            <li>Tracking and more</li>
+                            <li>
+                              Engaging Strategic Content Calendar for more sales
+                              and loyalty.
+                            </li>
                           </ol>
                           <p>
-                            Using insights from our PPC management {"company’s"}
-                            research, your account manager will create a
-                            customized PPC marketing strategy for your business.
+                            Instagram is not only one of the best places for
+                            small businesses to build real relationships with
+                            customers and drive engagement but also a platform
+                            to achieve success with the{" "}
+                            <strong>best Instagram advertising services</strong>{" "}
+                            customized to your needs. Specializing in{" "}
+                            <strong>Instagram advertising in Newyork</strong>,
+                            we deliver results-driven Instagram reels and
+                            carousel posts that help your brand reach the most
+                            relevant audience and inspire meaningful
+                            conversations in the comments.
                           </p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="second">
-                          <h3>Ad Creatives</h3>
+                          <h3>LinkedIn Advertising Services</h3>
                           <p>
-                            NextUpgrad makes building, launching, and optimizing
-                            ad campaigns effortless with its complete
-                            pay-per-click {"(PPC)"} services. As a full-service
-                            PPC management company, we have the expertise to
-                            handle every aspect of your ad campaign, including:
-                          </p>
-                          <Row>
-                            <Col md={6}>
-                              <ol style={{ listStylePosition: "inside" }}>
-                                <li>Set-up ad campaigns</li>
-                                <li>Designing ad graphics</li>
-                                <li>Writing ad copy</li>
-                              </ol>
-                            </Col>
-                            <Col md={6}>
-                              <ol
-                                start={4}
-                                style={{ listStylePosition: "inside" }}
-                              >
-                                <li>Building ad web landing pages</li>
-                                <li>Creating audio or video ads</li>
-                              </ol>
-                            </Col>
-                          </Row>
-                          <p>
-                            With NextUpgrad, you can surpass the competition by
-                            quickly launching compelling ads that effectively
-                            attract and convert your target audience. Our
-                            services eliminate the hassle of securing in-house
-                            design time and the drawbacks of hiring freelancers.
+                            Advertise on the top social media platform for lead
+                            generation with{" "}
+                            <strong>LinkedIn advertising services</strong>.
+                            Capture valuable leads with compelling, personalized
+                            ads customized to your audience.
                           </p>
                           <p>
-                            Switch to {"NextUpgrad's"} PPC Management Services
-                            and experience a seamless, efficient approach to
-                            your advertising needs.
+                            If you want to reach professionals based on their
+                            skills, industry, or interests, consider using
+                            LinkedIn advertising in New York. With over 50% of
+                            its users holding college degrees, LinkedIn is a
+                            powerful tool for targeting educated professionals.
                           </p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="third">
-                          <h3>Bid Management</h3>
-                          <p>
-                            Forget wasted ad spend. With {"NextUpgrad’s"} PPC
-                            management services.
-                          </p>
-                          <p>Our complete bid management includes:</p>
+                          <h3>Facebook Advertising Services</h3>
+                          <h4>
+                            Advantages of our Facebook Marketing Services for
+                            Small Businesses
+                          </h4>
                           <ol>
-                            <li>Monitoring for fraudulent activity</li>
-                            <li>Optimizing bids to maximize ROI</li>
                             <li>
-                              Leveraging AI to meet monthly ad spend targets
+                              <strong>Amplified Brand Awareness</strong>
+                              <br />
+                              Utilize Facebook as the largest image-advertising
+                              social network for the edge of your brand.
+                            </li>
+                            <li>
+                              <strong>Larger Audience and Higher ROI</strong>
+                              <br />
+                              Custom Facebook Reels that resonate with your
+                              brand for higher reach and better return on
+                              investment
                             </li>
                           </ol>
                           <p>
-                            With our proactive Google PPC Management Services,
-                            your team can focus on high-priority projects
-                            instead of constantly monitoring ad accounts.
+                            With Facebook being the top social media platform,
+                            social media marketing has become a must. Our team
+                            assesses your current Facebook practices, identifies
+                            areas for improvement, and enhances your strategy
+                            through customized{" "}
+                            <strong>Facebook advertising services</strong>. We
+                            provide engaging Facebook Reel content to ensure
+                            your posts are catchy, attracting page likes and
+                            converting visitors into future customers.
                           </p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="fourth">
-                          <h3>Landing Page Creation & Optimization</h3>
+                          <h3>X {"(Twitter)"} Advertising Services</h3>
+                          <h4>
+                            Top Benefits of Our X {"(Twitter)"} Marketing
+                            Services for Small Businesses
+                          </h4>
+                          <ol>
+                            <li>
+                              <strong>Establish Industry Authority</strong>
+                              <br />
+                              Become a recognized leader in your niche with our
+                              engagement-driven tweets.
+                            </li>
+                            <li>
+                              <strong>Cultivate a Loyal Following</strong>
+                              <br />
+                              Keep your audience updated and involved in
+                              trending conversations with our proactive
+                              engagement strategy, which we manage completely
+                              for you.
+                            </li>
+                          </ol>
                           <p>
-                            Transform your ad campaigns from start to finish
-                            with {"NextUpgrad's"} pay-per-click management
-                            services.
-                          </p>
-                          <p>
-                            Increase your leads and revenue by converting more
-                            paid traffic through our landing page library; our
-                            clients have captured 10% more leads from their
-                            landing pages.
+                            X {"(formerly Twitter)"} excels at real-time,
+                            concise communication. Users follow brand accounts
+                            for industry insight and exclusive content. Through
+                            our social media services, we will position your
+                            company as an industry leader with high-value tweets
+                            and active participation in discussion threads. This
+                            approach will help establish your brand as the
+                            preferred choice for your product or service.
                           </p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="fifth">
-                          <h3>Keyword Research</h3>
-                          <h4>Keyword Research and Analysis</h4>
+                          <h3>Pinterest Advertising Services</h3>
+                          <h4>
+                            Top Benefits of Our Pinterest Marketing Services for
+                            Small Businesses
+                          </h4>
+                          <ol>
+                            <li>
+                              <strong>Enhanced Brand Recognition </strong>Our
+                              strategic pins and content planning significantly
+                              boost your {"brand's"} visibility on Pinterest.
+                            </li>
+                            <li>
+                              <strong>Increased Sales for E-commerce </strong>By
+                              optimizing content with relevant keywords, we
+                              increase your sales on Pinterest, which functions
+                              as both a visual search engine and a shopping
+                              platform.
+                            </li>
+                          </ol>
+                          <h4>Why Pinterest for e-commerce?</h4>
                           <p>
-                            Keyword Analysis for Accurate Targeting Find out the
-                            terms people search for in your audience, so you get
-                            your message to the right people at the right time.
-                          </p>
-                          <h4>Ongoing keyword optimizations</h4>
-                          <p>
-                            Continuously refining your keyword strategy in real
-                            time enables you to stay ahead in a dynamic
-                            environment. Adapt to market trends and audience
-                            behavior seamlessly for maximum impact and
-                            cost-efficiency.
-                          </p>
-                          <h4>Dynamic Keyword Insertion into Ads</h4>
-                          <p>
-                            Enhance engagement with personalized ad content.
-                            Automatically integrate search terms into your ads,
-                            making them highly relevant to user queries, driving
-                            clicks, and improving conversion rates.
+                            This makes Pinterest perfect for e-commerce
+                            companies wanting to increase product sales,
+                            especially in fast-paced markets like New York. Its
+                            visual layout and search engine capabilities create
+                            a destination and carousels of curated,
+                            shoppable goods for buyers. Our Pinterest
+                            advertising in New York focuses on creating
+                            optimized pins with relevant keywords that your
+                            audience searches for. This ensures that you get
+                            your products to the right customers who drive the
+                            purchase. We also create Pinterest boards that are
+                            so visually attractive that your consumers save them
+                            and purchase your products.
                           </p>
                         </Tab.Pane>
                       </Tab.Content>
@@ -641,133 +642,67 @@ function SocialMediaAdvertising() {
                 <Accordion defaultActiveKey="0" flush>
                   <Accordion.Item eventKey="0">
                     <Accordion.Header className={styles.accordHead}>
-                      Q1 - Why invest in PPC?
+                      Q1 - What is social media marketing?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>Investing in Pay-Per-Click{" "}
-                      {"(PPC)"}
-                      advertising offers numerous benefits for your business:
-                      <ol>
-                        <li>
-                          <strong>Immediate Visibility: </strong>Get your ads in
-                          front of potential customers instantly.
-                        </li>
-                        <li>
-                          <strong>Targeted Audience: </strong>Reach specific
-                          demographics, interests, and locations.
-                        </li>
-                        <li>
-                          <strong>Cost Control: </strong>Set your own budget and
-                          only pay when someone clicks your ad.
-                        </li>
-                        <li>
-                          <strong>Measureable Results: </strong>Track
-                          performance and ROI with detailed analytics.
-                        </li>
-                        <li>
-                          <strong>Enhanced Brand Awareness: </strong>Increase
-                          your {"brand’s"} presence and recognition online. PPC
-                          is a powerful tool to drive traffic, generate leads,
-                          and boost sales efficiently.
-                        </li>
-                      </ol>
+                      <strong>Answer - </strong>Social media marketing involves
+                      the strategic use of various social media platforms to
+                      enhance a {"brand's"} visibility, foster meaningful
+                      connections with a targeted audience, generate increased
+                      traffic to a website, and ultimately drive higher sales
+                      and revenue by creating engaging, relevant, and valuable
+                      content.
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="1">
                     <Accordion.Header className={styles.accordHead}>
-                      Q2 - What are PPC services?
+                      Q2 - Who will be working on my account?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>PPC management services offer
-                      professional oversight of your pay-per-click strategy and
-                      campaigns for a set fee. These services can include
-                      developing strategies, managing bids, creating ad copy,
-                      and more.
+                      <strong>Answer - </strong>You will be assigned a dedicated
+                      social media account manager who will serve as your
+                      primary point of contact. This professional is trained in
+                      social media marketing and has experience working with
+                      clients in your industry.
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="2">
                     <Accordion.Header className={styles.accordHead}>
-                      Q3 - What do PPC services include?
+                      Q3 - How will you create content that fits my business?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>The deliverables for PPC
-                      {"(Pay-Per-Click)"} services vary based on the provider
-                      and chosen plan. Generally, PPC management services
-                      include advertising on Google and Bing, keyword targeting,
-                      bid management, and routine reporting.
+                      <strong>Answer - </strong>We will meticulously craft
+                      high-quality and engaging content uniquely tailored to
+                      your business needs. This process involves thoroughly
+                      analyzing your completed questionnaire, brand guide, and
+                      any additional materials or resources you share with us to
+                      ensure we capture the essence of your {"brand's"} voice,
+                      vision, and goals.
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="3">
                     <Accordion.Header className={styles.accordHead}>
-                      Q4 - Why work with a PPC management company?
+                      Q4 - How will you grow my followers?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <p>
-                        <strong>Answer - </strong>How Hiring A PPC Agency Is The
-                        Best Business Decision You Make
-                      </p>
-                      <p>
-                        Search engine marketing requires ongoing management.
-                        {"It’s"} not a {"“set it and forget it”"} approach;
-                        regular tweaks are important for optimal performance.
-                      </p>
-                      <p>
-                        As a business owner whose responsibilities would include
-                        writing checks, ordering inventory and
-                        managing operations, you probably {"won’t"} have the
-                        time to set up PPC campaigns properly. This is the point
-                        at which employing a PPC agency offers immeasurable
-                        value. A professional agency can give you back-to-back
-                        services so that you can concentrate on handling your
-                        business while experts manage and optimize your PPC
-                        campaigns.
-                      </p>
-                      <p>Why You Should Hire a PPC Agency: Key Benefits</p>
-                      <ol>
-                        <li>
-                          <p>
-                            <strong>Avoid the Learning Curve</strong>
-                            <br />
-                            Are you a PPC expert? Otherwise, learning how to use
-                            PPC advertising is steep learning curve. Good
-                            campaigns require working knowledge of PPC
-                            tactics and mechanics. It is also not practical
-                            to train someone in your team, as you lose out on
-                            workforce resources. With a pay per click management
-                            agency, you avoid having to seek in-house expertise
-                            and instead hire specialists.
-                          </p>
-                        </li>
-                        <li>
-                          <strong>Save Time</strong>
-                          <br />
-                          Hiring a PPC management company saves you significant
-                          time. Becoming a PPC expert requires many hours of
-                          study and practice—time that could otherwise be
-                          invested in your core business operations. An agency
-                          ensures your campaigns are vigilantly monitored for
-                          best results, relieving you of daily oversight tasks.
-                        </li>
-                        <li>
-                          <strong>Achieve Targeted Results</strong>
-                          <br />A PPC agency aligns with your advertising goals,
-                          whether {"you’re"} aiming to target specific keywords,
-                          demographics, or initiate a remarketing campaign.
-                          Their expertise ensures your campaign is structured
-                          for success and tailored to achieve your desired
-                          outcomes.
-                        </li>
-                        <li>
-                          <strong>Leverage Expert Knowledge</strong>
-                          <br />
-                          PPC agency professionals are seasoned experts. With
-                          thousands of hours dedicated to refining their skills,
-                          they possess the in-depth knowledge necessary for
-                          crafting successful PPC campaigns. Instead of trial
-                          and error, rely on experts to execute strategies that
-                          elevate your business success.
-                        </li>
-                      </ol>
+                      <strong>Answer - </strong>To grow your followers, we will
+                      utilize both organic and paid strategies. Organic
+                      techniques do not require an advertising budget. However,
+                      paid methods do involve allocating a budget for
+                      advertising.
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="4">
+                    <Accordion.Header className={styles.accordHead}>
+                      Q5 - Which company is best for social media marketing?
+                    </Accordion.Header>
+                    <Accordion.Body>
+                      <strong>Answer - </strong>NextUpgrad Advertising is the
+                      top choice for small businesses seeking to grow their
+                      social media presence. We specialize in increasing
+                      followers, generating leads, and converting those leads
+                      into customers. Thousands of businesses trust our
+                      expertise in social media marketing.
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
