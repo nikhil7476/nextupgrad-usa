@@ -149,11 +149,6 @@ function MegaMenu() {
                                             PPC Management Services
                                           </Link>
                                         </li>
-                                        <li className="list-group-item">
-                                          <Link href="/enterprise-ppc-management-services">
-                                            Enterprise PPC Management Services
-                                          </Link>
-                                        </li>
                                       </ul>
                                     </div>
                                     <div className="col-xs-12 col-sm">
