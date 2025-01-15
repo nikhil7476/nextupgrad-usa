@@ -84,9 +84,9 @@ const Footer = () => {
             <Col className="col-md-3">
               <Link href="/" title="Nextupgrad-USA">
                 <Image
-                  src={"/assets/ftrLogo.webp"}
+                  src={"/assets/ftrLogo.png"}
                   width={200}
-                  height={100}
+                  height={80}
                   alt="nextupgrad_usa_logo"
                   title="Nextupgrad USA Logo"
                 />

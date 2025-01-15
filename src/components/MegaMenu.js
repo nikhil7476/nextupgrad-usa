@@ -14,7 +14,7 @@ function MegaMenu() {
           <nav className="navbar navbar-expand-sm navbar-dark">
             <Link className="navbar-brand" href="/">
               <Image
-                src={"/assets/ftrLogo.webp"}
+                src={"/assets/ftrLogo.png"}
                 alt="nextupgrad_usa_logo"
                 title="Nextupgrad USA"
                 width={150}

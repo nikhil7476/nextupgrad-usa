@@ -28,7 +28,7 @@ function OffcanvasNavbar() {
               src={"/assets/ftrLogo.webp"}
               alt="Nextupgrad_USA_Logo"
               width={150}
-              height={100}
+              height={50}
               title="Nextupgrad USA Logo"
             />
           </Navbar.Brand>
