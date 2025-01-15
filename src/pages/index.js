@@ -713,8 +713,8 @@ function Home() {
                 src="/assets/forbes-logo.png"
                 title="Forbes_Logo"
                 alt="Forbes_Logo"
-                width={100}
-                height={100}
+                width={160}
+                height={42}
               />
             </Col>
             <Col className="col-md-2">
@@ -722,8 +722,8 @@ function Home() {
                 src="/assets/fortune-logo.png"
                 title="Fortune_Logo"
                 alt="Fortune_Logo"
-                width={100}
-                height={100}
+                width={168}
+                height={39}
               />
             </Col>
             <Col className="col-md-2">
@@ -731,8 +731,8 @@ function Home() {
                 src="/assets/yahoo-logo.png"
                 title="Yahoo_Logo"
                 alt="Yahoo_Logo"
-                width={100}
-                height={100}
+                width={144}
+                height={44}
               />
             </Col>
             <Col className="col-md-2">
@@ -740,8 +740,8 @@ function Home() {
                 src="/assets/aol-logo.png"
                 title="AOL_Logo"
                 alt="AOL_Logo"
-                width={100}
-                height={100}
+                width={118}
+                height={54}
               />
             </Col>
             <Col className="col-md-2">
@@ -749,8 +749,8 @@ function Home() {
                 src="/assets/ani-news-logo.png"
                 title="ANI_News_Logo"
                 alt="ANI_News_Logo"
-                width={100}
-                height={100}
+                width={122}
+                height={79}
               />
             </Col>
             <Col className="col-md-2">
@@ -758,8 +758,8 @@ function Home() {
                 src="/assets/yourstory-logo.png"
                 title="Yourstory_Logo"
                 alt="Yourstory_Logo"
-                width={100}
-                height={100}
+                width={131}
+                height={51}
               />
             </Col>
           </Row>
