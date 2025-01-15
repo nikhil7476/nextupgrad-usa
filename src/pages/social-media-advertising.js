@@ -365,29 +365,48 @@ function SocialMediaAdvertising() {
                 <h2>
                   <span>Results</span>
                   <br />
-                  What Results We Provide
+                  What Results {"You’ll"} Get with Us
                 </h2>
+                <p>
+                  At NextUpgrad, we are committed to the success of your
+                  project. Our team leverages years of proven experience and
+                  refined methods to deliver results that exceed your
+                  expectations.
+                </p>
               </Col>
             </Row>
             <Row className={styles.resultRow}>
-              <Col className="col-md-6">
+              <Col className="col-md-4">
                 <div className={styles.resultCard}>
-                  <h3>Online Visibility</h3>
+                  <h3>Increased brand awareness</h3>
                   <p>
-                    Leveraging targeted keyword research and ad placements to
-                    ensure your business appears prominently in search results.
-                    With our PPC management, expect to dominate search engines
-                    and expand your {"brand's"} digital footprint.
+                    Think of your marketing efforts as a funnel: to convert new
+                    customers, first, you need to attract them. You {"can't"}
+                    convert people who {"aren't"} aware of your existence. Our
+                    organic social media marketing campaign places your brand in
+                    front of the right audience, reaching them in large numbers.
                   </p>
                 </div>
               </Col>
-              <Col className="col-md-6 align-content-center">
+              <Col className="col-md-4 align-content-center">
                 <div>
-                  <h3>Increased Website Traffic</h3>
+                  <h3>More Customers</h3>
                   <p>
-                    Drive high-impact traffic to your website through strategic
-                    ad campaigns. Our team ensures you capture your target
-                    {"audience's"} attention and lead them to take action.
+                    Fueling the top of your marketing funnel involves nurturing
+                    prospects until they become customers. Our social media
+                    advertising works best when combined with our social media
+                    advertising campaigns to ensure successful conversions.
+                  </p>
+                </div>
+              </Col>
+              <Col className="col-md-4">
+                <div className={styles.resultCard}>
+                  <h3>Understand your Market Better</h3>
+                  <p>
+                    Data is powerful. We will share any insights and research we
+                    gather about your target audience, competitors, and
+                    industry. This information will empower you to make informed
+                    decisions at every step of your business journey.
                   </p>
                 </div>
               </Col>
@@ -395,22 +414,28 @@ function SocialMediaAdvertising() {
             <Row className="mb-5">
               <Col className="col-md-6 align-content-center">
                 <div>
-                  <h3>Improved ROI {"(Return on Investment)"}</h3>
+                  <h3>Establish Credibility on Social Media</h3>
                   <p>
-                    Maximize every dollar spent with precise ad targeting and
-                    continuous campaign optimization. Our experts use analytics
-                    and A/B testing to deliver measurable results and
-                    high-performing campaigns.
+                    The primary goal is to gain customers through social media,
+                    but metrics like followers and engagement also play a
+                    crucial role in building brand credibility. For instance,
+                    potential customers are more likely to trust your brand if
+                    you have thousands of followers while your competitors have
+                    only 60. This is the advantage of using our social media
+                    marketing {"(SMM)"} services.
                   </p>
                 </div>
               </Col>
               <Col className="col-md-6">
                 <div className={styles.resultCard}>
-                  <h3>Measurable Success with Data Insights</h3>
+                  <h3>Get more for your money</h3>
                   <p>
-                    Gain clarity on campaign performance through detailed
-                    reports. Understand customer behavior, refine strategies,
-                    and celebrate proven results.
+                    Spending your entire budget on social media advertising is
+                    like buying a car without gas. Instead of paying us a high
+                    retainer, {"it's"} better to cover the true cost of our
+                    services and allocate the remaining budget to paid
+                    advertising. This strategy benefits both of us, ensuring you
+                    get the most out of your investment.
                   </p>
                 </div>
               </Col>
@@ -424,84 +449,87 @@ function SocialMediaAdvertising() {
                 <h2>
                   <span>Process</span>
                   <br />
-                  Stages of Our PPC Management Services
+                  Increase Small Business Success with NextUpgrad{" "}
+                  {"Marketing's"}
+                  Social Media Services
                 </h2>
               </Col>
             </Row>
             <Row className={styles.resultRow}>
               <Col className="col-md-4">
                 <div className={styles.resultCard}>
-                  <h3>Discovery & Goal Setting</h3>
+                  <h3>
+                    Get Assigned An Account Manager Focused on Your Growth
+                  </h3>
                   <p>
-                    First, gain a deep understanding of the {"client's"}{" "}
-                    business, goals, and target audience. Set measurable
-                    objectives like lead generation or sales. Identify key
-                    performance indicators {"(KPIs)"}, like click-through rates{" "}
-                    {"(CTR)"} or return on investment {"(ROI)"}, to ensure the
-                    campaign aligns with the
-                    {"business's"} vision and priorities.
+                    Our social media advertising services include a dedicated
+                    account manager to handle everything for you. They will
+                    audit your accounts, develop a tailored strategy, and
+                    execute it. Your manager will thoroughly research your
+                    business, target market, and competitors, serving as your
+                    main point of contact.
                   </p>
                 </div>
               </Col>
               <Col className="col-md-4 align-content-center">
                 <div>
-                  <h3>Competitor Analysis</h3>
+                  <h3>
+                    Develop A Social Media Strategy That Is Specific To Your
+                    Business
+                  </h3>
                   <p>
-                    Analyze {"competitors’"} strategies, industry trends, and
-                    audience behaviors. Identify untapped opportunities and
-                    niche markets. Use these insights to craft a targeted
-                    strategy for maximum impact.
+                    To kick off your social media campaign, we will start by
+                    conducting a comprehensive audit of your current efforts,
+                    competitors, and target market behavior. From this audit, we
+                    will create a competitive analysis, develop buyer personas,
+                    and define an effective content strategy. Additionally, we
+                    will design advertising strategies and funnels to guide your
+                    social campaigns toward success.
                   </p>
                 </div>
               </Col>
               <Col className="col-md-4">
                 <div className={styles.resultCard}>
-                  <h3>Campaign Strategy Development</h3>
+                  <h3>Growth Optimization And Daily Maintenance</h3>
                   <p>
-                    Choose platforms, budgets, and campaign structures that
-                    align with your goals. Create ad types and bidding
-                    strategies tailored to your {"client's"} needs. This
-                    approach ensures campaigns are efficient, scalable, and
-                    effective, delivering results within budget limits.
+                    Our social media advertising covers daily management and
+                    growth optimization. We monitor all activity, including
+                    comments, messages, and reviews, and aim to respond within
+                    24 business hours. Using insights from monthly reports, we
+                    adjust strategies as needed. If a tactic {"isn't"}{" "}
+                    effective, {"we'll"} change it. If one is performing well,{" "}
+                    {"we'll"}
+                    enhance its focus.
                   </p>
                 </div>
               </Col>
             </Row>
             <Row className="mb-5">
-              <Col className="col-md-4 align-content-center">
+              <Col className="col-md-6 align-content-center">
                 <div>
-                  <h3>Ad Creation & Copywriting</h3>
+                  <h3>Reporting And Transparent Communication</h3>
                   <p>
-                    Create persuasive ad copy accompanied by visually appealing
-                    designs. Tailor messages to the {"audience's"} needs and
-                    highlight strong calls to action {"(CTAs)"}. Effective ads
-                    attract clicks, build brand awareness, and lead users
-                    towards desired actions, such as making purchases or signing
-                    up
+                    Each month, we provide clear, easy-to-read reports
+                    summarizing our activities, ad performance, and upcoming
+                    changes. Between reports, you can access our team through
+                    weekly or biweekly meetings and monitor your campaign
+                    analytics 24/7.
                   </p>
                 </div>
               </Col>
-              <Col className="col-md-4">
+              <Col className="col-md-6">
                 <div className={styles.resultCard}>
-                  <h3>Scaling & Continuous Improvement</h3>
+                  <h3>Create Engaging Content Calendars And Posts</h3>
                   <p>
-                    Expand successful campaigns by increasing budgets or
-                    targeting new markets. Introduce remarketing strategies.
-                    Stay updated on trends to maintain competitiveness, ensuring
-                    campaigns evolve alongside the business for long-term
-                    results.
-                  </p>
-                </div>
-              </Col>
-              <Col className="col-md-4 align-content-center">
-                <div>
-                  <h3>Reporting & Insights</h3>
-                  <p>
-                    Provide transparent reports showcasing campaign metrics like
-                    clicks and ROI. Share actionable insights and
-                    recommendations. Regular updates keep the client informed,
-                    and campaigns are aligned with evolving business objectives
-                    for sustained success.
+                    After approving the social media strategy we create for you,
+                    we will begin its implementation. Our team will craft posts
+                    tailored to your brand and audience. For quality assurance,
+                    these posts will be organized in a monthly content calendar,
+                    allowing you to review and approve them before they go live.
+                    By choosing our social media marketing services, {"you'll"}{" "}
+                    also benefit from organic growth tactics, such as hashtags,
+                    engagement activities, and contests, to expand your social
+                    media presence.
                   </p>
                 </div>
               </Col>
