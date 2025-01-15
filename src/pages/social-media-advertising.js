@@ -44,7 +44,7 @@ function SocialMediaAdvertising() {
   return (
     <>
       <Head>
-        <title>Social Media Marketing Services - Nextupgrad USA</title>
+        <title>Social Media Advertising Services - Nextupgrad USA</title>
       </Head>
       <div className={styles.enterprise}>
         <section className={styles.enterpriseBnr}>
@@ -52,15 +52,16 @@ function SocialMediaAdvertising() {
             <Row className={`justify-content-between ${styles.bannerRow}`}>
               <Col className="col-md-6 align-content-center">
                 <h1>
-                  <span>Social Media Marketing Services</span> for Growing Small
-                  Businesses
+                  <span>Social Media Advertising Services</span> for Growing
+                  Small Businesses To Increase ROI
                 </h1>
                 <p>
-                  NextUpgrad focuses on driving impactful business growth
-                  through social media advertising services. We can help you
-                  increase your {"brand's"} online presence or generate targeted
-                  leads. Contact our social media marketing agencies for a free
-                  quote today!
+                  Drive your sales and leads affordably with NextUpgrad{" "}
+                  {"Marketing's"} paid social media advertising services. We
+                  have assisted thousands of business owners in creating unique
+                  ads that effectively target and convert their audience. Start
+                  with one of our social media advertising packages today and
+                  see the difference!
                 </p>
                 <TestForms />
               </Col>
@@ -145,8 +146,8 @@ function SocialMediaAdvertising() {
                 <h2>
                   <span>Services</span>
                   <br />
-                  Top Benefits of NextUpgrad {"Marketing's"} Social Media
-                  Services for Small Businesses
+                  Top Benefits from NextUpgrad Marketing Social Media
+                  Advertising for Small Businesses
                 </h2>
               </Col>
             </Row>
@@ -203,151 +204,159 @@ function SocialMediaAdvertising() {
                         <Tab.Pane eventKey="first">
                           <h3>Instagram Advertising Services</h3>
                           <h4>
-                            Top Benefits of Our Instagram Marketing Services for
-                            Small Businesses
+                            Why Our Instagram Advertising Services Are the Best?
                           </h4>
                           <ol>
                             <li>
-                              Increase brand awareness with branded Instagram
-                              reels designed to captivate your audience.
+                              Convert your audience with customized,
+                              value-packed reel ads tailored specifically for
+                              your business.
                             </li>
                             <li>
-                              Engaging Strategic Content Calendar for more sales
-                              and loyalty.
+                              Drive high engagement on Instagram with our
+                              strategic retargeting ads designed to convert.
                             </li>
                           </ol>
                           <p>
-                            Instagram is not only one of the best places for
-                            small businesses to build real relationships with
-                            customers and drive engagement but also a platform
-                            to achieve success with the{" "}
-                            <strong>best Instagram advertising services</strong>{" "}
-                            customized to your needs. Specializing in{" "}
-                            <strong>Instagram advertising in Newyork</strong>,
-                            we deliver results-driven Instagram reels and
-                            carousel posts that help your brand reach the most
-                            relevant audience and inspire meaningful
-                            conversations in the comments.
+                            Since you can manage Instagram advertisements
+                            through Facebook Ads Manager, Instagram ranks as the
+                            second most popular and effective platform for
+                            businesses to advertise on. We utilize the same
+                            advanced targeting tools on Instagram as we do on
+                            Facebook to benefit our clients. Whether your
+                            business is B2C or B2B, our team will create
+                            Instagram reel ads and carousel ads designed to turn
+                            your specific audience into customers.
                           </p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="second">
                           <h3>LinkedIn Advertising Services</h3>
-                          <p>
-                            Advertise on the top social media platform for lead
-                            generation with{" "}
-                            <strong>LinkedIn advertising services</strong>.
-                            Capture valuable leads with compelling, personalized
-                            ads customized to your audience.
-                          </p>
-                          <p>
-                            If you want to reach professionals based on their
-                            skills, industry, or interests, consider using
-                            LinkedIn advertising in New York. With over 50% of
-                            its users holding college degrees, LinkedIn is a
-                            powerful tool for targeting educated professionals.
-                          </p>
+                          <ol>
+                            <li>
+                              <strong>Targeted Lead Capture</strong>
+                              <br />
+                              Focused Lead Capture in Niche Sectors Our
+                              LinkedIn ads are specially structured to tackle
+                              your {"audience's"} challenges.
+                            </li>
+                            <li>
+                              <strong>Accelerated Client Conversion</strong>
+                              <br />
+                              Our expert team helps you talk to the right
+                              prospects on LinkedIn and closes high-quality
+                              leads faster.
+                            </li>
+                            <li>
+                              <strong>Expert B2B Targeting</strong>
+                              <br />A B2B company can be able to target its
+                              exact target market from LinkedIn in a
+                              job-oriented environment. We have been working
+                              with LinkedIn and have over 10+ years of ad
+                              optimization that results in maximum traffic and
+                              lead generation. Being a B2B company ourselves, we
+                              always go for ads that directly approach your
+                              target audience and entice them to book calls with
+                              you!
+                            </li>
+                          </ol>
                         </Tab.Pane>
                         <Tab.Pane eventKey="third">
                           <h3>Facebook Advertising Services</h3>
                           <h4>
-                            Advantages of our Facebook Marketing Services for
-                            Small Businesses
+                            Why You Should Get Our Facebook Advertising Service?
                           </h4>
-                          <ol>
-                            <li>
-                              <strong>Amplified Brand Awareness</strong>
-                              <br />
-                              Utilize Facebook as the largest image-advertising
-                              social network for the edge of your brand.
-                            </li>
-                            <li>
-                              <strong>Larger Audience and Higher ROI</strong>
-                              <br />
-                              Custom Facebook Reels that resonate with your
-                              brand for higher reach and better return on
-                              investment
-                            </li>
-                          </ol>
                           <p>
-                            With Facebook being the top social media platform,
-                            social media marketing has become a must. Our team
-                            assesses your current Facebook practices, identifies
-                            areas for improvement, and enhances your strategy
-                            through customized{" "}
-                            <strong>Facebook advertising services</strong>. We
-                            provide engaging Facebook Reel content to ensure
-                            your posts are catchy, attracting page likes and
-                            converting visitors into future customers.
+                            Customize your ads based on your business needs and
+                            harness the power of precise audience targeting
+                          </p>
+                          <p>
+                            Using custom targeting and lookalike audiences as
+                            part of our advanced strategies, our team will
+                            connect you to the best customers.
+                          </p>
+                          <p>
+                            Facebook has a powerful advertising platform that
+                            provides unparalleled access to billions of users
+                            around the globe, as small business advertisers with
+                            over a decade of experience creating high-converting
+                            ads that produce measurable results.
+                          </p>
+                          <p>
+                            The right ads can turn a passive social media user
+                            into a valuable customer, and from high-converting
+                            ad creatives to an efficient funnel-based targeting
+                            process, our social media advertising team will
+                            ensure that you get the leads and sales you need.
+                          </p>
+                          <p>
+                            Facebook Advertising That Builds Your Business
+                            Titanab Services
                           </p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="fourth">
                           <h3>X {"(Twitter)"} Advertising Services</h3>
-                          <h4>
-                            Top Benefits of Our X {"(Twitter)"} Marketing
-                            Services for Small Businesses
-                          </h4>
                           <ol>
                             <li>
-                              <strong>Establish Industry Authority</strong>
+                              <strong>
+                                The Ultimate X {"(Twitter)"} Advertising
+                                Services You Can Get
+                              </strong>
                               <br />
-                              Become a recognized leader in your niche with our
-                              engagement-driven tweets.
+                              Our ads are designed to be appealing to your
+                              target audiences. Download your free report now to
+                              unpack: Our ads are never out of date—we get the
+                              latest hot topics and put them on the table at
+                              your disposal.
                             </li>
                             <li>
-                              <strong>Cultivate a Loyal Following</strong>
+                              <strong>Ads Modernity: Be Up to Date</strong>
+                              <br />X {"(formerly Twitter)"} is known for giving
+                              real-time updates on trending topics. This is a
+                              flexible landscape that our social media
+                              advertising experts can take advantage of to put
+                              timely ads that bring huge traffic to your site.
+                            </li>
+                            <li>
+                              <strong>
+                                Position Your Business as an Authority in Your
+                                Field
+                              </strong>
                               <br />
-                              Keep your audience updated and involved in
-                              trending conversations with our proactive
-                              engagement strategy, which we manage completely
-                              for you.
+                              Our ads will not only generate targeted traffic to
+                              your website but will also help get your brand
+                              name on top of the industry. With strategic X
+                              advertising, let us help you maximize your reach
+                              and impact.
                             </li>
                           </ol>
-                          <p>
-                            X {"(formerly Twitter)"} excels at real-time,
-                            concise communication. Users follow brand accounts
-                            for industry insight and exclusive content. Through
-                            our social media services, we will position your
-                            company as an industry leader with high-value tweets
-                            and active participation in discussion threads. This
-                            approach will help establish your brand as the
-                            preferred choice for your product or service.
-                          </p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="fifth">
                           <h3>Pinterest Advertising Services</h3>
                           <h4>
-                            Top Benefits of Our Pinterest Marketing Services for
-                            Small Businesses
+                            Why Choose Our Pinterest Advertising Services?
                           </h4>
                           <ol>
                             <li>
-                              <strong>Enhanced Brand Recognition </strong>Our
-                              strategic pins and content planning significantly
-                              boost your {"brand's"} visibility on Pinterest.
-                            </li>
-                            <li>
-                              <strong>Increased Sales for E-commerce </strong>By
-                              optimizing content with relevant keywords, we
-                              increase your sales on Pinterest, which functions
-                              as both a visual search engine and a shopping
-                              platform.
+                              <strong>
+                                Drive Direct eCommerce Purchases with Product
+                                Ads
+                              </strong>
+                              <br />
+                              Sell more than just a product; sell an experience
+                              with our beautifully crafted ads designed to
+                              inspire your customers.
                             </li>
                           </ol>
-                          <h4>Why Pinterest for e-commerce?</h4>
                           <p>
-                            This makes Pinterest perfect for e-commerce
-                            companies wanting to increase product sales,
-                            especially in fast-paced markets like New York. Its
-                            visual layout and search engine capabilities create
-                            a destination and carousels of curated,
-                            shoppable goods for buyers. Our Pinterest
-                            advertising in New York focuses on creating
-                            optimized pins with relevant keywords that your
-                            audience searches for. This ensures that you get
-                            your products to the right customers who drive the
-                            purchase. We also create Pinterest boards that are
-                            so visually attractive that your consumers save them
-                            and purchase your products.
+                            Pinterest is a platform where users actively search
+                            for products and ideas, making it an ideal place for
+                            eCommerce businesses aiming to grow. When you use
+                            our social media advertising services, we will
+                            create compelling ads that blend seamlessly with
+                            organic posts on the platform. This approach
+                            encourages users to visit your website and make
+                            purchases, as our team will target the right
+                            Pinterest audience for your ads.
                           </p>
                         </Tab.Pane>
                       </Tab.Content>
@@ -381,7 +390,7 @@ function SocialMediaAdvertising() {
                   <h3>Increased brand awareness</h3>
                   <p>
                     Think of your marketing efforts as a funnel: to convert new
-                    customers, first, you need to attract them. You {"can't"}
+                    customers, first, you need to attract them. You {"can't"}{" "}
                     convert people who {"aren't"} aware of your existence. Our
                     organic social media marketing campaign places your brand in
                     front of the right audience, reaching them in large numbers.
@@ -428,14 +437,12 @@ function SocialMediaAdvertising() {
               </Col>
               <Col className="col-md-6">
                 <div className={styles.resultCard}>
-                  <h3>Get more for your money</h3>
+                  <h3>Higher ROI</h3>
                   <p>
-                    Spending your entire budget on social media advertising is
-                    like buying a car without gas. Instead of paying us a high
-                    retainer, {"it's"} better to cover the true cost of our
-                    services and allocate the remaining budget to paid
-                    advertising. This strategy benefits both of us, ensuring you
-                    get the most out of your investment.
+                    Our social media advertising services go beyond simply
+                    generating sales or leads. We focus on delivering profitable
+                    results for your business. By prioritizing ROI, we ensure
+                    that our partnership is truly valuable for you.
                   </p>
                 </div>
               </Col>
@@ -450,8 +457,7 @@ function SocialMediaAdvertising() {
                   <span>Process</span>
                   <br />
                   Increase Small Business Success with NextUpgrad{" "}
-                  {"Marketing's"}
-                  Social Media Services
+                  {"Marketing's"} Social Media Services
                 </h2>
               </Col>
             </Row>
@@ -498,8 +504,7 @@ function SocialMediaAdvertising() {
                     24 business hours. Using insights from monthly reports, we
                     adjust strategies as needed. If a tactic {"isn't"}{" "}
                     effective, {"we'll"} change it. If one is performing well,{" "}
-                    {"we'll"}
-                    enhance its focus.
+                    {"we'll"} enhance its focus.
                   </p>
                 </div>
               </Col>
@@ -734,6 +739,18 @@ function SocialMediaAdvertising() {
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
+              </Col>
+            </Row>
+          </Container>
+        </section>
+        <section className={styles.ctaS}>
+          <Container>
+            <Row className="justify-content-center">
+              <Col className="col-md-8 text-center">
+                <h2 className="mb-5">Are You Ready To Drive More Leads & Sales</h2>
+                <Link href="#" title="Get A Proposal" className={styles.ctaBtn}>
+                  Get A Custom Proposal
+                </Link>
               </Col>
             </Row>
           </Container>
