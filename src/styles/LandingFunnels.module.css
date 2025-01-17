@@ -123,3 +123,91 @@
   font-size: 16px;
   line-height: 1.6;
 }
+
+/*Expectations Section*/
+.tabLink a {
+  color: #fff;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
+  padding: 10px 20px;
+  margin-bottom: 15px;
+}
+
+.tabLink a:hover {
+  color: #fff;
+}
+
+.serveDark {
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #2a3948;
+  border-radius: 8px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.serveDark:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.compete img {
+  width: 100%;
+  height: auto;
+}
+
+.whyDark {
+  padding: 20px;
+  border: 1px solid #2a3948;
+  border-radius: 8px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.whyDark:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.frameDark {
+  padding: 20px;
+  border: 1px solid #2a3948;
+  border-radius: 8px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.frameDark:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
