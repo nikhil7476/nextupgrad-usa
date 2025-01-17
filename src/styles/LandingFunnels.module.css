@@ -1,0 +1,125 @@
+.landingFunnel section {
+  padding: 60px 0px;
+}
+
+.landingFunnel h1 {
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 64px;
+  letter-spacing: -0.042em;
+}
+
+.landingFunnel h1 span {
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
+  background-clip: text;
+  color: transparent;
+}
+
+.landingFunnel h2 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 123.4%;
+  text-transform: capitalize;
+}
+
+.landingFunnel h2 span {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 123.4%;
+  text-transform: uppercase;
+  color: var(--btnCol);
+}
+
+.landingFunnel .ctaBtn {
+  color: #fff;
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
+  border: 1px solid var(--btnCol);
+  text-align: center;
+  padding: 10px 30px;
+  font-size: 20px;
+  line-height: 1.2em;
+  text-transform: capitalize;
+}
+
+.landingFunnel .accordHead {
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  line-height: 1.2em !important;
+}
+
+/*Banner Section*/
+.bnrImg {
+  width: 100%;
+  height: auto;
+}
+
+.proposalForm {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.propEmail {
+  width: 50%;
+}
+
+.propEmail input {
+  padding: 10px;
+}
+
+.landingFunnelBnr {
+  padding: 120px 0px 60px 0px !important;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
+}
+
+.landingFunnelBnr p {
+  padding-bottom: 20px;
+}
+
+/*Problem Section*/
+.cardCol {
+  display: flex;
+  align-items: stretch;
+}
+
+.problemCard {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #2a3948;
+  border-radius: 8px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.problemCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cardTitle {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  align-content: center;
+}
+
+.cardTitle svg {
+  color: #e76f51;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.cardDescription {
+  font-size: 16px;
+  line-height: 1.6;
+}
