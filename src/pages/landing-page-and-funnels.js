@@ -212,31 +212,20 @@ function LandingFunnels() {
                             boosting conversions.
                           </p>
                           <p>{"Here’s"} what we cover:</p>
-                          <Row>
-                            <Col md={6}>
-                              <ol style={{ listStylePosition: "inside" }}>
-                                <li>
-                                  Custom landing page design to capture the
-                                  attention
-                                </li>
-                                <li>
-                                  Custom form integrations for effective lead
-                                  qualification
-                                </li>
-                              </ol>
-                            </Col>
-                            <Col md={6}>
-                              <ol
-                                start={3}
-                                style={{ listStylePosition: "inside" }}
-                              >
-                                <li>
-                                  Optimization strategies for higher conversion
-                                  rates
-                                </li>
-                              </ol>
-                            </Col>
-                          </Row>
+                          <ol>
+                            <li>
+                              Custom landing page design to capture the
+                              attention
+                            </li>
+                            <li>
+                              Custom form integrations for effective lead
+                              qualification
+                            </li>
+                            <li>
+                              Optimization strategies for higher conversion
+                              rates
+                            </li>
+                          </ol>
                           <p>
                             Our approach ensures that your landing pages not
                             only attract but also convert, resulting in more
@@ -295,7 +284,7 @@ function LandingFunnels() {
             <Row className="text-center">
               <Col>
                 <Link href="#" title="contact us" className={styles.ctaBtn}>
-                  Contact Us
+                Send Us A Proposal
                 </Link>
               </Col>
             </Row>
