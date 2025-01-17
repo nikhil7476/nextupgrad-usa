@@ -100,8 +100,12 @@ function LandingFunnels() {
             </Row>
             <Row className="text-center">
               <Col>
-                <Link href="#" title="Contact Us" className={styles.ctaBtn}>
-                  Send a Proposal Now
+                <Link
+                  href="#"
+                  title="Send Us A Proposal"
+                  className={styles.ctaBtn}
+                >
+                  Send Us A Proposal
                 </Link>
               </Col>
             </Row>
@@ -283,8 +287,12 @@ function LandingFunnels() {
             </Row>
             <Row className="text-center">
               <Col>
-                <Link href="#" title="contact us" className={styles.ctaBtn}>
-                Send Us A Proposal
+                <Link
+                  href="#"
+                  title="Send Us A Proposal"
+                  className={styles.ctaBtn}
+                >
+                  Send Us A Proposal
                 </Link>
               </Col>
             </Row>
@@ -389,8 +397,12 @@ function LandingFunnels() {
             </Row>
             <Row className="text-center">
               <Col>
-                <Link href="#" title="contact us" className={styles.ctaBtn}>
-                  Contact Us
+                <Link
+                  href="#"
+                  title="Send Us A Proposal"
+                  className={styles.ctaBtn}
+                >
+                  Send Us A Proposal
                 </Link>
               </Col>
             </Row>
@@ -485,8 +497,12 @@ function LandingFunnels() {
             </Row>
             <Row className="text-center">
               <Col>
-                <Link href="#" title="contact us" className={styles.ctaBtn}>
-                  Contact Us
+                <Link
+                  href="#"
+                  title="Send Us A Proposal"
+                  className={styles.ctaBtn}
+                >
+                  Send Us A Proposal
                 </Link>
               </Col>
             </Row>
@@ -632,8 +648,12 @@ function LandingFunnels() {
             </Row>
             <Row className="text-center">
               <Col>
-                <Link href="#" title="contact us" className={styles.ctaBtn}>
-                  Contact Us
+                <Link
+                  href="#"
+                  title="Send Us A Proposal"
+                  className={styles.ctaBtn}
+                >
+                  Send Us A Proposal
                 </Link>
               </Col>
             </Row>

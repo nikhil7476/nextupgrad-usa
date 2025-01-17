@@ -17,7 +17,7 @@ function TestForms() {
           <Form.Control type="text" placeholder="Enter your website" required />
         </Form.Group>
         <Button variant="primary" type="submit" className={styles.ctaBtn}>
-          Send Me A Proposal
+          Send Us A Proposal
         </Button>
       </Form>
     </>
