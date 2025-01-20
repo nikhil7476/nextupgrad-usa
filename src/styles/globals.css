@@ -538,4 +538,9 @@ li {
     flex-direction: column;
     gap: 10px;
   }
+
+  .servIcon p {
+    font-size: 22px;
+    font-weight: 300;
+  }
 }
