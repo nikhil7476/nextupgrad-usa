@@ -53,7 +53,7 @@ function HorizontalTabsExample() {
         <Col sm={12}>
           <Tab.Content className="tabCont">
             <Tab.Pane className="tebPane" eventKey="first">
-              <Row>
+              <Row className="tabPaneCont">
                 <Col className="col-md-8 tabCon">
                   <h3>How & Where To Sell Products Online</h3>
                   <p>
@@ -80,7 +80,7 @@ function HorizontalTabsExample() {
               </Row>
             </Tab.Pane>
             <Tab.Pane className="tebPane" eventKey="second">
-              <Row>
+              <Row className="tabPaneCont">
                 <Col className="col-md-8 tabCon">
                   <h3>{"My Website Doesn’t Drive Leads"}</h3>
                   <p>
@@ -107,7 +107,7 @@ function HorizontalTabsExample() {
               </Row>
             </Tab.Pane>
             <Tab.Pane className="tebPane" eventKey="third">
-              <Row>
+              <Row className="tabPaneCont">
                 <Col className="col-md-8 tabCon">
                   <h3>{"My Website Doesn’t Convert"}</h3>
                   <p>
@@ -134,7 +134,7 @@ function HorizontalTabsExample() {
               </Row>
             </Tab.Pane>
             <Tab.Pane className="tebPane" eventKey="fourth">
-              <Row>
+              <Row className="tabPaneCont">
                 <Col className="col-md-8 tabCon">
                   <h3>My Website Traffic Is Going Down</h3>
                   <p>
@@ -161,7 +161,7 @@ function HorizontalTabsExample() {
               </Row>
             </Tab.Pane>
             <Tab.Pane className="tebPane" eventKey="fifth">
-              <Row>
+              <Row className="tabPaneCont">
                 <Col className="col-md-8 tabCon">
                   <h3>{"My Website Isn’t Making Money"}</h3>
                   <p>
@@ -188,7 +188,7 @@ function HorizontalTabsExample() {
               </Row>
             </Tab.Pane>
             <Tab.Pane className="tebPane" eventKey="sixth">
-              <Row>
+              <Row className="tabPaneCont">
                 <Col className="col-md-8 tabCon">
                   <h3>{"My Website Isn’t Showing Up on Google"}</h3>
                   <p>

@@ -526,4 +526,16 @@ li {
   .ctaButton {
     padding: 0px;
   }
+
+  .homeTb .tabList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .tabPaneCont {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 }
