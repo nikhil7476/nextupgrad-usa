@@ -432,6 +432,17 @@ function EmailMarketing() {
                 </div>
               </Col>
             </Row>
+            <Row>
+              <Col className="text-center">
+                <Link
+                  href="#"
+                  title="Send Us A Proposal"
+                  className={styles.ctaBtn}
+                >
+                  Send Us A Proposal
+                </Link>
+              </Col>
+            </Row>
           </Container>
         </section>
         <section className={styles.results}>
@@ -441,7 +452,7 @@ function EmailMarketing() {
                 <h2>
                   <span>Process</span>
                   <br />
-                  Stages of Our PPC Management Services
+                  Stages of Our Email Marketing Services
                 </h2>
               </Col>
             </Row>
@@ -450,195 +461,277 @@ function EmailMarketing() {
                 <div className={styles.resultCard}>
                   <h3>Discovery & Goal Setting</h3>
                   <p>
-                    First, gain a deep understanding of the {"client's"}{" "}
-                    business, goals, and target audience. Set measurable
-                    objectives like lead generation or sales. Identify key
-                    performance indicators {"(KPIs)"}, like click-through rates{" "}
-                    {"(CTR)"} or return on investment {"(ROI)"}, to ensure the
-                    campaign aligns with the
-                    {"business's"} vision and priorities.
+                    We start by understanding your business goals, target
+                    audience, and brand voice. Together, we define KPIs and
+                    create a roadmap tailored to your specific objectives for
+                    measurable success.
                   </p>
                 </div>
               </Col>
               <Col className="col-md-4 align-content-center">
                 <div>
-                  <h3>Competitor Analysis</h3>
+                  <h3>Audience Segmentation</h3>
                   <p>
-                    Analyze {"competitors’"} strategies, industry trends, and
-                    audience behaviors. Identify untapped opportunities and
-                    niche markets. Use these insights to craft a targeted
-                    strategy for maximum impact.
-                  </p>
-                </div>
-              </Col>
-              <Col className="col-md-4">
-                <div className={styles.resultCard}>
-                  <h3>Campaign Strategy Development</h3>
-                  <p>
-                    Choose platforms, budgets, and campaign structures that
-                    align with your goals. Create ad types and bidding
-                    strategies tailored to your {"client's"} needs. This
-                    approach ensures campaigns are efficient, scalable, and
-                    effective, delivering results within budget limits.
-                  </p>
-                </div>
-              </Col>
-            </Row>
-            <Row className="mb-5">
-              <Col className="col-md-4 align-content-center">
-                <div>
-                  <h3>Ad Creation & Copywriting</h3>
-                  <p>
-                    Create persuasive ad copy accompanied by visually appealing
-                    designs. Tailor messages to the {"audience's"} needs and
-                    highlight strong calls to action {"(CTAs)"}. Effective ads
-                    attract clicks, build brand awareness, and lead users
-                    towards desired actions, such as making purchases or signing
-                    up
-                  </p>
-                </div>
-              </Col>
-              <Col className="col-md-4">
-                <div className={styles.resultCard}>
-                  <h3>Scaling & Continuous Improvement</h3>
-                  <p>
-                    Expand successful campaigns by increasing budgets or
-                    targeting new markets. Introduce remarketing strategies.
-                    Stay updated on trends to maintain competitiveness, ensuring
-                    campaigns evolve alongside the business for long-term
+                    Our team dives deep into your audience data to create
+                    meaningful segments. We ensure personalized content delivery
+                    to maximize engagement, improve open rates, and drive better
                     results.
                   </p>
                 </div>
               </Col>
-              <Col className="col-md-4 align-content-center">
-                <div>
-                  <h3>Reporting & Insights</h3>
+              <Col className="col-md-4">
+                <div className={styles.resultCard}>
+                  <h3>Compelling Content Creation</h3>
                   <p>
-                    Provide transparent reports showcasing campaign metrics like
-                    clicks and ROI. Share actionable insights and
-                    recommendations. Regular updates keep the client informed,
-                    and campaigns are aligned with evolving business objectives
-                    for sustained success.
+                    From catchy subject lines to persuasive email copy, we craft
+                    content that resonates with your audience. Every email is
+                    designed to inform, engage, and inspire action, aligning
+                    with your brand identity.
                   </p>
                 </div>
               </Col>
             </Row>
-          </Container>
-        </section>
-        <section className={styles.whyChoose}>
-          <Container>
+            <Row className={styles.resultRow}>
+              <Col className="col-md-4 align-content-center">
+                <div>
+                  <h3>Email Design & Automation Setup</h3>
+                  <p>
+                    We design visually appealing, mobile-responsive emails and
+                    implement automation workflows. Expect seamless campaigns
+                    that nurture leads and save time while delivering consistent
+                    results.
+                  </p>
+                </div>
+              </Col>
+              <Col className="col-md-4">
+                <div className={styles.resultCard}>
+                  <h3>Testing & Optimization</h3>
+                  <p>
+                    Before hitting send, we A/B test key elements like subject
+                    lines, visuals, and CTAs. Our iterative process ensures the
+                    highest performance for each campaign.
+                  </p>
+                </div>
+              </Col>
+              <Col className="col-md-4 align-content-center">
+                <div>
+                  <h3>Campaign Launch & Monitoring</h3>
+                  <p>
+                    Your emails go live, and we monitor performance in
+                    real-time. Metrics like open rates, click-throughs, and
+                    conversions are closely tracked for actionable insights.
+                  </p>
+                </div>
+              </Col>
+            </Row>
             <Row className="mb-5">
-              <Col>
-                <h2>
-                  <span>Why</span>
-                  <br />
-                  Why Nextupgrad
-                </h2>
+              <Col className="col-md-4">
+                <div className={styles.resultCard}>
+                  <h3>Reporting & Continuous Improvement</h3>
+                  <p>
+                    Receive detailed reports outlining successes and areas for
+                    growth. Our team refines strategies based on data to keep
+                    your email campaigns evolving and delivering top-notch
+                    results.
+                  </p>
+                </div>
               </Col>
             </Row>
             <Row>
-              <Col className="col-md-3">
-                <div className={styles.whyCard}>
-                  <TbTargetArrow />
-                  <h3>Results-Driven Approach</h3>
-                  <p>
-                    We prioritize measurable results and use data-driven
-                    strategies to deliver tangible improvements in your local
-                    search rankings and business growth.
-                  </p>
-                </div>
-              </Col>
-              <Col className="col-md-3">
-                <div className={styles.whyCard}>
-                  <MdOutlineSupportAgent />
-                  <h3>Dedicated Team & Support</h3>
-                  <p>
-                    Our team of experienced SEO professionals is committed to
-                    delivering exceptional service and providing ongoing support
-                    throughout your campaign.
-                  </p>
-                </div>
-              </Col>
-              <Col className="col-md-3">
-                <div className={styles.whyCard}>
-                  <GiTeamIdea />
-                  <h3>NYC Expertise & Experience</h3>
-                  <p>
-                    We have a deep understanding of the New York City market,
-                    its unique search landscape, and the specific needs of local
-                    businesses.
-                  </p>
-                </div>
-              </Col>
-              <Col className="col-md-3">
-                <div className={styles.whyCard}>
-                  <AiOutlineFileSearch />
-                  <h3>Transparent Communication</h3>
-                  <p>
-                    We believe in open and transparent communication, keeping
-                    you informed about the progress of your campaign and
-                    addressing any questions you may have.
-                  </p>
-                </div>
+              <Col className="text-center">
+                <Link
+                  href="#"
+                  title="Send Us A Proposal"
+                  className={styles.ctaBtn}
+                >
+                  Send Us A Proposal
+                </Link>
               </Col>
             </Row>
           </Container>
         </section>
-        <section className={styles.caseStudy}>
+        <section className={styles.whyEmail}>
           <Container>
-            <Row className="mb-5">
+            <Row className="mb-4">
               <Col>
                 <h2>
-                  <span>Cases</span>
+                  <span>Why Email</span>
                   <br />
-                  Case Studies
+                  Why is email marketing important?
                 </h2>
                 <p>
-                  Check out our SEO services, which have helped businesses
-                  across industries achieve exceptional results.
-                  <br />
-                  {"Here’s"} a glimpse of what {"we’ve"} done for our clients:
+                  Working with NextUpgrad for your email marketing explains one
+                  of the most powerful and effective marketing ways. Unlike some
+                  people think, email marketing is still dead effective and not
+                  losing its power.
+                </p>
+                <p>
+                  Email marketing is a cheap but better way to engage your
+                  target audience. You can employ it to inform clients of
+                  upcoming events, share special offers, and engage them in
+                  various ways.
                 </p>
               </Col>
             </Row>
-            <Row className="mb-5">
-              {caseStudies.map((caseStudy, index) => (
-                <Col key={index} className="col-md-4">
-                  <div
-                    className={styles.caseCard}
-                    style={{ backgroundImage: caseStudy.backgroundImage }}
-                  >
-                    <div className={styles.caseHead}>
-                      <h3>{caseStudy.title}</h3>
-                    </div>
-                    <div className={styles.caseStat}>
-                      {caseStudy.stats.map((stat, i) => (
-                        <p key={i}>
-                          <span>
-                            <CountUp
-                              end={stat.end}
-                              duration={5}
-                              suffix={stat.suffix}
-                            />
-                          </span>
-                          <br />
-                          {stat.label}
-                        </p>
-                      ))}
-                    </div>
-                  </div>
-                </Col>
-              ))}
-            </Row>
-            <Row className="text-center">
+            <Row>
               <Col>
-                <Link
-                  href="#"
-                  title="Schedule a Call Now"
-                  className={styles.ctaBtn}
-                >
-                  Schedule a Call Now
-                </Link>
+                <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+                  <Row className="justify-content-evenly">
+                    <Col sm={3} className="delTab">
+                      <Nav variant="pills" className="flex-column">
+                        <Nav.Item className={styles.tabLink}>
+                          <Nav.Link
+                            eventKey="first"
+                            className={styles.tabLinkText}
+                          >
+                            People check their email a lot
+                          </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item className={styles.tabLink}>
+                          <Nav.Link
+                            eventKey="second"
+                            className={styles.tabLinkText}
+                          >
+                            Encourage subscribers to visit your website
+                          </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item className={styles.tabLink}>
+                          <Nav.Link
+                            eventKey="third"
+                            className={styles.tabLinkText}
+                          >
+                            Email marketing offers the highest ROI among all
+                            digital strategies.
+                          </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item className={styles.tabLink}>
+                          <Nav.Link
+                            eventKey="fourth"
+                            className={styles.tabLinkText}
+                          >
+                            Your emails achieve a high click-through rate
+                          </Nav.Link>
+                        </Nav.Item>
+                      </Nav>
+                    </Col>
+                    <Col sm={8} className={styles.delTabCont}>
+                      <Tab.Content>
+                        <Tab.Pane eventKey="first">
+                          <h3>People check their email a lot</h3>
+                          <p>
+                            Eighty-nine percent of Americans check their email
+                            at least once a day. By adopting email marketing
+                            services, you effectively reach your audience where
+                            they are most active—their inbox.
+                          </p>
+                          <p className="mb-5">
+                            It makes sense to deliver your messages where your
+                            target audience is likely to see them, and their
+                            inbox is an ideal location for that.
+                          </p>
+                          <Link
+                            href="#"
+                            title="Send Us A Proposal"
+                            className={styles.ctaBtn}
+                          >
+                            Send Us A Proposal
+                          </Link>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="second">
+                          <h3>Encourage subscribers to visit your website</h3>
+                          <p>
+                            Even without a physical storefront, you can use
+                            emails to drive users to your website.
+                          </p>
+                          <p>
+                            Include buttons and links throughout your emails to
+                            make it easy for subscribers to navigate to your
+                            site. This will boost website traffic from your
+                            email campaigns.
+                          </p>
+                          <p className="mb-5">
+                            Increased website traffic is crucial. More visitors
+                            mean higher brand awareness and greater chances of
+                            conversions.
+                          </p>
+                          <Link
+                            href="#"
+                            title="Send Us A Proposal"
+                            className={styles.ctaBtn}
+                          >
+                            Send Us A Proposal
+                          </Link>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="third">
+                          <h3>
+                            Email marketing offers the highest ROI among all
+                            digital strategies.
+                          </h3>
+                          <p>
+                            Return on investment {"(ROI)"} is an important
+                            metric for the business, showing the amount of
+                            profit generated for every dollar spent on
+                            advertising, marketing, materials, and other
+                            expenditures.
+                          </p>
+                          <p>
+                            Email marketing has an incredible ROI of 3,800%,
+                            which is to say for every $1 you put into your email
+                            campaign, prepare to make $38 in profit.
+                          </p>
+                          <p className="mb-5">
+                            Considering this incredible return, adopting email
+                            marketing under your business strategy is a smart
+                            move.
+                          </p>
+                          <Link
+                            href="#"
+                            title="Send Us A Proposal"
+                            className={styles.ctaBtn}
+                          >
+                            Send Us A Proposal
+                          </Link>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="fourth">
+                          <h3>Your emails achieve a high click-through rate</h3>
+                          <p className="mb-5">
+                            A key objective of any digital marketing strategy is
+                            to boost website traffic. Whether through a Facebook
+                            post, a button on your site, or a link on Yelp, your
+                            aim is to drive more visitors to your website.
+                            Notably, emails are six times more likely to receive
+                            clicks compared to tweets.
+                          </p>
+                          <Link
+                            href="#"
+                            title="Send Us A Proposal"
+                            className={styles.ctaBtn}
+                          >
+                            Send Us A Proposal
+                          </Link>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="fifth">
+                          <h3>Email Funnel & Automation</h3>
+                          <p className="mb-5">
+                            Struggling with email marketing management in Texas?
+                            NextUpgrad resolves these challenges by automating
+                            your campaigns, saving time, streamlining processes,
+                            and boosting engagement. From nurturing leads to
+                            retaining customers, we make email marketing
+                            effortless and impactful.
+                          </p>
+                          <Link
+                            href="#"
+                            title="Send Us A Proposal"
+                            className={styles.ctaBtn}
+                          >
+                            Send Us A Proposal
+                          </Link>
+                        </Tab.Pane>
+                      </Tab.Content>
+                    </Col>
+                  </Row>
+                </Tab.Container>
               </Col>
             </Row>
           </Container>
@@ -650,7 +743,7 @@ function EmailMarketing() {
                 <h2>
                   <span>FAQs</span>
                   <br />
-                  Frequently Asked Questions
+                  FAQs About Email Marketing Services
                 </h2>
               </Col>
             </Row>
@@ -659,133 +752,68 @@ function EmailMarketing() {
                 <Accordion defaultActiveKey="0" flush>
                   <Accordion.Item eventKey="0">
                     <Accordion.Header className={styles.accordHead}>
-                      Q1 - Why invest in PPC?
+                      Q1 - What is email marketing?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>Investing in Pay-Per-Click{" "}
-                      {"(PPC)"}
-                      advertising offers numerous benefits for your business:
+                      <strong>Answer - </strong>Email marketing is a digital
+                      strategy that delivers marketing messages directly to your{" "}
+                      {"audience's"} inbox. This approach allows you to:
                       <ol>
                         <li>
-                          <strong>Immediate Visibility: </strong>Get your ads in
-                          front of potential customers instantly.
+                          Send newsletters with business and industry updates
                         </li>
+                        <li>Promote new products</li>
                         <li>
-                          <strong>Targeted Audience: </strong>Reach specific
-                          demographics, interests, and locations.
+                          Offer personalized recommendations to past customers
                         </li>
-                        <li>
-                          <strong>Cost Control: </strong>Set your own budget and
-                          only pay when someone clicks your ad.
-                        </li>
-                        <li>
-                          <strong>Measureable Results: </strong>Track
-                          performance and ROI with detailed analytics.
-                        </li>
-                        <li>
-                          <strong>Enhanced Brand Awareness: </strong>Increase
-                          your {"brand’s"} presence and recognition online. PPC
-                          is a powerful tool to drive traffic, generate leads,
-                          and boost sales efficiently.
-                        </li>
+                        <li>Engage and nurture potential leads</li>
                       </ol>
+                      <p>
+                        By utilizing email marketing, you can effectively
+                        communicate and build relationships with your audience.
+                      </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="1">
                     <Accordion.Header className={styles.accordHead}>
-                      Q2 - What are PPC services?
+                      Q2 - What are email marketing management services?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>PPC management services offer
-                      professional oversight of your pay-per-click strategy and
-                      campaigns for a set fee. These services can include
-                      developing strategies, managing bids, creating ad copy,
-                      and more.
+                      <strong>Answer - </strong>Email marketing management
+                      services are professional offerings that create, execute,
+                      and monitor email campaigns. These services may provide
+                      strategy development, copywriting, email design,
+                      reporting, and additional support.
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="2">
                     <Accordion.Header className={styles.accordHead}>
-                      Q3 - What do PPC services include?
+                      Q3 - What does an email marketing company do?
                     </Accordion.Header>
                     <Accordion.Body>
-                      <strong>Answer - </strong>The deliverables for PPC
-                      {"(Pay-Per-Click)"} services vary based on the provider
-                      and chosen plan. Generally, PPC management services
-                      include advertising on Google and Bing, keyword targeting,
-                      bid management, and routine reporting.
+                      <strong>Answer - </strong>NextUpgrad is an email marketing
+                      company dedicated to helping businesses increase revenue
+                      through effective email strategies. We work with you to
+                      create custom plans, design and implement campaigns, send
+                      newsletters, track results, and make ongoing optimizations
+                      to ensure success.
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="3">
                     <Accordion.Header className={styles.accordHead}>
-                      Q4 - Why work with a PPC management company?
+                      Q4 - What is drip marketing?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p>
-                        <strong>Answer - </strong>How Hiring A PPC Agency Is The
-                        Best Business Decision You Make
+                        <strong>Answer - </strong>Drip marketing is an email
+                        strategy where a series of emails is sent to recipients
+                        over time. The goal is to keep your business or product
+                        top-of-mind for leads and prospects.
                       </p>
                       <p>
-                        Search engine marketing requires ongoing management.
-                        {"It’s"} not a {"“set it and forget it”"} approach;
-                        regular tweaks are important for optimal performance.
+                        At NextUpgrad, we include drip email campaigns as a key
+                        component of our email marketing services.
                       </p>
-                      <p>
-                        As a business owner whose responsibilities would include
-                        writing checks, ordering inventory and
-                        managing operations, you probably {"won’t"} have the
-                        time to set up PPC campaigns properly. This is the point
-                        at which employing a PPC agency offers immeasurable
-                        value. A professional agency can give you back-to-back
-                        services so that you can concentrate on handling your
-                        business while experts manage and optimize your PPC
-                        campaigns.
-                      </p>
-                      <p>Why You Should Hire a PPC Agency: Key Benefits</p>
-                      <ol>
-                        <li>
-                          <p>
-                            <strong>Avoid the Learning Curve</strong>
-                            <br />
-                            Are you a PPC expert? Otherwise, learning how to use
-                            PPC advertising is steep learning curve. Good
-                            campaigns require working knowledge of PPC
-                            tactics and mechanics. It is also not practical
-                            to train someone in your team, as you lose out on
-                            workforce resources. With a pay per click management
-                            agency, you avoid having to seek in-house expertise
-                            and instead hire specialists.
-                          </p>
-                        </li>
-                        <li>
-                          <strong>Save Time</strong>
-                          <br />
-                          Hiring a PPC management company saves you significant
-                          time. Becoming a PPC expert requires many hours of
-                          study and practice—time that could otherwise be
-                          invested in your core business operations. An agency
-                          ensures your campaigns are vigilantly monitored for
-                          best results, relieving you of daily oversight tasks.
-                        </li>
-                        <li>
-                          <strong>Achieve Targeted Results</strong>
-                          <br />A PPC agency aligns with your advertising goals,
-                          whether {"you’re"} aiming to target specific keywords,
-                          demographics, or initiate a remarketing campaign.
-                          Their expertise ensures your campaign is structured
-                          for success and tailored to achieve your desired
-                          outcomes.
-                        </li>
-                        <li>
-                          <strong>Leverage Expert Knowledge</strong>
-                          <br />
-                          PPC agency professionals are seasoned experts. With
-                          thousands of hours dedicated to refining their skills,
-                          they possess the in-depth knowledge necessary for
-                          crafting successful PPC campaigns. Instead of trial
-                          and error, rely on experts to execute strategies that
-                          elevate your business success.
-                        </li>
-                      </ol>
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
