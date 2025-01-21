@@ -44,7 +44,15 @@ function DigitalMarketing() {
   return (
     <>
       <Head>
-        <title>Digital Marketing Services - Nextupgrad USA</title>
+        <title>Digital Marketing Services to Grow Your Business</title>
+        <meta
+          name="title"
+          content="Digital Marketing Services to Grow Your Business"
+        />
+        <meta
+          name="description"
+          content="Explore professional digital marketing services to reach your target audience, increase online visibility, drive more website traffic, and grow your business effectively."
+        />
       </Head>
       <div className={styles.enterprise}>
         <section className={styles.enterpriseBnr}>

@@ -45,7 +45,17 @@ function GoogleServices() {
   return (
     <>
       <Head>
-        <title>Google Local Services Ads Management - Nextupgrad USA</title>
+        <title>
+          Expert Google Local Services Ads Management for Your Business
+        </title>
+        <meta
+          name="title"
+          content="Expert Google Local Services Ads Management for Your Business"
+        />
+        <meta
+          name="description"
+          content="Maximize your local reach with expert Google Local Services Ads management. Drive leads, grow your business, and boost visibility with proven strategies!"
+        />
       </Head>
       <div className={styles.enterprise}>
         <section className={styles.enterpriseBnr}>

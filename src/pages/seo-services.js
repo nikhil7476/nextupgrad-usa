@@ -46,7 +46,15 @@ const SeoService = () => {
   return (
     <>
       <Head>
-        <title>SEO Services - Nextupgrad USA</title>
+        <title>Affordable SEO Services for Higher Rankings</title>
+        <meta
+          name="title"
+          content="Affordable SEO Services for Higher Rankings"
+        />
+        <meta
+          name="description"
+          content="Unlock your website's visibility with affordable SEO services. Improve rankings, drive traffic, and grow your business online. Get results today!"
+        />
       </Head>
       <div className={style.serviceHdr}>
         <section className={style.serviceBanner}>
@@ -286,7 +294,13 @@ const SeoService = () => {
                               </Link>
                             </Col>
                             <Col className="col-md-6">
-                              <Image src="https://picsum.photos/350/400" alt="dummy-image" title="dummy" width={350} height={400}/>
+                              <Image
+                                src="https://picsum.photos/350/400"
+                                alt="dummy-image"
+                                title="dummy"
+                                width={350}
+                                height={400}
+                              />
                             </Col>
                           </Row>
                         </Tab.Pane>

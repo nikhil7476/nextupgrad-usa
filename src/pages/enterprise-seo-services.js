@@ -45,7 +45,15 @@ function EnterpriseSeo() {
   return (
     <>
       <Head>
-        <title>Enterprise SEO Services - Nextupgrad USA</title>
+        <title>Enterprise SEO Solutions for Business Growth</title>
+        <meta
+          name="title"
+          content="Enterprise SEO Solutions for Business Growth"
+        />
+        <meta
+          name="description"
+          content="Grow your business online with reliable enterprise SEO solutions. Improve your website’s performance, increase traffic, and reach more customers."
+        />
       </Head>
       <div className={styles.enterprise}>
         <section className={styles.enterpriseBnr}>

@@ -1,126 +1,133 @@
 .ftrMain {
-    background-color: var(--ftrBackground);
-    background-image: url(/assets/footer-bg.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    color: var(--textLight);
-    padding: 20px 0px;
+  background-color: var(--ftrBackground);
+  background-image: url(/assets/footer-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: var(--textLight);
+  padding: 30px 0px;
 }
 
-.ftrMain h2{
-    font-size: 16px;
+.ftrMain h2 {
+  font-size: 16px;
 }
 
 .ftrMain svg {
-    color: var(--textLight);
-    font-size: 20px;
+  color: var(--textLight);
+  font-size: 20px;
 }
 
 .ftrMain a svg:hover {
-    color: var(--btnCol);
+  color: var(--btnCol);
 }
 
 .ftrMain a,
 .ftrMain li {
-    color: var(--ftrLink);
+  color: var(--ftrLink);
 }
 
 .ftrMain a:hover {
-    color: var(--btnCol);
+  color: var(--btnCol);
 }
 
 .abvFtr {
-    padding: 10px;
+  padding: 10px;
 }
 
 .inStartups {
-    cursor: pointer;
-    border-radius: 8px;
-    background: linear-gradient(90deg, #e76f51 0%, #EE4C8D 100%);
-    padding: 5px;
-    margin: 10px 0px;
-    position: relative;
-    overflow: hidden;
+  cursor: pointer;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #e76f51 0%, #ee4c8d 100%);
+  padding: 5px;
+  margin: 10px 0px;
+  position: relative;
+  overflow: hidden;
 }
 
 .inStartups a {
-    text-decoration: none;
-    color: var(--textLight);
+  text-decoration: none;
+  color: var(--textLight);
 }
 
 .inStartups a:hover {
-    color: var(--textLight);
+  color: var(--textLight);
 }
 
 .inStartups a svg {
-    color: var(--textLight);
+  color: var(--textLight);
 }
 
 .inStartups a svg:hover {
-    color: var(--textLight);
+  color: var(--textLight);
 }
 
 .inStartups p {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .inStartups:after {
-    content: '';
-    top: 0;
-    transform: translateX(100%);
-    width: 100%;
-    height: 100px;
-    position: absolute;
-    overflow: hidden;
-    z-index: 1;
-    animation: 2.2s ease-in-out infinite slide;
-    background-image: url("/assets/slide.svg");
-    background-repeat: no-repeat;
+  content: "";
+  top: 0;
+  transform: translateX(100%);
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  overflow: hidden;
+  z-index: 1;
+  animation: 2.2s ease-in-out infinite slide;
+  background-image: url("/assets/slide.svg");
+  background-repeat: no-repeat;
 }
 
 @keyframes slide {
-    0% {
-        transform: translateX(-100%);
-    }
+  0% {
+    transform: translateX(-100%);
+  }
 
-    100% {
-        transform: translateX(100%);
-    }
+  100% {
+    transform: translateX(100%);
+  }
 }
 
 .social {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .priTxt {
-    color: var(--ftrLink) !important;
-    font-size: 14px !important;
+  color: var(--ftrLink) !important;
+  font-size: 14px !important;
 }
 
 .subBtn {
-    color: var(--textDark);
-    width: 100%;
-    text-align: center;
-    font-weight: 600;
-    text-transform: uppercase;
-    background-color: var(--btnCol) !important;
-    padding: 10px 15px;
-    border: 1px solid var(--btnCol) !important;
+  color: var(--textDark);
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: var(--btnCol) !important;
+  padding: 10px 15px;
+  border: 1px solid var(--btnCol) !important;
 }
 
-.subBtn:hover{
-    background-color: var(--background) !important;
-    color: var(--btnCol) !important;
+.subBtn:hover {
+  background-color: var(--background) !important;
+  color: var(--btnCol) !important;
 }
 
 .blwFtr {
-    padding: 10px;
-    border-top: 1px solid var(--textLight);
+  padding: 10px;
+  border-top: 1px solid var(--textLight);
 }
 
 .blwFtr p {
-    text-align: center;
+  text-align: center;
+}
+
+/*Media Querys*/
+@media screen and (max-width: 450px) {
+  .abvFtr {
+    flex-direction: column;
+  }
 }

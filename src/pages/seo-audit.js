@@ -45,7 +45,17 @@ function SeoAudit() {
   return (
     <>
       <Head>
-        <title>Website SEO Audit Services - Nextupgrad USA</title>
+        <title>
+          Comprehensive Website SEO Audit Services for Better Rankings
+        </title>
+        <meta
+          name="title"
+          content="Comprehensive Website SEO Audit Services for Better Rankings"
+        />
+        <meta
+          name="description"
+          content="Identify SEO issues and improve rankings with our detailed website SEO audit services. Get insights, strategies, and a plan for better search visibility."
+        />
       </Head>
       <div className={styles.enterprise}>
         <section className={styles.enterpriseBnr}>
