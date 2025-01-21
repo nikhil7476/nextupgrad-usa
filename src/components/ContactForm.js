@@ -2,12 +2,13 @@ import { Form, Button, Spinner } from "react-bootstrap";
 import { PhoneInput } from "react-international-phone";
 import "react-international-phone/style.css";
 import React, { useState, useEffect } from "react";
-import ReCAPTCHA from "react-google-recaptcha";
+// import ReCAPTCHA from "react-google-recaptcha";
+import axiosInstance from "../../axios/axios";
 import { toast } from "sonner";
 
 function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [showRecaptcha, setShowRecaptcha] = useState(false);
+  // const [showRecaptcha, setShowRecaptcha] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -17,12 +18,12 @@ function ContactForm() {
     form_name: "digital_solution",
   });
   const [errors, setErrors] = useState({});
-  const [recaptcha, setRecaptcha] = useState(null);
+  // const [recaptcha, setRecaptcha] = useState(null);
 
-  useEffect(() => {
-    const timer = setTimeout(() => setShowRecaptcha(true), 5000);
-    return () => clearTimeout(timer);
-  }, []);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => setShowRecaptcha(true), 5000);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -80,7 +81,6 @@ function ContactForm() {
           setFormData({
             name: "",
             email: "",
-            phone: "",
             subject: "",
             message: "",
             form_name: "digital_solution",
@@ -186,7 +186,7 @@ function ContactForm() {
             {errors.message}
           </Form.Control.Feedback>
         </Form.Group>
-        {showRecaptcha && (
+        {/* {showRecaptcha && (
           <div className="captcha">
             <ReCAPTCHA
               sitekey="6LcsJt0pAAAAADojY-EwlCuhurrgweKE5lZS89lU"
@@ -196,7 +196,7 @@ function ContactForm() {
               }}
             />
           </div>
-        )}
+        )} */}
         <Button
           variant="primary"
           type="submit"
