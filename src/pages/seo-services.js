@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 import CountUp from "react-countup";
 import { Col, Container, Row, Nav, Tab, Table } from "react-bootstrap";
 import { MdOutlineSupportAgent } from "react-icons/md";
@@ -285,7 +286,7 @@ const SeoService = () => {
                               </Link>
                             </Col>
                             <Col className="col-md-6">
-                              <img src="https://picsum.photos/350/400" />
+                              <Image src="https://picsum.photos/350/400" alt="dummy-image" title="dummy" width={350} height={400}/>
                             </Col>
                           </Row>
                         </Tab.Pane>

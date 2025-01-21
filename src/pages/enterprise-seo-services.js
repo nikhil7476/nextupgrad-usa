@@ -9,6 +9,7 @@ import { BsFillPatchQuestionFill } from "react-icons/bs";
 import { MdOutlineSupportAgent } from "react-icons/md";
 import { GiTeamIdea } from "react-icons/gi";
 import { AiOutlineFileSearch } from "react-icons/ai";
+import Image from "next/image";
 
 const caseStudies = [
   {
@@ -70,7 +71,13 @@ function EnterpriseSeo() {
                 <TestForms />
               </Col>
               <Col className="col-md-4">
-                <img src="https://picsum.photos/350/400" />
+                <Image
+                  src="https://picsum.photos/350/400"
+                  alt="dummy-image"
+                  title="dummy"
+                  width={350}
+                  height={400}
+                />
               </Col>
             </Row>
           </Container>

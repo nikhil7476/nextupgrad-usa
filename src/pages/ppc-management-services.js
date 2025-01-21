@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 import CountUp from "react-countup";
 import styles from "@/styles/Enterprise.module.css";
 import { Col, Row, Container, Tab, Nav, Accordion } from "react-bootstrap";
@@ -65,7 +66,7 @@ function PpcManagement() {
                 <TestForms />
               </Col>
               <Col className="col-md-4">
-                <img src="https://picsum.photos/350/400" />
+                <Image src="https://picsum.photos/350/400" alt="dummy-image" title="dummy" width={350} height={400}/>
               </Col>
             </Row>
           </Container>

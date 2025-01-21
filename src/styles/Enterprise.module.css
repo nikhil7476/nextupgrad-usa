@@ -298,6 +298,18 @@
   color: transparent;
 }
 
+
+/*Counters*/
+.countEr {
+  font-size: 36px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
+  background-clip: text;
+  color: transparent;
+}
+
+
+
 /*Media Querys*/
 @media screen and (max-width: 450px) {
   .bannerRow {

@@ -3,42 +3,7 @@ import Link from "next/link";
 import CountUp from "react-countup";
 import styles from "@/styles/Enterprise.module.css";
 import { Col, Row, Container, Tab, Nav, Accordion } from "react-bootstrap";
-import TestForms from "@/components/WebsiteForm";
-import { TbTargetArrow } from "react-icons/tb";
 import { BsFillPatchQuestionFill } from "react-icons/bs";
-import { MdOutlineSupportAgent } from "react-icons/md";
-import { GiTeamIdea } from "react-icons/gi";
-import { AiOutlineFileSearch } from "react-icons/ai";
-
-const caseStudies = [
-  {
-    title: "Transforming security solutions with innovative technology",
-    stats: [
-      { end: 100, suffix: "+", label: "Global Brands Empowered" },
-      { end: 1000, suffix: "+", label: "Integrated Security Deployments" },
-      { end: 20, suffix: "%", label: "Quicker Incident Responses" },
-    ],
-    backgroundImage: "url('/assets/case-study-0ne.webp')",
-  },
-  {
-    title: "Optimizing logistics operations with AI and IoT",
-    stats: [
-      { end: 200, suffix: "+", label: "Warehouses Digitized" },
-      { end: 5000, suffix: "+", label: "Deliveries Optimized" },
-      { end: 30, suffix: "%", label: "Cost Reduction" },
-    ],
-    backgroundImage: "url('/assets/case-study-Two.webp')",
-  },
-  {
-    title: "Revolutionizing retail with omnichannel strategies",
-    stats: [
-      { end: 300, suffix: "+", label: "Stores Transformed" },
-      { end: 10000, suffix: "+", label: "Products Sold" },
-      { end: 50, suffix: "%", label: "Customer Retention Boost" },
-    ],
-    backgroundImage: "url('/assets/case-study-three.png')",
-  },
-];
 
 function EmailMarketing() {
   return (
@@ -355,6 +320,147 @@ function EmailMarketing() {
                     </Col>
                   </Row>
                 </Tab.Container>
+              </Col>
+            </Row>
+          </Container>
+        </section>
+        <section className={styles.stats}>
+          <Container>
+            <Row className="mb-4">
+              <Col>
+                <h2>
+                  <span>Stats</span>
+                  <br />
+                  Does Email Marketing Still Work?
+                </h2>
+                <p>
+                  Our email services can accelerate your sales cycle. We assist
+                  in advancing your email marketing leads through each stage
+                  effectively. Boost your engagement, email open rates, and
+                  click-through rates with our email marketing solutions today.
+                </p>
+              </Col>
+            </Row>
+            <Row className="mb-4 border-bottom">
+              <Col className="col-md-6">
+                <Row>
+                  <Col className="col-md-8">
+                    <h3>Average</h3>
+                    <p>email open rate across all industries</p>
+                  </Col>
+                  <Col className="col-md-4">
+                    <CountUp
+                      className={styles.countEr}
+                      end={12}
+                      duration={5}
+                      suffix={"%"}
+                    />
+                  </Col>
+                </Row>
+              </Col>
+              <Col className="col-md-6">
+                <Row>
+                  <Col className="col-md-8">
+                    <h3>Business Professionals</h3>
+                    <p>Check their emails using mobile phones</p>
+                  </Col>
+                  <Col className="col-md-4">
+                    <CountUp
+                      className={styles.countEr}
+                      end={35}
+                      duration={5}
+                      suffix={"%"}
+                    />
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+            <Row className="mb-4 border-bottom">
+              <Col className="col-md-6">
+                <Row>
+                  <Col className="col-md-8">
+                    <h3>For every $1 spent</h3>
+                    <p>
+                      Email marketing delivers an average ROI is for every $1
+                      spent, making it one of the most cost-effective marketing
+                      channels.
+                    </p>
+                  </Col>
+                  <Col className="col-md-4">
+                    <CountUp
+                      className={styles.countEr}
+                      end={38}
+                      duration={5}
+                      prefix={"$"}
+                    />
+                  </Col>
+                </Row>
+              </Col>
+              <Col className="col-md-6">
+                <Row>
+                  <Col className="col-md-8">
+                    <h3>Marketers</h3>
+                    <p>
+                      believe that {"they're"} most effective lead nurturing
+                      method is email marketing
+                    </p>
+                  </Col>
+                  <Col className="col-md-4">
+                    <CountUp
+                      className={styles.countEr}
+                      end={47}
+                      duration={5}
+                      suffix={"%"}
+                    />
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+            <Row className="mb-4">
+              <Col className="col-md-6">
+                <Row>
+                  <Col className="col-md-8">
+                    <h3>Emails</h3>
+                    <p>
+                      more likely to get click-through compared to other
+                      marketing methods
+                    </p>
+                  </Col>
+                  <Col className="col-md-4">
+                    <CountUp
+                      className={styles.countEr}
+                      end={6}
+                      duration={5}
+                      suffix={"x"}
+                    />
+                  </Col>
+                </Row>
+              </Col>
+              <Col className="col-md-6">
+                <Row>
+                  <Col className="col-md-8">
+                    <h3>Preferred Communication</h3>
+                    <p>
+                      Consumers prefer brands to contact them through email,
+                      making it the top choice for communication.
+                    </p>
+                  </Col>
+                  <Col className="col-md-4">
+                    <CountUp
+                      className={styles.countEr}
+                      end={61}
+                      duration={5}
+                      suffix={"%"}
+                    />
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+            <Row className="text-center">
+              <Col>
+                <Link href="#" title="Contact Us" className={styles.ctaBtn}>
+                  Send a Proposal Now
+                </Link>
               </Col>
             </Row>
           </Container>
