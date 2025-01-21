@@ -1,15 +1,25 @@
-.megaMenuHdr{
-    background-color: var(--ftrBackground);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 99999;
+.megaMenuHdr {
+  background-color: var(--ftrBackground);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99999;
 }
 
+.ctaBtn {
+  display: inline-block;
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
+  border: 1px solid var(--btnCol);
+  color: #fff;
+  padding: 15px 20px;
+}
 
+.ctaBtn:hover {
+    color: #fff;
+}
 
 @media screen and (max-width: 769px) {
-    .megaMenuHdr {
-        display: none !important;
-    }
+  .megaMenuHdr {
+    display: none !important;
+  }
 }
