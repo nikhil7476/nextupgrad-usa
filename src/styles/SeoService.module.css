@@ -44,13 +44,6 @@
   color: #fff;
 }
 
-.deliverables,
-.approach,
-.grow,
-.whyChoose {
-  background-color: #142330;
-}
-
 /*Banner Section*/
 .proposalForm {
   display: flex;
@@ -184,9 +177,6 @@
 }
 
 /*CaseStudy Section CSS*/
-.caseStudy {
-  text-align: center;
-}
 
 .caseCard {
   display: flex;

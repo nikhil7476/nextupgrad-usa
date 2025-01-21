@@ -170,7 +170,7 @@ const SeoService = () => {
         </section>
         <section className={style.deliverables} id="deli">
           <Container>
-            <Row className="text-center">
+            <Row>
               <Col>
                 <h2>Our Deliverables</h2>
                 <p>
@@ -983,7 +983,7 @@ const SeoService = () => {
             <h2>
               Why <span>Nextupgrad</span>
             </h2>
-            <Row>
+            <Row className="mb-4">
               <Col className="col-md-3">
                 <div className={style.whyCard}>
                   <TbTargetArrow />

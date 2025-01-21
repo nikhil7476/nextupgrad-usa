@@ -77,6 +77,15 @@ li {
   margin: 5px 0px;
 }
 
+section:nth-child(odd) {
+  background-color: #192733;
+}
+
+/* Target every even section */
+section:nth-child(even) {
+  background-color: #142330;
+}
+
 /*MegaMenu Header Styles*/
 
 /* Navbar styles */
