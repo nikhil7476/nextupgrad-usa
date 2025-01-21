@@ -170,6 +170,20 @@ function MegaMenu() {
                                         </li>
                                       </ul>
                                     </div>
+                                    <div className="col-xs-12 col-sm">
+                                      <ul className="list-group">
+                                        <li className="list-group-item">
+                                          <Link href="/ios-app-development">
+                                            iOS App Development
+                                          </Link>
+                                        </li>
+                                        <li className="list-group-item">
+                                          <Link href="/android-app-development">
+                                            Android App Development
+                                          </Link>
+                                        </li>
+                                      </ul>
+                                    </div>
                                   </Row>
                                 </Container>
                               </Tab.Pane>
