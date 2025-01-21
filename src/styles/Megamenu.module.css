@@ -11,7 +11,7 @@
   background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
   border: 1px solid var(--btnCol);
   color: #fff;
-  padding: 15px 20px;
+  padding: 10px 15px;
 }
 
 .ctaBtn:hover {
