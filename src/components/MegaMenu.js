@@ -484,6 +484,13 @@ function MegaMenu() {
                                           </Link>
                                         </li>
                                         <li className="list-group-item">
+                                          <Link href="#">Wix</Link>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                    <div className="col-xs-12 col-sm">
+                                      <ul className="list-group">
+                                        <li className="list-group-item">
                                           <Link href="#">
                                             Content Management
                                             <br />
@@ -495,6 +502,9 @@ function MegaMenu() {
                                             Web Infrastructure
                                             <br />& Maintenance
                                           </Link>
+                                        </li>
+                                        <li className="list-group-item">
+                                          <Link href="#">Duda</Link>
                                         </li>
                                       </ul>
                                     </div>
@@ -515,6 +525,13 @@ function MegaMenu() {
                                           </Link>
                                         </li>
                                         <li className="list-group-item">
+                                          <Link href="#">Web Flow</Link>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                    <div className="col-xs-12 col-sm">
+                                      <ul className="list-group">
+                                        <li className="list-group-item">
                                           <Link href="#">
                                             Custom Website
                                             <br />
@@ -527,19 +544,6 @@ function MegaMenu() {
                                             <br />
                                             Integration
                                           </Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">Wix</Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">Duda</Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">Web Flow</Link>
                                         </li>
                                         <li className="list-group-item">
                                           <Link href="#">Square Space</Link>
