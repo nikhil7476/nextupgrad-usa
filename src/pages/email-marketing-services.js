@@ -9,7 +9,12 @@ function EmailMarketing() {
   return (
     <>
       <Head>
-        <title>Email Marketing Services - Nextupgrad USA</title>
+        <title>Results-Driven Email Marketing Services</title>
+        <meta name="title" content="Results-Driven Email Marketing Services" />
+        <meta
+          name="description"
+          content="Grow your business with powerful email marketing services. Build relationships, boost engagement, and increase sales with targeted campaigns."
+        />
       </Head>
       <div className={styles.enterprise}>
         <section className={styles.enterpriseBnr}>

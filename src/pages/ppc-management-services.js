@@ -45,7 +45,15 @@ function PpcManagement() {
   return (
     <>
       <Head>
-        <title>PPC Management Services - Nextupgrad USA</title>
+        <title>Expert PPC Management Services for Maximum ROI</title>
+        <meta
+          name="title"
+          content="Expert PPC Management Services for Maximum ROI"
+        />
+        <meta
+          name="description"
+          content="Transform your business with expert PPC management services. Drive targeted traffic, increase conversions, and maximize ROI with customized ad campaigns."
+        />
       </Head>
       <div className={styles.enterprise}>
         <section className={styles.enterpriseBnr}>
@@ -66,7 +74,13 @@ function PpcManagement() {
                 <TestForms />
               </Col>
               <Col className="col-md-4">
-                <Image src="https://picsum.photos/350/400" alt="dummy-image" title="dummy" width={350} height={400}/>
+                <Image
+                  src="https://picsum.photos/350/400"
+                  alt="dummy-image"
+                  title="dummy"
+                  width={350}
+                  height={400}
+                />
               </Col>
             </Row>
           </Container>

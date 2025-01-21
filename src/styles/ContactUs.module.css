@@ -1,0 +1,121 @@
+.contUs section {
+  padding: 60px 0px;
+}
+
+.contUs h1 {
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 64px;
+  letter-spacing: -0.042em;
+}
+
+.contUs h2 span {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 123.4%;
+  text-transform: uppercase;
+  color: var(--btnCol);
+}
+
+.contBnr {
+  padding: 120px 0px 60px 0px !important;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
+}
+
+.contDet {
+  padding: 60px;
+  border: 1px solid #2a3948;
+  border-radius: 8px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.query {
+  display: flex;
+  justify-content: space-between;
+}
+
+.query p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.query a {
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
+  background-clip: text;
+  color: transparent;
+}
+
+.contactPageRecaptcha {
+  background-color: transparent;
+}
+
+.contactform form div.cont-phone div {
+  margin-top: 0;
+}
+
+.contPageForm {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: -5px 0px 10px 0px
+    rgba(154.2962448120117, 147.2522858097242, 147.2522858097242, 0.5);
+}
+
+.contPageForm form input {
+  border: none !important;
+  border-bottom: 1px solid #000 !important;
+  width: 100% !important;
+  margin-bottom: 20px !important;
+  border-radius: 0px !important;
+}
+
+.contPageForm form::placeholder {
+  color: #000 !important;
+}
+
+.contPageForm form textarea {
+  height: 70px !important;
+  min-height: 70px !important;
+  padding: 8px !important;
+}
+
+.contactPageform form .phoneINR button {
+  border-bottom: 1px solid black !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.contactPageform form input:focus,
+.contactPageform form textarea:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.contactFormBtn,
+.ctaBtn {
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
+  border: 1px solid var(--btnCol);
+  color: #fff;
+  padding: 15px 20px;
+}
+
+.contactFormBtn:hover,
+.ctaBtn:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .contBanLeft {
+    margin-bottom: 20px;
+  }
+}

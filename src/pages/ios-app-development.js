@@ -10,7 +10,15 @@ function EmailMarketing() {
   return (
     <>
       <Head>
-        <title>iOS App Development - Nextupgrad USA</title>
+        <title>iOS App Development Services | Build Scalable Mobile Apps</title>
+        <meta
+          name="title"
+          content="iOS App Development Services | Build Scalable Mobile Apps"
+        />
+        <meta
+          name="description"
+          content="Expert iOS app development services for innovative, user-friendly, and scalable mobile apps. Get custom solutions for your business today!"
+        />
       </Head>
       <div className={styles.enterprise}>
         <section className={styles.enterpriseBnr}>
@@ -495,12 +503,12 @@ function EmailMarketing() {
                 <div>
                   <h3>iOS App Planning and Prototyping</h3>
                   <p>
-                    We strategically prioritize your iOS {"app's"} features based on
-                    market insights. To visualize user interactions, we create
-                    wireframes and prototypes that map out the {"app's"} user flows.
-                    We then gather early feedback from your target users to
-                    refine our development plan, ensuring a seamless app
-                    experience.
+                    We strategically prioritize your iOS {"app's"} features
+                    based on market insights. To visualize user interactions, we
+                    create wireframes and prototypes that map out the {"app's"}{" "}
+                    user flows. We then gather early feedback from your target
+                    users to refine our development plan, ensuring a seamless
+                    app experience.
                   </p>
                 </div>
               </Col>

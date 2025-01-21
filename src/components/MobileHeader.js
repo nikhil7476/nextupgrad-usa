@@ -90,6 +90,7 @@ function OffcanvasNavbar() {
                     Android App Development
                   </NavDropdown.Item>
                 </NavDropdown>
+                <Nav.Link href="/contact-us">Contact Us</Nav.Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

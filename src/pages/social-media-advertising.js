@@ -45,7 +45,15 @@ function SocialMediaAdvertising() {
   return (
     <>
       <Head>
-        <title>Social Media Advertising Services - Nextupgrad USA</title>
+        <title>Professional Social Media Advertising Services</title>
+        <meta
+          name="title"
+          content="Professional Social Media Advertising Services"
+        />
+        <meta
+          name="description"
+          content="Boost your brand with expert social media advertising services. Connect with your audience, drive results, and grow your business with proven strategies."
+        />
       </Head>
       <div className={styles.enterprise}>
         <section className={styles.enterpriseBnr}>

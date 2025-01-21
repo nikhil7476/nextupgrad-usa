@@ -11,7 +11,15 @@ function LandingFunnels() {
   return (
     <>
       <Head>
-        <title>Landing Page & Funnels - Nextupgrad USA</title>
+        <title>High-Converting Landing Pages & Funnels Services</title>
+        <meta
+          name="title"
+          content="High-Converting Landing Pages & Funnels Services"
+        />
+        <meta
+          name="description"
+          content="Create high-converting landing pages and sales funnels that engage your audience, capture leads, and drive more sales for your business."
+        />
       </Head>
       <div className={styles.landingFunnel}>
         <section className={styles.landingFunnelBnr}>
