@@ -1,0 +1,113 @@
+.about section {
+  padding: 60px 0px;
+}
+
+.about h1 {
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 64px;
+  letter-spacing: -0.042em;
+}
+
+.about h1 span {
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
+  background-clip: text;
+  color: transparent;
+}
+
+.about h2 {
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.about h2 span {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 123.4%;
+  text-transform: uppercase;
+  color: var(--btnCol);
+}
+
+.about .ctaBtn {
+  display: inline-block;
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
+  border: 1px solid var(--btnCol);
+  color: #fff;
+  padding: 15px 20px;
+}
+
+.abtBnr {
+  padding: 120px 0px 60px 0px !important;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
+}
+
+.bnrImg {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #2a3948;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bnrImg img {
+    width: 100%;
+    height: auto;
+}
+
+.ceoImg {
+  background-image: url(/assets/nux-new.webp);
+  background-size: cover;
+}
+
+.ceoImg img {
+  width: 100%;
+  height: auto;
+}
+
+.ceoCol p {
+  font-size: 20px;
+}
+
+.ceoCol p span {
+  font-style: italic;
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
+  background-clip: text;
+  color: transparent;
+}
+
+.abtCount {
+  flex: 1 1;
+  padding: 20px;
+  border: 1px solid #2a3948;
+  border-radius: 8px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.abtCount:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.abtCount span {
+  font-size: 30px;
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
+  background-clip: text;
+  color: transparent;
+}
+
+.abtCount img {
+  width: 100%;
+  height: auto;
+}
