@@ -168,31 +168,6 @@ function Home() {
                   </ul>
                 </div>
               </div>
-              <div className={styles.inStart}>
-                <div className={styles.inStartups}>
-                  <Link
-                    href="https://www.linkedin.com/company/nextupgrad-usa"
-                    target="_blank"
-                    title="LinkedIn"
-                  >
-                    <p className="text-nowrap">
-                      <FaLinkedin /> Top 20 Indian Startups of 2023
-                    </p>
-                  </Link>
-                </div>
-                <div className={styles.inStartups}>
-                  <Link
-                    href="https://www.linkedin.com/company/nextupgrad-usa"
-                    target="_blank"
-                    title="Google"
-                  >
-                    <p className="text-nowrap">
-                      <FaGooglePlusSquare /> Top 20 AI Accelerator Startups of
-                      2023
-                    </p>
-                  </Link>
-                </div>
-              </div>
             </Col>
             <Col
               className={`col-md-5 ${styles["banRight"]} animate__animated animate__slideInRight animate__delay-1s`}

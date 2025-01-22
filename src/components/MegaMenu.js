@@ -28,7 +28,10 @@ function MegaMenu() {
               <span className="navbar-toggler-icon"></span>
             </label>
             <input type="checkbox" className="hidden" id="nav-toggle-check" />
-            <div className="collapse navbar-collapse justify-content-center" id="navbarColor01">
+            <div
+              className="collapse navbar-collapse justify-content-center"
+              id="navbarColor01"
+            >
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item mega-dropdown">
                   <Link className="nav-link" href="#">
@@ -86,16 +89,12 @@ function MegaMenu() {
                                       <ul className="list-group">
                                         <li className="list-group-item">
                                           <Link href="/seo-services">
-                                            SEO
-                                            <br />
-                                            Services
+                                            SEO Services
                                           </Link>
                                         </li>
                                         <li className="list-group-item">
                                           <Link href="/local-seo-services">
-                                            Local
-                                            <br />
-                                            SEO Services
+                                            Local SEO Services
                                           </Link>
                                         </li>
                                       </ul>
@@ -104,16 +103,12 @@ function MegaMenu() {
                                       <ul className="list-group">
                                         <li className="list-group-item">
                                           <Link href="/digital-marketing-services">
-                                            Digital Marketing
-                                            <br />
-                                            Services
+                                            Digital Marketing Services
                                           </Link>
                                         </li>
                                         <li className="list-group-item">
                                           <Link href="/enterprise-seo-services">
-                                            Enterprise
-                                            <br />
-                                            SEO Services
+                                            Enterprise SEO Services
                                           </Link>
                                         </li>
                                       </ul>
@@ -121,17 +116,13 @@ function MegaMenu() {
                                     <div className="col-xs-12 col-sm">
                                       <ul className="list-group">
                                         <li className="list-group-item">
-                                          <Link href="/google-local-services">
-                                            Google Local Services
-                                            <br />
-                                            Ads Management
+                                          <Link href="/seo-audit">
+                                            SEO Audits
                                           </Link>
                                         </li>
                                         <li className="list-group-item">
-                                          <Link href="/seo-audit">
-                                            SEO
-                                            <br />
-                                            Audits
+                                          <Link href="/google-local-services">
+                                            Google Local Services Ads Management
                                           </Link>
                                         </li>
                                       </ul>
@@ -170,20 +161,6 @@ function MegaMenu() {
                                         </li>
                                       </ul>
                                     </div>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="/ios-app-development">
-                                            iOS App Development
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="/android-app-development">
-                                            Android App Development
-                                          </Link>
-                                        </li>
-                                      </ul>
-                                    </div>
                                   </Row>
                                 </Container>
                               </Tab.Pane>
@@ -194,16 +171,12 @@ function MegaMenu() {
                                       <ul className="list-group">
                                         <li className="list-group-item">
                                           <Link href="#">
-                                            Ecommerce SEO
-                                            <br />
-                                            Services
+                                            Ecommerce SEO Services
                                           </Link>
                                         </li>
                                         <li className="list-group-item">
                                           <Link href="#">
-                                            Ecommerce PPC
-                                            <br />
-                                            Services
+                                            Ecommerce PPC Services
                                           </Link>
                                         </li>
                                       </ul>
@@ -212,16 +185,12 @@ function MegaMenu() {
                                       <ul className="list-group">
                                         <li className="list-group-item">
                                           <Link href="#">
-                                            Ecommerce Social
-                                            <br />
-                                            Media Advertising
+                                            Ecommerce Social Media Advertising
                                           </Link>
                                         </li>
                                         <li className="list-group-item">
                                           <Link href="#">
-                                            B2B Ecommerce
-                                            <br />
-                                            Enablement
+                                            B2B Ecommerce Enablement
                                           </Link>
                                         </li>
                                       </ul>
@@ -230,9 +199,7 @@ function MegaMenu() {
                                       <ul className="list-group">
                                         <li className="list-group-item">
                                           <Link href="#">
-                                            Ecommerce Digital
-                                            <br />
-                                            Marketing Services
+                                            Ecommerce Digital Marketing Services
                                           </Link>
                                         </li>
                                         <li className="list-group-item">
@@ -559,13 +526,13 @@ function MegaMenu() {
                                     <div className="col-xs-12 col-sm">
                                       <ul className="list-group">
                                         <li className="list-group-item">
-                                          <Link href="#">
+                                          <Link href="/ios-app-development">
                                             iOS App Development
                                           </Link>
                                         </li>
                                         <li className="list-group-item">
-                                          <Link href="#">
-                                            Progressive Web App Development
+                                          <Link href="/android-app-development">
+                                            Android App Development
                                           </Link>
                                         </li>
                                       </ul>
@@ -886,7 +853,9 @@ function MegaMenu() {
                 </li>
               </ul>
             </div>
-            <Link href="/" title="Let's Talk" className={styles.ctaBtn}>{"Let’s"} Discuss</Link>
+            <Link href="/" title="Let's Talk" className={styles.ctaBtn}>
+              {"Let’s"} Discuss
+            </Link>
           </nav>
         </Container>
       </div>

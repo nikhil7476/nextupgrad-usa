@@ -226,42 +226,51 @@ const Footer = () => {
               <h2>Follow Us</h2>
               <ul className={styles.social}>
                 <li>
-                  <Link href="https://www.instagram.com/nextupgradusa/" target="_blank" title="Instagram">
+                  <Link
+                    href="https://www.instagram.com/nextupgradusa/"
+                    target="_blank"
+                    title="Instagram"
+                  >
                     <FaInstagramSquare />
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://www.facebook.com/nextupgrad.usa/" target="_blank" title="Facebook">
+                  <Link
+                    href="https://www.facebook.com/nextupgrad.usa/"
+                    target="_blank"
+                    title="Facebook"
+                  >
                     <FaFacebookSquare />
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://twitter.com/nextupgrad_usa" target="_blank" title="Twitter">
+                  <Link
+                    href="https://twitter.com/nextupgrad_usa"
+                    target="_blank"
+                    title="Twitter"
+                  >
                     <FaSquareXTwitter />
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://www.youtube.com/@nextupgrad-usa" target="_blank" title="Youtube">
+                  <Link
+                    href="https://www.youtube.com/@nextupgrad-usa"
+                    target="_blank"
+                    title="Youtube"
+                  >
                     <FaYoutube />
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://www.pinterest.com/nextupgradusa/" target="_blank" title="Pinterest">
+                  <Link
+                    href="https://www.pinterest.com/nextupgradusa/"
+                    target="_blank"
+                    title="Pinterest"
+                  >
                     <FaPinterestSquare />
                   </Link>
                 </li>
               </ul>
-              <div className={styles.inStartups}>
-                <Link
-                  href="https://www.linkedin.com/company/nextupgrad-usa"
-                  target="_blank"
-                  title="LinkedIn"
-                >
-                  <p className="text-nowrap">
-                    <FaLinkedin /> Top 20 Indian Startups of 2023
-                  </p>
-                </Link>
-              </div>
               <h2>Locations</h2>
               <ul>
                 <li>Newyork, USA</li>
