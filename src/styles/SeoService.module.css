@@ -60,7 +60,10 @@
 }
 
 .serviceBanner {
-  padding: 120px 0px 60px 0px !important;
+  padding: 120px 0px 60px 0px !important;    
+  background: linear-gradient(135deg, rgba(255, 111, 97, .2), rgba(255, 111, 97, 0));
+  position: relative;
+  z-index: 1;
 }
 
 .flipBox {

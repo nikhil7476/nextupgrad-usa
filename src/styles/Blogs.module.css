@@ -26,6 +26,8 @@
     rgba(255, 111, 97, 0.2),
     rgba(255, 111, 97, 0)
   );
+  position: relative;
+  z-index: 1;
 }
 
 .blogCats {
