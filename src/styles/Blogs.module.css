@@ -2,7 +2,8 @@
   padding: 60px 0px;
 }
 
-.blgMain h1 {
+.blgMain h1,
+.singleMain h1 {
   font-size: 56px;
   font-weight: 900;
   line-height: 64px;
@@ -111,4 +112,107 @@
   background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
   background-clip: text;
   color: transparent;
+}
+
+/*Single BLog*/
+
+.singleMain section {
+  padding: 60px 0px;
+}
+
+.singleBnr {
+  padding: 120px 0px 60px 0px !important;
+  position: relative;
+  z-index: 1;
+}
+
+.singleBnr img {
+  width: 100%;
+  height: auto;
+}
+
+.singleBnr a {
+  color: #fff;
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+.authorMeta {
+  display: flex;
+  padding: 20px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
+  border-radius: 8px;
+  border: 1px solid #2a3948;
+}
+
+.authorImg {
+  width: 20%;
+}
+
+.authorImg img {
+  border-radius: 100%;
+}
+
+.authorCont {
+  width: 80%;
+}
+
+.descBlg img {
+  width: 100% !important;
+  height: auto;
+}
+
+.descBlg p {
+  text-align: justify;
+}
+
+.descBlg a {
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
+  background-clip: text;
+  color: transparent;
+}
+
+.sdeMain {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
+  padding: 20px;
+  border: 1px solid #2a3948;
+  width: fit-content;
+  position: fixed;
+  left: 0;
+  top: 50%;
+  z-index: 0;
+}
+
+.sdeOne a,
+.sdeTwo a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+}
+.sdeThree {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+}
+
+.socioLnk {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.socioLnk a {
+  color: #fff;
 }

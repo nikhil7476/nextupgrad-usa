@@ -173,23 +173,17 @@ section:nth-child(even) {
   font-size: 14px;
 }
 
-/* .megamenu .list-group-item:hover {
-  background-color: var(--background);
-  border-radius: 0px;
-} */
-
 /*MegaMenu Header Style Ends*/
 
 /*CTA Button*/
 .ctaButton {
-  /* background-color: var(--btnCol); */
   background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
   border: 1px solid var(--btnCol);
   text-align: center;
   padding: 5px 30px;
   position: fixed;
   top: 50%;
-  z-index: 99;
+  z-index: 0;
   right: -68px;
   transition: 0.5s;
   transform: translatey(-50%) rotate(-90deg);
