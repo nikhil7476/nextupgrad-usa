@@ -38,7 +38,7 @@ function Home() {
         <Container>
           <Row>
             <Col
-              className={`col-md-7 ${styles["banLeft"]} animate__animated animate__slideInLeft`}
+              className={`col-md-7 align-content-center ${styles["banLeft"]} animate__animated animate__slideInLeft`}
             >
               <h1>
                 Digital Transformation
