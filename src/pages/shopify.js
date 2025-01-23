@@ -25,8 +25,6 @@ import {
   FaJira,
   FaTrello,
 } from "react-icons/fa";
-import Header from "@/components/Header";
-("react-icons/fa");
 
 function ShopifyDevelopment() {
   return (
@@ -997,7 +995,6 @@ function ShopifyDevelopment() {
                     </Accordion.Body>
                   </Accordion.Item>
                 </Accordion>
-                <Header/>
               </Col>
             </Row>
           </Container>
