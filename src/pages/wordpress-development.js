@@ -4,13 +4,7 @@ import Image from "next/image";
 import CountUp from "react-countup";
 import styles from "@/styles/Enterprise.module.css";
 import { Col, Row, Container, Tab, Nav, Accordion } from "react-bootstrap";
-import TestForms from "@/components/WebsiteForm";
-import { TbTargetArrow } from "react-icons/tb";
 import { BsFillPatchQuestionFill } from "react-icons/bs";
-import { MdOutlineSupportAgent } from "react-icons/md";
-import { GiTeamIdea } from "react-icons/gi";
-import { AiOutlineFileSearch } from "react-icons/ai";
-
 const caseStudies = [
   {
     title: "Transforming security solutions with innovative technology",
@@ -384,8 +378,8 @@ function WordpressDevelopment() {
                             to meet your specific needs, from simple
                             enhancements to complex integrations. Our expert
                             developers ensure seamless compatibility and optimal
-                            performance. Enhance your {"site's"} capabilities with a
-                            custom WordPress plugin.
+                            performance. Enhance your {"site's"} capabilities
+                            with a custom WordPress plugin.
                           </p>
                           <ol className="mb-5">
                             <li>
@@ -619,17 +613,6 @@ function WordpressDevelopment() {
               </Col>
               <Col className="col-md-4 align-content-center">
                 <div>
-                  <h3>Planning the Website</h3>
-                  <p>
-                    We create a detailed plan, deciding on the structure,
-                    design, and essential tools your website needs. This
-                    includes selecting a WordPress theme or opting for a custom
-                    design, planning the layout, and ensuring smooth navigation.
-                  </p>
-                </div>
-              </Col>
-              <Col className="col-md-4">
-                <div className={styles.resultCard}>
                   <h3>Building Your Website</h3>
                   <p>
                     During this stage, we focus on customizing the design to
@@ -639,6 +622,17 @@ function WordpressDevelopment() {
                     features, such as contact forms, booking systems, or
                     e-commerce functionality, are implemented to ensure the
                     website meets your needs.
+                  </p>
+                </div>
+              </Col>
+              <Col className="col-md-4">
+                <div className={styles.resultCard}>
+                  <h3>Planning the Website</h3>
+                  <p>
+                    We create a detailed plan, deciding on the structure,
+                    design, and essential tools your website needs. This
+                    includes selecting a WordPress theme or opting for a custom
+                    design, planning the layout, and ensuring smooth navigation.
                   </p>
                 </div>
               </Col>
@@ -708,56 +702,86 @@ function WordpressDevelopment() {
             <Row className="mb-4">
               <Col>
                 <h2>
-                  <span>Why</span>
+                  <span>Why Nextupgrad</span>
                   <br />
-                  Why Nextupgrad
+                  Why Choose NextUpgrad for WordPress Web Development?
                 </h2>
+                <p>
+                  Nextupgrad makes WordPress web development simple, affordable,
+                  and reliable. Let us help you create the website you need to
+                  succeed.
+                </p>
+              </Col>
+            </Row>
+            <Row className="mb-4">
+              <Col className="col-md-4">
+                <div className={styles.whyCard}>
+                  <h3>Expert Inhouse Team</h3>
+                  <p>
+                    We have a skilled team of web developers who specialize in
+                    WordPress. They know how to build websites that look good
+                    and work smoothly.
+                  </p>
+                </div>
+              </Col>
+              <Col className="col-md-4">
+                <div className={styles.whyCard}>
+                  <h3>Customized Websites</h3>
+                  <p>
+                    We create websites that fit your specific needs. Whether you
+                    want a personal blog, an online store, or a business site,
+                    we make it just the way you want.
+                  </p>
+                </div>
+              </Col>
+              <Col className="col-md-4">
+                <div className={styles.whyCard}>
+                  <h3>Affordable Prices</h3>
+                  <p>
+                    We offer high-quality web development services at prices
+                    that are friendly to your budget
+                  </p>
+                </div>
+              </Col>
+            </Row>
+            <Row className="mb-5">
+              <Col className="col-md-4">
+                <div className={styles.whyCard}>
+                  <h3>Customer Support</h3>
+                  <p>
+                    Our support team is always ready to help you. If you face
+                    any issues, {"we’ll"} be there to fix them quickly.
+                  </p>
+                </div>
+              </Col>
+              <Col className="col-md-4">
+                <div className={styles.whyCard}>
+                  <h3>Secure Websites</h3>
+                  <p>
+                    We ensure your website is safe from hackers by using the
+                    latest security features and updates.
+                  </p>
+                </div>
+              </Col>
+              <Col className="col-md-4">
+                <div className={styles.whyCard}>
+                  <h3>Timely Delivery</h3>
+                  <p>
+                    We respect your time. Our team works hard to deliver your
+                    website on schedule without compromising quality.
+                  </p>
+                </div>
               </Col>
             </Row>
             <Row>
-              <Col className="col-md-3">
-                <div className={styles.whyCard}>
-                  <TbTargetArrow />
-                  <h3>Results-Driven Approach</h3>
-                  <p>
-                    We prioritize measurable results and use data-driven
-                    strategies to deliver tangible improvements in your local
-                    search rankings and business growth.
-                  </p>
-                </div>
-              </Col>
-              <Col className="col-md-3">
-                <div className={styles.whyCard}>
-                  <MdOutlineSupportAgent />
-                  <h3>Dedicated Team & Support</h3>
-                  <p>
-                    Our team of experienced SEO professionals is committed to
-                    delivering exceptional service and providing ongoing support
-                    throughout your campaign.
-                  </p>
-                </div>
-              </Col>
-              <Col className="col-md-3">
-                <div className={styles.whyCard}>
-                  <GiTeamIdea />
-                  <h3>NYC Expertise & Experience</h3>
-                  <p>
-                    We have a deep understanding of the New York City market,
-                    its unique search landscape, and the specific needs of local
-                    businesses.
-                  </p>
-                </div>
-              </Col>
-              <Col className="col-md-3">
-                <div className={styles.whyCard}>
-                  <AiOutlineFileSearch />
-                  <h3>Transparent Communication</h3>
-                  <p>
-                    We believe in open and transparent communication, keeping
-                    you informed about the progress of your campaign and
-                    addressing any questions you may have.
-                  </p>
-                </div>
+              <Col className="text-center">
+                <Link
+                  href="/contact-us"
+                  title="Send a Proposal Now"
+                  className={styles.ctaBtn}
+                >
+                  Send a Proposal Now
+                </Link>
               </Col>
             </Row>
           </Container>
