@@ -227,7 +227,22 @@ section:nth-child(even) {
 }
 
 .homeTb .nav-link.active {
-  background-color: var(--btnCol) !important;
+  /* background-color: var(--btnCol) !important; */
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  ) !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.homeTb .nav-link:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  ) !important;
+  color: #fff !important;
 }
 
 .tabCon {
@@ -288,7 +303,8 @@ section:nth-child(even) {
 
 .serveTb .nav-link.active {
   background: #f99b1c;
-  background: linear-gradient(to right, #f99b1c 0, #ff6f00 100%);
+  /* background: linear-gradient(to right, #f99b1c 0, #ff6f00 100%); */
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
   box-shadow: 0 2px 0 3px #000;
 }
 
@@ -310,7 +326,11 @@ section:nth-child(even) {
 .nextServe {
   background: #36415e;
   color: var(--background);
-  background: linear-gradient(to right, #36415e 0, #1b1f30 100%);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
   border-radius: 20px;
   padding: 30px;
 }
@@ -343,7 +363,8 @@ section:nth-child(even) {
 
 .serveCont a {
   background: var(--btnCol);
-  background: linear-gradient(to right, #f99b1c 0, #ff6f00 100%);
+  /* background: linear-gradient(to right, #f99b1c 0, #ff6f00 100%); */
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
   border-radius: 10px;
   padding: 10px 15px;
   font-size: 14px;
