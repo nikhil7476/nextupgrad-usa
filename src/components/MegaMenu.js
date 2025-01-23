@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "@/styles/Megamenu.module.css";
 import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
+import { IoIosArrowDown } from "react-icons/io";
 import { useState } from "react";
 
 function MegaMenu() {
@@ -29,13 +30,18 @@ function MegaMenu() {
             </label>
             <input type="checkbox" className="hidden" id="nav-toggle-check" />
             <div
-              className="collapse navbar-collapse justify-content-center"
+              className="collapse navbar-collapse justify-content-right"
               id="navbarColor01"
             >
               <ul className="navbar-nav mr-auto">
+                <li className="nvv-item">
+                  <Link className="nav-link" href="/">
+                    Home
+                  </Link>
+                </li>
                 <li className="nav-item mega-dropdown">
                   <Link className="nav-link" href="#">
-                    SEO & Lead Generation
+                    SEO & Lead Generation <IoIosArrowDown />
                   </Link>
                   <div className="megamenu">
                     <div className="container">
@@ -44,13 +50,20 @@ function MegaMenu() {
                         activeKey={activeKey}
                       >
                         <Row>
-                          <Col sm={3}>
+                          <Col sm={3} className="menuItem">
                             <Nav variant="pills" className="flex-column">
                               <Nav.Item>
                                 <Nav.Link
                                   eventKey="first"
                                   onMouseEnter={() => setActiveKey("first")}
                                 >
+                                  <Image
+                                    src="/assets/menu/organic-seo.png"
+                                    width={50}
+                                    height={50}
+                                    alt="Organic SEO"
+                                    title="Organic SEO"
+                                  />
                                   Organic SEO
                                 </Nav.Link>
                               </Nav.Item>
@@ -59,23 +72,14 @@ function MegaMenu() {
                                   eventKey="second"
                                   onMouseEnter={() => setActiveKey("second")}
                                 >
+                                  <Image
+                                    src="/assets/menu/digital-ads.png"
+                                    width={50}
+                                    height={50}
+                                    alt="Digital Advertising"
+                                    title="Digital Advertising"
+                                  />
                                   Digital Advertising
-                                </Nav.Link>
-                              </Nav.Item>
-                              <Nav.Item>
-                                <Nav.Link
-                                  eventKey="third"
-                                  onMouseEnter={() => setActiveKey("third")}
-                                >
-                                  E-Commerce
-                                </Nav.Link>
-                              </Nav.Item>
-                              <Nav.Item>
-                                <Nav.Link
-                                  eventKey="fourth"
-                                  onMouseEnter={() => setActiveKey("fourth")}
-                                >
-                                  Learn
                                 </Nav.Link>
                               </Nav.Item>
                             </Nav>
@@ -89,11 +93,25 @@ function MegaMenu() {
                                       <ul className="list-group">
                                         <li className="list-group-item">
                                           <Link href="/seo-services">
+                                            <Image
+                                              src="/assets/menu/seo-services.png"
+                                              width={50}
+                                              height={50}
+                                              alt="SEO Services"
+                                              title="SEO Services"
+                                            />
                                             SEO Services
                                           </Link>
                                         </li>
                                         <li className="list-group-item">
                                           <Link href="/local-seo-services">
+                                            <Image
+                                              src="/assets/menu/local-seo.png"
+                                              width={50}
+                                              height={50}
+                                              alt="Local SEO Services"
+                                              title="Local SEO Services"
+                                            />
                                             Local SEO Services
                                           </Link>
                                         </li>
@@ -103,11 +121,25 @@ function MegaMenu() {
                                       <ul className="list-group">
                                         <li className="list-group-item">
                                           <Link href="/digital-marketing-services">
+                                            <Image
+                                              src="/assets/menu/digital-marketing-services.png"
+                                              width={50}
+                                              height={50}
+                                              alt="Digital Marketing Services"
+                                              title="Digital Marketing Services"
+                                            />
                                             Digital Marketing Services
                                           </Link>
                                         </li>
                                         <li className="list-group-item">
                                           <Link href="/enterprise-seo-services">
+                                            <Image
+                                              src="/assets/menu/enterprise-seo-services.png"
+                                              width={50}
+                                              height={50}
+                                              alt="Enterprise SEO Servicess"
+                                              title="Enterprise SEO Services"
+                                            />
                                             Enterprise SEO Services
                                           </Link>
                                         </li>
@@ -117,11 +149,25 @@ function MegaMenu() {
                                       <ul className="list-group">
                                         <li className="list-group-item">
                                           <Link href="/seo-audit">
+                                            <Image
+                                              src="/assets/menu/seo-audit.png"
+                                              width={50}
+                                              height={50}
+                                              alt="SEO Audits"
+                                              title="SEO Auditss"
+                                            />
                                             SEO Audits
                                           </Link>
                                         </li>
                                         <li className="list-group-item">
                                           <Link href="/google-local-services">
+                                            <Image
+                                              src="/assets/menu/google-adwords.png"
+                                              width={50}
+                                              height={50}
+                                              alt="Google Local Services"
+                                              title="Google Local Services"
+                                            />
                                             Google Local Services Ads Management
                                           </Link>
                                         </li>
@@ -137,11 +183,25 @@ function MegaMenu() {
                                       <ul className="list-group">
                                         <li className="list-group-item">
                                           <Link href="/ppc-management-services">
+                                            <Image
+                                              src="/assets/menu/ppc-services.png"
+                                              width={50}
+                                              height={50}
+                                              alt="PPC Management Services"
+                                              title="PPC Management Services"
+                                            />
                                             PPC Management Services
                                           </Link>
                                         </li>
                                         <li className="list-group-item">
                                           <Link href="/landing-page-and-funnels">
+                                            <Image
+                                              src="/assets/menu/landing-pages.png"
+                                              width={50}
+                                              height={50}
+                                              alt="Landing Pages & Funnels"
+                                              title="Landing Pages & Funnels"
+                                            />
                                             Landing Pages & Funnels
                                           </Link>
                                         </li>
@@ -151,111 +211,26 @@ function MegaMenu() {
                                       <ul className="list-group">
                                         <li className="list-group-item">
                                           <Link href="/social-media-advertising">
+                                            <Image
+                                              src="/assets/menu/social-media.png"
+                                              width={50}
+                                              height={50}
+                                              alt="Social Media Advertising"
+                                              title="Social Media Advertising"
+                                            />
                                             Social Media Advertising
                                           </Link>
                                         </li>
                                         <li className="list-group-item">
                                           <Link href="/email-marketing-services">
+                                            <Image
+                                              src="/assets/menu/email-marketing.png"
+                                              width={50}
+                                              height={50}
+                                              alt="Email Marketing Services"
+                                              title="Email Marketing Services"
+                                            />
                                             Email Marketing Services
-                                          </Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </Row>
-                                </Container>
-                              </Tab.Pane>
-                              <Tab.Pane eventKey="third">
-                                <Container>
-                                  <Row>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Ecommerce SEO Services
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Ecommerce PPC Services
-                                          </Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Ecommerce Social Media Advertising
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            B2B Ecommerce Enablement
-                                          </Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Ecommerce Digital Marketing Services
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Ecommerce Marketing
-                                            <br />
-                                            Resources
-                                          </Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </Row>
-                                </Container>
-                              </Tab.Pane>
-                              <Tab.Pane eventKey="fourth">
-                                <Container>
-                                  <Row>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">Our SEO Results</Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Our SEO Case Studies
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Best Digital Marketing Tools
-                                          </Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            What Is an SEO Company?
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            SEO Guide for Marketing Managers
-                                          </Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#"> Marketing?</Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            How to Find the Best SEO Company
                                           </Link>
                                         </li>
                                       </ul>
@@ -272,7 +247,7 @@ function MegaMenu() {
                 </li>
                 <li className="nav-item mega-dropdown">
                   <Link className="nav-link" href="#">
-                    Design & Development
+                    Design & Development <IoIosArrowDown />
                   </Link>
                   <div className="megamenu">
                     <div className="container">
@@ -288,7 +263,14 @@ function MegaMenu() {
                                   eventKey="first"
                                   onMouseEnter={() => setActiveKey("first")}
                                 >
-                                  Design
+                                  <Image
+                                    src="/assets/menu/website-development.png"
+                                    width={50}
+                                    height={50}
+                                    alt="Website Development"
+                                    title="Website Development"
+                                  />
+                                  Website Development
                                 </Nav.Link>
                               </Nav.Item>
                               <Nav.Item>
@@ -296,22 +278,13 @@ function MegaMenu() {
                                   eventKey="second"
                                   onMouseEnter={() => setActiveKey("second")}
                                 >
-                                  Content Marketing
-                                </Nav.Link>
-                              </Nav.Item>
-                              <Nav.Item>
-                                <Nav.Link
-                                  eventKey="third"
-                                  onMouseEnter={() => setActiveKey("third")}
-                                >
-                                  Website Development
-                                </Nav.Link>
-                              </Nav.Item>
-                              <Nav.Item>
-                                <Nav.Link
-                                  eventKey="fourth"
-                                  onMouseEnter={() => setActiveKey("fourth")}
-                                >
+                                  <Image
+                                    src="/assets/menu/mobile-app.png"
+                                    width={50}
+                                    height={50}
+                                    alt="Mobile App Development"
+                                    title="Mobile App Development"
+                                  />
                                   Mobile App Development
                                 </Nav.Link>
                               </Nav.Item>
@@ -325,35 +298,27 @@ function MegaMenu() {
                                     <div className="col-xs-12 col-sm">
                                       <ul className="list-group">
                                         <li className="list-group-item">
-                                          <Link href="#">
-                                            Website
-                                            <br />
-                                            Design
+                                          <Link href="/shopify">
+                                            <Image
+                                              src="/assets/menu/shopify.png"
+                                              width={50}
+                                              height={50}
+                                              alt="Shopify E-commerce Development"
+                                              title="Shopify E-commerce Development"
+                                            />
+                                            Shopify E-commerce Development
                                           </Link>
                                         </li>
                                         <li className="list-group-item">
-                                          <Link href="#">
-                                            Website
-                                            <br />
-                                            Redesign
-                                          </Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Rapid Website
-                                            <br />
-                                            Design
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Social Media
-                                            <br />
-                                            Design
+                                          <Link href="/magento-ecommerce-development">
+                                            <Image
+                                              src="/assets/menu/magento.png"
+                                              width={50}
+                                              height={50}
+                                              alt="Magento E-commerce Development"
+                                              title="Magento E-commerce Development"
+                                            />
+                                            Magento E-commerce Development
                                           </Link>
                                         </li>
                                       </ul>
@@ -361,17 +326,27 @@ function MegaMenu() {
                                     <div className="col-xs-12 col-sm">
                                       <ul className="list-group">
                                         <li className="list-group-item">
-                                          <Link href="#">
-                                            E-commerce website
-                                            <br />
-                                            Design
+                                          <Link href="/wordPress-development">
+                                            <Image
+                                              src="/assets/menu/wordpress.png"
+                                              width={50}
+                                              height={50}
+                                              alt="WordPress Development"
+                                              title="WordPress Development"
+                                            />
+                                            WordPress Development
                                           </Link>
                                         </li>
                                         <li className="list-group-item">
-                                          <Link href="#">
-                                            Email Marketing
-                                            <br />
-                                            Testing & Design
+                                          <Link href="/custom-website-development">
+                                            <Image
+                                              src="/assets/menu/website-dev.png"
+                                              width={50}
+                                              height={50}
+                                              alt="Custom Website Development"
+                                              title="Custom Website Development"
+                                            />
+                                            Custom Website Development
                                           </Link>
                                         </li>
                                       </ul>
@@ -380,158 +355,31 @@ function MegaMenu() {
                                 </Container>
                               </Tab.Pane>
                               <Tab.Pane eventKey="second">
-                                <Container>
-                                  <Row>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            SEO
-                                            <br />
-                                            Copywriting
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Content Marketing
-                                            <br />
-                                            Services
-                                          </Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Social Media
-                                            <br />
-                                            Management
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Inforgraphic &<br />
-                                            Motion Graphics
-                                          </Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Youtube
-                                            <br />
-                                            Advertising
-                                          </Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </Row>
-                                </Container>
-                              </Tab.Pane>
-                              <Tab.Pane eventKey="third">
-                                <Container>
-                                  <Row>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Digital Experience
-                                            <br />
-                                            Development
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Shopify E-commerce
-                                            <br />
-                                            Development
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">Wix</Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Content Management
-                                            <br />
-                                            Systems
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Web Infrastructure
-                                            <br />& Maintenance
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">Duda</Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Magento E-commerce
-                                            <br />
-                                            Development
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            WordPress
-                                            <br />
-                                            Development
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">Web Flow</Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Custom Website
-                                            <br />
-                                            Development
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            AI & GPT
-                                            <br />
-                                            Integration
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">Square Space</Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </Row>
-                                </Container>
-                              </Tab.Pane>
-                              <Tab.Pane eventKey="fourth">
                                 <Container>
                                   <Row>
                                     <div className="col-xs-12 col-sm">
                                       <ul className="list-group">
                                         <li className="list-group-item">
                                           <Link href="/ios-app-development">
+                                            <Image
+                                              src="/assets/menu/ios-app.png"
+                                              width={50}
+                                              height={50}
+                                              alt="iOS App Development"
+                                              title="iOS App Development"
+                                            />
                                             iOS App Development
                                           </Link>
                                         </li>
                                         <li className="list-group-item">
                                           <Link href="/android-app-development">
+                                            <Image
+                                              src="/assets/menu/android-app.png"
+                                              width={50}
+                                              height={50}
+                                              alt="Android App Development"
+                                              title="Android App Development"
+                                            />
                                             Android App Development
                                           </Link>
                                         </li>
@@ -540,15 +388,29 @@ function MegaMenu() {
                                     <div className="col-xs-12 col-sm">
                                       <ul className="list-group">
                                         <li className="list-group-item">
-                                          <Link href="#">
-                                            Android App Development
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
+                                          <Link href="/cross-platform-app-development">
+                                            <Image
+                                              src="/assets/menu/app-development.png"
+                                              width={50}
+                                              height={50}
+                                              alt="Cross-Platform App Development"
+                                              title="Cross-Platform App Development"
+                                            />
                                             Cross-Platform App Development
                                           </Link>
                                         </li>
+                                        <li className="list-group-item">
+                                          <Link href="/progressive-web-app-development">
+                                            <Image
+                                              src="/assets/menu/web-app-development.png"
+                                              width={50}
+                                              height={50}
+                                              alt="Progressive Web App Development"
+                                              title="Progressive Web App Development"
+                                            />
+                                            Progressive Web App Development
+                                          </Link>
+                                        </li>
                                       </ul>
                                     </div>
                                   </Row>
@@ -561,301 +423,18 @@ function MegaMenu() {
                     </div>
                   </div>
                 </li>
-                <li className="nav-item mega-dropdown">
-                  <Link className="nav-link" href="#">
-                    Who We Are
+                <li className="nvv-item">
+                  <Link className="nav-link" href="/blog">
+                    Blogs
                   </Link>
-                  <div className="megamenu">
-                    <div className="container">
-                      <Tab.Container
-                        id="left-tabs-example"
-                        activeKey={activeKey}
-                      >
-                        <Row>
-                          <Col sm={3}>
-                            <Nav variant="pills" className="flex-column">
-                              <Nav.Item>
-                                <Nav.Link
-                                  eventKey="first"
-                                  onMouseEnter={() => setActiveKey("first")}
-                                >
-                                  Who We Are
-                                </Nav.Link>
-                              </Nav.Item>
-                              <Nav.Item>
-                                <Nav.Link
-                                  eventKey="second"
-                                  onMouseEnter={() => setActiveKey("second")}
-                                >
-                                  Community Impact
-                                </Nav.Link>
-                              </Nav.Item>
-                              <Nav.Item>
-                                <Nav.Link
-                                  eventKey="third"
-                                  onMouseEnter={() => setActiveKey("third")}
-                                >
-                                  Pricing Guides
-                                </Nav.Link>
-                              </Nav.Item>
-                              <Nav.Item>
-                                <Nav.Link
-                                  eventKey="fourth"
-                                  onMouseEnter={() => setActiveKey("fourth")}
-                                >
-                                  Content Library
-                                </Nav.Link>
-                              </Nav.Item>
-                              <Nav.Item>
-                                <Nav.Link
-                                  eventKey="fifth"
-                                  onMouseEnter={() => setActiveKey("fifth")}
-                                >
-                                  Resources
-                                </Nav.Link>
-                              </Nav.Item>
-                            </Nav>
-                          </Col>
-                          <Col sm={9}>
-                            <Tab.Content>
-                              <Tab.Pane eventKey="first">
-                                <Container>
-                                  <Row>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">Our Approach</Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">About Us</Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Careers (We Are Hiring!)
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">Contact Info</Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">WebFX Reviews</Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">Awards</Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </Row>
-                                </Container>
-                              </Tab.Pane>
-                              <Tab.Pane eventKey="second">
-                                <Container>
-                                  <Row>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">Company Values</Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">Community Impact</Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">FXBuilds</Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Equality at WebFX
-                                          </Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">STEMFX Program</Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">WebFX History</Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </Row>
-                                </Container>
-                              </Tab.Pane>
-                              <Tab.Pane eventKey="third">
-                                <Container>
-                                  <Row>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">SEO Pricing</Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Local SEO Pricing
-                                          </Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Email Marketing Pricing
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Social Media Pricing
-                                          </Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            How Much Does PPC Cost?
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            How Much Should a Website Cost?
-                                          </Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </Row>
-                                </Container>
-                              </Tab.Pane>
-                              <Tab.Pane eventKey="fourth">
-                                <Container>
-                                  <Row>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            iOS App
-                                            <br />
-                                            Development
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Progressive Web
-                                            <br />
-                                            App Development
-                                          </Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Android App
-                                            <br />
-                                            Development
-                                          </Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Cross-Platform
-                                            <br />
-                                            App Development
-                                          </Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </Row>
-                                </Container>
-                              </Tab.Pane>
-                              <Tab.Pane eventKey="fifth">
-                                <Container>
-                                  <Row>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">Infographic</Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">Blog</Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">Podcast</Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            Best Digital Marketing Tools
-                                          </Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">E-Books</Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">Lead Magnet</Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            What Is an SEO Company?
-                                          </Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                    <div className="col-xs-12 col-sm">
-                                      <ul className="list-group">
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            How to Find the Best SEO Company
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            SEO Guide for Marketing Managers
-                                          </Link>
-                                        </li>
-                                        <li className="list-group-item">
-                                          <Link href="#">
-                                            What Is Digital Marketing?
-                                          </Link>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </Row>
-                                </Container>
-                              </Tab.Pane>
-                            </Tab.Content>
-                          </Col>
-                        </Row>
-                      </Tab.Container>
-                    </div>
-                  </div>
+                </li>
+                <li className="nvv-item">
+                  <Link className="nav-link" href="/contact-us">
+                    Contact
+                  </Link>
                 </li>
               </ul>
             </div>
-            <Link href="/" title="Let's Talk" className={styles.ctaBtn}>
-              {"Let’s"} Discuss
-            </Link>
           </nav>
         </Container>
       </div>

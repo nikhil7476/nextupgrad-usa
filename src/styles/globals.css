@@ -112,14 +112,13 @@ section:nth-child(even) {
 /* Megamenu styling */
 .megamenu {
   position: absolute;
-  left: 0;
+  left: 15%;
   right: 0;
   padding: 15px 0px;
   display: none;
   margin-top: 0px;
   background-color: var(--background);
   transition: all 0.5s ease;
-  border-radius: 0 0 20px 20px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
@@ -131,7 +130,9 @@ section:nth-child(even) {
 .mega-dropdown:hover > .megamenu {
   display: block;
 }
-
+.menuItem {
+  border-right: 1px solid var(--btnCol);
+}
 /* Hidden input styling (used for toggling in original design) */
 .hidden {
   display: none;
@@ -153,24 +154,29 @@ section:nth-child(even) {
   background-color: var(--btnCol);
 }
 
+.megamenu .nav-link {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
 .megamenu .nav-link.active {
-  /* background-color: var(--btnCol) !important; */
   background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%) !important;
 }
 
 .megamenu .list-group-item,
 .megamenu .list-group-item:last-child {
   border: none;
-  border-radius: 3px !important;
-}
-
-.megamenu .list-group-item:hover,
-.megamenu .list-group-item:last-child:hover {
-  border: 1px solid var(--btnCol);
 }
 
 .megamenu .list-group-item a {
-  font-size: 14px;
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+  align-items: center;
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
+  background-clip: text;
+  color: transparent;
 }
 
 /*MegaMenu Header Style Ends*/
