@@ -303,6 +303,18 @@
   color: transparent;
 }
 
+
+/**/
+.tech {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tech svg {
+  width: 100px;
+  height: 100px;
+}
+
 /*Media Querys*/
 @media screen and (max-width: 450px) {
   .bannerRow {
