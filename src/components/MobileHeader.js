@@ -5,9 +5,6 @@ import {
   Container,
   Offcanvas,
   NavDropdown,
-  Form,
-  FormControl,
-  Button,
 } from "react-bootstrap";
 import Image from "next/image";
 import styles from "@/styles/MobHeader.module.css";
@@ -42,7 +39,7 @@ function OffcanvasNavbar() {
             placement="end"
           >
             <Offcanvas.Header closeButton>
-              <Offcanvas.Title id="offcanvasNavbarLabel">Menu</Offcanvas.Title>
+              <Offcanvas.Title id="offcanvasNavbarLabel">Nextupgrad USA</Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
@@ -77,19 +74,45 @@ function OffcanvasNavbar() {
                   <NavDropdown.Item href="/social-media-advertising">
                     Social Media Advertising
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="/ios-app-development">
-                    iOS App Development
-                  </NavDropdown.Item>
                   <NavDropdown.Item href="/landing-page-and-funnels">
-                    Landing Page & Funnels
+                    Landing Pages & Funnels
                   </NavDropdown.Item>
                   <NavDropdown.Item href="/email-marketing-services">
                     Email Marketing Services
                   </NavDropdown.Item>
+                </NavDropdown>
+                <NavDropdown
+                  title="Design & Development"
+                  id="offcanvasNavbarDropdown"
+                >
+                  <h3 className="text-center">Website Development</h3>
+                  <NavDropdown.Item href="/shopify">
+                    Shopify Ecommerce Development
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/magento-ecommerce-development">
+                    Magento Ecommerce Development
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/wordpress-development">
+                    WordPress Development
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/custom-website-development">
+                    Custome Website Development
+                  </NavDropdown.Item>
+                  <h3 className="text-center">Mobile App Development</h3>
+                  <NavDropdown.Item href="/ios-app-development">
+                    iOS App Development
+                  </NavDropdown.Item>
                   <NavDropdown.Item href="/android-app-development">
                     Android App Development
                   </NavDropdown.Item>
+                  <NavDropdown.Item href="/cross-platform-app-development">
+                    Cross-Platform App Development
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/progressive-web-app-development">
+                    Progressive Web App Development
+                  </NavDropdown.Item>
                 </NavDropdown>
+                <Nav.Link href="/blog">Blogs</Nav.Link>
                 <Nav.Link href="/contact-us">Contact Us</Nav.Link>
               </Nav>
             </Offcanvas.Body>

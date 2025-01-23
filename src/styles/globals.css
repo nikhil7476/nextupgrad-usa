@@ -253,7 +253,12 @@ section:nth-child(even) {
   border-radius: 10px;
   padding: 20px;
   color: #fff;
-  background-color: var(--foreground);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 111, 97, 0.2),
+    rgba(255, 111, 97, 0)
+  );
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .tebPane img {

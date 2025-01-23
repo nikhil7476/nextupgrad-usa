@@ -326,7 +326,7 @@ function MegaMenu() {
                                     <div className="col-xs-12 col-sm">
                                       <ul className="list-group">
                                         <li className="list-group-item">
-                                          <Link href="/wordPress-development">
+                                          <Link href="/wordpress-development">
                                             <Image
                                               src="/assets/menu/wordpress.png"
                                               width={50}
