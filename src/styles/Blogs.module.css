@@ -218,3 +218,25 @@
 .socioLnk a {
   color: #fff;
 }
+
+/*Media Queries*/
+
+@media screen and (max-width: 450px) {
+  .blgMain h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .blogCats,
+  .categories {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .blgContainer {
+    flex-direction: column-reverse;
+  }
+
+  .blgCards {
+    flex-direction: column;
+  }
+}

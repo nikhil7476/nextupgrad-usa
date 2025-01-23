@@ -127,9 +127,9 @@ const Blog = () => {
                 </div>
               </Col>
             </Row>
-            <Row>
+            <Row className={styles.blgContainer}>
               <Col className="col-md-8">
-                <Row>
+                <Row className={styles.blgCards}>
                   {blogs.length ? (
                     blogs.map((item, index) => (
                       <Col key={index} className="col-md-6 mb-4">
