@@ -219,6 +219,12 @@
   color: #fff;
 }
 
+.blgSearch {
+  height: 500px;
+  position: sticky;
+  top: 90px;
+}
+
 /*Media Queries*/
 
 @media screen and (max-width: 450px) {

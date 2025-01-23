@@ -179,7 +179,7 @@ const Blog = () => {
                 </Row>
               </Col>
               <Col className="col-md-4">
-                <div>
+                <div className={styles.blgSearch}>
                   <div className="mb-4">
                     <h3>Search</h3>
                     <input
