@@ -155,7 +155,7 @@ const SingleBlog = ({ blog }) => {
           style={{ backgroundColor: `${blogData?.color_code || ""}` }}
         >
           <Container>
-            <Row className="justify-content-between">
+            <Row className={`justify-content-between ${styles.singleBlg}`}>
               <Col className="col-md-6 align-content-center">
                 <h1>{blogData?.title}</h1>
                 <div>

@@ -232,11 +232,36 @@
     flex-direction: column;
     gap: 10px;
   }
+
   .blgContainer {
     flex-direction: column-reverse;
   }
 
   .blgCards {
     flex-direction: column;
+  }
+
+  .sdeMain {
+    display: none;
+  }
+
+  .singleBlg {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .singleMain h1 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .authorMeta {
+    flex-direction: column;
+  }
+
+  .authorImg,
+  .authorCont {
+    width: 100%;
   }
 }
