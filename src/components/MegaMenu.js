@@ -256,7 +256,7 @@ function MegaMenu() {
                         activeKey={activeKey}
                       >
                         <Row>
-                          <Col sm={3}>
+                          <Col sm={3} className="menuItem">
                             <Nav variant="pills" className="flex-column">
                               <Nav.Item>
                                 <Nav.Link
