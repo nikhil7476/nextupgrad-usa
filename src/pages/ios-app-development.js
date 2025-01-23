@@ -6,7 +6,7 @@ import styles from "@/styles/Enterprise.module.css";
 import { Col, Row, Container, Tab, Nav, Accordion } from "react-bootstrap";
 import { BsFillPatchQuestionFill } from "react-icons/bs";
 
-function EmailMarketing() {
+function iosDevelopment() {
   return (
     <>
       <Head>
@@ -778,4 +778,4 @@ function EmailMarketing() {
   );
 }
 
-export default EmailMarketing;
+export default iosDevelopment;
