@@ -1,44 +1,205 @@
-.landMain {
-    padding: 120px 0px;
+.landing section {
+  padding: 60px 0px;
+  font-family: "Inter", sans-serif;
+  background-color: #000 !important;
 }
 
-.countdownSection {
-    text-align: center;
-    color: white;
-    background: #005b76;
-    padding: 20px;
-    border-radius: 10px;
+.landing h1 {
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 64px;
+  letter-spacing: -0.042em;
 }
 
-.countdownSection h2 {
-    margin-bottom: 20px;
-    font-size: 1.5rem;
+.landing h1 span,
+.landing h2 span {
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
+  background-clip: text;
+  color: transparent;
 }
 
-.countdownContainer {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.cta {
+  color: #fff;
+  background-color: #e2562c;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 
-.countdownCircle {
-    width: 80px;
-    height: 80px;
-    background-color: #006e87;
-    border-radius: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.cta:hover {
+  color: #fff;
 }
 
-.countdownValue {
-    font-size: 1.5rem;
-    font-weight: bold;
+.landingHead {
+  padding: 10px 0px !important;
+  background-color: #000 !important;
 }
 
-.countdownLabel {
-    font-size: 0.8rem;
-    text-transform: uppercase;
+.headLand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landingForms,
+.missionSec,
+.hireSec,
+.contSec,
+.landFooter {
+  background-image: url(/assets/landing-bnr.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.marque {
+  display: flex;
+  overflow: hidden;
+  height: 10vh;
+  user-select: none;
+  gap: 10rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgb(0, 0, 0) 12.5%,
+    rgb(0, 0, 0) 87.5%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.marqueGroup {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  min-width: 100%;
+  animation: scroll 15s linear infinite reverse;
+}
+
+.marqueGroup img {
+  width: auto;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - 2rem));
+  }
+}
+
+.missionSec h2 {
+  font-size: 80px;
+  letter-spacing: -0.04em;
+  line-height: 100%;
+  font-weight: 500;
+}
+
+.missionSec p {
+  margin-bottom: 30px;
+  font-size: 20px;
+  letter-spacing: -0.04em;
+  line-height: 135%;
+  font-weight: 500;
+}
+
+.missionSec p span {
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
+  background-clip: text;
+  color: transparent;
+}
+
+.testSec iframe {
+  width: 100%;
+  height: -webkit-fill-available;
+}
+
+.vidTest {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.offerSec img,
+.hireSec img {
+  width: 100%;
+  height: auto;
+}
+
+.offerSec h2,
+.hireSec h2,
+.contSec h2,
+.ctaSec h2,
+.testSec h2 {
+  font-size: 56px;
+  margin-bottom: 30px;
+  line-height: 100%;
+  font-weight: 500;
+}
+
+.offerSec h3,
+.hireSec h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.offerSec p,
+.hireSec p {
+  font-size: 16px;
+  color: #84889a;
+  font-weight: 400;
+}
+
+.offers {
+  border-left: 1px dashed rgb(198, 203, 229);
+  padding-left: 20px;
+}
+
+.ctaSec ul {
+  display: flex;
+  gap: 30px;
+}
+
+.ctaSec ul svg {
+  color: #fff;
+  font-size: 60px;
+}
+
+.ctaSec ul svg:hover {
+  color: #e2562c;
+}
+
+.landFooter {
+  border-top: 1px dashed rgb(198, 203, 229);
+}
+
+.landFooter h2 {
+  font-size: 30px;
+}
+
+.ftr {
+  padding-left: 120px;
+  padding-top: 40px;
+}
+
+.ftr a {
+  color: #fff;
+}
+
+.ftr a:hover {
+  color: #e2562c;
+}
+
+.ftr a svg {
+  margin-right: 20px;
+}
+
+/*Form Design*/
+.multiSel {
+  color: #000;
 }
