@@ -53,7 +53,7 @@ const SeoService = () => {
             data-aos-delay="150"
             data-aos-duration="1500"
           >
-            <Row>
+            <Row className={style.bnrRow}>
               <Col className="col-md-6">
                 <h1>
                   <span>Nextupgrad USA</span>
@@ -173,7 +173,7 @@ const SeoService = () => {
             data-aos-delay="150"
             data-aos-duration="1500"
           >
-            <Row className="justify-content-between">
+            <Row className={`justify-content-between ${style.missionRow}`}>
               <Col className="col-md-5">
                 <h2>
                   <span>Our Mission</span>
@@ -203,7 +203,7 @@ const SeoService = () => {
             data-aos-delay="150"
             data-aos-duration="1500"
           >
-            <Row className="justify-content-between">
+            <Row className={`justify-content-between ${style.offerRow}`}>
               <Col className="col-md-7">
                 <h2>
                   <span>What we offer</span>
@@ -292,7 +292,7 @@ const SeoService = () => {
             data-aos-delay="150"
             data-aos-duration="1500"
           >
-            <Row className="justify-content-between">
+            <Row className={`justify-content-between ${style.hireRow}`}>
               <Col className="col-md-4 align-content-center">
                 <Image
                   src="/assets/second-left.jpg"
@@ -351,7 +351,7 @@ const SeoService = () => {
             data-aos-delay="150"
             data-aos-duration="1500"
           >
-            <Row>
+            <Row className={style.testRow}>
               <Col className="col-md-6">
                 <h2>
                   <span>Client Testimonials</span>
@@ -395,7 +395,7 @@ const SeoService = () => {
             data-aos-delay="150"
             data-aos-duration="1500"
           >
-            <Row>
+            <Row className={style.contRow}>
               <Col className="col-md-6">
                 <h2>
                   <span>Get Started</span>
@@ -407,13 +407,6 @@ const SeoService = () => {
                   and one of our representatives will reach out to discuss your
                   needs further.
                 </p>
-                <Link
-                  href="/contact-us"
-                  title="Contact-Us"
-                  className={style.cta}
-                >
-                  Get Early Access
-                </Link>
               </Col>
               <Col className="col-md-6">
                 <LandingPageForm />
@@ -427,7 +420,7 @@ const SeoService = () => {
             data-aos-delay="150"
             data-aos-duration="1500"
           >
-            <Row className="mb-5">
+            <Row className={`mb-5 ${style.ctaRow}`}>
               <Col className="col-md-6">
                 <h2>
                   <span>Follow Us</span>
@@ -502,7 +495,7 @@ const SeoService = () => {
             data-aos-delay="150"
             data-aos-duration="1500"
           >
-            <Row>
+            <Row className={`mb-4 ${style.ftrRow}`}>
               <Col className="col-md-4">
                 <div>
                   <Image
@@ -570,6 +563,17 @@ const SeoService = () => {
                     </li>
                   </ul>
                 </div>
+              </Col>
+            </Row>
+            <Row className={style.ftrSign}>
+              <Col>
+                <p>
+                  Copyright &copy; {new Date().getFullYear()}{" "}
+                  <Link href="/" title="Nextupgrad USA">
+                    Nextupgrad USA
+                  </Link>
+                  . All rights reserved.
+                </p>
               </Col>
             </Row>
           </Container>

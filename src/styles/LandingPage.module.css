@@ -199,7 +199,63 @@
   margin-right: 20px;
 }
 
+.ftrSign {
+  text-align: end;
+}
+
+.ftrSign p a {
+  font-style: italic;
+  background: linear-gradient(90deg, #e76f51 65%, #ee4c8d 99.54%);
+  background-clip: text;
+  color: transparent;
+}
+
 /*Form Design*/
 .multiSel {
   color: #000;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 450px) {
+  .landing h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .bnrRow,
+  .missionRow,
+  .offerRow,
+  .testRow,
+  .contRow,
+  .ctaRow,
+  .ftrRow {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .missionSec h2,
+  .offerSec h2,
+  .hireSec h2,
+  .testSec h2,
+  .contSec h2,
+  .ctaSec h2 {
+    font-size: 36px;
+  }
+
+  .hireRow {
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+
+  .ctaSec ul svg {
+    font-size: 40px;
+  }
+
+  .ftr {
+    padding: 0;
+  }
+
+  .ftrSign {
+    text-align: center;
+  }
 }
