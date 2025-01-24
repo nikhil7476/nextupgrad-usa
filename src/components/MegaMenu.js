@@ -425,7 +425,7 @@ function MegaMenu() {
                 </li>
                 <li className="nvv-item">
                   <Link className="nav-link" href="/blog">
-                    Blogs
+                    Blog
                   </Link>
                 </li>
                 <li className="nvv-item">

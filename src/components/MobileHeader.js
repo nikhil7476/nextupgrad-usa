@@ -112,7 +112,7 @@ function OffcanvasNavbar() {
                     Progressive Web App Development
                   </NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link href="/blog">Blogs</Nav.Link>
+                <Nav.Link href="/blog">Blog</Nav.Link>
                 <Nav.Link href="/contact-us">Contact Us</Nav.Link>
               </Nav>
             </Offcanvas.Body>
